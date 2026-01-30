@@ -167,3 +167,4 @@ All compute-intensive operations are GPU-accelerated:
    
 4. **TSDF Fusion** (`tsdf_kernels.cu`)
    - Volumetric integration
+   - Ray casting
