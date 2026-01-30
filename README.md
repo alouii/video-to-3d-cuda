@@ -198,3 +198,4 @@ All compute-intensive operations are GPU-accelerated:
 ### Optimization Tips
 
 1. **Reduce Voxel Grid Size**: Use larger voxels (0.02m vs 0.01m)
+2. **Skip Frames**: Process every 2nd or 3rd frame
