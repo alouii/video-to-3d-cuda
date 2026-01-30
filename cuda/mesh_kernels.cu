@@ -111,3 +111,4 @@ __global__ void generateMeshKernel(
             
             // Linear interpolation
             float t = (iso_value - corners[v0]) / (corners[v1] - corners[v0]);
+            t = fmaxf(0.0f, fminf(1.0f, t));
