@@ -184,3 +184,4 @@ public:
         if (this != &other) {
             if (data_) cudaFree(data_);
             data_ = other.data_;
+            size_ = other.size_;
