@@ -136,3 +136,4 @@ __global__ void computeCovarianceKernel(
             float src_z = src.z - source_centroid[2];
             
             float tgt_x = tgt.x - target_centroid[0];
+            float tgt_y = tgt.y - target_centroid[1];
