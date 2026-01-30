@@ -167,3 +167,4 @@ __global__ void raycastTSDFKernel(
     
     if (u >= width || v >= height) return;
     
+    // Generate ray in camera space
