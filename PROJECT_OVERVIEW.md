@@ -167,3 +167,4 @@ video-to-3d-cuda/
    - Texture memory for interpolation
    - Pinned memory for transfers
 
+2. **Computation Optimization**
