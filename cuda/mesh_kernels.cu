@@ -117,3 +117,4 @@ __global__ void generateMeshKernel(
             edge_verts[i].y = positions[v0].y + t * (positions[v1].y - positions[v0].y);
             edge_verts[i].z = positions[v0].z + t * (positions[v1].z - positions[v0].z);
             
+            edge_colors[i].x = static_cast<uint8_t>(colors[v0].x + t * (colors[v1].x - colors[v0].x));
