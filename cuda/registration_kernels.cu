@@ -246,3 +246,4 @@ __global__ void reduceErrorsKernel(
     float* total_error,
     int num_points
 ) {
+    extern __shared__ float s_errors[];
