@@ -88,3 +88,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.intrinsics.fy = std::stof(argv[++i]);
             }
         }
+        else if (arg == "--cx") {
