@@ -197,3 +197,4 @@ struct VoxelGridConfig {
                 vz >= 0 && vz < grid_dim_z);
     }
     
+    // Convert voxel indices to world coordinates (center of voxel)
