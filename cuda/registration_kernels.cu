@@ -277,3 +277,4 @@ void launchFindCorrespondences(
     int grid_size = (num_source + block_size - 1) / block_size;
     
     findCorrespondencesKernel<<<grid_size, block_size, 0, stream>>>(
+        d_source_points, d_target_points, d_correspondences, d_distances,
