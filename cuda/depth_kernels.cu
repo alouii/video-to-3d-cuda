@@ -23,3 +23,4 @@ __global__ void sgmCostAggregationKernel(
     if (x > 0) {
         int prev_idx = y * width * max_disparity + (x - 1) * max_disparity;
         
+        float min_prev = 1e9f;
