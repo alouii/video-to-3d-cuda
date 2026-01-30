@@ -152,3 +152,4 @@ __global__ void extractSurfacePointsKernel(
 
 // Ray casting for surface extraction
 __global__ void raycastTSDFKernel(
+    const TSDFVoxel* voxel_grid,
