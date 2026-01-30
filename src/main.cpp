@@ -2,3 +2,4 @@
 #include "data_structures.h"
 #include "cuda_utils.cuh"
 #include <iostream>
+#include <string>
