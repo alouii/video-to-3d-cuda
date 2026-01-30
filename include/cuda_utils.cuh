@@ -82,3 +82,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
 // CUDA memory pool for efficient allocation
 class CudaMemoryPool {
 private:
+    struct Block {
