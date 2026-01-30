@@ -83,3 +83,4 @@ struct ColoredPoint {
     uint8_t r, g, b;     // Color
     float nx, ny, nz;    // Normal vector
     float confidence;    // Measurement confidence
+    
