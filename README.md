@@ -125,3 +125,4 @@ python scripts/calibrate_camera.py --camera 0
 
 Then use the calibrated parameters:
 
+```bash
