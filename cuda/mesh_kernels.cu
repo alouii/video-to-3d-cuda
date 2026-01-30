@@ -8,3 +8,4 @@ using namespace v3d;
 __constant__ int d_edgeTable[256];
 __constant__ int d_triTable[256][16];
 
+// Classify voxel for marching cubes
