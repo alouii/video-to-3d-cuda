@@ -326,3 +326,4 @@ Future versions will support:
 
 ## Future Improvements
 
+1. **Multi-GPU Support**: Distribute TSDF across GPUs
