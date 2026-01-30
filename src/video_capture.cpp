@@ -116,3 +116,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
     frame_buffer_.pop();
     
     buffer_cv_.notify_all();
+    
