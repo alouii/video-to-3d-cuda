@@ -217,3 +217,4 @@ config.enable_fusion = true;
 config.enable_visualization = true;
 
 // Initialize pipeline
+v3d::VideoTo3DPipeline pipeline(config);
