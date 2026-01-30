@@ -68,3 +68,4 @@ struct Pose {
         translation[1] = t(1);
         translation[2] = t(2);
     }
+    
