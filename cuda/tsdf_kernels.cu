@@ -275,3 +275,4 @@ __global__ void raycastTSDFKernel(
         normal_map[pixel_idx * 3 + 2] = 0;
     }
 }
+
