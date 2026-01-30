@@ -225,3 +225,4 @@ video-to-3d-cuda/
    - Neural depth models (MiDaS, DPT)
    - Loop closure detection
    - Dynamic object handling
+   - Semantic segmentation
