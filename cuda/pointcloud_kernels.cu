@@ -197,3 +197,4 @@ __global__ void statisticalOutlierRemovalKernel(
     float std_multiplier
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx >= num_points) return;
