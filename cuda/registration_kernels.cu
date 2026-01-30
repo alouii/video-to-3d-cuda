@@ -211,3 +211,4 @@ __global__ void computePointToPlaneKernel(
     int num_points
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx >= num_points) return;
