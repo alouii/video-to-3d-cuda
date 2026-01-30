@@ -183,3 +183,4 @@ public:
     DeviceBuffer& operator=(DeviceBuffer&& other) noexcept {
         if (this != &other) {
             if (data_) cudaFree(data_);
+            data_ = other.data_;
