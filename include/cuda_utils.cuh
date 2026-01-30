@@ -40,3 +40,4 @@ __device__ __forceinline__ float atomicMaxFloat(float* address, float val) {
             __float_as_int(fmaxf(val, __int_as_float(assumed))));
     } while (assumed != old);
     return __int_as_float(old);
+}
