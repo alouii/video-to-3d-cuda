@@ -46,3 +46,4 @@ video-to-3d-cuda/
 │   ├── cuda_memory.cu            # Memory pool
 │   ├── depth_kernels.cu          # Stereo matching, SGM
 │   ├── pointcloud_kernels.cu     # Depth-to-3D, filtering
+│   ├── registration_kernels.cu   # ICP, correspondence finding
