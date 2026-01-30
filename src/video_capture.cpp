@@ -125,3 +125,4 @@ void VideoCapture::captureThread() {
         // Check if buffer is full
         {
             std::unique_lock<std::mutex> lock(buffer_mutex_);
+            buffer_cv_.wait(lock, [this] {
