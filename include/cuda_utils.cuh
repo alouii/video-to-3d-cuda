@@ -177,3 +177,4 @@ public:
     DeviceBuffer(DeviceBuffer&& other) noexcept 
         : data_(other.data_), size_(other.size_) {
         other.data_ = nullptr;
+        other.size_ = 0;
