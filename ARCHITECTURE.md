@@ -285,3 +285,4 @@ public:
         return true;
     }
     
+private:
