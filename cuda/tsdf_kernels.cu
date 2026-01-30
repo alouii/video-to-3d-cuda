@@ -251,3 +251,4 @@ __global__ void raycastTSDFKernel(
             
             int idx_px = (vx + 1) + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
             int idx_mx = (vx - 1) + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
+            
