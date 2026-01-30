@@ -201,3 +201,4 @@ __global__ void statisticalOutlierRemovalKernel(
     
     const ColoredPoint& point = input_points[idx];
     
+    // Compute mean distance to k nearest neighbors (simplified)
