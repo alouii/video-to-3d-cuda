@@ -245,3 +245,4 @@ __global__ void reduceErrorsKernel(
     const float* errors,
     float* total_error,
     int num_points
+) {
