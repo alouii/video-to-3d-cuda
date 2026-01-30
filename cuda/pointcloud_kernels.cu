@@ -161,3 +161,4 @@ __global__ void computeNormalsKernel(
     float by = dy - cy;
     float bz = dz - cz;
     
+    // Cross product for normal
