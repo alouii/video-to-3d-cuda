@@ -274,3 +274,4 @@ void launchFindCorrespondences(
     cudaStream_t stream
 ) {
     int block_size = 256;
+    int grid_size = (num_source + block_size - 1) / block_size;
