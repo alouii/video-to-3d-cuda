@@ -56,3 +56,4 @@ __global__ void transformPointCloudKernel(
     
     // Apply rotation and translation
     out_pt.x = pose.rotation[0] * in_pt.x + pose.rotation[1] * in_pt.y + pose.rotation[2] * in_pt.z + pose.translation[0];
+    out_pt.y = pose.rotation[3] * in_pt.x + pose.rotation[4] * in_pt.y + pose.rotation[5] * in_pt.z + pose.translation[1];
