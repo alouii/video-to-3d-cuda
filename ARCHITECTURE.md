@@ -56,3 +56,4 @@ Capture Thread → Frame Buffer → Processing Thread
 5. Voxel downsampling for efficiency
 
 **CUDA Kernels** (`pointcloud_kernels.cu`):
+- `depthToPointCloudKernel`: Parallel back-projection
