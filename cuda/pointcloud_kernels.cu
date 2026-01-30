@@ -216,3 +216,4 @@ __global__ void statisticalOutlierRemovalKernel(
         float dist = sqrtf(dx * dx + dy * dy + dz * dz);
         
         sum_distances += dist;
+        count++;
