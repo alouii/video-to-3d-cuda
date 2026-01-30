@@ -58,3 +58,4 @@ private:
     void captureThread();
     
     cv::VideoCapture capture_;
+    
