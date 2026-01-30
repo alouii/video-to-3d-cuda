@@ -68,3 +68,4 @@ __global__ void selectDisparityKernel(
     
     // Subpixel refinement using parabola fitting
     float disparity = static_cast<float>(best_d);
+    if (best_d > 0 && best_d < max_disparity - 1) {
