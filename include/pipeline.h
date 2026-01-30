@@ -33,3 +33,4 @@ public:
     
     // Check if more frames available
     bool hasFrames() const;
+    
