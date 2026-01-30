@@ -50,3 +50,4 @@ __global__ void classifyVoxelsKernel(
             num_vertices += 3;
         }
     }
+    
