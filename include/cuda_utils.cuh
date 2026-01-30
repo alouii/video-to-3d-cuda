@@ -199,3 +199,4 @@ public:
         if (new_size != size_) {
             if (data_) cudaFree(data_);
             size_ = new_size;
+            if (size_ > 0) {
