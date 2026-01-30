@@ -220,3 +220,4 @@ struct PipelineConfig {
     bool enable_visualization;
     
     // Camera parameters
+    CameraIntrinsics intrinsics;
