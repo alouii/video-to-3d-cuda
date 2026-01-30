@@ -90,3 +90,4 @@ void VideoCapture::stop() {
     buffer_cv_.notify_all();
     
     if (capture_thread_.joinable()) {
+        capture_thread_.join();
