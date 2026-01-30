@@ -186,3 +186,4 @@ __global__ void raycastTSDFKernel(
     // Ray origin (camera position)
     float ray_origin_x = pose.translation[0];
     float ray_origin_y = pose.translation[1];
+    float ray_origin_z = pose.translation[2];
