@@ -222,3 +222,4 @@ video-to-3d-cuda/
    - Full visualizer.cpp (OpenGL/PCL)
 
 2. **Advanced Features**
+   - Neural depth models (MiDaS, DPT)
