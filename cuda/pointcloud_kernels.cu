@@ -213,3 +213,4 @@ __global__ void statisticalOutlierRemovalKernel(
         float dx = point.x - neighbor.x;
         float dy = point.y - neighbor.y;
         float dz = point.z - neighbor.z;
+        float dist = sqrtf(dx * dx + dy * dy + dz * dz);
