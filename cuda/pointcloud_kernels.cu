@@ -82,3 +82,4 @@ __global__ void bilateralFilterDepthKernel(
         return;
     }
     
+    int kernel_radius = 5;
