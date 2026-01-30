@@ -116,3 +116,4 @@ video-to-3d-cuda/
 
 ### 4. Registration
 - [x] ICP algorithm
+- [x] Correspondence finding
