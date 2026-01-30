@@ -86,3 +86,4 @@ __global__ void computeCentroidKernel(
     float sum_x = 0.0f, sum_y = 0.0f, sum_z = 0.0f;
     
     if (idx < num_points) {
+        sum_x = points[idx].x;
