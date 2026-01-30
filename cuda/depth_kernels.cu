@@ -278,3 +278,4 @@ void launchCensusTransform(
         d_image, d_census, width, height, window_size
     );
     
+    CUDA_CHECK_LAST_ERROR();
