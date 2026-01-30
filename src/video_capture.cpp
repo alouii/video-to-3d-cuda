@@ -19,3 +19,4 @@ VideoCapture::~VideoCapture() {
     close();
 }
 
+bool VideoCapture::open(const std::string& source) {
