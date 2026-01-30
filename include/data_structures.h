@@ -96,3 +96,4 @@ struct ColoredPoint {
 struct DepthFrame {
     float* depth_map;      // Device pointer to H x W depth values
     uint8_t* rgb_image;    // Device pointer to H x W x 3 color
+    int width, height;
