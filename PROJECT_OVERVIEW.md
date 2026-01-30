@@ -211,3 +211,4 @@ video-to-3d-cuda/
 - **Error Handling**: Comprehensive CUDA error checking
 - **Documentation**: Inline comments, API docs
 - **Testing**: Unit tests, benchmarks
+- **Style**: Consistent formatting, clear naming
