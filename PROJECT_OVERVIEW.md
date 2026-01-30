@@ -64,3 +64,4 @@ video-to-3d-cuda/
 │   ├── ARCHITECTURE.md           # System architecture
 │   └── EXAMPLES.md               # Usage examples
 │
+├── models/                       # Pre-trained models (placeholder)
