@@ -159,3 +159,4 @@ struct Mesh {
     size_t num_vertices() const { return vertices.size(); }
     size_t num_triangles() const { return triangles.size(); }
 };
+
