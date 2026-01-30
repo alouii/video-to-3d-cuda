@@ -163,3 +163,4 @@ video-to-3d-cuda/
 
 1. **Memory Optimization**
    - Coalesced global memory access
+   - Shared memory for neighborhood ops
