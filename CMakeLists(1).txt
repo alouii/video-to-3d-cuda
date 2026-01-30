@@ -1,3 +1,4 @@
 cmake_minimum_required(VERSION 3.18)
 
 # Test executables
+add_executable(test_depth test_depth.cpp)
