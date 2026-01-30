@@ -61,3 +61,4 @@ private:
     bool generatePointCloud();
     bool registerPointCloud();
     bool fuseTSDF();
+    bool generateMesh();
