@@ -80,3 +80,4 @@ void VideoCapture::start() {
     
     capture_thread_ = std::thread(&VideoCapture::captureThread, this);
 }
+
