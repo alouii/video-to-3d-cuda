@@ -84,3 +84,4 @@ struct ColoredPoint {
     float nx, ny, nz;    // Normal vector
     float confidence;    // Measurement confidence
     
+    ColoredPoint() : x(0), y(0), z(0), r(0), g(0), b(0), 
