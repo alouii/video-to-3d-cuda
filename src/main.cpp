@@ -109,3 +109,4 @@ int main(int argc, char** argv) {
     
     // Parse command line arguments
     v3d::PipelineConfig config;
+    if (!parseArguments(argc, argv, config)) {
