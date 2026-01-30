@@ -8,3 +8,4 @@
 namespace v3d {
 
 // Camera intrinsic parameters
+struct CameraIntrinsics {
