@@ -281,3 +281,4 @@ extern "C" {
 
 void launchIntegrateTSDF(
     TSDFVoxel* d_voxel_grid,
+    const float* d_depth_map,
