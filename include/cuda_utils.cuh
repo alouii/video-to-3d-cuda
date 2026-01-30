@@ -23,3 +23,4 @@
     do { \
         cudaError_t error = cudaGetLastError(); \
         if (error != cudaSuccess) { \
+            std::cerr << "CUDA kernel error: " << cudaGetErrorString(error) << std::endl; \
