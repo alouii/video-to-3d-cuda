@@ -221,3 +221,4 @@ video-to-3d-cuda/
    - Full mesh_generator.cpp
    - Full visualizer.cpp (OpenGL/PCL)
 
+2. **Advanced Features**
