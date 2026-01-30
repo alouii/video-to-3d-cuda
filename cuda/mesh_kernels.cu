@@ -182,3 +182,4 @@ void launchClassifyVoxels(
         d_voxel_grid, d_voxel_types, d_voxel_vertices, config, iso_value
     );
     
+    CUDA_CHECK_LAST_ERROR();
