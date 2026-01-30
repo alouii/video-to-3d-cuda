@@ -70,3 +70,4 @@ struct Pose {
     }
     
     // Transform point
+    inline void transform(float x, float y, float z, float& out_x, float& out_y, float& out_z) const {
