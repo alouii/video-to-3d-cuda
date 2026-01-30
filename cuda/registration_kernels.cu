@@ -278,3 +278,4 @@ void launchFindCorrespondences(
     
     findCorrespondencesKernel<<<grid_size, block_size, 0, stream>>>(
         d_source_points, d_target_points, d_correspondences, d_distances,
+        num_source, num_target, max_distance
