@@ -412,3 +412,4 @@ void launchVoxelDownsample(
         grid_dim_x, grid_dim_y, grid_dim_z
     );
     
+    CUDA_CHECK_LAST_ERROR();
