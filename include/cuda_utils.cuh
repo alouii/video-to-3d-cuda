@@ -194,3 +194,4 @@ public:
     // Delete copy
     DeviceBuffer(const DeviceBuffer&) = delete;
     DeviceBuffer& operator=(const DeviceBuffer&) = delete;
+    
