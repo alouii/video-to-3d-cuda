@@ -79,3 +79,4 @@ struct Pose {
 
 // Colored 3D point with normal
 struct ColoredPoint {
+    float x, y, z;       // Position
