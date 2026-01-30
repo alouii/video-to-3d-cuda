@@ -133,3 +133,4 @@ __global__ void computeNormalsKernel(
     
     if (depth_center <= 0.0f || isnan(depth_center)) return;
     
+    // Get neighboring depths
