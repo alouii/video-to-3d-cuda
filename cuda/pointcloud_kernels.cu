@@ -64,3 +64,4 @@ __global__ void depthToPointCloudKernel(
 __global__ void bilateralFilterDepthKernel(
     const float* input_depth,
     float* output_depth,
+    int width,
