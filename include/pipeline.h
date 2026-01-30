@@ -9,3 +9,4 @@
 
 namespace v3d {
 
+// Forward declarations
