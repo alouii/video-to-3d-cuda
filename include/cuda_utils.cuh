@@ -189,3 +189,4 @@ public:
             other.size_ = 0;
         }
         return *this;
+    }
