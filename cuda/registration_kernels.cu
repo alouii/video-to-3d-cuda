@@ -5,3 +5,4 @@
 using namespace v3d;
 
 // Find correspondences between two point clouds
+__global__ void findCorrespondencesKernel(
