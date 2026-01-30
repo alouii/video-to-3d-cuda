@@ -26,3 +26,4 @@
             std::cerr << "CUDA kernel error: " << cudaGetErrorString(error) << std::endl; \
             throw std::runtime_error(cudaGetErrorString(error)); \
         } \
+    } while(0)
