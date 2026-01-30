@@ -52,3 +52,4 @@ public:
     // Control
     void start();
     void stop();
+    bool isRunning() const;
