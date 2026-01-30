@@ -112,3 +112,4 @@ struct DepthFrame {
 // Point cloud container
 struct PointCloud {
     std::vector<ColoredPoint> points;
+    bool has_normals;
