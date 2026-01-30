@@ -106,3 +106,4 @@ public:
         // Find free block of suitable size
         for (auto& block : blocks_) {
             if (!block.in_use && block.size >= size) {
+                block.in_use = true;
