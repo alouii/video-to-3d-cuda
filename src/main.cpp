@@ -145,3 +145,4 @@ int main(int argc, char** argv) {
         std::cerr << "Error during processing: " << e.what() << std::endl;
         return 1;
     }
+    
