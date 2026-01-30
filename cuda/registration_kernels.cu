@@ -256,3 +256,4 @@ __global__ void reduceErrorsKernel(
     error = cuda_utils::blockReduceSum(error);
     
     if (tid == 0) {
+        atomicAdd(total_error, error);
