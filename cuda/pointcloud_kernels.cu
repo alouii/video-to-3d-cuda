@@ -319,3 +319,4 @@ void launchDepthToPointCloud(
     float max_depth,
     int width,
     int height,
+    cudaStream_t stream
