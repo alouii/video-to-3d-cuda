@@ -209,3 +209,4 @@ GPU Memory Layout:
 │   ├── RGB Image (1920x1080x3)
 │   └── Depth Map (1920x1080)
 ├── Point Cloud Buffer (200 MB)
+│   └── Colored Points with Normals
