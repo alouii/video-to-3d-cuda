@@ -60,3 +60,4 @@ struct Pose {
         return Eigen::Vector3f(translation[0], translation[1], translation[2]);
     }
     
+    void setFromEigen(const Eigen::Matrix3f& R, const Eigen::Vector3f& t) {
