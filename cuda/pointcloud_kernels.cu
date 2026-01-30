@@ -267,3 +267,4 @@ __global__ void voxelDownsampleKernel(
     int grid_dim_y,
     int grid_dim_z
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
