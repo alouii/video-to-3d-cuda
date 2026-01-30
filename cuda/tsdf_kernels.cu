@@ -351,3 +351,4 @@ void launchRaycastTSDF(
         intrinsics, pose, config,
         truncation_distance, width, height
     );
+    
