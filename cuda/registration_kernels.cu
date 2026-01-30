@@ -175,3 +175,4 @@ __global__ void computeAlignmentErrorKernel(
         errors[idx] = 0.0f;
         return;
     }
+    
