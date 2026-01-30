@@ -231,3 +231,4 @@ auto mesh = pipeline.getMesh();
 pipeline.exportPointCloud("output.ply");
 pipeline.exportMesh("mesh.obj");
 ```
+
