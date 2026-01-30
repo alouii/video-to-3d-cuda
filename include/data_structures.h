@@ -196,3 +196,4 @@ struct VoxelGridConfig {
                 vy >= 0 && vy < grid_dim_y &&
                 vz >= 0 && vz < grid_dim_z);
     }
+    
