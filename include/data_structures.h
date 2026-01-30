@@ -94,3 +94,4 @@ struct ColoredPoint {
 
 // Depth frame with RGB and pose
 struct DepthFrame {
+    float* depth_map;      // Device pointer to H x W depth values
