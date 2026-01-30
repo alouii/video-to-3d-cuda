@@ -207,3 +207,4 @@ All compute-intensive operations are GPU-accelerated:
 
 ### C++ API
 
+```cpp
