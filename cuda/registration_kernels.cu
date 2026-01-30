@@ -35,3 +35,4 @@ __global__ void findCorrespondencesKernel(
             min_dist = dist;
             best_match = i;
         }
+    }
