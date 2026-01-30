@@ -164,3 +164,4 @@ struct TSDFVoxel {
        v                                    v
 ┌──────────────┐                    ┌──────────────┐
 │    Depth     │                    │   Previous   │
+│  Estimation  │                    │    Frame     │
