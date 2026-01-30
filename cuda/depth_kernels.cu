@@ -39,3 +39,4 @@ __global__ void sgmCostAggregationKernel(
         aggregated_cost[idx] = cost_volume[idx];
     }
 }
+
