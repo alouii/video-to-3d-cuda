@@ -128,3 +128,4 @@ void VideoCapture::captureThread() {
             buffer_cv_.wait(lock, [this] {
                 return frame_buffer_.size() < max_buffer_size_ || stop_requested_;
             });
+            
