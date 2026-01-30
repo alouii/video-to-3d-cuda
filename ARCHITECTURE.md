@@ -324,3 +324,4 @@ Future versions will support:
 - 8-core CPU
 - 32GB RAM
 
+## Future Improvements
