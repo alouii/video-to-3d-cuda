@@ -45,3 +45,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `disparityToDepthKernel`: Convert disparity to metric depth
 
 ### 3. Point Cloud Generation (`point_cloud_generator.h/cpp`)
+
