@@ -126,3 +126,4 @@ struct TSDFVoxel {
 4. Triangulate based on lookup table
 5. Compute vertex normals
 
+**CUDA Kernels** (`mesh_kernels.cu`):
