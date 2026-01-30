@@ -130,3 +130,4 @@ __global__ void extractSurfacePointsKernel(
                 has_zero_crossing = true;
                 break;
             }
+        }
