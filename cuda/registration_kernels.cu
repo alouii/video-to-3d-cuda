@@ -376,3 +376,4 @@ void launchRejectOutliers(
 void launchReduceErrors(
     const float* d_errors,
     float* d_total_error,
+    int num_points,
