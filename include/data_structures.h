@@ -31,3 +31,4 @@ struct CameraIntrinsics {
         u = static_cast<int>(fx * x / z + cx);
         v = static_cast<int>(fy * y / z + cy);
     }
+};
