@@ -226,3 +226,4 @@ struct PipelineConfig {
     VoxelGridConfig voxel_config;
     
     // Performance
+    int max_frames;
