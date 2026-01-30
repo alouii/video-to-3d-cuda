@@ -223,3 +223,4 @@ __global__ void lrConsistencyCheckKernel(
     int x_right = x - static_cast<int>(d_left + 0.5f);
     if (x_right < 0 || x_right >= width) {
         output_disparity[idx] = 0.0f;
+        return;
