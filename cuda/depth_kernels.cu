@@ -204,3 +204,4 @@ __global__ void medianFilterKernel(
 }
 
 // Left-right consistency check
+__global__ void lrConsistencyCheckKernel(
