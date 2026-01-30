@@ -159,3 +159,4 @@ video-to-3d-cuda/
 | Registration | <15ms | 12ms ✓ |
 | TSDF Fusion | <20ms | 15ms ✓ |
 
+## CUDA Optimization Techniques Applied
