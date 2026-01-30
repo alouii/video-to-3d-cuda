@@ -283,3 +283,4 @@ struct PerformanceStats {
         std::cout << "Total Per Frame: " << total_frame_time << " ms" << std::endl;
         std::cout << "=============================" << std::endl;
     }
+};
