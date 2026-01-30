@@ -100,3 +100,4 @@ struct DepthFrame {
     Pose camera_pose;
     double timestamp;
     bool on_device;
+    
