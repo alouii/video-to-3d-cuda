@@ -74,3 +74,4 @@ __global__ void selectDisparityKernel(
         float c_next = aggregated_cost[base_idx + best_d + 1];
         
         float denom = 2.0f * (c_prev - 2.0f * c_curr + c_next);
+        if (fabsf(denom) > 1e-6f) {
