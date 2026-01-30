@@ -70,3 +70,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
     
     val = warpReduceSum(val);
     
+    if (lane == 0) shared[wid] = val;
