@@ -256,3 +256,4 @@ __global__ void raycastTSDFKernel(
                 nx = (voxel_grid[idx_px].tsdf - voxel_grid[idx_mx].tsdf) / (2.0f * config.voxel_size);
             }
             
+            // Normalize
