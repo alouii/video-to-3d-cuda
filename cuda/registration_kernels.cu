@@ -336,3 +336,4 @@ void launchComputeCovariance(
     );
     
     CUDA_CHECK_LAST_ERROR();
+}
