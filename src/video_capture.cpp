@@ -141,3 +141,4 @@ void VideoCapture::captureThread() {
             stop_requested_ = true;
             buffer_cv_.notify_all();
             break;
+        }
