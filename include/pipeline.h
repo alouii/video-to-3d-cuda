@@ -87,3 +87,4 @@ private:
     
     // State
     bool initialized_;
+    bool paused_;
