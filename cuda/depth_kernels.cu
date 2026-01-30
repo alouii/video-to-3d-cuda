@@ -195,3 +195,4 @@ __global__ void medianFilterKernel(
             if (values[j] > values[j + 1]) {
                 float temp = values[j];
                 values[j] = values[j + 1];
+                values[j + 1] = temp;
