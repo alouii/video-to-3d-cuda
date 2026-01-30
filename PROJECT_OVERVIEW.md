@@ -183,3 +183,4 @@ video-to-3d-cuda/
 
 ```bash
 # Build
+./scripts/build.sh
