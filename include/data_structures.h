@@ -222,3 +222,4 @@ struct PipelineConfig {
     // Camera parameters
     CameraIntrinsics intrinsics;
     
+    // TSDF parameters
