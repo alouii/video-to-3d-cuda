@@ -50,3 +50,4 @@ __global__ void depthToPointCloudKernel(
     int point_idx = atomicAdd(valid_count, 1);
     
     // Write point
+    ColoredPoint& pt = points[point_idx];
