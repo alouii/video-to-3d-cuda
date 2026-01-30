@@ -126,3 +126,4 @@ int main(int argc, char** argv) {
     
     // Create and initialize pipeline
     std::cout << "\nInitializing pipeline..." << std::endl;
+    v3d::VideoTo3DPipeline pipeline(config);
