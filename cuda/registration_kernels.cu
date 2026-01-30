@@ -113,3 +113,4 @@ __global__ void computeCovarianceKernel(
     float* covariance,  // 3x3 matrix (9 elements)
     int num_points
 ) {
+    extern __shared__ float s_cov[];
