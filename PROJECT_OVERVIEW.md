@@ -138,3 +138,4 @@ video-to-3d-cuda/
 - [x] Multi-stream async processing
 - [x] Warp-level primitives
 - [x] Coalesced memory access
+- [x] Occupancy optimization
