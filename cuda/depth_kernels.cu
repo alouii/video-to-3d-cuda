@@ -98,3 +98,4 @@ __global__ void censusTransformKernel(
         y < window_size || y >= height - window_size) {
         return;
     }
+    
