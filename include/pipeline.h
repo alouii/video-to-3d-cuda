@@ -42,3 +42,4 @@ public:
     Mesh getMesh() const;
     
     // Export results
+    bool exportPointCloud(const std::string& filename) const;
