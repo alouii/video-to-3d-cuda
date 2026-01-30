@@ -262,3 +262,4 @@ inline void printDeviceInfo() {
     int device;
     CUDA_CHECK(cudaGetDevice(&device));
     
+    cudaDeviceProp prop;
