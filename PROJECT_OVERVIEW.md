@@ -201,3 +201,4 @@ video-to-3d-cuda/
 - CMake 3.18+
 
 **Optional**:
+- PCL (visualization)
