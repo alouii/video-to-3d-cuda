@@ -340,3 +340,4 @@ void launchComputeCovariance(
 
 void launchComputeAlignmentError(
     const ColoredPoint* d_source_points,
+    const ColoredPoint* d_target_points,
