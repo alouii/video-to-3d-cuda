@@ -271,3 +271,4 @@ void launchFindCorrespondences(
     int num_source,
     int num_target,
     float max_distance,
+    cudaStream_t stream
