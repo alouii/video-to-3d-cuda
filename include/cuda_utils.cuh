@@ -223,3 +223,4 @@ public:
     const T* data() const { return data_; }
     size_t size() const { return size_; }
 };
+
