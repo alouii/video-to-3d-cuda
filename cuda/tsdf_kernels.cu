@@ -288,3 +288,4 @@ void launchIntegrateTSDF(
     const VoxelGridConfig& config,
     float truncation_distance,
     float max_weight,
+    int width,
