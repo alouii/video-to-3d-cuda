@@ -32,3 +32,4 @@ __global__ void sgmCostAggregationKernel(
         float prev_adj = 1e9f;
         if (d > 0) prev_adj = fminf(prev_adj, aggregated_cost[prev_idx + d - 1] + p1);
         if (d < max_disparity - 1) prev_adj = fminf(prev_adj, aggregated_cost[prev_idx + d + 1] + p1);
+        
