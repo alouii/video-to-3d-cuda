@@ -17,3 +17,4 @@ struct CameraIntrinsics {
                          width(640), height(480) {}
     
     CameraIntrinsics(float fx_, float fy_, float cx_, float cy_, int w, int h)
+        : fx(fx_), fy(fy_), cx(cx_), cy(cy_), width(w), height(h) {}
