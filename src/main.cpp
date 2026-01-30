@@ -25,3 +25,4 @@ void printUsage(const char* program_name) {
               << std::endl;
 }
 
+bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
