@@ -165,3 +165,4 @@ video-to-3d-cuda/
    - Coalesced global memory access
    - Shared memory for neighborhood ops
    - Texture memory for interpolation
+   - Pinned memory for transfers
