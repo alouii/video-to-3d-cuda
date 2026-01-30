@@ -102,3 +102,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
     
     return true;
 }
+
