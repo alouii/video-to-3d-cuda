@@ -157,3 +157,4 @@ public:
 template<typename T>
 class DeviceBuffer {
 private:
+    T* data_;
