@@ -328,3 +328,4 @@ void launchExtractSurfacePoints(
         d_voxel_grid, d_points, d_point_count, config, weight_threshold
     );
     
+    CUDA_CHECK_LAST_ERROR();
