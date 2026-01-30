@@ -3,3 +3,4 @@
 
 #include <cstdint>
 #include <vector>
+#include <Eigen/Dense>
