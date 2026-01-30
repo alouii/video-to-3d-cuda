@@ -159,3 +159,4 @@ __global__ void raycastTSDFKernel(
     const Pose pose,
     const VoxelGridConfig config,
     float truncation_distance,
+    int width,
