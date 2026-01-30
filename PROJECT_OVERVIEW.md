@@ -100,3 +100,4 @@ video-to-3d-cuda/
 - [x] Support for multiple video formats
 - [x] Camera and file input support
 
+### 2. Depth Estimation
