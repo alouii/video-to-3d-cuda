@@ -292,3 +292,4 @@ private:
 
 ### Plugin Architecture
 
+Future versions will support:
