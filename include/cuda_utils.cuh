@@ -7,3 +7,4 @@
 #include <memory>
 #include <stdexcept>
 
+// CUDA error checking macro
