@@ -40,3 +40,4 @@ struct Pose {
     double timestamp;      // Frame timestamp
     
     Pose() : timestamp(0.0) {
+        // Identity
