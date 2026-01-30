@@ -28,3 +28,4 @@ __global__ void findCorrespondencesKernel(
         
         float dx = src.x - tgt.x;
         float dy = src.y - tgt.y;
+        float dz = src.z - tgt.z;
