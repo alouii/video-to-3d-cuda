@@ -29,3 +29,4 @@
     } while(0)
 
 namespace cuda_utils {
+
