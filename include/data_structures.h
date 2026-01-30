@@ -254,3 +254,4 @@ struct PerformanceStats {
     double total_frame_time;
     
     int frames_processed;
+    double fps;
