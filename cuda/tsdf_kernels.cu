@@ -60,3 +60,4 @@ __global__ void integrateTSDFKernel(
     
     // Truncate
     if (sdf < -truncation_distance) return;
+    
