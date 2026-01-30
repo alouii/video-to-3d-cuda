@@ -211,3 +211,4 @@ public:
         CUDA_CHECK(cudaMemcpy(data_, host_data, count * sizeof(T), cudaMemcpyHostToDevice));
     }
     
+    void download(T* host_data, size_t count) const {
