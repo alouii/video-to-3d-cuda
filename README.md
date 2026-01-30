@@ -304,3 +304,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 - Calibrate camera properly
 - Adjust depth range
 - Enable bilateral filtering
+- Increase TSDF weight threshold
