@@ -83,3 +83,4 @@ __global__ void selectDisparityKernel(
     disparity_map[y * width + x] = disparity;
 }
 
+// Compute matching cost (Census transform + Hamming distance)
