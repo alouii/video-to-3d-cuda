@@ -315,3 +315,4 @@ Future versions will support:
 - 8GB RAM
 
 **Recommended** (60 FPS @ 1080p):
+- RTX 3060 (12GB)
