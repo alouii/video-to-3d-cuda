@@ -18,3 +18,4 @@ void cudaDeallocateToPool(void* ptr) {
 
 size_t cudaGetPoolMemoryUsage() {
     return cuda_utils::g_memory_pool.total_allocated();
+}
