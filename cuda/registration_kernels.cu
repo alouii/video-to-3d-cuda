@@ -16,3 +16,4 @@ __global__ void findCorrespondencesKernel(
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= num_source) return;
+    
