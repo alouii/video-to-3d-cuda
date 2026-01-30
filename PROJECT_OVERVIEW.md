@@ -120,3 +120,4 @@ video-to-3d-cuda/
 - [x] Transformation estimation (SVD-based)
 - [x] Outlier rejection
 
+### 5. TSDF Fusion
