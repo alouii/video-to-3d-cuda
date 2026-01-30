@@ -224,3 +224,4 @@ __global__ void statisticalOutlierRemovalKernel(
         return;
     }
     
+    float mean_distance = sum_distances / count;
