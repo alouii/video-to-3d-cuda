@@ -263,3 +263,4 @@ GPU Memory Layout:
 - Kernel launch overhead (solution: kernel fusion)
 
 **System Bottlenecks**:
+- PCIe bandwidth (solution: minimize transfers)
