@@ -81,3 +81,4 @@ private:
     DepthFrame current_depth_frame_;
     PointCloud current_pointcloud_;
     
+    // Accumulated data
