@@ -231,3 +231,4 @@ __global__ void raycastTSDFKernel(
         
         // Adaptive step size based on TSDF value
         t += step_size * fmaxf(fabsf(voxel.tsdf), 1.0f);
+    }
