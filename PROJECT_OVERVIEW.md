@@ -35,3 +35,4 @@ video-to-3d-cuda/
 │   ├── main.cpp                  # Command-line interface
 │   ├── pipeline.cpp              # Pipeline implementation
 │   ├── video_capture.cpp         # Multi-threaded capture
+│   ├── depth_estimator.cpp       # Depth estimation
