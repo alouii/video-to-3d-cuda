@@ -37,3 +37,4 @@ models/
 
 # Temporary files
 *.log
+*.tmp
