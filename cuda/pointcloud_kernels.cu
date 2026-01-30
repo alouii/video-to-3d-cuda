@@ -60,3 +60,4 @@ __global__ void depthToPointCloudKernel(
     pt.confidence = 1.0f;
 }
 
+// Bilateral filtering for depth map smoothing
