@@ -72,3 +72,4 @@ __global__ void integrateTSDFKernel(
     float new_weight = fminf(old_weight + 1.0f, max_weight);
     
     voxel.tsdf = (voxel.tsdf * old_weight + tsdf) / new_weight;
+    voxel.weight = new_weight;
