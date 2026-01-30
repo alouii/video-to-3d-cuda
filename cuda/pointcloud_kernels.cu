@@ -40,3 +40,4 @@ __global__ void depthToPointCloudKernel(
     float world_y = pose.rotation[3] * cam_x + pose.rotation[4] * cam_y + pose.rotation[5] * cam_z + pose.translation[1];
     float world_z = pose.rotation[6] * cam_x + pose.rotation[7] * cam_y + pose.rotation[8] * cam_z + pose.translation[2];
     
+    // Get color
