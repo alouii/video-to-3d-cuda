@@ -25,3 +25,4 @@ public:
     // Initialize pipeline
     bool initialize();
     
+    // Process video
