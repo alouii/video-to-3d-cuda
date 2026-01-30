@@ -229,3 +229,4 @@ __global__ void computePointToPlaneKernel(
     
     residuals[idx] = dx * tgt.nx + dy * tgt.ny + dz * tgt.nz;
     
+    // Jacobian for point-to-plane
