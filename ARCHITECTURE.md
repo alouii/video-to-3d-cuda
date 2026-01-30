@@ -279,3 +279,4 @@ public:
         return engine_ != nullptr;
     }
     
+    bool estimateDepth(const cv::Mat& rgb, DepthFrame& depth) override {
