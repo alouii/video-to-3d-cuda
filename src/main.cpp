@@ -115,3 +115,4 @@ int main(int argc, char** argv) {
     }
     
     // Validate configuration
+    if (!config.use_camera && config.video_source.empty()) {
