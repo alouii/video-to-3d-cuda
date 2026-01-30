@@ -234,3 +234,4 @@ __global__ void computePointToPlaneKernel(
     int j_offset = idx * 6;
     jacobian[j_offset + 0] = tgt.nx;
     jacobian[j_offset + 1] = tgt.ny;
+    jacobian[j_offset + 2] = tgt.nz;
