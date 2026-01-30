@@ -154,3 +154,4 @@ struct Mesh {
         triangles.clear();
         has_normals = false;
         has_colors = false;
+    }
