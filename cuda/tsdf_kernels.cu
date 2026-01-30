@@ -350,3 +350,4 @@ void launchRaycastTSDF(
         d_voxel_grid, d_depth_map, d_normal_map,
         intrinsics, pose, config,
         truncation_distance, width, height
+    );
