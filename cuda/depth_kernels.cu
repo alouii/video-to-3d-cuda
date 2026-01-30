@@ -226,3 +226,4 @@ __global__ void lrConsistencyCheckKernel(
         return;
     }
     
+    int right_idx = y * width + x_right;
