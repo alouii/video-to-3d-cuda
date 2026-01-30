@@ -96,3 +96,4 @@ private:
     
     // CUDA streams for async processing
     std::vector<cuda_utils::CudaStream> cuda_streams_;
+};
