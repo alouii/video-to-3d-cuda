@@ -10,3 +10,4 @@ __global__ void depthToPointCloudKernel(
     const uint8_t* rgb_image,
     ColoredPoint* points,
     int* valid_count,
+    const CameraIntrinsics intrinsics,
