@@ -241,3 +241,4 @@ public:
     CudaStream(const CudaStream&) = delete;
     CudaStream& operator=(const CudaStream&) = delete;
     
+    cudaStream_t get() const { return stream_; }
