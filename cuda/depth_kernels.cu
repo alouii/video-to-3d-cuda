@@ -153,3 +153,4 @@ __global__ void computeMatchingCostKernel(
 }
 
 // Median filter for disparity refinement
+__global__ void medianFilterKernel(
