@@ -247,3 +247,4 @@ public:
         CUDA_CHECK(cudaStreamSynchronize(stream_));
     }
 };
+
