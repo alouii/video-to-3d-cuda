@@ -170,3 +170,4 @@ All compute-intensive operations are GPU-accelerated:
    - Ray casting
    - Surface extraction
    
+5. **Mesh Generation** (`mesh_kernels.cu`)
