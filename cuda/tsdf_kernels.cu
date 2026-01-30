@@ -283,3 +283,4 @@ void launchIntegrateTSDF(
     TSDFVoxel* d_voxel_grid,
     const float* d_depth_map,
     const uint8_t* d_rgb_image,
+    const CameraIntrinsics& intrinsics,
