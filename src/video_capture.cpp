@@ -185,3 +185,4 @@ size_t VideoCapture::getBufferSize() const {
     return max_buffer_size_;
 }
 
+size_t VideoCapture::getCurrentBufferCount() const {
