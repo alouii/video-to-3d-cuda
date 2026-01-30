@@ -18,3 +18,4 @@ class MeshGenerator;
 class Visualizer;
 
 class VideoTo3DPipeline {
+public:
