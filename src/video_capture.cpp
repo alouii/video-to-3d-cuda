@@ -146,3 +146,4 @@ void VideoCapture::captureThread() {
         // Create video frame
         VideoFrame video_frame;
         video_frame.rgb_image = frame.clone();
+        video_frame.timestamp = capture_.get(cv::CAP_PROP_POS_MSEC) / 1000.0;
