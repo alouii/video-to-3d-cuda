@@ -304,3 +304,4 @@ void launchTransformPointCloud(
 void launchComputeCentroid(
     const ColoredPoint* d_points,
     float* d_centroid,
+    int num_points,
