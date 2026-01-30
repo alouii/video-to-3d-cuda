@@ -73,3 +73,4 @@ private:
     int total_frames_;
     int current_frame_index_;
 };
+
