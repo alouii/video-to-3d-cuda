@@ -61,3 +61,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
             config.enable_visualization = true;
         }
         else if (arg == "--no-fusion") {
+            config.enable_fusion = false;
