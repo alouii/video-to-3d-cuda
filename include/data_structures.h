@@ -77,3 +77,4 @@ struct Pose {
     }
 };
 
+// Colored 3D point with normal
