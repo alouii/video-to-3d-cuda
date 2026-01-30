@@ -346,3 +346,4 @@ If you use this project in your research, please cite:
 
 ## Contact
 
+- Issues: [GitHub Issues](https://github.com/alouii/video-to-3d-cuda/issues)
