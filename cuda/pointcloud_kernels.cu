@@ -166,3 +166,4 @@ __global__ void computeNormalsKernel(
     float ny = tz * bx - tx * bz;
     float nz = tx * by - ty * bx;
     
+    // Normalize
