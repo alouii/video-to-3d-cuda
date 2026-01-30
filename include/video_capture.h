@@ -27,3 +27,4 @@ public:
     
     // Open video source
     bool open(const std::string& source);
+    bool open(int camera_id);
