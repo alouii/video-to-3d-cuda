@@ -74,3 +74,4 @@ __global__ void generateMeshKernel(
     int cube_index = voxel_types[voxel_idx];
     
     if (cube_index == 0 || cube_index == 255) return;
+    
