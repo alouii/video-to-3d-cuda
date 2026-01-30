@@ -259,3 +259,4 @@ __global__ void raycastTSDFKernel(
             // Normalize
             float length = sqrtf(nx * nx + ny * ny + nz * nz);
             if (length > 0.0f) {
+                nx /= length;
