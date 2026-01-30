@@ -75,3 +75,4 @@ __global__ void generateMeshKernel(
     
     if (cube_index == 0 || cube_index == 255) return;
     
+    // Get corner positions and values
