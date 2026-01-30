@@ -88,3 +88,4 @@ private:
         bool in_use;
     };
     
+    std::vector<Block> blocks_;
