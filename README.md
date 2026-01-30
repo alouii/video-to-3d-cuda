@@ -153,3 +153,4 @@ All compute-intensive operations are GPU-accelerated:
 1. **Depth Estimation** (`depth_kernels.cu`)
    - Census transform
    - Cost aggregation (SGM)
+   - Disparity selection with subpixel refinement
