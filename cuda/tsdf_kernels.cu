@@ -16,3 +16,4 @@ __global__ void integrateTSDFKernel(
     float max_weight,
     int width,
     int height
+) {
