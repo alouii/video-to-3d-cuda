@@ -72,3 +72,4 @@ __global__ void generateMeshKernel(
     
     int voxel_idx = vx + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
     int cube_index = voxel_types[voxel_idx];
+    
