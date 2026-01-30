@@ -205,3 +205,4 @@ __global__ void statisticalOutlierRemovalKernel(
     float sum_distances = 0.0f;
     int count = 0;
     
+    // Sample neighbors (in practice, use KD-tree)
