@@ -25,3 +25,4 @@ __global__ void classifyVoxelsKernel(
     int voxel_idx = vx + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
     
     // Get 8 corner values
+    float corners[8];
