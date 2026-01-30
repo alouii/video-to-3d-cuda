@@ -160,3 +160,4 @@ __global__ void generateMeshKernel(
     }
 }
 
+// C++ interface
