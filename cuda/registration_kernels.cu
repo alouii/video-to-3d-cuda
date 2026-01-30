@@ -174,3 +174,4 @@ __global__ void computeAlignmentErrorKernel(
     if (corr_idx < 0) {
         errors[idx] = 0.0f;
         return;
+    }
