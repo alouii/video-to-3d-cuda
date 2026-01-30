@@ -259,3 +259,4 @@ struct PerformanceStats {
     PerformanceStats() { reset(); }
     
     void reset() {
+        frame_capture_time = 0.0;
