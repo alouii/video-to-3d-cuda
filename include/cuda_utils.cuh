@@ -148,3 +148,4 @@ public:
         return ptr;
     }
     
+    void deallocate(T* ptr, std::size_t) {
