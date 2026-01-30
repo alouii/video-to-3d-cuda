@@ -246,3 +246,4 @@ __global__ void statisticalOutlierRemovalKernel(
     float threshold = mean_distance + std_multiplier * std_dev;
     
     // Check if outlier
+    valid_mask[idx] = (mean_distance < threshold) ? 1 : 0;
