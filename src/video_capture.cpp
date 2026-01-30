@@ -77,3 +77,4 @@ void VideoCapture::start() {
     
     stop_requested_ = false;
     running_ = true;
+    
