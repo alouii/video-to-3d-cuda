@@ -60,3 +60,4 @@ __device__ __forceinline__ float warpReduceSum(float val) {
         val += __shfl_down_sync(0xffffffff, val, offset);
     }
     return val;
+}
