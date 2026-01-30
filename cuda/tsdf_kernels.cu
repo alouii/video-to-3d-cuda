@@ -54,3 +54,4 @@ __global__ void integrateTSDFKernel(
     
     // Check valid depth
     if (measured_depth <= 0.0f || isnan(measured_depth) || isinf(measured_depth)) return;
+    
