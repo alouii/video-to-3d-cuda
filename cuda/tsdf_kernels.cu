@@ -348,3 +348,4 @@ void launchRaycastTSDF(
     
     raycastTSDFKernel<<<grid, block, 0, stream>>>(
         d_voxel_grid, d_depth_map, d_normal_map,
+        intrinsics, pose, config,
