@@ -236,3 +236,4 @@ struct PipelineConfig {
     bool save_mesh;
     
     PipelineConfig() 
+        : video_source(""), camera_id(0), use_camera(false),
