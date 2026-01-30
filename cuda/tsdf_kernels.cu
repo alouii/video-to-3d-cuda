@@ -228,3 +228,4 @@ __global__ void raycastTSDFKernel(
         }
         
         prev_tsdf = voxel.tsdf;
+        
