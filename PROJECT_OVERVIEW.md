@@ -86,3 +86,4 @@ video-to-3d-cuda/
 | Category | Lines | Files |
 |----------|-------|-------|
 | CUDA Kernels | 3,500 | 7 |
+| C++ Implementation | 2,000 | 9 |
