@@ -170,3 +170,4 @@ struct TSDFVoxel {
 };
 
 // Voxel grid configuration
+struct VoxelGridConfig {
