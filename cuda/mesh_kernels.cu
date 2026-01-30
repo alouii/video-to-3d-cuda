@@ -164,3 +164,4 @@ __global__ void generateMeshKernel(
 extern "C" {
 
 void launchClassifyVoxels(
+    const TSDFVoxel* d_voxel_grid,
