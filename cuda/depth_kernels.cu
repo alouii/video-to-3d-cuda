@@ -282,3 +282,4 @@ void launchCensusTransform(
 }
 
 void launchComputeMatchingCost(
+    const uint32_t* d_left_census,
