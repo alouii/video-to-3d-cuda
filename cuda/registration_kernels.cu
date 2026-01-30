@@ -200,3 +200,4 @@ __global__ void rejectOutliersKernel(
         correspondences[idx] = -1;
     }
 }
+
