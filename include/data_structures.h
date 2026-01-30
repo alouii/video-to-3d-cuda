@@ -105,3 +105,4 @@ struct DepthFrame {
                    width(0), height(0), timestamp(0.0), on_device(false) {}
     
     ~DepthFrame() {
+        // Note: Memory management handled by pipeline
