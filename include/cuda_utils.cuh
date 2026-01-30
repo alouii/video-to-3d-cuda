@@ -66,3 +66,4 @@ __device__ __forceinline__ float warpReduceSum(float val) {
 __device__ __forceinline__ float blockReduceSum(float val) {
     static __shared__ float shared[32];
     int lane = threadIdx.x % 32;
+    int wid = threadIdx.x / 32;
