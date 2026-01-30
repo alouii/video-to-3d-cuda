@@ -165,3 +165,4 @@ __global__ void computeAlignmentErrorKernel(
     const ColoredPoint* target_points,
     const int* correspondences,
     float* errors,
+    int num_points
