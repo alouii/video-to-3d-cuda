@@ -167,3 +167,4 @@ __global__ void medianFilterKernel(
         y < kernel_size || y >= height - kernel_size) {
         return;
     }
+    
