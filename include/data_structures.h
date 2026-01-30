@@ -244,3 +244,4 @@ struct PipelineConfig {
 };
 
 // Statistics for performance monitoring
+struct PerformanceStats {
