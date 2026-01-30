@@ -156,3 +156,4 @@ video-to-3d-cuda/
 | Memory Usage | <1GB | ~850MB ✓ |
 | Depth Estimation | <30ms | 25ms ✓ |
 | Point Cloud Gen | <5ms | 3ms ✓ |
+| Registration | <15ms | 12ms ✓ |
