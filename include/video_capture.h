@@ -24,3 +24,4 @@ class VideoCapture {
 public:
     VideoCapture();
     ~VideoCapture();
+    
