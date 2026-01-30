@@ -184,3 +184,4 @@ All compute-intensive operations are GPU-accelerated:
 ## Performance
 
 ### Benchmarks (RTX 3080, 1080p video)
+
