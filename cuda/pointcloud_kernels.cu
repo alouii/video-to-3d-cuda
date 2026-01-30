@@ -271,3 +271,4 @@ __global__ void voxelDownsampleKernel(
     if (idx >= num_points) return;
     
     const ColoredPoint& point = input_points[idx];
+    
