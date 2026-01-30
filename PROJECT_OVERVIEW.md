@@ -158,3 +158,4 @@ video-to-3d-cuda/
 | Point Cloud Gen | <5ms | 3ms ✓ |
 | Registration | <15ms | 12ms ✓ |
 | TSDF Fusion | <20ms | 15ms ✓ |
+
