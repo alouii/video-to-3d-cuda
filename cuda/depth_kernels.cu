@@ -164,3 +164,4 @@ __global__ void medianFilterKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x < kernel_size || x >= width - kernel_size ||
+        y < kernel_size || y >= height - kernel_size) {
