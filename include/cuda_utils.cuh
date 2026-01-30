@@ -14,3 +14,4 @@
         if (error != cudaSuccess) { \
             std::cerr << "CUDA error at " << __FILE__ << ":" << __LINE__ \
                       << " - " << cudaGetErrorString(error) << std::endl; \
+            throw std::runtime_error(cudaGetErrorString(error)); \
