@@ -115,3 +115,4 @@ __global__ void extractSurfacePointsKernel(
     bool has_zero_crossing = false;
     
     int neighbors[6] = {
+        voxel_idx + 1,  // x+1
