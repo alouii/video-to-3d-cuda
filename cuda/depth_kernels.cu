@@ -13,3 +13,4 @@ __global__ void sgmCostAggregationKernel(
 ) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
     int y = blockIdx.y;
+    int d = threadIdx.z + blockIdx.z * blockDim.z;
