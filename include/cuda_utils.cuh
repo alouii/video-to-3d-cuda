@@ -128,3 +128,4 @@ public:
         }
     }
     
+    size_t total_allocated() const { return total_allocated_; }
