@@ -45,3 +45,4 @@ __global__ void classifyVoxelsKernel(
     
     // Count number of vertices this voxel will generate
     int num_vertices = 0;
+    if (cube_index != 0 && cube_index != 255) {
