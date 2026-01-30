@@ -180,3 +180,4 @@ __global__ void computeAlignmentErrorKernel(
     const ColoredPoint& tgt = target_points[corr_idx];
     
     float dx = src.x - tgt.x;
+    float dy = src.y - tgt.y;
