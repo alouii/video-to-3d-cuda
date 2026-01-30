@@ -108,3 +108,4 @@ __global__ void computeCovarianceKernel(
     const ColoredPoint* source_points,
     const ColoredPoint* target_points,
     const int* correspondences,
+    const float* source_centroid,
