@@ -108,3 +108,4 @@ int main(int argc, char** argv) {
     std::cout << "Version 1.0\n" << std::endl;
     
     // Parse command line arguments
+    v3d::PipelineConfig config;
