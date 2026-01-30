@@ -174,3 +174,4 @@ public:
     }
     
     // Move semantics
+    DeviceBuffer(DeviceBuffer&& other) noexcept 
