@@ -51,3 +51,4 @@ struct Pose {
     Eigen::Matrix3f getRotationMatrix() const {
         Eigen::Matrix3f R;
         for (int i = 0; i < 3; ++i)
+            for (int j = 0; j < 3; ++j)
