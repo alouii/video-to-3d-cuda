@@ -17,3 +17,4 @@ void printUsage(const char* program_name) {
               << "  --voxel-size <size>        Voxel size in meters (default: 0.01)\n"
               << "  --max-frames <n>           Maximum frames to process (default: all)\n"
               << "  --skip-frames <n>          Skip n frames between processing (default: 0)\n"
+              << "  --fx <value>               Focal length X (default: 525.0)\n"
