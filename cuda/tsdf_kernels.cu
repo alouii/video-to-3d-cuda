@@ -178,3 +178,4 @@ __global__ void raycastTSDFKernel(
     ray_dir_y /= ray_length;
     ray_dir_z /= ray_length;
     
+    // Transform ray to world space
