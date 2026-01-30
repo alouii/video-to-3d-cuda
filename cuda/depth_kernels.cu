@@ -117,3 +117,4 @@ __global__ void censusTransformKernel(
                 census_val |= (1 << bit);
             }
             bit++;
+        }
