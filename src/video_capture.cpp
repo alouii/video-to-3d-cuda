@@ -36,3 +36,4 @@ bool VideoCapture::open(const std::string& source) {
     return true;
 }
 
+bool VideoCapture::open(int camera_id) {
