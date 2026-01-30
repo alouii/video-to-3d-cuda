@@ -47,3 +47,4 @@ struct Pose {
         translation[0] = 0; translation[1] = 0; translation[2] = 0;
     }
     
+    // Convert to Eigen types
