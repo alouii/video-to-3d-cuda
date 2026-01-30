@@ -272,3 +272,4 @@ __global__ void raycastTSDFKernel(
         depth_map[pixel_idx] = 0.0f;
         normal_map[pixel_idx * 3] = 0;
         normal_map[pixel_idx * 3 + 1] = 0;
+        normal_map[pixel_idx * 3 + 2] = 0;
