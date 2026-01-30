@@ -163,3 +163,4 @@ private:
 public:
     DeviceBuffer() : data_(nullptr), size_(0) {}
     
+    explicit DeviceBuffer(size_t size) : size_(size) {
