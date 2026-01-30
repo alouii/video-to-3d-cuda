@@ -55,3 +55,4 @@ Capture Thread → Frame Buffer → Processing Thread
 4. Statistical outlier removal
 5. Voxel downsampling for efficiency
 
+**CUDA Kernels** (`pointcloud_kernels.cu`):
