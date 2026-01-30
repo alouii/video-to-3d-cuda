@@ -122,3 +122,4 @@ __global__ void generateMeshKernel(
             edge_colors[i].z = static_cast<uint8_t>(colors[v0].z + t * (colors[v1].z - colors[v0].z));
         }
     }
+    
