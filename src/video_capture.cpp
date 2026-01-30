@@ -133,3 +133,4 @@ void VideoCapture::captureThread() {
                 break;
             }
         }
+        
