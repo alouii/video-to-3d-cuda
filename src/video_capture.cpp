@@ -155,3 +155,4 @@ void VideoCapture::captureThread() {
             frame_buffer_.push(video_frame);
         }
         
+        buffer_cv_.notify_all();
