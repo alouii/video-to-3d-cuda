@@ -295,3 +295,4 @@ void launchComputeMatchingCost(
     
     computeMatchingCostKernel<<<grid, block, 0, stream>>>(
         d_left_census, d_right_census, d_cost_volume, width, height, max_disparity
+    );
