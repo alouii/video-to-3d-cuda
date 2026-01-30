@@ -59,3 +59,4 @@ __global__ void depthToPointCloudKernel(
     pt.b = b;
     pt.confidence = 1.0f;
 }
+
