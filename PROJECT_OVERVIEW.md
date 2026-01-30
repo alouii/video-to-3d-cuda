@@ -42,3 +42,4 @@ video-to-3d-cuda/
 │   ├── mesh_generator.cpp        # Mesh generation (stub)
 │   └── visualizer.cpp            # Visualization (stub)
 │
+├── cuda/                         # CUDA kernel implementations
