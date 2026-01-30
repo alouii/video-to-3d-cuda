@@ -74,3 +74,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
     __syncthreads();
     
     val = (threadIdx.x < blockDim.x / 32) ? shared[lane] : 0;
+    if (wid == 0) val = warpReduceSum(val);
