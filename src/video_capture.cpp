@@ -75,3 +75,4 @@ void VideoCapture::start() {
         return;
     }
     
+    stop_requested_ = false;
