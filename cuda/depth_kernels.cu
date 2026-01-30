@@ -96,3 +96,4 @@ __global__ void censusTransformKernel(
     
     if (x < window_size || x >= width - window_size ||
         y < window_size || y >= height - window_size) {
+        return;
