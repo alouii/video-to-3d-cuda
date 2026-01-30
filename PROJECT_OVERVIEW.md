@@ -61,3 +61,4 @@ video-to-3d-cuda/
 │   └── build.sh                  # Build automation script
 │
 ├── docs/                         # Documentation
+│   ├── ARCHITECTURE.md           # System architecture
