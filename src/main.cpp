@@ -137,3 +137,4 @@ int main(int argc, char** argv) {
     std::cout << "\nProcessing video..." << std::endl;
     
     // Process video
+    auto start_time = std::chrono::high_resolution_clock::now();
