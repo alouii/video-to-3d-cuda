@@ -120,3 +120,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
     return true;
 }
 
+void VideoCapture::captureThread() {
