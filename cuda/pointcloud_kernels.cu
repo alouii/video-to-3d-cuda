@@ -43,3 +43,4 @@ __global__ void depthToPointCloudKernel(
     // Get color
     int rgb_idx = idx * 3;
     uint8_t r = rgb_image[rgb_idx];
+    uint8_t g = rgb_image[rgb_idx + 1];
