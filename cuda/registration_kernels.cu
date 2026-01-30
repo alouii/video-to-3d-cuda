@@ -185,3 +185,4 @@ __global__ void computeAlignmentErrorKernel(
     
     errors[idx] = dx * dx + dy * dy + dz * dz;
 }
+
