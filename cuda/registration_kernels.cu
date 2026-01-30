@@ -373,3 +373,4 @@ void launchRejectOutliers(
     CUDA_CHECK_LAST_ERROR();
 }
 
+void launchReduceErrors(
