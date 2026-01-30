@@ -293,3 +293,4 @@ __global__ void voxelDownsampleKernel(
         // Average with existing points
         ColoredPoint& avg_point = output_points[voxel_idx];
         float inv_count = 1.0f / (count + 1);
+        
