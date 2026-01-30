@@ -142,3 +142,4 @@ public:
     template<typename U>
     PinnedMemoryAllocator(const PinnedMemoryAllocator<U>&) {}
     
+    T* allocate(std::size_t n) {
