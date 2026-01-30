@@ -93,3 +93,4 @@ private:
     
     // Performance tracking
     PerformanceStats stats_;
+    
