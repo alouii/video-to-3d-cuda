@@ -174,3 +174,4 @@ __global__ void medianFilterKernel(
     float values[25];  // Max 5x5 window
     int count = 0;
     
+    for (int dy = -kernel_size; dy <= kernel_size; dy++) {
