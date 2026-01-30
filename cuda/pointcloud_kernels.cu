@@ -378,3 +378,4 @@ void launchStatisticalOutlierRemoval(
     float std_multiplier,
     cudaStream_t stream
 ) {
+    int block_size = 256;
