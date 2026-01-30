@@ -135,3 +135,4 @@ int main(int argc, char** argv) {
     
     std::cout << "Pipeline initialized successfully." << std::endl;
     std::cout << "\nProcessing video..." << std::endl;
+    
