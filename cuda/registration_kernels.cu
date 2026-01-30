@@ -15,3 +15,4 @@ __global__ void findCorrespondencesKernel(
     float max_distance
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx >= num_source) return;
