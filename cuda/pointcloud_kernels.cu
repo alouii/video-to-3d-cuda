@@ -28,3 +28,4 @@ __global__ void depthToPointCloudKernel(
     // Filter invalid depths
     if (depth < min_depth || depth > max_depth || isnan(depth) || isinf(depth)) {
         return;
+    }
