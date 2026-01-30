@@ -327,3 +327,4 @@ void launchDepthToPointCloud(
     depthToPointCloudKernel<<<grid, block, 0, stream>>>(
         d_depth_map, d_rgb_image, d_points, d_valid_count,
         intrinsics, pose, min_depth, max_depth, width, height
+    );
