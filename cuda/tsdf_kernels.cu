@@ -340,3 +340,4 @@ void launchRaycastTSDF(
     const VoxelGridConfig& config,
     float truncation_distance,
     int width,
+    int height,
