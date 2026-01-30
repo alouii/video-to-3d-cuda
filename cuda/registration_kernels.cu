@@ -197,3 +197,4 @@ __global__ void rejectOutliersKernel(
     if (idx >= num_points) return;
     
     if (distances[idx] > max_distance) {
+        correspondences[idx] = -1;
