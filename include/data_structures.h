@@ -208,3 +208,4 @@ struct VoxelGridConfig {
 // Pipeline configuration
 struct PipelineConfig {
     // Video source
+    std::string video_source;
