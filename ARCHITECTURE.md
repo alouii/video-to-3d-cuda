@@ -124,3 +124,4 @@ struct TSDFVoxel {
 2. Identify zero-crossing edges
 3. Generate vertices via interpolation
 4. Triangulate based on lookup table
+5. Compute vertex normals
