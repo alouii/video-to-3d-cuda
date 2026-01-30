@@ -178,3 +178,4 @@ __global__ void computeNormalsKernel(
     if (nz > 0) {
         nx = -nx;
         ny = -ny;
+        nz = -nz;
