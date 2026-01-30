@@ -84,3 +84,4 @@ __global__ void computeCentroidKernel(
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     
     float sum_x = 0.0f, sum_y = 0.0f, sum_z = 0.0f;
+    
