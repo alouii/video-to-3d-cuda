@@ -156,3 +156,4 @@ struct TSDFVoxel {
                            │
                            v
                     ┌──────────────┐
+                    │  Upload to   │
