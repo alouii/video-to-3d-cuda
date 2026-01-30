@@ -224,3 +224,4 @@ struct PipelineConfig {
     
     // TSDF parameters
     VoxelGridConfig voxel_config;
+    
