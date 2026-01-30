@@ -386,3 +386,4 @@ void launchStatisticalOutlierRemoval(
         num_points, k_neighbors, std_multiplier
     );
     
+    CUDA_CHECK_LAST_ERROR();
