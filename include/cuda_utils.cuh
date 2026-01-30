@@ -93,3 +93,4 @@ private:
     
 public:
     CudaMemoryPool() : total_allocated_(0) {}
+    
