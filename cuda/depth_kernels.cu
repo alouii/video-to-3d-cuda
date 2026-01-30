@@ -184,3 +184,4 @@ __global__ void medianFilterKernel(
         }
     }
     
+    if (count == 0) {
