@@ -322,3 +322,4 @@ void launchComputeCovariance(
     const ColoredPoint* d_target_points,
     const int* d_correspondences,
     const float* d_source_centroid,
+    const float* d_target_centroid,
