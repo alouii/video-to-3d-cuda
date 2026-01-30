@@ -305,3 +305,4 @@ void launchSelectDisparity(
     float* d_disparity_map,
     int width,
     int height,
+    int max_disparity,
