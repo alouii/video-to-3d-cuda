@@ -75,3 +75,4 @@ Capture Thread → Frame Buffer → Processing Thread
 4. Transform source point cloud
 5. Repeat until convergence
 
+**Optimizations**:
