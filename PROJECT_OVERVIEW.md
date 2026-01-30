@@ -247,3 +247,4 @@ ctest --output-on-failure
 
 ## Documentation
 
+- `README.md`: User guide and quick start
