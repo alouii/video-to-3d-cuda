@@ -267,3 +267,4 @@ GPU Memory Layout:
 - CPU-GPU synchronization (solution: async streams)
 
 ## Extensibility
+
