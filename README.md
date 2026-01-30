@@ -30,3 +30,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 
 ### Software
 - Ubuntu 20.04+ or Windows 10+ with WSL2
+- CUDA Toolkit 11.0 or newer
