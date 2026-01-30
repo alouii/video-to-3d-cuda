@@ -27,3 +27,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Responsibility**: Convert RGB images to depth maps
 
+**Implementations**:
