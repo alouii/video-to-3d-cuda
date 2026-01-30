@@ -178,3 +178,4 @@ __global__ void computeAlignmentErrorKernel(
     
     const ColoredPoint& src = source_points[idx];
     const ColoredPoint& tgt = target_points[corr_idx];
+    
