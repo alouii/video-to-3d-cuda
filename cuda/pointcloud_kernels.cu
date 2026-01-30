@@ -75,3 +75,4 @@ __global__ void bilateralFilterDepthKernel(
     if (x >= width || y >= height) return;
     
     int center_idx = y * width + x;
+    float center_depth = input_depth[center_idx];
