@@ -56,3 +56,4 @@ public:
     
 private:
     void captureThread();
+    
