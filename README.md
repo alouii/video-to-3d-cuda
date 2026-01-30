@@ -311,3 +311,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 Contributions are welcome! Please:
 
 1. Fork the repository
+2. Create a feature branch
