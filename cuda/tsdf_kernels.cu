@@ -299,3 +299,4 @@ void launchIntegrateTSDF(
         (config.grid_dim_z + block.z - 1) / block.z
     );
     
+    integrateTSDFKernel<<<grid, block, 0, stream>>>(
