@@ -275,3 +275,4 @@ struct PerformanceStats {
         std::cout << "Frames Processed: " << frames_processed << std::endl;
         std::cout << "Average FPS: " << fps << std::endl;
         std::cout << "Frame Capture: " << frame_capture_time << " ms" << std::endl;
+        std::cout << "Depth Estimation: " << depth_estimation_time << " ms" << std::endl;
