@@ -60,3 +60,4 @@ private:
     bool estimateDepth();
     bool generatePointCloud();
     bool registerPointCloud();
+    bool fuseTSDF();
