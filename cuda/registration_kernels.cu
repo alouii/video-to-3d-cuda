@@ -298,3 +298,4 @@ void launchTransformPointCloud(
         d_input_points, d_output_points, num_points, pose
     );
     
+    CUDA_CHECK_LAST_ERROR();
