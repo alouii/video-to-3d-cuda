@@ -37,3 +37,4 @@ struct CameraIntrinsics {
 struct Pose {
     float rotation[9];     // 3x3 rotation matrix (row-major)
     float translation[3];  // 3D translation vector
+    double timestamp;      // Frame timestamp
