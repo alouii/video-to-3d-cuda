@@ -127,3 +127,4 @@ __global__ void computeNormalsKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x >= width - 1 || y >= height - 1 || x == 0 || y == 0) return;
+    
