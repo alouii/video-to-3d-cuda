@@ -136,3 +136,4 @@ void VideoCapture::captureThread() {
         
         // Capture frame
         cv::Mat frame;
+        if (!capture_.read(frame)) {
