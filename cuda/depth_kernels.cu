@@ -275,3 +275,4 @@ void launchCensusTransform(
     dim3 grid((width + block.x - 1) / block.x, (height + block.y - 1) / block.y);
     
     censusTransformKernel<<<grid, block, 0, stream>>>(
+        d_image, d_census, width, height, window_size
