@@ -116,3 +116,4 @@ __global__ void extractSurfacePointsKernel(
     
     int neighbors[6] = {
         voxel_idx + 1,  // x+1
+        voxel_idx - 1,  // x-1
