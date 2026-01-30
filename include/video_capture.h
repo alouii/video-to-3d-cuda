@@ -34,3 +34,4 @@ public:
     
     // Check if opened
     bool isOpened() const;
+    
