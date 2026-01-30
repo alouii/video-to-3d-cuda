@@ -55,3 +55,4 @@ public:
     void stop();
     
 private:
+    // Pipeline stages
