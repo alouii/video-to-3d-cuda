@@ -159,3 +159,4 @@ __global__ void computeNormalsKernel(
     
     float bx = dx - cx;
     float by = dy - cy;
+    float bz = dz - cz;
