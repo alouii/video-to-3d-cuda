@@ -265,3 +265,4 @@ inline void printDeviceInfo() {
     cudaDeviceProp prop;
     CUDA_CHECK(cudaGetDeviceProperties(&prop, device));
     
+    std::cout << "=== CUDA Device Info ===" << std::endl;
