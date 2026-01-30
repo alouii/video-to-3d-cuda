@@ -181,3 +181,4 @@ __global__ void medianFilterKernel(
             if (val > 0.0f) {
                 values[count++] = val;
             }
+        }
