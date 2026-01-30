@@ -57,3 +57,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.enable_mesh = true;
             }
         }
+        else if (arg == "--visualize") {
