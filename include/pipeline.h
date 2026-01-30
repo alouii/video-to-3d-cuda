@@ -5,3 +5,4 @@
 #include "video_capture.h"
 #include "cuda_utils.cuh"
 #include <memory>
+#include <vector>
