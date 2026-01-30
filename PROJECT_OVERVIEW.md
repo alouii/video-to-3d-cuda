@@ -140,3 +140,4 @@ video-to-3d-cuda/
 - [x] Coalesced memory access
 - [x] Occupancy optimization
 
+### 8. Infrastructure
