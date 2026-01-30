@@ -34,3 +34,4 @@ bool VideoCapture::open(const std::string& source) {
               << " @ " << fps_ << " FPS, " << total_frames_ << " frames" << std::endl;
     
     return true;
+}
