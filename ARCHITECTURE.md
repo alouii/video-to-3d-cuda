@@ -134,3 +134,4 @@ struct TSDFVoxel {
 
 **Responsibility**: Real-time display of results
 
+**Rendering Options**:
