@@ -134,3 +134,4 @@ video-to-3d-cuda/
 
 ### 7. Optimization
 - [x] CUDA memory pool
+- [x] Pinned memory allocators
