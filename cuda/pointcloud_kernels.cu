@@ -53,3 +53,4 @@ __global__ void depthToPointCloudKernel(
     ColoredPoint& pt = points[point_idx];
     pt.x = world_x;
     pt.y = world_y;
+    pt.z = world_z;
