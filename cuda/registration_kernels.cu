@@ -121,3 +121,4 @@ __global__ void computeCovarianceKernel(
     // Initialize shared memory
     for (int i = tid; i < 9; i += blockDim.x) {
         s_cov[i] = 0.0f;
+    }
