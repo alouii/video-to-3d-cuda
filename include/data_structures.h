@@ -212,3 +212,4 @@ struct PipelineConfig {
     int camera_id;
     bool use_camera;
     
+    // Processing
