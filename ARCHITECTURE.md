@@ -110,3 +110,4 @@ struct TSDFVoxel {
 
 **CUDA Kernels** (`tsdf_kernels.cu`):
 - `integrateTSDFKernel`: Volumetric fusion
+- `extractSurfacePointsKernel`: Zero-crossing detection
