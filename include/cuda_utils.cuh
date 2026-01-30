@@ -159,3 +159,4 @@ class DeviceBuffer {
 private:
     T* data_;
     size_t size_;
+    
