@@ -53,3 +53,4 @@ bool VideoCapture::open(int camera_id) {
     total_frames_ = -1;  // Unknown for camera
     
     std::cout << "Opened camera: " << width_ << "x" << height_ 
+              << " @ " << fps_ << " FPS" << std::endl;
