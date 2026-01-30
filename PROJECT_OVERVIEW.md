@@ -38,3 +38,4 @@ video-to-3d-cuda/
 │   ├── depth_estimator.cpp       # Depth estimation
 │   ├── point_cloud_generator.cpp # Point cloud generation
 │   ├── registration.cpp          # Registration (stub)
+│   ├── tsdf_fusion.cpp           # TSDF fusion (stub)
