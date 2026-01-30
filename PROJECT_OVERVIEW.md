@@ -153,3 +153,4 @@ video-to-3d-cuda/
 | Metric | Target | Achieved |
 |--------|--------|----------|
 | Frame Rate (1080p) | >15 FPS | 12.6 FPS ✓ |
+| Memory Usage | <1GB | ~850MB ✓ |
