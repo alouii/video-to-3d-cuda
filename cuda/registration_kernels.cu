@@ -32,3 +32,4 @@ __global__ void findCorrespondencesKernel(
         float dist = sqrtf(dx * dx + dy * dy + dz * dz);
         
         if (dist < min_dist) {
+            min_dist = dist;
