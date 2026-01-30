@@ -71,3 +71,4 @@ struct Pose {
     
     // Transform point
     inline void transform(float x, float y, float z, float& out_x, float& out_y, float& out_z) const {
+        out_x = rotation[0] * x + rotation[1] * y + rotation[2] * z + translation[0];
