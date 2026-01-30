@@ -242,3 +242,4 @@ __global__ void computePointToPlaneKernel(
 
 // Reduce errors to get total alignment error
 __global__ void reduceErrorsKernel(
+    const float* errors,
