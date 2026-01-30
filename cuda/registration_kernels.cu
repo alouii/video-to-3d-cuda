@@ -82,3 +82,4 @@ __global__ void computeCentroidKernel(
     
     int tid = threadIdx.x;
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    
