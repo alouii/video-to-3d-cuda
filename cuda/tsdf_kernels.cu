@@ -66,3 +66,4 @@ __global__ void integrateTSDFKernel(
     // Get voxel
     int voxel_idx = vx + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
     TSDFVoxel& voxel = voxel_grid[voxel_idx];
+    
