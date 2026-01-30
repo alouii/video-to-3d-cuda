@@ -301,3 +301,4 @@ Future versions will support:
 ## Testing Strategy
 
 1. **Unit Tests**: Test individual components
+2. **Integration Tests**: Test pipeline stages
