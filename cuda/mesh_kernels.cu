@@ -123,3 +123,4 @@ __global__ void generateMeshKernel(
         }
     }
     
+    // Generate triangles
