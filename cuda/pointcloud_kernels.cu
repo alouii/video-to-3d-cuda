@@ -74,3 +74,4 @@ __global__ void bilateralFilterDepthKernel(
     
     if (x >= width || y >= height) return;
     
+    int center_idx = y * width + x;
