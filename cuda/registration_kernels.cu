@@ -47,3 +47,4 @@ __global__ void transformPointCloudKernel(
     ColoredPoint* output_points,
     int num_points,
     const Pose pose
+) {
