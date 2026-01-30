@@ -60,3 +60,4 @@ __global__ void generateMeshKernel(
     const int* voxel_types,
     const int* voxel_offsets,
     ColoredPoint* vertices,
+    Triangle* triangles,
