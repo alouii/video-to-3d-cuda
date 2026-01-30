@@ -50,3 +50,4 @@ public:
     size_t getCurrentBufferCount() const;
     
     // Control
+    void start();
