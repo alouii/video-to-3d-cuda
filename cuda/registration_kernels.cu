@@ -222,3 +222,4 @@ __global__ void computePointToPlaneKernel(
     const ColoredPoint& src = source_points[idx];
     const ColoredPoint& tgt = target_points[corr_idx];
     
+    // Point-to-plane distance
