@@ -97,3 +97,4 @@ __global__ void bilateralFilterDepthKernel(
             float neighbor_depth = input_depth[neighbor_idx];
             
             if (neighbor_depth <= 0.0f || isnan(neighbor_depth)) continue;
+            
