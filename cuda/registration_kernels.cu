@@ -48,3 +48,4 @@ __global__ void transformPointCloudKernel(
     int num_points,
     const Pose pose
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
