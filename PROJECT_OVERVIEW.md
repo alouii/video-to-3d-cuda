@@ -177,3 +177,4 @@ video-to-3d-cuda/
    - Multiple CUDA streams
    - Async memory transfers
    - Concurrent kernel execution
+   - Host-device overlap
