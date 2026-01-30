@@ -77,3 +77,4 @@ private:
     std::unique_ptr<Visualizer> visualizer_;
     
     // Current frame data
+    VideoFrame current_frame_;
