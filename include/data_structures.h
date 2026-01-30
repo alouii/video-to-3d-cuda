@@ -122,3 +122,4 @@ struct PointCloud {
         has_normals = false;
         has_colors = false;
     }
+    
