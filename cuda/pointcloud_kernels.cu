@@ -52,3 +52,4 @@ __global__ void depthToPointCloudKernel(
     // Write point
     ColoredPoint& pt = points[point_idx];
     pt.x = world_x;
+    pt.y = world_y;
