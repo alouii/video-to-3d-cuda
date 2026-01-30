@@ -155,3 +155,4 @@ __global__ void computeNormalsKernel(
     // Compute tangent vectors
     float tx = rx - cx;
     float ty = ry - cy;
+    float tz = rz - cz;
