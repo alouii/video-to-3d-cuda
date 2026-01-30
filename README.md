@@ -324,3 +324,4 @@ MIT License - see LICENSE file
 If you use this project in your research, please cite:
 
 ```bibtex
+@software{video3dcuda2024,
