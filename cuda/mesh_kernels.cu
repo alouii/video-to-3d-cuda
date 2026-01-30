@@ -178,3 +178,4 @@ void launchClassifyVoxels(
         (config.grid_dim_z + block.z - 1) / block.z
     );
     
+    classifyVoxelsKernel<<<grid, block, 0, stream>>>(
