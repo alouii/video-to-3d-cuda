@@ -348,3 +348,4 @@ If you use this project in your research, please cite:
 
 - Issues: [GitHub Issues](https://github.com/alouii/video-to-3d-cuda/issues)
 - Email: aloui.lassaad@gmail.com
+
