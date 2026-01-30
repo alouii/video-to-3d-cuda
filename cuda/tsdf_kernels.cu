@@ -82,3 +82,4 @@ __global__ void integrateTSDFKernel(
         voxel.b = rgb_image[rgb_idx + 2];
     } else {
         // Weighted average
+        int rgb_idx = pixel_idx * 3;
