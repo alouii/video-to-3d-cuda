@@ -152,3 +152,4 @@ struct Mesh {
     void clear() {
         vertices.clear();
         triangles.clear();
+        has_normals = false;
