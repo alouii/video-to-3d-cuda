@@ -249,3 +249,4 @@ GPU Memory Layout:
 
 4. **Async Execution**
    - Multiple CUDA streams
+   - Concurrent kernel execution
