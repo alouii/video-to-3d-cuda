@@ -172,3 +172,4 @@ public:
             cudaFree(data_);
         }
     }
+    
