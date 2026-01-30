@@ -10,3 +10,4 @@
 #include <atomic>
 #include <memory>
 
+namespace v3d {
