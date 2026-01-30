@@ -78,3 +78,4 @@ __global__ void selectDisparityKernel(
             float offset = (c_prev - c_next) / denom;
             disparity += offset;
         }
+    }
