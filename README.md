@@ -70,3 +70,4 @@ cd video-to-3d-cuda
 # Create build directory
 mkdir build && cd build
 
+# Configure
