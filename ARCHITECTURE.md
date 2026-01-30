@@ -320,3 +320,4 @@ Future versions will support:
 - 16GB RAM
 
 **High-End** (60 FPS @ 1080p + Mesh):
+- RTX 3080 (10GB)
