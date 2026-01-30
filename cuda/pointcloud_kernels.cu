@@ -123,3 +123,4 @@ __global__ void computeNormalsKernel(
     int width,
     int height
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
