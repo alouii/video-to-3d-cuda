@@ -174,3 +174,4 @@ __global__ void computeNormalsKernel(
         nz /= length;
     }
     
+    // Ensure normal points towards camera
