@@ -275,3 +275,4 @@ inline void printDeviceInfo() {
     std::cout << "Warp Size: " << prop.warpSize << std::endl;
     std::cout << "=======================" << std::endl;
 }
+
