@@ -241,3 +241,4 @@ GPU Memory Layout:
    - Coalesced global memory access
    - Shared memory for neighborhood operations
    - Texture memory for interpolation
+
