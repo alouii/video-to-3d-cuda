@@ -72,3 +72,4 @@ __global__ void selectDisparityKernel(
         float c_prev = aggregated_cost[base_idx + best_d - 1];
         float c_curr = aggregated_cost[base_idx + best_d];
         float c_next = aggregated_cost[base_idx + best_d + 1];
+        
