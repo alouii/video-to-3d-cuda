@@ -7,3 +7,4 @@ __global__ void sgmCostAggregationKernel(
     float* aggregated_cost,
     int width,
     int height,
+    int max_disparity,
