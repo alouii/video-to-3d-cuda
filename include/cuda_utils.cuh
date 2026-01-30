@@ -143,3 +143,4 @@ public:
     PinnedMemoryAllocator(const PinnedMemoryAllocator<U>&) {}
     
     T* allocate(std::size_t n) {
+        T* ptr;
