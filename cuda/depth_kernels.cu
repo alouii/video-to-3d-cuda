@@ -140,3 +140,4 @@ __global__ void computeMatchingCostKernel(
     uint32_t left_val = left_census[left_idx];
     
     for (int d = 0; d < max_disparity && x - d >= 0; d++) {
+        int right_idx = y * width + (x - d);
