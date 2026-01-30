@@ -235,3 +235,4 @@ struct PipelineConfig {
     bool save_point_cloud;
     bool save_mesh;
     
+    PipelineConfig() 
