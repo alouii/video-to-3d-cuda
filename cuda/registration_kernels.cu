@@ -20,3 +20,4 @@ __global__ void findCorrespondencesKernel(
     const ColoredPoint& src = source_points[idx];
     
     float min_dist = max_distance;
+    int best_match = -1;
