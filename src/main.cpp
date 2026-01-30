@@ -43,3 +43,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.camera_id = std::stoi(argv[++i]);
                 config.use_camera = true;
             }
+        }
