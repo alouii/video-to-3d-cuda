@@ -298,3 +298,4 @@ void launchIntegrateTSDF(
         (config.grid_dim_y + block.y - 1) / block.y,
         (config.grid_dim_z + block.z - 1) / block.z
     );
+    
