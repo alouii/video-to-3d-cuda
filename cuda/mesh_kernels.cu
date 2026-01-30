@@ -128,3 +128,4 @@ __global__ void generateMeshKernel(
     
     for (int i = 0; d_triTable[cube_index][i] != -1; i += 3) {
         int edge0 = d_triTable[cube_index][i];
+        int edge1 = d_triTable[cube_index][i + 1];
