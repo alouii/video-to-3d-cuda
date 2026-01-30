@@ -250,3 +250,4 @@ __global__ void reduceErrorsKernel(
     
     int tid = threadIdx.x;
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    
