@@ -47,3 +47,4 @@ video-to-3d-cuda/
 │   ├── depth_kernels.cu          # Stereo matching, SGM
 │   ├── pointcloud_kernels.cu     # Depth-to-3D, filtering
 │   ├── registration_kernels.cu   # ICP, correspondence finding
+│   ├── tsdf_kernels.cu           # Volumetric fusion
