@@ -187,3 +187,4 @@ void launchClassifyVoxels(
 
 void launchGenerateMesh(
     const TSDFVoxel* d_voxel_grid,
+    const int* d_voxel_types,
