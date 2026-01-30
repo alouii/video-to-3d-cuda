@@ -224,3 +224,4 @@ __global__ void computePointToPlaneKernel(
     
     // Point-to-plane distance
     float dx = src.x - tgt.x;
+    float dy = src.y - tgt.y;
