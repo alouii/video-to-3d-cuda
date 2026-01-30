@@ -96,3 +96,4 @@ video-to-3d-cuda/
 
 ### 1. Video Processing
 - [x] Multi-threaded video capture
+- [x] Frame buffering with producer-consumer pattern
