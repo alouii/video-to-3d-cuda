@@ -30,3 +30,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         std::string arg = argv[i];
         
         if (arg == "-h" || arg == "--help") {
+            return false;
