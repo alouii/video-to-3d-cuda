@@ -117,3 +117,4 @@ struct PointCloud {
     
     PointCloud() : has_normals(false), has_colors(false) {}
     
+    void clear() {
