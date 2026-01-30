@@ -362,3 +362,4 @@ void launchRejectOutliers(
     int num_points,
     float max_distance,
     cudaStream_t stream
+) {
