@@ -238,3 +238,4 @@ GPU Memory Layout:
    - Balance registers and shared memory
 
 2. **Memory Access Patterns**
+   - Coalesced global memory access
