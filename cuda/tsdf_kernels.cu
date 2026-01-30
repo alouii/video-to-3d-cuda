@@ -347,3 +347,4 @@ void launchRaycastTSDF(
     dim3 grid((width + block.x - 1) / block.x, (height + block.y - 1) / block.y);
     
     raycastTSDFKernel<<<grid, block, 0, stream>>>(
+        d_voxel_grid, d_depth_map, d_normal_map,
