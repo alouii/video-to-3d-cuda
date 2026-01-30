@@ -68,3 +68,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.voxel_config.voxel_size = std::stof(argv[++i]);
             }
         }
+        else if (arg == "--max-frames") {
