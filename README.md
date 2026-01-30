@@ -17,3 +17,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
   - Bilateral depth filtering
   - Statistical outlier removal
   - Voxel downsampling
+- **Multi-threaded Architecture**: Separate threads for capture, processing, and visualization
