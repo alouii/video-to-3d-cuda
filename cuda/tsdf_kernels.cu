@@ -6,3 +6,4 @@ using namespace v3d;
 
 // TSDF integration kernel
 __global__ void integrateTSDFKernel(
+    TSDFVoxel* voxel_grid,
