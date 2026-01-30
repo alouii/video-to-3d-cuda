@@ -154,3 +154,4 @@ int main(int argc, char** argv) {
     // Print statistics
     pipeline.printStatistics();
     
+    // Export results
