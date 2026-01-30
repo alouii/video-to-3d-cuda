@@ -112,3 +112,4 @@ int main(int argc, char** argv) {
     if (!parseArguments(argc, argv, config)) {
         printUsage(argv[0]);
         return 0;
+    }
