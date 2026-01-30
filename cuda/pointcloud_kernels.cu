@@ -332,3 +332,4 @@ void launchDepthToPointCloud(
     CUDA_CHECK_LAST_ERROR();
 }
 
+void launchBilateralFilterDepth(
