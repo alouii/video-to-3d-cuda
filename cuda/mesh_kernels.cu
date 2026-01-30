@@ -116,3 +116,4 @@ __global__ void generateMeshKernel(
             edge_verts[i].x = positions[v0].x + t * (positions[v1].x - positions[v0].x);
             edge_verts[i].y = positions[v0].y + t * (positions[v1].y - positions[v0].y);
             edge_verts[i].z = positions[v0].z + t * (positions[v1].z - positions[v0].z);
+            
