@@ -252,3 +252,4 @@ ctest --output-on-failure
 - `docs/EXAMPLES.md`: Usage examples and patterns
 
 ## License
+
