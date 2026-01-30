@@ -26,3 +26,4 @@ public:
     ~VideoCapture();
     
     // Open video source
+    bool open(const std::string& source);
