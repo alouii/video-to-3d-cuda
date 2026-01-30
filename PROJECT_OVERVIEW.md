@@ -139,3 +139,4 @@ video-to-3d-cuda/
 - [x] Warp-level primitives
 - [x] Coalesced memory access
 - [x] Occupancy optimization
+
