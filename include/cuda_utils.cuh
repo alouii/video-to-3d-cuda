@@ -207,3 +207,4 @@ public:
         }
     }
     
+    void upload(const T* host_data, size_t count) {
