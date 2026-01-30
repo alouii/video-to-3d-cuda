@@ -296,3 +296,4 @@ __global__ void voxelDownsampleKernel(
         
         avg_point.x = (avg_point.x * count + point.x) * inv_count;
         avg_point.y = (avg_point.y * count + point.y) * inv_count;
+        avg_point.z = (avg_point.z * count + point.z) * inv_count;
