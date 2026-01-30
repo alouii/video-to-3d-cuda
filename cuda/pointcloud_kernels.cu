@@ -340,3 +340,4 @@ void launchBilateralFilterDepth(
     float sigma_space,
     float sigma_range,
     cudaStream_t stream
+) {
