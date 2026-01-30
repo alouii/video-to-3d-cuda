@@ -92,3 +92,4 @@ private:
     int frames_processed_;
     
     // Performance tracking
+    PerformanceStats stats_;
