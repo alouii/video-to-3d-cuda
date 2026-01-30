@@ -276,3 +276,4 @@ void launchCensusTransform(
     
     censusTransformKernel<<<grid, block, 0, stream>>>(
         d_image, d_census, width, height, window_size
+    );
