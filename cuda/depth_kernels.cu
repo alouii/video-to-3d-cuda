@@ -131,3 +131,4 @@ __global__ void computeMatchingCostKernel(
     int height,
     int max_disparity
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
