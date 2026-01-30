@@ -108,3 +108,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
         return !frame_buffer_.empty() || stop_requested_;
     });
     
+    if (frame_buffer_.empty()) {
