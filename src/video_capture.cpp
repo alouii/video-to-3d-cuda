@@ -180,3 +180,4 @@ int VideoCapture::getTotalFrames() const {
 void VideoCapture::setBufferSize(size_t size) {
     max_buffer_size_ = size;
 }
+
