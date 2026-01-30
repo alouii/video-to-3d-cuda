@@ -5,3 +5,4 @@
 #include <device_launch_parameters.h>
 #include <iostream>
 #include <memory>
+#include <stdexcept>
