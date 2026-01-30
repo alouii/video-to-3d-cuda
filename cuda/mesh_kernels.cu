@@ -199,3 +199,4 @@ void launchGenerateMesh(
     dim3 grid(
         (config.grid_dim_x + block.x - 1) / block.x,
         (config.grid_dim_y + block.y - 1) / block.y,
+        (config.grid_dim_z + block.z - 1) / block.z
