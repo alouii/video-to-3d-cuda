@@ -293,3 +293,4 @@ private:
 ### Plugin Architecture
 
 Future versions will support:
+- Depth estimation plugins
