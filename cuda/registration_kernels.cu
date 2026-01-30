@@ -104,3 +104,4 @@ __global__ void computeCentroidKernel(
 }
 
 // Compute cross-covariance matrix H for SVD-based ICP
+__global__ void computeCovarianceKernel(
