@@ -9,3 +9,4 @@ __global__ void integrateTSDFKernel(
     TSDFVoxel* voxel_grid,
     const float* depth_map,
     const uint8_t* rgb_image,
+    const CameraIntrinsics intrinsics,
