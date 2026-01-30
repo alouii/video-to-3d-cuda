@@ -153,3 +153,4 @@ __global__ void computeNormalsKernel(
     float dz = depth_down;
     
     // Compute tangent vectors
+    float tx = rx - cx;
