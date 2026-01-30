@@ -41,3 +41,4 @@ __global__ void findCorrespondencesKernel(
     distances[idx] = min_dist;
 }
 
+// Transform point cloud with pose
