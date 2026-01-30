@@ -52,3 +52,4 @@ public:
     // Control
     void pause();
     void resume();
+    void stop();
