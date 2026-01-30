@@ -254,3 +254,4 @@ __global__ void raycastTSDFKernel(
             
             if (vx < config.grid_dim_x - 1 && vx > 0) {
                 nx = (voxel_grid[idx_px].tsdf - voxel_grid[idx_mx].tsdf) / (2.0f * config.voxel_size);
+            }
