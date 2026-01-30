@@ -146,3 +146,4 @@ __global__ void computeCovarianceKernel(
             atomicAdd(&s_cov[3], src_y * tgt_x);
             atomicAdd(&s_cov[4], src_y * tgt_y);
             atomicAdd(&s_cov[5], src_y * tgt_z);
+            atomicAdd(&s_cov[6], src_z * tgt_x);
