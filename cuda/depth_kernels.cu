@@ -10,3 +10,4 @@ __global__ void sgmCostAggregationKernel(
     int max_disparity,
     float p1,
     float p2
+) {
