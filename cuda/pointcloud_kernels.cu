@@ -254,3 +254,4 @@ __global__ void statisticalOutlierRemovalKernel(
 }
 
 // Voxel downsampling
+__global__ void voxelDownsampleKernel(
