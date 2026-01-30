@@ -83,3 +83,4 @@ void VideoCapture::start() {
 
 void VideoCapture::stop() {
     if (!running_) {
+        return;
