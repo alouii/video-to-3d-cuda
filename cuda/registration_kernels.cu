@@ -357,3 +357,4 @@ void launchComputeAlignmentError(
 }
 
 void launchRejectOutliers(
+    const float* d_distances,
