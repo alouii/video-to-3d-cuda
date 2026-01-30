@@ -34,3 +34,4 @@ __global__ void sgmCostAggregationKernel(
         if (d < max_disparity - 1) prev_adj = fminf(prev_adj, aggregated_cost[prev_idx + d + 1] + p1);
         
         float path_cost = fminf(prev_same, fminf(prev_adj, min_prev + p2));
+        aggregated_cost[idx] = cost_volume[idx] + path_cost - min_prev;
