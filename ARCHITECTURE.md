@@ -186,3 +186,4 @@ struct TSDFVoxel {
                     v
              ┌──────────────┐
              │     TSDF     │
+             │    Fusion    │
