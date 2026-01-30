@@ -104,3 +104,4 @@ __global__ void censusTransformKernel(
     
     uint32_t census_val = 0;
     int bit = 0;
+    
