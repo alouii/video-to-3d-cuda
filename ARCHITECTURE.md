@@ -40,3 +40,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **CUDA Kernels** (`depth_kernels.cu`):
 - `censusTransformKernel`: Compute census transform
 - `computeMatchingCostKernel`: Calculate matching costs
+- `sgmCostAggregationKernel`: SGM path aggregation
