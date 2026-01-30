@@ -13,3 +13,4 @@
 namespace v3d {
 
 struct VideoFrame {
+    cv::Mat rgb_image;
