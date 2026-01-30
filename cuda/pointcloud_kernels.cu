@@ -393,3 +393,4 @@ void launchVoxelDownsample(
     const ColoredPoint* d_input_points,
     ColoredPoint* d_output_points,
     int* d_voxel_counts,
+    int num_points,
