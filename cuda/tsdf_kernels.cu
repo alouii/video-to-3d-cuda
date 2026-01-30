@@ -336,3 +336,4 @@ void launchRaycastTSDF(
     float* d_depth_map,
     uint8_t* d_normal_map,
     const CameraIntrinsics& intrinsics,
+    const Pose& pose,
