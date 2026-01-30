@@ -167,3 +167,4 @@ __global__ void computeNormalsKernel(
     float nz = tx * by - ty * bx;
     
     // Normalize
+    float length = sqrtf(nx * nx + ny * ny + nz * nz);
