@@ -195,3 +195,4 @@ struct TSDFVoxel {
 ┌──────────────┐         ┌──────────────┐
 │    Mesh      │         │   Visualize  │
 │  Generation  │         │   (OpenGL)   │
+│   (CUDA)     │         │              │
