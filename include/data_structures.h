@@ -233,3 +233,4 @@ struct PipelineConfig {
     // Output
     std::string output_dir;
     bool save_point_cloud;
+    bool save_mesh;
