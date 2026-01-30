@@ -275,3 +275,4 @@ public:
         // Run inference
         return true;
     }
+};
