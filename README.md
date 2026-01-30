@@ -194,3 +194,4 @@ All compute-intensive operations are GPU-accelerated:
 | TSDF Fusion         | 15        | 67 FPS     |
 | Visualization       | 16        | 62 FPS     |
 | **Total Pipeline**  | **79**    | **12.6 FPS** |
+
