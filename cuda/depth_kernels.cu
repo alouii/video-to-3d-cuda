@@ -245,3 +245,4 @@ __global__ void disparityToDepthKernel(
     float baseline,
     float focal_length
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
