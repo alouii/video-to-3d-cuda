@@ -59,3 +59,4 @@ private:
     bool captureFrame();
     bool estimateDepth();
     bool generatePointCloud();
+    bool registerPointCloud();
