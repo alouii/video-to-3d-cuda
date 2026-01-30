@@ -63,3 +63,4 @@ private:
     size_t max_buffer_size_;
     
     std::thread capture_thread_;
+    std::mutex buffer_mutex_;
