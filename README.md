@@ -155,3 +155,4 @@ All compute-intensive operations are GPU-accelerated:
    - Cost aggregation (SGM)
    - Disparity selection with subpixel refinement
    
+2. **Point Cloud Generation** (`pointcloud_kernels.cu`)
