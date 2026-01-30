@@ -79,3 +79,4 @@ __global__ void bilateralFilterDepthKernel(
     
     if (center_depth <= 0.0f || isnan(center_depth)) {
         output_depth[center_idx] = center_depth;
+        return;
