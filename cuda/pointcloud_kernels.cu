@@ -14,3 +14,4 @@ __global__ void depthToPointCloudKernel(
     const Pose pose,
     float min_depth,
     float max_depth,
+    int width,
