@@ -68,3 +68,4 @@ private:
     PipelineConfig config_;
     
     // Components
+    std::unique_ptr<VideoCapture> video_capture_;
