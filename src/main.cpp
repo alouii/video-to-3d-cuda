@@ -5,3 +5,4 @@
 #include <string>
 #include <chrono>
 
+void printUsage(const char* program_name) {
