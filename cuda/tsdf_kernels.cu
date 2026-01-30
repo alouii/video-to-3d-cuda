@@ -122,3 +122,4 @@ __global__ void extractSurfacePointsKernel(
         voxel_idx + config.grid_dim_x * config.grid_dim_y,  // z+1
         voxel_idx - config.grid_dim_x * config.grid_dim_y   // z-1
     };
+    
