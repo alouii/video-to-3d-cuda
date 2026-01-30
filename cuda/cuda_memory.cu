@@ -5,3 +5,4 @@
 namespace cuda_utils {
     static CudaMemoryPool g_memory_pool;
 }
+
