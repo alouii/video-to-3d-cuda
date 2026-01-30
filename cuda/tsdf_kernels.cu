@@ -229,3 +229,4 @@ __global__ void raycastTSDFKernel(
         
         prev_tsdf = voxel.tsdf;
         
+        // Adaptive step size based on TSDF value
