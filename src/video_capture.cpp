@@ -137,3 +137,4 @@ void VideoCapture::captureThread() {
         // Capture frame
         cv::Mat frame;
         if (!capture_.read(frame)) {
+            std::cout << "End of video or capture error." << std::endl;
