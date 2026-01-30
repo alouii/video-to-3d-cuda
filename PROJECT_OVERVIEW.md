@@ -146,3 +146,4 @@ video-to-3d-cuda/
 - [x] RAII memory management
 - [x] Performance statistics
 - [x] Unit tests framework
+- [x] Documentation
