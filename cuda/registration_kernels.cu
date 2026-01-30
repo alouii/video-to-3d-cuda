@@ -379,3 +379,4 @@ void launchReduceErrors(
     int num_points,
     cudaStream_t stream
 ) {
+    int block_size = 256;
