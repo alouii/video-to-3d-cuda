@@ -20,3 +20,4 @@ video-to-3d-cuda/
 ├── README.md                      # User documentation
 │
 ├── include/                       # Public headers
+│   ├── cuda_utils.cuh            # CUDA utilities and memory management
