@@ -17,3 +17,4 @@ struct VideoFrame {
     double timestamp;
     int frame_index;
     
+    VideoFrame() : timestamp(0.0), frame_index(0) {}
