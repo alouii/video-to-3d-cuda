@@ -161,3 +161,4 @@ __global__ void raycastTSDFKernel(
     float truncation_distance,
     int width,
     int height
+) {
