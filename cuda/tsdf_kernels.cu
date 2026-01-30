@@ -95,3 +95,4 @@ __global__ void extractSurfacePointsKernel(
     const TSDFVoxel* voxel_grid,
     ColoredPoint* points,
     int* point_count,
+    const VoxelGridConfig config,
