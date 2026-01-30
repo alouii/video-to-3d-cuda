@@ -211,3 +211,4 @@ GPU Memory Layout:
 ├── Point Cloud Buffer (200 MB)
 │   └── Colored Points with Normals
 ├── TSDF Volume (500 MB)
+│   └── 512³ voxel grid
