@@ -55,3 +55,4 @@ struct Pose {
                 R(i, j) = rotation[i * 3 + j];
         return R;
     }
+    
