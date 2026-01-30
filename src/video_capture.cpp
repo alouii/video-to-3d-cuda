@@ -92,3 +92,4 @@ void VideoCapture::stop() {
     if (capture_thread_.joinable()) {
         capture_thread_.join();
     }
+    
