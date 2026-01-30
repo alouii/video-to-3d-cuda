@@ -108,3 +108,4 @@ video-to-3d-cuda/
 - [x] Integration point for monocular models
 
 ### 3. Point Cloud Generation
+- [x] GPU-accelerated back-projection
