@@ -49,3 +49,4 @@ __global__ void depthToPointCloudKernel(
     // Atomic increment to get unique index
     int point_idx = atomicAdd(valid_count, 1);
     
+    // Write point
