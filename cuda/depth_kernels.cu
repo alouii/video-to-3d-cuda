@@ -113,3 +113,4 @@ __global__ void censusTransformKernel(
             int ny = y + dy;
             int neighbor_idx = ny * width + nx;
             
+            if (image[neighbor_idx] >= center_val) {
