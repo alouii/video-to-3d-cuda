@@ -40,3 +40,4 @@ public:
     // Get results
     PointCloud getPointCloud() const;
     Mesh getMesh() const;
+    
