@@ -123,3 +123,4 @@ __global__ void computeCovarianceKernel(
         s_cov[i] = 0.0f;
     }
     __syncthreads();
+    
