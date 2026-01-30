@@ -226,3 +226,4 @@ __global__ void raycastTSDFKernel(
             found_surface = true;
             break;
         }
+        
