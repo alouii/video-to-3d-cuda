@@ -262,3 +262,4 @@ __global__ void disparityToDepthKernel(
 
 // C++ interface
 extern "C" {
+
