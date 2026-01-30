@@ -47,3 +47,4 @@ __global__ void depthToPointCloudKernel(
     uint8_t b = rgb_image[rgb_idx + 2];
     
     // Atomic increment to get unique index
+    int point_idx = atomicAdd(valid_count, 1);
