@@ -68,3 +68,4 @@ __global__ void integrateTSDFKernel(
     TSDFVoxel& voxel = voxel_grid[voxel_idx];
     
     // Running average
+    float old_weight = voxel.weight;
