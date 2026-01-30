@@ -323,3 +323,4 @@ void launchDisparityToDepth(
     float* d_depth_map,
     int width,
     int height,
+    float baseline,
