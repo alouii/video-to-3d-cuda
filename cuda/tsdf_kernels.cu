@@ -111,3 +111,4 @@ __global__ void extractSurfacePointsKernel(
     if (voxel.weight < weight_threshold) return;
     if (fabsf(voxel.tsdf) > 0.5f) return;
     
+    // Check neighbors for zero crossing
