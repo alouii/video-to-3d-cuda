@@ -266,3 +266,4 @@ __global__ void voxelDownsampleKernel(
     int grid_dim_x,
     int grid_dim_y,
     int grid_dim_z
+) {
