@@ -145,3 +145,4 @@ __global__ void computeMatchingCostKernel(
         
         // Hamming distance
         uint32_t xor_val = left_val ^ right_val;
+        int hamming = __popc(xor_val);  // Population count
