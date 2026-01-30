@@ -145,3 +145,4 @@ void VideoCapture::captureThread() {
         
         // Create video frame
         VideoFrame video_frame;
+        video_frame.rgb_image = frame.clone();
