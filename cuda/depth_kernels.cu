@@ -84,3 +84,4 @@ __global__ void selectDisparityKernel(
 }
 
 // Compute matching cost (Census transform + Hamming distance)
+__global__ void censusTransformKernel(
