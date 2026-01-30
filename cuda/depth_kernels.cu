@@ -95,3 +95,4 @@ __global__ void censusTransformKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x < window_size || x >= width - window_size ||
+        y < window_size || y >= height - window_size) {
