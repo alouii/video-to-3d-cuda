@@ -32,3 +32,4 @@ struct CameraIntrinsics {
         v = static_cast<int>(fy * y / z + cy);
     }
 };
+
