@@ -232,3 +232,4 @@ video-to-3d-cuda/
    - Further kernel optimization
    - Batch processing mode
 
+4. **Integrations**
