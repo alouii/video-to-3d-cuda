@@ -126,3 +126,4 @@ void VideoCapture::captureThread() {
         {
             std::unique_lock<std::mutex> lock(buffer_mutex_);
             buffer_cv_.wait(lock, [this] {
+                return frame_buffer_.size() < max_buffer_size_ || stop_requested_;
