@@ -8,3 +8,4 @@ namespace cuda_utils {
 
 extern "C" {
 
+void* cudaAllocateFromPool(size_t size) {
