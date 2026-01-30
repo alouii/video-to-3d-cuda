@@ -176,3 +176,4 @@ __global__ void computeAlignmentErrorKernel(
         return;
     }
     
+    const ColoredPoint& src = source_points[idx];
