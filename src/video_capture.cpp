@@ -86,3 +86,4 @@ void VideoCapture::stop() {
         return;
     }
     
+    stop_requested_ = true;
