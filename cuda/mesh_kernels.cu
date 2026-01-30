@@ -100,3 +100,4 @@ __global__ void generateMeshKernel(
     uint3 edge_colors[12];
     
     for (int i = 0; i < 12; i++) {
+        if (d_edgeTable[cube_index] & (1 << i)) {
