@@ -146,3 +146,4 @@ struct TSDFVoxel {
 ┌─────────────┐
 │   Video     │
 │   Input     │
+└──────┬──────┘
