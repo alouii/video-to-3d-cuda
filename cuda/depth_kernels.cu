@@ -244,3 +244,4 @@ __global__ void disparityToDepthKernel(
     int height,
     float baseline,
     float focal_length
+) {
