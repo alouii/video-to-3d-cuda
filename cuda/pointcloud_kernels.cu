@@ -109,3 +109,4 @@ __global__ void bilateralFilterDepthKernel(
             float weight = spatial_weight * range_weight;
             sum_weights += weight;
             sum_values += weight * neighbor_depth;
+        }
