@@ -291,3 +291,4 @@ __global__ void voxelDownsampleKernel(
         output_points[voxel_idx] = point;
     } else {
         // Average with existing points
+        ColoredPoint& avg_point = output_points[voxel_idx];
