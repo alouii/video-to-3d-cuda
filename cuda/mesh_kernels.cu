@@ -87,3 +87,4 @@ __global__ void generateMeshKernel(
         
         int corner_idx = (vx + dx) + (vy + dy) * config.grid_dim_x + (vz + dz) * config.grid_dim_x * config.grid_dim_y;
         const TSDFVoxel& corner_voxel = voxel_grid[corner_idx];
+        
