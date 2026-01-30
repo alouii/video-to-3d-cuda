@@ -234,3 +234,4 @@ public:
         CUDA_CHECK(cudaStreamCreate(&stream_));
     }
     
+    ~CudaStream() {
