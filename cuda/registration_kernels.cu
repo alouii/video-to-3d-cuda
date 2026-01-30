@@ -270,3 +270,4 @@ void launchFindCorrespondences(
     float* d_distances,
     int num_source,
     int num_target,
+    float max_distance,
