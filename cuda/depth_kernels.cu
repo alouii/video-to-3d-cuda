@@ -312,3 +312,4 @@ void launchSelectDisparity(
     dim3 grid((width + block.x - 1) / block.x, (height + block.y - 1) / block.y);
     
     selectDisparityKernel<<<grid, block, 0, stream>>>(
+        d_aggregated_cost, d_disparity_map, width, height, max_disparity
