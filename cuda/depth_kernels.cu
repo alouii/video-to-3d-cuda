@@ -70,3 +70,4 @@ __global__ void selectDisparityKernel(
     float disparity = static_cast<float>(best_d);
     if (best_d > 0 && best_d < max_disparity - 1) {
         float c_prev = aggregated_cost[base_idx + best_d - 1];
+        float c_curr = aggregated_cost[base_idx + best_d];
