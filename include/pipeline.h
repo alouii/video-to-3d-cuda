@@ -85,3 +85,4 @@ private:
     PointCloud accumulated_pointcloud_;
     Mesh final_mesh_;
     
+    // State
