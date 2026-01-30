@@ -117,3 +117,4 @@ int main(int argc, char** argv) {
     // Validate configuration
     if (!config.use_camera && config.video_source.empty()) {
         std::cerr << "Error: No input source specified. Use -i or -c option." << std::endl;
+        printUsage(argv[0]);
