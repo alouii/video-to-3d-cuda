@@ -151,3 +151,4 @@ __global__ void computeCovarianceKernel(
             atomicAdd(&s_cov[8], src_z * tgt_z);
         }
     }
+    __syncthreads();
