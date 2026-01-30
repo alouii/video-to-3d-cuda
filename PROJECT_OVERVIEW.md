@@ -48,3 +48,4 @@ video-to-3d-cuda/
 │   ├── pointcloud_kernels.cu     # Depth-to-3D, filtering
 │   ├── registration_kernels.cu   # ICP, correspondence finding
 │   ├── tsdf_kernels.cu           # Volumetric fusion
+│   ├── mesh_kernels.cu           # Marching Cubes
