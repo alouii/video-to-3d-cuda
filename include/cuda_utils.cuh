@@ -272,3 +272,4 @@ inline void printDeviceInfo() {
     std::cout << "Shared Memory Per Block: " << prop.sharedMemPerBlock / 1024 << " KB" << std::endl;
     std::cout << "Max Threads Per Block: " << prop.maxThreadsPerBlock << std::endl;
     std::cout << "Multiprocessors: " << prop.multiProcessorCount << std::endl;
+    std::cout << "Warp Size: " << prop.warpSize << std::endl;
