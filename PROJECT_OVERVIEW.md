@@ -101,3 +101,4 @@ video-to-3d-cuda/
 - [x] Camera and file input support
 
 ### 2. Depth Estimation
+- [x] Stereo matching with Census transform
