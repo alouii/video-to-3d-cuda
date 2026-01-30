@@ -21,3 +21,4 @@ VideoCapture::~VideoCapture() {
 
 bool VideoCapture::open(const std::string& source) {
     if (!capture_.open(source)) {
+        std::cerr << "Error: Could not open video file: " << source << std::endl;
