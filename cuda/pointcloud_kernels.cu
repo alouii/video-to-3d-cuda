@@ -99,3 +99,4 @@ __global__ void bilateralFilterDepthKernel(
             if (neighbor_depth <= 0.0f || isnan(neighbor_depth)) continue;
             
             // Spatial weight
+            float spatial_dist = sqrtf(dx * dx + dy * dy);
