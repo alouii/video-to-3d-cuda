@@ -217,3 +217,4 @@ video-to-3d-cuda/
 
 1. **Complete Stub Implementations**
    - Full registration.cpp
+   - Full tsdf_fusion.cpp
