@@ -193,3 +193,4 @@ __global__ void rejectOutliersKernel(
     int num_points,
     float max_distance
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
