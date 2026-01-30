@@ -108,3 +108,4 @@ struct DepthFrame {
         // Note: Memory management handled by pipeline
     }
 };
+
