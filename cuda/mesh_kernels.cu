@@ -13,3 +13,4 @@ __global__ void classifyVoxelsKernel(
     const TSDFVoxel* voxel_grid,
     int* voxel_types,
     int* voxel_vertices,
+    const VoxelGridConfig config,
