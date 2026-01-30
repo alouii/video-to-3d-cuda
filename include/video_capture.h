@@ -49,3 +49,4 @@ public:
     size_t getBufferSize() const;
     size_t getCurrentBufferCount() const;
     
+    // Control
