@@ -402,3 +402,4 @@ void launchVoxelDownsample(
     int grid_dim_y,
     int grid_dim_z,
     cudaStream_t stream
+) {
