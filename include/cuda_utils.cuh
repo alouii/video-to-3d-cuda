@@ -86,3 +86,4 @@ private:
         void* ptr;
         size_t size;
         bool in_use;
+    };
