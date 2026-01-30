@@ -397,3 +397,4 @@ void launchVoxelDownsample(
     float voxel_size,
     float min_x,
     float min_y,
+    float min_z,
