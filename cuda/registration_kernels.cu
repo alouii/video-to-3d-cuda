@@ -213,3 +213,4 @@ __global__ void computePointToPlaneKernel(
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= num_points) return;
     
+    int corr_idx = correspondences[idx];
