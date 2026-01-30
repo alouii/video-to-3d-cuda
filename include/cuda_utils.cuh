@@ -180,3 +180,4 @@ public:
         other.size_ = 0;
     }
     
+    DeviceBuffer& operator=(DeviceBuffer&& other) noexcept {
