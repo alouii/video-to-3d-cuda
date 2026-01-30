@@ -195,3 +195,4 @@ public:
     DeviceBuffer(const DeviceBuffer&) = delete;
     DeviceBuffer& operator=(const DeviceBuffer&) = delete;
     
+    void resize(size_t new_size) {
