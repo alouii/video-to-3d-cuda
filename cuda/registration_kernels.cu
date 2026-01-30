@@ -167,3 +167,4 @@ __global__ void computeAlignmentErrorKernel(
     float* errors,
     int num_points
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
