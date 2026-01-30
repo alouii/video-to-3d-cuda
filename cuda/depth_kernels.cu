@@ -130,3 +130,4 @@ __global__ void computeMatchingCostKernel(
     int width,
     int height,
     int max_disparity
+) {
