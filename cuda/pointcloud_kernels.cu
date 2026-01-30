@@ -303,3 +303,4 @@ __global__ void voxelDownsampleKernel(
         avg_point.g = static_cast<uint8_t>((avg_point.g * count + point.g) * inv_count);
         avg_point.b = static_cast<uint8_t>((avg_point.b * count + point.b) * inv_count);
     }
+}
