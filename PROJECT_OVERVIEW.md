@@ -144,3 +144,4 @@ video-to-3d-cuda/
 - [x] CMake build system
 - [x] Comprehensive error handling
 - [x] RAII memory management
+- [x] Performance statistics
