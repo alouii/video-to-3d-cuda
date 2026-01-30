@@ -314,3 +314,4 @@ void launchExtractSurfacePoints(
     ColoredPoint* d_points,
     int* d_point_count,
     const VoxelGridConfig& config,
+    float weight_threshold,
