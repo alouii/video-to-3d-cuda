@@ -155,3 +155,4 @@ __global__ void generateMeshKernel(
         
         // Add triangle
         triangles[(base_vertex + i) / 3].v0 = base_vertex + i;
+        triangles[(base_vertex + i) / 3].v1 = base_vertex + i + 1;
