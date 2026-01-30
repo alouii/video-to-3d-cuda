@@ -327,3 +327,4 @@ If you use this project in your research, please cite:
 @software{video3dcuda2024,
   title={Video to 3D Point Cloud Reconstruction with CUDA},
   author={Lassaad Aloui},
+  year={2026},
