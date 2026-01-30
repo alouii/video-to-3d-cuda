@@ -253,3 +253,4 @@ __global__ void disparityToDepthKernel(
     int idx = y * width + x;
     float disparity = disparity_map[idx];
     
+    if (disparity > 0.0f) {
