@@ -44,3 +44,4 @@ public:
     double getFPS() const;
     int getTotalFrames() const;
     
+    // Buffer management
