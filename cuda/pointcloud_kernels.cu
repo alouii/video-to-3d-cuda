@@ -364,3 +364,4 @@ void launchComputeNormals(
     
     computeNormalsKernel<<<grid, block, 0, stream>>>(
         d_depth_map, d_points, intrinsics, width, height
+    );
