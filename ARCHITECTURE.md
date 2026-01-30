@@ -6,3 +6,4 @@ The Video to 3D Point Cloud Reconstruction system is designed as a modular, GPU-
 
 ## Core Components
 
+### 1. Video Capture (`video_capture.h/cpp`)
