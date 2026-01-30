@@ -216,3 +216,4 @@ config.video_source = "input.mp4";
 config.enable_fusion = true;
 config.enable_visualization = true;
 
+// Initialize pipeline
