@@ -184,3 +184,4 @@ __global__ void computeAlignmentErrorKernel(
     float dz = src.z - tgt.z;
     
     errors[idx] = dx * dx + dy * dy + dz * dz;
+}
