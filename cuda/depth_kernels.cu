@@ -110,3 +110,4 @@ __global__ void censusTransformKernel(
             if (dx == 0 && dy == 0) continue;
             
             int nx = x + dx;
+            int ny = y + dy;
