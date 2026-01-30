@@ -40,3 +40,4 @@ models/
 *.tmp
 temp/
 
+# OS files
