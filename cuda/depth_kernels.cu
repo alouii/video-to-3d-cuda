@@ -111,3 +111,4 @@ __global__ void censusTransformKernel(
             
             int nx = x + dx;
             int ny = y + dy;
+            int neighbor_idx = ny * width + nx;
