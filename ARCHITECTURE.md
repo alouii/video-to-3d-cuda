@@ -57,3 +57,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **CUDA Kernels** (`pointcloud_kernels.cu`):
 - `depthToPointCloudKernel`: Parallel back-projection
+- `bilateralFilterDepthKernel`: Edge-preserving smoothing
