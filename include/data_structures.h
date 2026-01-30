@@ -256,3 +256,4 @@ struct PerformanceStats {
     int frames_processed;
     double fps;
     
+    PerformanceStats() { reset(); }
