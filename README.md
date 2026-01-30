@@ -243,3 +243,4 @@ pipeline.process()
 
 point_cloud = pipeline.get_point_cloud()
 point_cloud.save("output.ply")
+```
