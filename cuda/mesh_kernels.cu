@@ -99,3 +99,4 @@ __global__ void generateMeshKernel(
     float3 edge_verts[12];
     uint3 edge_colors[12];
     
+    for (int i = 0; i < 12; i++) {
