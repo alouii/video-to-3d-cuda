@@ -135,3 +135,4 @@ public:
 template<typename T>
 class PinnedMemoryAllocator {
 public:
+    using value_type = T;
