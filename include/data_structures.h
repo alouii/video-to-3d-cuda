@@ -56,3 +56,4 @@ struct Pose {
         return R;
     }
     
+    Eigen::Vector3f getTranslationVector() const {
