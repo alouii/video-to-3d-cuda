@@ -120,3 +120,4 @@ public:
     }
     
     void deallocate(void* ptr) {
+        for (auto& block : blocks_) {
