@@ -171,3 +171,4 @@ __global__ void raycastTSDFKernel(
     float ray_dir_x = (u - intrinsics.cx) / intrinsics.fx;
     float ray_dir_y = (v - intrinsics.cy) / intrinsics.fy;
     float ray_dir_z = 1.0f;
+    
