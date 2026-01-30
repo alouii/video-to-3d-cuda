@@ -19,3 +19,4 @@ cmake .. \
 
 # Build
 echo "Building..."
+make -j$(nproc)
