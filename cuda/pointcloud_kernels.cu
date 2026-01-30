@@ -120,3 +120,4 @@ __global__ void computeNormalsKernel(
     const float* depth_map,
     ColoredPoint* points,
     const CameraIntrinsics intrinsics,
+    int width,
