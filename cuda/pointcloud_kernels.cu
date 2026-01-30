@@ -172,3 +172,4 @@ __global__ void computeNormalsKernel(
         nx /= length;
         ny /= length;
         nz /= length;
+    }
