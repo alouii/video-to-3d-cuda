@@ -28,3 +28,4 @@ __global__ void classifyVoxelsKernel(
     float corners[8];
     int cube_index = 0;
     
+    for (int i = 0; i < 8; i++) {
