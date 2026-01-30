@@ -259,3 +259,4 @@ __global__ void reduceErrorsKernel(
         atomicAdd(total_error, error);
     }
 }
+
