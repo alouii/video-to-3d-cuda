@@ -32,3 +32,4 @@ unit_tests
 *.bin
 *.pcd
 *.ply
+data/
