@@ -21,3 +21,4 @@ cmake .. \
 echo "Building..."
 make -j$(nproc)
 
+echo "Build complete!"
