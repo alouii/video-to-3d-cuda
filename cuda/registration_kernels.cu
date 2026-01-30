@@ -18,3 +18,4 @@ __global__ void findCorrespondencesKernel(
     if (idx >= num_source) return;
     
     const ColoredPoint& src = source_points[idx];
+    
