@@ -84,3 +84,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `findCorrespondencesKernel`: Brute-force NN search
 - `computeCentroidKernel`: Parallel mean calculation
 - `computeCovarianceKernel`: Cross-covariance matrix
+- `transformPointCloudKernel`: Apply rigid transformation
