@@ -165,3 +165,4 @@ All compute-intensive operations are GPU-accelerated:
    - ICP transformation estimation
    - Point cloud transformation
    
+4. **TSDF Fusion** (`tsdf_kernels.cu`)
