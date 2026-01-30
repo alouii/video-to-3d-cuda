@@ -281,3 +281,4 @@ public:
     
     bool estimateDepth(const cv::Mat& rgb, DepthFrame& depth) override {
         // Run inference
+        engine_->execute(rgb.data, depth_map.data);
