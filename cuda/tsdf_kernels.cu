@@ -234,3 +234,4 @@ __global__ void raycastTSDFKernel(
     }
     
     int pixel_idx = v * width + u;
+    
