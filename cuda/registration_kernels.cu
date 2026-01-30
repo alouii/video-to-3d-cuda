@@ -223,3 +223,4 @@ __global__ void computePointToPlaneKernel(
     const ColoredPoint& tgt = target_points[corr_idx];
     
     // Point-to-plane distance
+    float dx = src.x - tgt.x;
