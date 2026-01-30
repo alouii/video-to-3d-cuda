@@ -249,3 +249,4 @@ struct PerformanceStats {
     double depth_estimation_time;
     double pointcloud_generation_time;
     double registration_time;
+    double fusion_time;
