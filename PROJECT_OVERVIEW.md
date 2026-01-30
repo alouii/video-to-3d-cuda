@@ -207,3 +207,4 @@ video-to-3d-cuda/
 
 ## Code Quality
 
+- **Modern C++17**: Smart pointers, RAII, move semantics
