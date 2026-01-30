@@ -79,3 +79,4 @@ private:
     // Current frame data
     VideoFrame current_frame_;
     DepthFrame current_depth_frame_;
+    PointCloud current_pointcloud_;
