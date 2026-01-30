@@ -12,3 +12,4 @@ target_link_libraries(benchmark video3d_cuda ${OpenCV_LIBS} ${CUDA_LIBRARIES} Ei
 
 # Add tests
 add_test(NAME DepthEstimation COMMAND test_depth)
+add_test(NAME Registration COMMAND test_registration)
