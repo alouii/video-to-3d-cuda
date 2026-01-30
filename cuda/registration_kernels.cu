@@ -230,3 +230,4 @@ __global__ void computePointToPlaneKernel(
     residuals[idx] = dx * tgt.nx + dy * tgt.ny + dz * tgt.nz;
     
     // Jacobian for point-to-plane
+    // J = [n^T, (p x n)^T] where p is source point, n is target normal
