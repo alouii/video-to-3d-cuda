@@ -217,3 +217,4 @@ __global__ void lrConsistencyCheckKernel(
     
     if (x >= width || y >= height) return;
     
+    int idx = y * width + x;
