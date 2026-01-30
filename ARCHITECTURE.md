@@ -60,3 +60,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `bilateralFilterDepthKernel`: Edge-preserving smoothing
 - `computeNormalsKernel`: Surface normal calculation
 - `statisticalOutlierRemovalKernel`: Outlier filtering
+- `voxelDownsampleKernel`: Voxel grid downsampling
