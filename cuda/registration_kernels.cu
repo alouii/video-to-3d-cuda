@@ -24,3 +24,4 @@ __global__ void findCorrespondencesKernel(
     
     // Brute force nearest neighbor (in practice use KD-tree)
     for (int i = 0; i < num_target; i++) {
+        const ColoredPoint& tgt = target_points[i];
