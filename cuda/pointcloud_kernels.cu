@@ -287,3 +287,4 @@ __global__ void voxelDownsampleKernel(
     int count = atomicAdd(&voxel_counts[voxel_idx], 1);
     
     if (count == 0) {
+        // First point in this voxel, store it
