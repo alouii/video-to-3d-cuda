@@ -377,3 +377,4 @@ void launchStatisticalOutlierRemoval(
     int k_neighbors,
     float std_multiplier,
     cudaStream_t stream
+) {
