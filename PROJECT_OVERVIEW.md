@@ -51,3 +51,4 @@ video-to-3d-cuda/
 │   ├── mesh_kernels.cu           # Marching Cubes
 │   └── filtering_kernels.cu      # Additional filters
 │
+├── tests/                        # Test suite
