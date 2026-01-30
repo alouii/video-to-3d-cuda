@@ -23,3 +23,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 ## System Requirements
 
 ### Hardware
+- NVIDIA GPU with Compute Capability 7.5+ (Turing, Ampere, or newer)
