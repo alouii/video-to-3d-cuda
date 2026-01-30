@@ -63,3 +63,4 @@ __global__ void integrateTSDFKernel(
     
     float tsdf = fminf(1.0f, sdf / truncation_distance);
     
+    // Get voxel
