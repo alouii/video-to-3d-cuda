@@ -196,3 +196,4 @@ public:
     DeviceBuffer& operator=(const DeviceBuffer&) = delete;
     
     void resize(size_t new_size) {
+        if (new_size != size_) {
