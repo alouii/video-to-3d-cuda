@@ -11,3 +11,4 @@
 #define CUDA_CHECK(call) \
     do { \
         cudaError_t error = call; \
+        if (error != cudaSuccess) { \
