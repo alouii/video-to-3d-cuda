@@ -13,3 +13,4 @@ namespace v3d {
 class DepthEstimator;
 class PointCloudGenerator;
 class Registration;
+class TSDFFusion;
