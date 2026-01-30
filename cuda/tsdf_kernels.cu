@@ -194,3 +194,4 @@ __global__ void raycastTSDFKernel(
     float step_size = config.voxel_size * 0.5f;
     
     float prev_tsdf = 1.0f;
+    bool found_surface = false;
