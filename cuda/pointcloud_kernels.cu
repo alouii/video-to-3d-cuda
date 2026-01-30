@@ -190,3 +190,4 @@ __global__ void computeNormalsKernel(
 // Statistical outlier removal
 __global__ void statisticalOutlierRemovalKernel(
     const ColoredPoint* input_points,
+    ColoredPoint* output_points,
