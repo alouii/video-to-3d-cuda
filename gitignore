@@ -9,3 +9,4 @@ lib/
 
 # CMake
 CMakeCache.txt
+CMakeFiles/
