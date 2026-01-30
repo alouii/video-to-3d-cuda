@@ -191,3 +191,4 @@ __global__ void rejectOutliersKernel(
     const float* distances,
     int* correspondences,
     int num_points,
+    float max_distance
