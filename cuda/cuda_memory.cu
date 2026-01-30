@@ -11,3 +11,4 @@ extern "C" {
 void* cudaAllocateFromPool(size_t size) {
     return cuda_utils::g_memory_pool.allocate(size);
 }
+
