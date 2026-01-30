@@ -77,3 +77,4 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 
 # Install (optional)
+sudo make install
