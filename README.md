@@ -329,3 +329,4 @@ If you use this project in your research, please cite:
   author={Lassaad Aloui},
   year={2026},
   url={https://github.com/alouii/video-to-3d-cuda}
+}
