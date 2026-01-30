@@ -79,3 +79,4 @@ __global__ void computeCentroidKernel(
     int num_points
 ) {
     extern __shared__ float s_sum[];
+    
