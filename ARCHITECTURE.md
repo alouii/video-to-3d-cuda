@@ -173,3 +173,4 @@ struct TSDFVoxel {
 │ Point Cloud  │                            │
 │  Generation  │                            │
 │   (CUDA)     │                            │
+└──────┬───────┘                            │
