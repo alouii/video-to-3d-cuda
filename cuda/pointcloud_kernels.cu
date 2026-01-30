@@ -285,3 +285,4 @@ __global__ void voxelDownsampleKernel(
     
     // Atomic add to accumulate points in voxel
     int count = atomicAdd(&voxel_counts[voxel_idx], 1);
+    
