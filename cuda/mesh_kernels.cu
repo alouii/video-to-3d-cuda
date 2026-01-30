@@ -2,3 +2,4 @@
 #include "data_structures.h"
 #include <cuda_runtime.h>
 
+using namespace v3d;
