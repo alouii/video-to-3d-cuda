@@ -30,3 +30,4 @@
 
 namespace cuda_utils {
 
+// Device function for atomic max with floats
