@@ -99,3 +99,4 @@ public:
             if (block.ptr) {
                 cudaFree(block.ptr);
             }
+        }
