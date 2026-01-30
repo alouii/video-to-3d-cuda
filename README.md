@@ -142,3 +142,4 @@ Then use the calibrated parameters:
                                               v
 ┌─────────────┐    ┌──────────────┐    ┌────────────────┐
 │     Mesh    │<───│     TSDF     │<───│  Registration  │
+│  Generation │    │    Fusion    │    │      (ICP)     │
