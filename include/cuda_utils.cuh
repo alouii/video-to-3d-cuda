@@ -171,3 +171,4 @@ public:
         if (data_) {
             cudaFree(data_);
         }
+    }
