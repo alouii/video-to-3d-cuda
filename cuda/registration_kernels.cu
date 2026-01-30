@@ -97,3 +97,4 @@ __global__ void computeCentroidKernel(
     sum_z = cuda_utils::blockReduceSum(sum_z);
     
     if (tid == 0) {
+        atomicAdd(&centroid[0], sum_x);
