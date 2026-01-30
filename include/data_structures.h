@@ -36,3 +36,4 @@ struct CameraIntrinsics {
 // 6-DOF camera pose (rotation + translation)
 struct Pose {
     float rotation[9];     // 3x3 rotation matrix (row-major)
+    float translation[3];  // 3D translation vector
