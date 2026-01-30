@@ -24,3 +24,4 @@ public:
     
     // Initialize pipeline
     bool initialize();
+    
