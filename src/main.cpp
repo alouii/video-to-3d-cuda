@@ -84,3 +84,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
             }
         }
         else if (arg == "--fy") {
+            if (i + 1 < argc) {
