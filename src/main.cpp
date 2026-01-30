@@ -149,3 +149,4 @@ int main(int argc, char** argv) {
     auto end_time = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
     
+    std::cout << "\nProcessing completed in " << duration.count() / 1000.0 << " seconds." << std::endl;
