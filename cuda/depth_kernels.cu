@@ -55,3 +55,4 @@ __global__ void selectDisparityKernel(
     
     int base_idx = y * width * max_disparity + x * max_disparity;
     
+    float min_cost = 1e9f;
