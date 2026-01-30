@@ -70,3 +70,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         }
         else if (arg == "--max-frames") {
             if (i + 1 < argc) {
+                config.max_frames = std::stoi(argv[++i]);
