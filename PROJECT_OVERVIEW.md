@@ -179,3 +179,4 @@ video-to-3d-cuda/
    - Concurrent kernel execution
    - Host-device overlap
 
+## Build and Run
