@@ -283,3 +283,4 @@ public:
 ```cpp
 config.num_streams = 4;  // Use 4 CUDA streams
 config.multi_gpu = true;
+config.gpu_ids = {0, 1}; // Use GPU 0 and 1
