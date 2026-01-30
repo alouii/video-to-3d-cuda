@@ -47,3 +47,4 @@ sudo apt install libopencv-dev
 # Eigen3
 sudo apt install libeigen3-dev
 
+# OpenMP
