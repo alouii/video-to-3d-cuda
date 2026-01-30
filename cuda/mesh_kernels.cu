@@ -26,3 +26,4 @@ __global__ void classifyVoxelsKernel(
     
     // Get 8 corner values
     float corners[8];
+    int cube_index = 0;
