@@ -236,3 +236,4 @@ public:
     
     ~CudaStream() {
         cudaStreamDestroy(stream_);
+    }
