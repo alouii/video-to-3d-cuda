@@ -191,3 +191,4 @@ struct VoxelGridConfig {
     inline bool worldToVoxel(float x, float y, float z, int& vx, int& vy, int& vz) const {
         vx = static_cast<int>((x - min_x) / voxel_size);
         vy = static_cast<int>((y - min_y) / voxel_size);
+        vz = static_cast<int>((z - min_z) / voxel_size);
