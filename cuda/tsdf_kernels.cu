@@ -146,3 +146,4 @@ __global__ void extractSurfacePointsKernel(
     pt.z = world_z;
     pt.r = voxel.r;
     pt.g = voxel.g;
+    pt.b = voxel.b;
