@@ -62,3 +62,4 @@ __global__ void depthToPointCloudKernel(
 
 // Bilateral filtering for depth map smoothing
 __global__ void bilateralFilterDepthKernel(
+    const float* input_depth,
