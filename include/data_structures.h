@@ -88,3 +88,4 @@ struct ColoredPoint {
                      nx(0), ny(0), nz(0), confidence(1.0f) {}
     
     ColoredPoint(float x_, float y_, float z_, uint8_t r_, uint8_t g_, uint8_t b_)
+        : x(x_), y(y_), z(z_), r(r_), g(g_), b(b_), 
