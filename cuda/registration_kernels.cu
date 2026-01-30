@@ -383,3 +383,4 @@ void launchReduceErrors(
     int grid_size = (num_points + block_size - 1) / block_size;
     
     reduceErrorsKernel<<<grid_size, block_size, block_size * sizeof(float), stream>>>(
+        d_errors, d_total_error, num_points
