@@ -199,3 +199,4 @@ __global__ void raycastTSDFKernel(
     
     while (t < t_max) {
         // Current position along ray
+        float pos_x = ray_origin_x + world_ray_x * t;
