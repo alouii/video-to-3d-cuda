@@ -73,3 +73,4 @@ mkdir build && cd build
 # Configure
 cmake .. -DCMAKE_BUILD_TYPE=Release
 
+# Build
