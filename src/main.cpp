@@ -129,3 +129,4 @@ int main(int argc, char** argv) {
     v3d::VideoTo3DPipeline pipeline(config);
     
     if (!pipeline.initialize()) {
+        std::cerr << "Error: Failed to initialize pipeline." << std::endl;
