@@ -49,3 +49,4 @@ __device__ __forceinline__ float atomicMinFloat(float* address, float val) {
     do {
         assumed = old;
         old = atomicCAS(address_as_int, assumed,
+            __float_as_int(fminf(val, __int_as_float(assumed))));
