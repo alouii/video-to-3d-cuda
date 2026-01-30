@@ -204,3 +204,4 @@ All compute-intensive operations are GPU-accelerated:
 5. **Multi-GPU**: Distribute TSDF volumes across GPUs
 
 ## API Usage
+
