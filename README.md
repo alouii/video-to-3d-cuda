@@ -296,3 +296,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 - Use smaller resolution
 
 **Low FPS**
+- Check GPU utilization: `nvidia-smi`
