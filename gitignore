@@ -51,3 +51,4 @@ __pycache__/
 venv/
 
 # Documentation builds
+docs/_build/
