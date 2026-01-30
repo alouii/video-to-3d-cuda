@@ -21,3 +21,4 @@ __global__ void integrateTSDFKernel(
     int vy = blockIdx.y * blockDim.y + threadIdx.y;
     int vz = blockIdx.z * blockDim.z + threadIdx.z;
     
+    if (vx >= config.grid_dim_x || vy >= config.grid_dim_y || vz >= config.grid_dim_z) return;
