@@ -232,3 +232,4 @@ __global__ void lrConsistencyCheckKernel(
     if (fabsf(d_left - d_right) > threshold) {
         output_disparity[idx] = 0.0f;
     } else {
+        output_disparity[idx] = d_left;
