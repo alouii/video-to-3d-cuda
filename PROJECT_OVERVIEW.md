@@ -250,3 +250,4 @@ ctest --output-on-failure
 - `README.md`: User guide and quick start
 - `docs/ARCHITECTURE.md`: System design and internals
 - `docs/EXAMPLES.md`: Usage examples and patterns
+
