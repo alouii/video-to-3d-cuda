@@ -176,3 +176,4 @@ __global__ void computeNormalsKernel(
     
     // Ensure normal points towards camera
     if (nz > 0) {
+        nx = -nx;
