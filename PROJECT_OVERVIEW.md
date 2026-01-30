@@ -224,3 +224,4 @@ video-to-3d-cuda/
 2. **Advanced Features**
    - Neural depth models (MiDaS, DPT)
    - Loop closure detection
+   - Dynamic object handling
