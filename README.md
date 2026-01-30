@@ -306,3 +306,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 - Enable bilateral filtering
 - Increase TSDF weight threshold
 
+## Contributing
