@@ -31,3 +31,4 @@ video-to-3d-cuda/
 │   ├── video_capture.h           # Video input handling
 │   └── visualizer.h              # 3D visualization
 │
+├── src/                          # Implementation files
