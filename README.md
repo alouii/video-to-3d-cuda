@@ -225,3 +225,4 @@ pipeline.processVideo();
 
 // Get results
 auto point_cloud = pipeline.getPointCloud();
+auto mesh = pipeline.getMesh();
