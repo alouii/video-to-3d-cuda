@@ -39,3 +39,4 @@ struct Pose {
     float translation[3];  // 3D translation vector
     double timestamp;      // Frame timestamp
     
+    Pose() : timestamp(0.0) {
