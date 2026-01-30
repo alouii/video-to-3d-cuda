@@ -130,3 +130,4 @@ __global__ void computeCovarianceKernel(
             const ColoredPoint& src = source_points[idx];
             const ColoredPoint& tgt = target_points[corr_idx];
             
+            // Centered points
