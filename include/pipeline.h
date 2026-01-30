@@ -35,3 +35,4 @@ public:
     bool hasFrames() const;
     
     // Check if reconstruction is ready
+    bool reconstructionReady() const;
