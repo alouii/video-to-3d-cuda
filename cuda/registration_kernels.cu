@@ -90,3 +90,4 @@ __global__ void computeCentroidKernel(
         sum_y = points[idx].y;
         sum_z = points[idx].z;
     }
+    
