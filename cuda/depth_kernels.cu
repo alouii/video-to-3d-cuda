@@ -29,3 +29,4 @@ __global__ void sgmCostAggregationKernel(
         }
         
         float prev_same = aggregated_cost[prev_idx + d];
+        float prev_adj = 1e9f;
