@@ -343,3 +343,4 @@ void launchComputeAlignmentError(
     const ColoredPoint* d_target_points,
     const int* d_correspondences,
     float* d_errors,
+    int num_points,
