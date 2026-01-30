@@ -161,3 +161,4 @@ private:
     size_t size_;
     
 public:
+    DeviceBuffer() : data_(nullptr), size_(0) {}
