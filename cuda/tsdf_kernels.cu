@@ -333,3 +333,4 @@ void launchExtractSurfacePoints(
 
 void launchRaycastTSDF(
     const TSDFVoxel* d_voxel_grid,
+    float* d_depth_map,
