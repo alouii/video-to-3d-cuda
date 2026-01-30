@@ -103,3 +103,4 @@ bool VideoCapture::isRunning() const {
 bool VideoCapture::getFrame(VideoFrame& frame) {
     std::unique_lock<std::mutex> lock(buffer_mutex_);
     
+    // Wait for frame to be available
