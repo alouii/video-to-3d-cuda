@@ -320,3 +320,4 @@ void launchSelectDisparity(
 
 void launchDisparityToDepth(
     const float* d_disparity_map,
+    float* d_depth_map,
