@@ -301,3 +301,4 @@ void launchIntegrateTSDF(
     
     integrateTSDFKernel<<<grid, block, 0, stream>>>(
         d_voxel_grid, d_depth_map, d_rgb_image,
+        intrinsics, pose, config,
