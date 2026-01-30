@@ -52,3 +52,4 @@ sudo apt install libomp-dev
 ```
 
 ### Optional
+```bash
