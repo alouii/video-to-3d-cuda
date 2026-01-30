@@ -46,3 +46,4 @@ __global__ void selectDisparityKernel(
     float* disparity_map,
     int width,
     int height,
+    int max_disparity
