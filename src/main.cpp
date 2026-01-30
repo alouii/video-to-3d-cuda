@@ -106,3 +106,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
 int main(int argc, char** argv) {
     std::cout << "=== Video to 3D Point Cloud Reconstruction (CUDA) ===" << std::endl;
     std::cout << "Version 1.0\n" << std::endl;
+    
