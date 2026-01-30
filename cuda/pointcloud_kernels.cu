@@ -373,3 +373,4 @@ void launchStatisticalOutlierRemoval(
     const ColoredPoint* d_input_points,
     ColoredPoint* d_output_points,
     int* d_valid_mask,
+    int num_points,
