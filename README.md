@@ -221,3 +221,4 @@ v3d::VideoTo3DPipeline pipeline(config);
 pipeline.initialize();
 
 // Process video
+pipeline.processVideo();
