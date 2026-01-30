@@ -169,3 +169,4 @@ __global__ void computeAlignmentErrorKernel(
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= num_points) return;
+    
