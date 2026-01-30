@@ -144,3 +144,4 @@ __global__ void computeMatchingCostKernel(
         uint32_t right_val = right_census[right_idx];
         
         // Hamming distance
+        uint32_t xor_val = left_val ^ right_val;
