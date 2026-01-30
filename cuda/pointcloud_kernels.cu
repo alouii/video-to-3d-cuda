@@ -81,3 +81,4 @@ __global__ void bilateralFilterDepthKernel(
         output_depth[center_idx] = center_depth;
         return;
     }
+    
