@@ -69,3 +69,4 @@ private:
     
     // Components
     std::unique_ptr<VideoCapture> video_capture_;
+    std::unique_ptr<DepthEstimator> depth_estimator_;
