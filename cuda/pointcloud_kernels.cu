@@ -118,3 +118,4 @@ __global__ void bilateralFilterDepthKernel(
 // Compute normals from depth map using cross product
 __global__ void computeNormalsKernel(
     const float* depth_map,
+    ColoredPoint* points,
