@@ -275,3 +275,4 @@ class MyDepthEstimator : public DepthEstimator {
 public:
     bool initialize(const CameraIntrinsics& intrinsics) override {
         // Load your model
+        engine_ = loadTensorRTEngine("model.trt");
