@@ -162,3 +162,4 @@ private:
     
 public:
     DeviceBuffer() : data_(nullptr), size_(0) {}
+    
