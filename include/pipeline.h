@@ -34,3 +34,4 @@ public:
     // Check if more frames available
     bool hasFrames() const;
     
+    // Check if reconstruction is ready
