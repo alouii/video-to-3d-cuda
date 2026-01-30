@@ -62,3 +62,4 @@ __global__ void integrateTSDFKernel(
     if (sdf < -truncation_distance) return;
     
     float tsdf = fminf(1.0f, sdf / truncation_distance);
+    
