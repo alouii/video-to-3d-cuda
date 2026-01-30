@@ -149,3 +149,4 @@ __global__ void computeMatchingCostKernel(
         
         int cost_idx = y * width * max_disparity + x * max_disparity + d;
         cost_volume[cost_idx] = static_cast<float>(hamming);
+    }
