@@ -99,3 +99,4 @@ __global__ void extractSurfacePointsKernel(
     float weight_threshold
 ) {
     int vx = blockIdx.x * blockDim.x + threadIdx.x;
+    int vy = blockIdx.y * blockDim.y + threadIdx.y;
