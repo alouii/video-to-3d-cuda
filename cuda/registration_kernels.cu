@@ -182,3 +182,4 @@ __global__ void computeAlignmentErrorKernel(
     float dx = src.x - tgt.x;
     float dy = src.y - tgt.y;
     float dz = src.z - tgt.z;
+    
