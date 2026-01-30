@@ -72,3 +72,4 @@ private:
     double fps_;
     int total_frames_;
     int current_frame_index_;
+};
