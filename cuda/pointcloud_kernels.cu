@@ -395,3 +395,4 @@ void launchVoxelDownsample(
     int* d_voxel_counts,
     int num_points,
     float voxel_size,
+    float min_x,
