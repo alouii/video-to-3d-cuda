@@ -145,3 +145,4 @@ public:
     T* allocate(std::size_t n) {
         T* ptr;
         CUDA_CHECK(cudaMallocHost(&ptr, n * sizeof(T)));
+        return ptr;
