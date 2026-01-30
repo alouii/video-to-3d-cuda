@@ -203,3 +203,4 @@ void launchGenerateMesh(
     );
     
     generateMeshKernel<<<grid, block, 0, stream>>>(
+        d_voxel_grid, d_voxel_types, d_voxel_offsets, d_vertices, d_triangles, config, iso_value
