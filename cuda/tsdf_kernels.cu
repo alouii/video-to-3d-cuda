@@ -286,3 +286,4 @@ void launchIntegrateTSDF(
     const CameraIntrinsics& intrinsics,
     const Pose& pose,
     const VoxelGridConfig& config,
+    float truncation_distance,
