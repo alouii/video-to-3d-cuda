@@ -151,3 +151,4 @@ public:
     void deallocate(T* ptr, std::size_t) {
         cudaFreeHost(ptr);
     }
+};
