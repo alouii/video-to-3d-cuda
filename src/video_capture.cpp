@@ -119,3 +119,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
     
     return true;
 }
+
