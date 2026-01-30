@@ -81,3 +81,4 @@ struct Pose {
 struct ColoredPoint {
     float x, y, z;       // Position
     uint8_t r, g, b;     // Color
+    float nx, ny, nz;    // Normal vector
