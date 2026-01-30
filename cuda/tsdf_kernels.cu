@@ -59,3 +59,4 @@ __global__ void integrateTSDFKernel(
     float sdf = measured_depth - cam_z;
     
     // Truncate
+    if (sdf < -truncation_distance) return;
