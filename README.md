@@ -253,3 +253,4 @@ point_cloud.save("output.ply")
 - **Streams**: RTSP, HTTP, camera devices
 
 ### Output
+- **Point Cloud**: PLY (ASCII/Binary), PCD
