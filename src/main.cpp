@@ -161,3 +161,4 @@ int main(int argc, char** argv) {
             output_file += "/reconstruction.ply";
         }
         
+        std::cout << "\nExporting point cloud to " << output_file << "..." << std::endl;
