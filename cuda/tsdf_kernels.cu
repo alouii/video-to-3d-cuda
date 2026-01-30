@@ -316,3 +316,4 @@ void launchExtractSurfacePoints(
     const VoxelGridConfig& config,
     float weight_threshold,
     cudaStream_t stream
+) {
