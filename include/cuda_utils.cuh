@@ -140,3 +140,4 @@ public:
     PinnedMemoryAllocator() = default;
     
     template<typename U>
+    PinnedMemoryAllocator(const PinnedMemoryAllocator<U>&) {}
