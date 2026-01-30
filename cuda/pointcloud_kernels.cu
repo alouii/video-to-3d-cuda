@@ -90,3 +90,4 @@ __global__ void bilateralFilterDepthKernel(
         for (int dx = -kernel_radius; dx <= kernel_radius; dx++) {
             int nx = x + dx;
             int ny = y + dy;
+            
