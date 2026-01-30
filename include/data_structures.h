@@ -143,3 +143,4 @@ struct Triangle {
 
 struct Mesh {
     std::vector<ColoredPoint> vertices;
+    std::vector<Triangle> triangles;
