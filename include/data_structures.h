@@ -116,3 +116,4 @@ struct PointCloud {
     bool has_colors;
     
     PointCloud() : has_normals(false), has_colors(false) {}
+    
