@@ -248,3 +248,4 @@ __global__ void reduceErrorsKernel(
 ) {
     extern __shared__ float s_errors[];
     
+    int tid = threadIdx.x;
