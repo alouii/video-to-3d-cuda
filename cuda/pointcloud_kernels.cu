@@ -400,3 +400,4 @@ void launchVoxelDownsample(
     float min_z,
     int grid_dim_x,
     int grid_dim_y,
+    int grid_dim_z,
