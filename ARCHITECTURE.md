@@ -127,3 +127,4 @@ struct TSDFVoxel {
 5. Compute vertex normals
 
 **CUDA Kernels** (`mesh_kernels.cu`):
+- `classifyVoxelsKernel`: Voxel classification
