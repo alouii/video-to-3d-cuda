@@ -237,3 +237,4 @@ struct PipelineConfig {
     
     PipelineConfig() 
         : video_source(""), camera_id(0), use_camera(false),
+          use_depth_model(true), depth_model_path("models/depth_model.onnx"),
