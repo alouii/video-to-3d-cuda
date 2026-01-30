@@ -57,3 +57,4 @@ bool VideoCapture::open(int camera_id) {
     
     return true;
 }
+
