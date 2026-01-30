@@ -164,3 +164,4 @@ struct Mesh {
 struct TSDFVoxel {
     float tsdf;        // Truncated signed distance
     float weight;      // Integration weight
+    uint8_t r, g, b;   // Color
