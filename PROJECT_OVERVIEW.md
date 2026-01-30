@@ -19,3 +19,4 @@ video-to-3d-cuda/
 ├── CMakeLists.txt                 # Main build configuration
 ├── README.md                      # User documentation
 │
+├── include/                       # Public headers
