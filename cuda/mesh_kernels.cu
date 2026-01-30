@@ -40,3 +40,4 @@ __global__ void classifyVoxelsKernel(
             cube_index |= (1 << i);
         }
     }
+    
