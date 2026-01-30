@@ -109,3 +109,4 @@ __global__ void generateMeshKernel(
                 v1 = v0 + 4;
             }
             
+            // Linear interpolation
