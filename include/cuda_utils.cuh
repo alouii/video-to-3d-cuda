@@ -170,3 +170,4 @@ public:
     ~DeviceBuffer() {
         if (data_) {
             cudaFree(data_);
+        }
