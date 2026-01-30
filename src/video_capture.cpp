@@ -100,3 +100,4 @@ bool VideoCapture::isRunning() const {
     return running_;
 }
 
+bool VideoCapture::getFrame(VideoFrame& frame) {
