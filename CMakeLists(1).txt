@@ -5,3 +5,4 @@ add_executable(test_depth test_depth.cpp)
 target_link_libraries(test_depth video3d_cuda ${OpenCV_LIBS} ${CUDA_LIBRARIES} Eigen3::Eigen)
 
 add_executable(test_registration test_registration.cpp)
+target_link_libraries(test_registration video3d_cuda ${OpenCV_LIBS} ${CUDA_LIBRARIES} Eigen3::Eigen)
