@@ -128,3 +128,4 @@ __global__ void computeCovarianceKernel(
         int corr_idx = correspondences[idx];
         if (corr_idx >= 0) {
             const ColoredPoint& src = source_points[idx];
+            const ColoredPoint& tgt = target_points[corr_idx];
