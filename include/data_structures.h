@@ -230,3 +230,4 @@ struct PipelineConfig {
     int skip_frames;
     int num_streams;
     
+    // Output
