@@ -27,3 +27,4 @@ void printUsage(const char* program_name) {
 
 bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
     for (int i = 1; i < argc; i++) {
+        std::string arg = argv[i];
