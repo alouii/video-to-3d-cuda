@@ -44,3 +44,4 @@ __global__ void sgmCostAggregationKernel(
 __global__ void selectDisparityKernel(
     const float* aggregated_cost,
     float* disparity_map,
+    int width,
