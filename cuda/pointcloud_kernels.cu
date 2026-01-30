@@ -338,3 +338,4 @@ void launchBilateralFilterDepth(
     int width,
     int height,
     float sigma_space,
+    float sigma_range,
