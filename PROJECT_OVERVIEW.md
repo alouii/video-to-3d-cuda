@@ -196,3 +196,4 @@ video-to-3d-cuda/
 
 **Required**:
 - CUDA Toolkit 11.0+
+- OpenCV 4.5+
