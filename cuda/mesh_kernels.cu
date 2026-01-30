@@ -9,3 +9,4 @@ __constant__ int d_edgeTable[256];
 __constant__ int d_triTable[256][16];
 
 // Classify voxel for marching cubes
+__global__ void classifyVoxelsKernel(
