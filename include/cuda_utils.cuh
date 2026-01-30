@@ -197,3 +197,4 @@ public:
     
     void resize(size_t new_size) {
         if (new_size != size_) {
+            if (data_) cudaFree(data_);
