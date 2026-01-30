@@ -272,3 +272,4 @@ GPU Memory Layout:
 
 ```cpp
 class MyDepthEstimator : public DepthEstimator {
+public:
