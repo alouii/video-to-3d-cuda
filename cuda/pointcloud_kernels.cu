@@ -116,3 +116,4 @@ __global__ void bilateralFilterDepthKernel(
 }
 
 // Compute normals from depth map using cross product
+__global__ void computeNormalsKernel(
