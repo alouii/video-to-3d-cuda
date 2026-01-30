@@ -262,3 +262,4 @@ __global__ void reduceErrorsKernel(
 
 // C++ interface functions
 extern "C" {
+
