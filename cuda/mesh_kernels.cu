@@ -166,3 +166,4 @@ extern "C" {
 void launchClassifyVoxels(
     const TSDFVoxel* d_voxel_grid,
     int* d_voxel_types,
+    int* d_voxel_vertices,
