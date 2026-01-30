@@ -156,3 +156,4 @@ __global__ void raycastTSDFKernel(
     float* depth_map,
     uint8_t* normal_map,
     const CameraIntrinsics intrinsics,
+    const Pose pose,
