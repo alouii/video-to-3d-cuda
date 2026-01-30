@@ -111,3 +111,4 @@ int main(int argc, char** argv) {
     v3d::PipelineConfig config;
     if (!parseArguments(argc, argv, config)) {
         printUsage(argv[0]);
+        return 0;
