@@ -91,3 +91,4 @@ __global__ void integrateTSDFKernel(
 }
 
 // Extract surface points from TSDF
+__global__ void extractSurfacePointsKernel(
