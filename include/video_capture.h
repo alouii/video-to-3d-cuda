@@ -55,3 +55,4 @@ public:
     bool isRunning() const;
     
 private:
+    void captureThread();
