@@ -152,3 +152,4 @@ __global__ void computeNormalsKernel(
     float dy = (y + 1 - intrinsics.cy) * depth_down / intrinsics.fy;
     float dz = depth_down;
     
+    // Compute tangent vectors
