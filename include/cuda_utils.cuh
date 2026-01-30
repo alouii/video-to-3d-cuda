@@ -100,3 +100,4 @@ public:
                 cudaFree(block.ptr);
             }
         }
+    }
