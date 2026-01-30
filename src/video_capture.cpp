@@ -3,3 +3,4 @@
 
 namespace v3d {
 
+VideoCapture::VideoCapture()
