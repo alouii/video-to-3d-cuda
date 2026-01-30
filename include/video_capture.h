@@ -70,3 +70,4 @@ private:
     
     int width_, height_;
     double fps_;
+    int total_frames_;
