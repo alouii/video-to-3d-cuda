@@ -10,3 +10,4 @@ __global__ void integrateTSDFKernel(
     const float* depth_map,
     const uint8_t* rgb_image,
     const CameraIntrinsics intrinsics,
+    const Pose pose,
