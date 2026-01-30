@@ -221,3 +221,4 @@ struct PipelineConfig {
     
     // Camera parameters
     CameraIntrinsics intrinsics;
+    
