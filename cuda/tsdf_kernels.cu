@@ -324,3 +324,4 @@ void launchExtractSurfacePoints(
         (config.grid_dim_z + block.z - 1) / block.z
     );
     
+    extractSurfacePointsKernel<<<grid, block, 0, stream>>>(
