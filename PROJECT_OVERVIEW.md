@@ -112,3 +112,4 @@ video-to-3d-cuda/
 - [x] Bilateral filtering
 - [x] Normal estimation
 - [x] Statistical outlier removal
+- [x] Voxel downsampling
