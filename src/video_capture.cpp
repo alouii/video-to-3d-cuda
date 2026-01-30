@@ -35,3 +35,4 @@ bool VideoCapture::open(const std::string& source) {
     
     return true;
 }
+
