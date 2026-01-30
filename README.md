@@ -89,3 +89,4 @@ sudo make install
 ./video_to_3d -i input.mp4 -o output.ply --visualize
 
 # Live webcam reconstruction
+./video_to_3d --camera 0 --visualize
