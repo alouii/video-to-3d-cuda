@@ -211,3 +211,4 @@ __global__ void lrConsistencyCheckKernel(
     int width,
     int height,
     float threshold
+) {
