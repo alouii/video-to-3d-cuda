@@ -112,3 +112,4 @@ public:
         }
         
         // Allocate new block
+        void* ptr;
