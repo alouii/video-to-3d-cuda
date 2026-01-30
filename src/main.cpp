@@ -11,3 +11,4 @@ void printUsage(const char* program_name) {
               << "  -i, --input <file>         Input video file\n"
               << "  -c, --camera <id>          Camera device ID (default: 0)\n"
               << "  -o, --output <file>        Output point cloud file (PLY format)\n"
+              << "  --mesh <file>              Output mesh file (OBJ format)\n"
