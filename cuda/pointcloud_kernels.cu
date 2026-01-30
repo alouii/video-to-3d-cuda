@@ -374,3 +374,4 @@ void launchStatisticalOutlierRemoval(
     ColoredPoint* d_output_points,
     int* d_valid_mask,
     int num_points,
+    int k_neighbors,
