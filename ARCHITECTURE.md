@@ -33,3 +33,4 @@ Capture Thread → Frame Buffer → Processing Thread
   - Semi-Global Matching (SGM) cost aggregation
   - Subpixel refinement for accuracy
   
+- **MonocularDepthEstimator** (Integration Point):
