@@ -38,3 +38,4 @@ __device__ __forceinline__ float atomicMaxFloat(float* address, float val) {
         assumed = old;
         old = atomicCAS(address_as_int, assumed,
             __float_as_int(fmaxf(val, __int_as_float(assumed))));
+    } while (assumed != old);
