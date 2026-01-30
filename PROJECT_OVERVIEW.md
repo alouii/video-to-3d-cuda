@@ -28,3 +28,4 @@ video-to-3d-cuda/
 │   ├── point_cloud_generator.h   # Point cloud generation
 │   ├── registration.h            # ICP registration
 │   ├── tsdf_fusion.h             # TSDF volumetric fusion
+│   ├── video_capture.h           # Video input handling
