@@ -21,3 +21,4 @@ __global__ void depthToPointCloudKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x >= width || y >= height) return;
+    
