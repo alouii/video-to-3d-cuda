@@ -135,3 +135,4 @@ __global__ void computeMatchingCostKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x >= width || y >= height) return;
+    
