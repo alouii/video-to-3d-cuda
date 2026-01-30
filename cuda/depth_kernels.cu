@@ -287,3 +287,4 @@ void launchComputeMatchingCost(
     float* d_cost_volume,
     int width,
     int height,
+    int max_disparity,
