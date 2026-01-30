@@ -370,3 +370,4 @@ void launchComputeNormals(
 }
 
 void launchStatisticalOutlierRemoval(
+    const ColoredPoint* d_input_points,
