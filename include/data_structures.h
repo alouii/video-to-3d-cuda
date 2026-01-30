@@ -239,3 +239,4 @@ struct PipelineConfig {
         : video_source(""), camera_id(0), use_camera(false),
           use_depth_model(true), depth_model_path("models/depth_model.onnx"),
           enable_fusion(true), enable_mesh(false), enable_visualization(true),
+          max_frames(-1), skip_frames(0), num_streams(4),
