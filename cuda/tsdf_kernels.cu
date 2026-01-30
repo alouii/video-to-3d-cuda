@@ -36,3 +36,4 @@ __global__ void integrateTSDFKernel(
     
     float cam_x = pose.rotation[0] * px + pose.rotation[3] * py + pose.rotation[6] * pz;
     float cam_y = pose.rotation[1] * px + pose.rotation[4] * py + pose.rotation[7] * pz;
+    float cam_z = pose.rotation[2] * px + pose.rotation[5] * py + pose.rotation[8] * pz;
