@@ -107,3 +107,4 @@ public:
         for (auto& block : blocks_) {
             if (!block.in_use && block.size >= size) {
                 block.in_use = true;
+                return block.ptr;
