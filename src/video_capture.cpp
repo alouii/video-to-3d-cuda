@@ -118,3 +118,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
     buffer_cv_.notify_all();
     
     return true;
+}
