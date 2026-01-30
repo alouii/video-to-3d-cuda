@@ -181,3 +181,4 @@ public:
     }
     
     DeviceBuffer& operator=(DeviceBuffer&& other) noexcept {
+        if (this != &other) {
