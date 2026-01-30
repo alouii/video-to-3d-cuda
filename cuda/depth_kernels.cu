@@ -129,3 +129,4 @@ __global__ void computeMatchingCostKernel(
     float* cost_volume,
     int width,
     int height,
+    int max_disparity
