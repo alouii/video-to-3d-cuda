@@ -67,3 +67,4 @@ private:
     std::condition_variable buffer_cv_;
     std::atomic<bool> running_;
     std::atomic<bool> stop_requested_;
+    
