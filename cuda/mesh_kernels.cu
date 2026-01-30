@@ -190,3 +190,4 @@ void launchGenerateMesh(
     const int* d_voxel_types,
     const int* d_voxel_offsets,
     ColoredPoint* d_vertices,
+    Triangle* d_triangles,
