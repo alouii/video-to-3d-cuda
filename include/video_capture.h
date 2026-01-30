@@ -48,3 +48,4 @@ public:
     void setBufferSize(size_t size);
     size_t getBufferSize() const;
     size_t getCurrentBufferCount() const;
+    
