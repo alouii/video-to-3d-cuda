@@ -138,3 +138,4 @@ __global__ void computeMatchingCostKernel(
     
     int left_idx = y * width + x;
     uint32_t left_val = left_census[left_idx];
+    
