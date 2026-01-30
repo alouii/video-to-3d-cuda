@@ -107,3 +107,4 @@ struct TSDFVoxel {
    - Look up depth measurement
    - Compute signed distance
    - Update TSDF with weighted average
+
