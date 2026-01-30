@@ -334,3 +334,4 @@ void launchDisparityToDepth(
         d_disparity_map, d_depth_map, width, height, baseline, focal_length
     );
     
+    CUDA_CHECK_LAST_ERROR();
