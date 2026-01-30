@@ -26,3 +26,4 @@ public:
     bool initialize();
     
     // Process video
+    void processVideo();
