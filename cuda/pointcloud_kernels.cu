@@ -195,3 +195,4 @@ __global__ void statisticalOutlierRemovalKernel(
     int num_points,
     int k_neighbors,
     float std_multiplier
+) {
