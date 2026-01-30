@@ -160,3 +160,4 @@ private:
     T* data_;
     size_t size_;
     
+public:
