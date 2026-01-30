@@ -277,3 +277,4 @@ struct PerformanceStats {
         std::cout << "Frame Capture: " << frame_capture_time << " ms" << std::endl;
         std::cout << "Depth Estimation: " << depth_estimation_time << " ms" << std::endl;
         std::cout << "Point Cloud Gen: " << pointcloud_generation_time << " ms" << std::endl;
+        std::cout << "Registration: " << registration_time << " ms" << std::endl;
