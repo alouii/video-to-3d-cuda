@@ -84,3 +84,4 @@ private:
     // Accumulated data
     PointCloud accumulated_pointcloud_;
     Mesh final_mesh_;
+    
