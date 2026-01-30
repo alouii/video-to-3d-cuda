@@ -136,3 +136,4 @@ __global__ void extractSurfacePointsKernel(
     if (!has_zero_crossing) return;
     
     // Extract point at zero crossing (linear interpolation)
+    float world_x, world_y, world_z;
