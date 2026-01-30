@@ -238,3 +238,4 @@ __global__ void statisticalOutlierRemovalKernel(
         float dist = sqrtf(dx * dx + dy * dy + dz * dz);
         
         float diff = dist - mean_distance;
+        variance += diff * diff;
