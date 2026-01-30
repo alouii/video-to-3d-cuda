@@ -255,3 +255,4 @@ __global__ void disparityToDepthKernel(
     
     if (disparity > 0.0f) {
         depth_map[idx] = (baseline * focal_length) / disparity;
+    } else {
