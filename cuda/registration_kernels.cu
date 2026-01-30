@@ -155,3 +155,4 @@ __global__ void computeCovarianceKernel(
     
     // Write to global memory
     if (tid < 9) {
+        atomicAdd(&covariance[tid], s_cov[tid]);
