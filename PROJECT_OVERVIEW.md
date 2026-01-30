@@ -188,3 +188,4 @@ video-to-3d-cuda/
 # Run
 ./build/video_to_3d -i input.mp4 -o output.ply --visualize
 
+# Test
