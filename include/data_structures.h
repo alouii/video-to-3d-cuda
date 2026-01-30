@@ -193,3 +193,4 @@ struct VoxelGridConfig {
         vy = static_cast<int>((y - min_y) / voxel_size);
         vz = static_cast<int>((z - min_z) / voxel_size);
         return (vx >= 0 && vx < grid_dim_x &&
+                vy >= 0 && vy < grid_dim_y &&
