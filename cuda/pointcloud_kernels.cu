@@ -35,3 +35,4 @@ __global__ void depthToPointCloudKernel(
     float cam_y = (y - intrinsics.cy) * depth / intrinsics.fy;
     float cam_z = depth;
     
+    // Transform to world space
