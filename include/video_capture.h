@@ -69,3 +69,4 @@ private:
     std::atomic<bool> stop_requested_;
     
     int width_, height_;
+    double fps_;
