@@ -276,3 +276,4 @@ inline void printDeviceInfo() {
     std::cout << "=======================" << std::endl;
 }
 
+} // namespace cuda_utils
