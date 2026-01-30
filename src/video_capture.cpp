@@ -160,3 +160,4 @@ void VideoCapture::captureThread() {
     
     running_ = false;
 }
+
