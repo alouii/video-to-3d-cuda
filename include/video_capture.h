@@ -32,3 +32,4 @@ public:
     // Close video source
     void close();
     
+    // Check if opened
