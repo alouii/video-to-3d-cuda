@@ -208,3 +208,4 @@ __global__ void lrConsistencyCheckKernel(
     const float* left_disparity,
     const float* right_disparity,
     float* output_disparity,
+    int width,
