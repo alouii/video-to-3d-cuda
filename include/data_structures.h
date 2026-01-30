@@ -161,3 +161,4 @@ struct Mesh {
 };
 
 // TSDF voxel
+struct TSDFVoxel {
