@@ -64,3 +64,4 @@ __global__ void selectDisparityKernel(
             min_cost = cost;
             best_d = d;
         }
+    }
