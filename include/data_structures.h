@@ -156,3 +156,4 @@ struct Mesh {
         has_colors = false;
     }
     
+    size_t num_vertices() const { return vertices.size(); }
