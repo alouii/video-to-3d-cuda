@@ -341,3 +341,4 @@ void launchRaycastTSDF(
     float truncation_distance,
     int width,
     int height,
+    cudaStream_t stream
