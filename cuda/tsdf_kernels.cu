@@ -143,3 +143,4 @@ __global__ void extractSurfacePointsKernel(
     ColoredPoint& pt = points[idx];
     pt.x = world_x;
     pt.y = world_y;
+    pt.z = world_z;
