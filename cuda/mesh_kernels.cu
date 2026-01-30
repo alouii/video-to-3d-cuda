@@ -49,3 +49,4 @@ __global__ void classifyVoxelsKernel(
         for (int i = 0; d_triTable[cube_index][i] != -1; i += 3) {
             num_vertices += 3;
         }
+    }
