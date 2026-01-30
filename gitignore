@@ -33,3 +33,4 @@ unit_tests
 *.pcd
 *.ply
 data/
+models/
