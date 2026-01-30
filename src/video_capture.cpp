@@ -98,3 +98,4 @@ void VideoCapture::stop() {
 
 bool VideoCapture::isRunning() const {
     return running_;
+}
