@@ -28,3 +28,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - 8GB+ system RAM
 - Multi-core CPU (4+ cores recommended)
 
+### Software
