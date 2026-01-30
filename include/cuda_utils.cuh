@@ -98,3 +98,4 @@ public:
         for (auto& block : blocks_) {
             if (block.ptr) {
                 cudaFree(block.ptr);
+            }
