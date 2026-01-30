@@ -80,3 +80,4 @@ __global__ void integrateTSDFKernel(
         voxel.r = rgb_image[rgb_idx];
         voxel.g = rgb_image[rgb_idx + 1];
         voxel.b = rgb_image[rgb_idx + 2];
+    } else {
