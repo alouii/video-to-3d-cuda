@@ -20,3 +20,4 @@ __global__ void sgmCostAggregationKernel(
     int idx = y * width * max_disparity + x * max_disparity + d;
     
     // Path aggregation (horizontal scanline)
+    if (x > 0) {
