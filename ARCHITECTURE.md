@@ -203,3 +203,4 @@ struct TSDFVoxel {
 
 ### Device Memory Organization
 
+```
