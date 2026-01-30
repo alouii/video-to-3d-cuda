@@ -47,3 +47,4 @@ public:
     
     // Statistics
     PerformanceStats getStatistics() const;
+    void printStatistics() const;
