@@ -160,3 +160,4 @@ struct Mesh {
     size_t num_triangles() const { return triangles.size(); }
 };
 
+// TSDF voxel
