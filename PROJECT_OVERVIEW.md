@@ -267,3 +267,4 @@ This project provides a **complete, production-ready** implementation of a GPU-a
 - ✅ Examples
 
 The system demonstrates mastery of:
+- GPU programming and CUDA optimization
