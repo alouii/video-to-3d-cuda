@@ -77,3 +77,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
     if (wid == 0) val = warpReduceSum(val);
     
     return val;
+}
