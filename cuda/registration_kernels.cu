@@ -325,3 +325,4 @@ void launchComputeCovariance(
     const float* d_target_centroid,
     float* d_covariance,
     int num_points,
+    cudaStream_t stream
