@@ -158,3 +158,4 @@ __global__ void medianFilterKernel(
     float* output_disparity,
     int width,
     int height,
+    int kernel_size
