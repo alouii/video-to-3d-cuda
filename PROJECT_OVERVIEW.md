@@ -44,3 +44,4 @@ video-to-3d-cuda/
 │
 ├── cuda/                         # CUDA kernel implementations
 │   ├── cuda_memory.cu            # Memory pool
+│   ├── depth_kernels.cu          # Stereo matching, SGM
