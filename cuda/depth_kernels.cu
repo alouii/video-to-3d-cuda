@@ -229,3 +229,4 @@ __global__ void lrConsistencyCheckKernel(
     int right_idx = y * width + x_right;
     float d_right = right_disparity[right_idx];
     
+    if (fabsf(d_left - d_right) > threshold) {
