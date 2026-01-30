@@ -96,3 +96,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         else if (arg == "--cy") {
             if (i + 1 < argc) {
                 config.intrinsics.cy = std::stof(argv[++i]);
+            }
