@@ -266,3 +266,4 @@ __global__ void raycastTSDFKernel(
             
             normal_map[pixel_idx * 3] = static_cast<uint8_t>((nx + 1.0f) * 127.5f);
             normal_map[pixel_idx * 3 + 1] = static_cast<uint8_t>((ny + 1.0f) * 127.5f);
+            normal_map[pixel_idx * 3 + 2] = static_cast<uint8_t>((nz + 1.0f) * 127.5f);
