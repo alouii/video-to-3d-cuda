@@ -113,3 +113,4 @@ __global__ void bilateralFilterDepthKernel(
     }
     
     output_depth[center_idx] = (sum_weights > 0.0f) ? (sum_values / sum_weights) : center_depth;
+}
