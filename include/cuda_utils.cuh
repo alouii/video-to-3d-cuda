@@ -273,3 +273,4 @@ inline void printDeviceInfo() {
     std::cout << "Max Threads Per Block: " << prop.maxThreadsPerBlock << std::endl;
     std::cout << "Multiprocessors: " << prop.multiProcessorCount << std::endl;
     std::cout << "Warp Size: " << prop.warpSize << std::endl;
+    std::cout << "=======================" << std::endl;
