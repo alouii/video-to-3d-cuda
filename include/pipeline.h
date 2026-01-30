@@ -51,3 +51,4 @@ public:
     
     // Control
     void pause();
+    void resume();
