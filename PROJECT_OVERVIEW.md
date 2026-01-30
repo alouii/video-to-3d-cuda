@@ -203,3 +203,4 @@ video-to-3d-cuda/
 **Optional**:
 - PCL (visualization)
 - VTK (rendering)
+- TensorRT (depth models)
