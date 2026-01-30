@@ -161,3 +161,4 @@ video-to-3d-cuda/
 
 ## CUDA Optimization Techniques Applied
 
+1. **Memory Optimization**
