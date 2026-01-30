@@ -25,3 +25,4 @@ bool VideoCapture::open(const std::string& source) {
         return false;
     }
     
+    width_ = static_cast<int>(capture_.get(cv::CAP_PROP_FRAME_WIDTH));
