@@ -363,3 +363,4 @@ void launchRejectOutliers(
     float max_distance,
     cudaStream_t stream
 ) {
+    int block_size = 256;
