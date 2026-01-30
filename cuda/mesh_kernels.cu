@@ -107,3 +107,4 @@ __global__ void generateMeshKernel(
             if (i >= 8) {
                 v0 = i - 8;
                 v1 = v0 + 4;
+            }
