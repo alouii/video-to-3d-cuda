@@ -90,3 +90,4 @@ __global__ void generateMeshKernel(
         
         corners[i] = corner_voxel.tsdf;
         
+        config.voxelToWorld(vx + dx, vy + dy, vz + dz, positions[i].x, positions[i].y, positions[i].z);
