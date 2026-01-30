@@ -394,3 +394,4 @@ void launchVoxelDownsample(
     ColoredPoint* d_output_points,
     int* d_voxel_counts,
     int num_points,
+    float voxel_size,
