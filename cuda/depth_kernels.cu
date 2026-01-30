@@ -116,3 +116,4 @@ __global__ void censusTransformKernel(
             if (image[neighbor_idx] >= center_val) {
                 census_val |= (1 << bit);
             }
+            bit++;
