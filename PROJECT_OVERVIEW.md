@@ -185,3 +185,4 @@ video-to-3d-cuda/
 # Build
 ./scripts/build.sh
 
+# Run
