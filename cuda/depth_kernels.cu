@@ -242,3 +242,4 @@ __global__ void disparityToDepthKernel(
     float* depth_map,
     int width,
     int height,
+    float baseline,
