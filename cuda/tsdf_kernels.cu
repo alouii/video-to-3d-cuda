@@ -31,3 +31,4 @@ __global__ void integrateTSDFKernel(
     // Transform to camera space (inverse pose)
     // R^T * (p - t)
     float px = world_x - pose.translation[0];
+    float py = world_y - pose.translation[1];
