@@ -18,3 +18,4 @@ void printUsage(const char* program_name) {
               << "  --max-frames <n>           Maximum frames to process (default: all)\n"
               << "  --skip-frames <n>          Skip n frames between processing (default: 0)\n"
               << "  --fx <value>               Focal length X (default: 525.0)\n"
+              << "  --fy <value>               Focal length Y (default: 525.0)\n"
