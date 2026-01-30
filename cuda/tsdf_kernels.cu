@@ -306,3 +306,4 @@ void launchIntegrateTSDF(
         width, height
     );
     
+    CUDA_CHECK_LAST_ERROR();
