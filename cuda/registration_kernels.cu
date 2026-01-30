@@ -232,3 +232,4 @@ __global__ void computePointToPlaneKernel(
     // Jacobian for point-to-plane
     // J = [n^T, (p x n)^T] where p is source point, n is target normal
     int j_offset = idx * 6;
+    jacobian[j_offset + 0] = tgt.nx;
