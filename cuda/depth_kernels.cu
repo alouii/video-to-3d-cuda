@@ -128,3 +128,4 @@ __global__ void computeMatchingCostKernel(
     const uint32_t* right_census,
     float* cost_volume,
     int width,
+    int height,
