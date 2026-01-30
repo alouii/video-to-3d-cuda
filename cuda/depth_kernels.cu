@@ -4,3 +4,4 @@
 // Semi-Global Matching (SGM) cost aggregation
 __global__ void sgmCostAggregationKernel(
     const float* cost_volume,
+    float* aggregated_cost,
