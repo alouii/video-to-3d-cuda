@@ -291,3 +291,4 @@ void launchTransformPointCloud(
     const Pose& pose,
     cudaStream_t stream
 ) {
+    int block_size = 256;
