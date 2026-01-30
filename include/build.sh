@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Build script for Video to 3D CUDA project
+
+set -e
+
+echo "=== Building Video to 3D CUDA ==="
+
+# Create build directory
+mkdir -p build
+cd build
+
+# Configure with CMake
+echo "Configuring..."
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_CUDA_ARCHITECTURES="75;80;86;89" \
+    -DBUILD_TESTS=ON
+
+# Build
+echo "Building..."
+make -j$(nproc)
+
+echo "Build complete!"
+echo "Executable: ./video_to_3d"
+
+# Run tests if requested
+if [ "$1" == "test" ]; then
+    echo "Running tests..."
+    ctest --output-on-failure
+fi

@@ -1,0 +1,103 @@
+#ifndef PIPELINE_H
+#define PIPELINE_H
+
+#include "data_structures.h"
+#include "video_capture.h"
+#include "cuda_utils.cuh"
+#include <memory>
+#include <vector>
+
+namespace v3d {
+
+// Forward declarations
+class DepthEstimator;
+class PointCloudGenerator;
+class Registration;
+class TSDFFusion;
+class MeshGenerator;
+class Visualizer;
+
+class VideoTo3DPipeline {
+public:
+    explicit VideoTo3DPipeline(const PipelineConfig& config);
+    ~VideoTo3DPipeline();
+    
+    // Initialize pipeline
+    bool initialize();
+    
+    // Process video
+    void processVideo();
+    
+    // Process single frame
+    bool processNextFrame();
+    
+    // Check if more frames available
+    bool hasFrames() const;
+    
+    // Check if reconstruction is ready
+    bool reconstructionReady() const;
+    
+    // Get results
+    PointCloud getPointCloud() const;
+    Mesh getMesh() const;
+    
+    // Export results
+    bool exportPointCloud(const std::string& filename) const;
+    bool exportMesh(const std::string& filename) const;
+    
+    // Statistics
+    PerformanceStats getStatistics() const;
+    void printStatistics() const;
+    
+    // Control
+    void pause();
+    void resume();
+    void stop();
+    
+private:
+    // Pipeline stages
+    bool captureFrame();
+    bool estimateDepth();
+    bool generatePointCloud();
+    bool registerPointCloud();
+    bool fuseTSDF();
+    bool generateMesh();
+    bool visualize();
+    
+    // Configuration
+    PipelineConfig config_;
+    
+    // Components
+    std::unique_ptr<VideoCapture> video_capture_;
+    std::unique_ptr<DepthEstimator> depth_estimator_;
+    std::unique_ptr<PointCloudGenerator> pointcloud_generator_;
+    std::unique_ptr<Registration> registration_;
+    std::unique_ptr<TSDFFusion> tsdf_fusion_;
+    std::unique_ptr<MeshGenerator> mesh_generator_;
+    std::unique_ptr<Visualizer> visualizer_;
+    
+    // Current frame data
+    VideoFrame current_frame_;
+    DepthFrame current_depth_frame_;
+    PointCloud current_pointcloud_;
+    
+    // Accumulated data
+    PointCloud accumulated_pointcloud_;
+    Mesh final_mesh_;
+    
+    // State
+    bool initialized_;
+    bool paused_;
+    bool stopped_;
+    int frames_processed_;
+    
+    // Performance tracking
+    PerformanceStats stats_;
+    
+    // CUDA streams for async processing
+    std::vector<cuda_utils::CudaStream> cuda_streams_;
+};
+
+} // namespace v3d
+
+#endif // PIPELINE_H
