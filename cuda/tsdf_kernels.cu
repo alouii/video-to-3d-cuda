@@ -98,3 +98,4 @@ __global__ void extractSurfacePointsKernel(
     const VoxelGridConfig config,
     float weight_threshold
 ) {
+    int vx = blockIdx.x * blockDim.x + threadIdx.x;
