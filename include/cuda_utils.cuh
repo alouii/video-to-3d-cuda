@@ -175,3 +175,4 @@ public:
     
     // Move semantics
     DeviceBuffer(DeviceBuffer&& other) noexcept 
+        : data_(other.data_), size_(other.size_) {
