@@ -200,3 +200,4 @@ All compute-intensive operations are GPU-accelerated:
 1. **Reduce Voxel Grid Size**: Use larger voxels (0.02m vs 0.01m)
 2. **Skip Frames**: Process every 2nd or 3rd frame
 3. **Lower Resolution**: Resize input to 640x480
+4. **Disable Visualization**: Save 16ms per frame
