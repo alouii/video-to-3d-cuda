@@ -144,3 +144,4 @@ void VideoCapture::captureThread() {
         }
         
         // Create video frame
+        VideoFrame video_frame;
