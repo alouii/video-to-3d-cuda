@@ -291,3 +291,4 @@ void launchIntegrateTSDF(
     int width,
     int height,
     cudaStream_t stream
+) {
