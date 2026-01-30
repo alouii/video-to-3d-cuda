@@ -264,3 +264,4 @@ __global__ void reduceErrorsKernel(
 extern "C" {
 
 void launchFindCorrespondences(
+    const ColoredPoint* d_source_points,
