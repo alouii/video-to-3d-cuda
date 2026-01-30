@@ -335,3 +335,4 @@ Future versions will support:
 ## References
 
 - [KinectFusion Paper](https://www.microsoft.com/en-us/research/publication/kinectfusion-real-time-dense-surface-mapping-and-tracking/)
+- [CUDA Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/)
