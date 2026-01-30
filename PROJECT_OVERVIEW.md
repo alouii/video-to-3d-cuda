@@ -236,3 +236,4 @@ video-to-3d-cuda/
    - ROS2 nodes
    - Python bindings
    - Web interface
+   - Cloud deployment
