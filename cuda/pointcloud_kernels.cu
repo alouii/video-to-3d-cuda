@@ -259,3 +259,4 @@ __global__ void voxelDownsampleKernel(
     ColoredPoint* output_points,
     int* voxel_counts,
     int num_points,
+    float voxel_size,
