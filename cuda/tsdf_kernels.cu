@@ -46,3 +46,4 @@ __global__ void integrateTSDFKernel(
     int v = static_cast<int>(intrinsics.fy * cam_y / cam_z + intrinsics.cy);
     
     // Check if inside image
+    if (u < 0 || u >= width || v < 0 || v >= height) return;
