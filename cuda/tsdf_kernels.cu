@@ -15,3 +15,4 @@ __global__ void integrateTSDFKernel(
     float truncation_distance,
     float max_weight,
     int width,
+    int height
