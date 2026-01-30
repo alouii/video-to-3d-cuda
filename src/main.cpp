@@ -32,3 +32,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         if (arg == "-h" || arg == "--help") {
             return false;
         }
+        else if (arg == "-i" || arg == "--input") {
