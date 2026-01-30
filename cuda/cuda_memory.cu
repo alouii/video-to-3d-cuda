@@ -3,3 +3,4 @@
 
 // Global memory pool instance
 namespace cuda_utils {
+    static CudaMemoryPool g_memory_pool;
