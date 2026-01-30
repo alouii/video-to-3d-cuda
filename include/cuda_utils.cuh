@@ -266,3 +266,4 @@ inline void printDeviceInfo() {
     CUDA_CHECK(cudaGetDeviceProperties(&prop, device));
     
     std::cout << "=== CUDA Device Info ===" << std::endl;
+    std::cout << "Device: " << prop.name << std::endl;
