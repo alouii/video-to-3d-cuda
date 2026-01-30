@@ -169,3 +169,4 @@ int VideoCapture::getHeight() const {
     return height_;
 }
 
+double VideoCapture::getFPS() const {
