@@ -169,3 +169,4 @@ __global__ void medianFilterKernel(
     }
     
     int center_idx = y * width + x;
+    
