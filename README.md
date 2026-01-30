@@ -271,3 +271,4 @@ public:
         return true;
     }
     
+    bool estimateDepth(const cv::Mat& rgb, DepthFrame& depth) override {
