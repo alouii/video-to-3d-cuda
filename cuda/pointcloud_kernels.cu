@@ -252,3 +252,4 @@ __global__ void statisticalOutlierRemovalKernel(
         output_points[idx] = point;
     }
 }
+
