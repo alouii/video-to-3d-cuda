@@ -9,3 +9,4 @@ void printUsage(const char* program_name) {
     std::cout << "Usage: " << program_name << " [options]\n"
               << "Options:\n"
               << "  -i, --input <file>         Input video file\n"
+              << "  -c, --camera <id>          Camera device ID (default: 0)\n"
