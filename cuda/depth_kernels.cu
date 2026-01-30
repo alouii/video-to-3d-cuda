@@ -182,3 +182,4 @@ __global__ void medianFilterKernel(
                 values[count++] = val;
             }
         }
+    }
