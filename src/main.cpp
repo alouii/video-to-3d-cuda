@@ -159,3 +159,4 @@ int main(int argc, char** argv) {
         std::string output_file = config.output_dir;
         if (output_file.find(".ply") == std::string::npos) {
             output_file += "/reconstruction.ply";
+        }
