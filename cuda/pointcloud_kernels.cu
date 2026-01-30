@@ -140,3 +140,4 @@ __global__ void computeNormalsKernel(
     if (depth_right <= 0.0f || depth_down <= 0.0f) return;
     
     // Compute 3D positions
+    float cx = (x - intrinsics.cx) * depth_center / intrinsics.fx;
