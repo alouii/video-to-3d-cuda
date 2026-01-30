@@ -179,3 +179,4 @@ public:
         other.data_ = nullptr;
         other.size_ = 0;
     }
+    
