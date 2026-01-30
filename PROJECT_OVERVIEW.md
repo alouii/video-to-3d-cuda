@@ -57,3 +57,4 @@ video-to-3d-cuda/
 │   ├── test_registration.cpp     # Registration tests
 │   └── benchmark.cpp             # Performance benchmarks
 │
+├── scripts/                      # Build and utility scripts
