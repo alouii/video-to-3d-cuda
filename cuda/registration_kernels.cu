@@ -218,3 +218,4 @@ __global__ void computePointToPlaneKernel(
         residuals[idx] = 0.0f;
         return;
     }
+    
