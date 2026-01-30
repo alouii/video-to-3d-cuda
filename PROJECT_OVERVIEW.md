@@ -98,3 +98,4 @@ video-to-3d-cuda/
 - [x] Multi-threaded video capture
 - [x] Frame buffering with producer-consumer pattern
 - [x] Support for multiple video formats
+- [x] Camera and file input support
