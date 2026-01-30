@@ -74,3 +74,4 @@ private:
     std::unique_ptr<Registration> registration_;
     std::unique_ptr<TSDFFusion> tsdf_fusion_;
     std::unique_ptr<MeshGenerator> mesh_generator_;
+    std::unique_ptr<Visualizer> visualizer_;
