@@ -285,3 +285,4 @@ void launchIntegrateTSDF(
     const uint8_t* d_rgb_image,
     const CameraIntrinsics& intrinsics,
     const Pose& pose,
+    const VoxelGridConfig& config,
