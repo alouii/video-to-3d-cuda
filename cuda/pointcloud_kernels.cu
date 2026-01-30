@@ -315,3 +315,4 @@ void launchDepthToPointCloud(
     int* d_valid_count,
     const CameraIntrinsics& intrinsics,
     const Pose& pose,
+    float min_depth,
