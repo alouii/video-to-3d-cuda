@@ -54,3 +54,4 @@ public:
     void stop();
     bool isRunning() const;
     
+private:
