@@ -249,3 +249,4 @@ __global__ void statisticalOutlierRemovalKernel(
     valid_mask[idx] = (mean_distance < threshold) ? 1 : 0;
     
     if (valid_mask[idx]) {
+        output_points[idx] = point;
