@@ -289,3 +289,4 @@ void launchTransformPointCloud(
     ColoredPoint* d_output_points,
     int num_points,
     const Pose& pose,
+    cudaStream_t stream
