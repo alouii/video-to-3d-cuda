@@ -180,3 +180,4 @@ __global__ void medianFilterKernel(
             float val = input_disparity[idx];
             if (val > 0.0f) {
                 values[count++] = val;
+            }
