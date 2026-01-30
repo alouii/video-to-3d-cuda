@@ -233,3 +233,4 @@ video-to-3d-cuda/
    - Batch processing mode
 
 4. **Integrations**
+   - ROS2 nodes
