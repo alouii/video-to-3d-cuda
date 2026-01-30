@@ -9,3 +9,4 @@ __global__ void depthToPointCloudKernel(
     const float* depth_map,
     const uint8_t* rgb_image,
     ColoredPoint* points,
+    int* valid_count,
