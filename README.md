@@ -166,3 +166,4 @@ All compute-intensive operations are GPU-accelerated:
    - Point cloud transformation
    
 4. **TSDF Fusion** (`tsdf_kernels.cu`)
+   - Volumetric integration
