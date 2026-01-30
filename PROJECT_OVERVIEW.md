@@ -169,3 +169,4 @@ video-to-3d-cuda/
 
 2. **Computation Optimization**
    - Warp-level reductions
+   - Parallel prefix sums
