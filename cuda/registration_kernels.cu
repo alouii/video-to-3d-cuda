@@ -55,3 +55,4 @@ __global__ void transformPointCloudKernel(
     ColoredPoint& out_pt = output_points[idx];
     
     // Apply rotation and translation
+    out_pt.x = pose.rotation[0] * in_pt.x + pose.rotation[1] * in_pt.y + pose.rotation[2] * in_pt.z + pose.translation[0];
