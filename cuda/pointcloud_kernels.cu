@@ -94,3 +94,4 @@ __global__ void bilateralFilterDepthKernel(
             if (nx < 0 || nx >= width || ny < 0 || ny >= height) continue;
             
             int neighbor_idx = ny * width + nx;
+            float neighbor_depth = input_depth[neighbor_idx];
