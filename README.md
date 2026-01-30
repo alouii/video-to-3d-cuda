@@ -203,3 +203,4 @@ All compute-intensive operations are GPU-accelerated:
 4. **Disable Visualization**: Save 16ms per frame
 5. **Multi-GPU**: Distribute TSDF volumes across GPUs
 
+## API Usage
