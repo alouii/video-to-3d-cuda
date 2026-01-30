@@ -41,3 +41,4 @@ public:
     // Get video properties
     int getWidth() const;
     int getHeight() const;
+    double getFPS() const;
