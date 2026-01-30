@@ -147,3 +147,4 @@ __global__ void computeMatchingCostKernel(
         uint32_t xor_val = left_val ^ right_val;
         int hamming = __popc(xor_val);  // Population count
         
+        int cost_idx = y * width * max_disparity + x * max_disparity + d;
