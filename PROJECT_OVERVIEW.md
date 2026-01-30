@@ -89,3 +89,4 @@ video-to-3d-cuda/
 | C++ Implementation | 2,000 | 9 |
 | Headers | 1,500 | 10 |
 | Documentation | 1,000 | 4 |
+| Build Scripts | 200 | 3 |
