@@ -55,3 +55,4 @@ __device__ __forceinline__ float atomicMinFloat(float* address, float val) {
 }
 
 // Warp-level reduction sum
+__device__ __forceinline__ float warpReduceSum(float val) {
