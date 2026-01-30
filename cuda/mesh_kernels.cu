@@ -81,3 +81,4 @@ __global__ void generateMeshKernel(
     uint3 colors[8];
     
     for (int i = 0; i < 8; i++) {
+        int dx = (i & 1);
