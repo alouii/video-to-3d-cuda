@@ -353,3 +353,4 @@ void launchBilateralFilterDepth(
 
 void launchComputeNormals(
     const float* d_depth_map,
+    ColoredPoint* d_points,
