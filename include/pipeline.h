@@ -23,3 +23,4 @@ public:
     ~VideoTo3DPipeline();
     
     // Initialize pipeline
+    bool initialize();
