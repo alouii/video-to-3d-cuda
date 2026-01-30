@@ -297,3 +297,4 @@ void launchComputeMatchingCost(
         d_left_census, d_right_census, d_cost_volume, width, height, max_disparity
     );
     
+    CUDA_CHECK_LAST_ERROR();
