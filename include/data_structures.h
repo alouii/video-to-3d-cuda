@@ -162,3 +162,4 @@ struct Mesh {
 
 // TSDF voxel
 struct TSDFVoxel {
+    float tsdf;        // Truncated signed distance
