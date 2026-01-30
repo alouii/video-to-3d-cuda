@@ -130,3 +130,4 @@ video-to-3d-cuda/
 - [x] Marching Cubes algorithm
 - [x] Voxel classification
 - [x] Triangle generation
+- [x] Vertex interpolation
