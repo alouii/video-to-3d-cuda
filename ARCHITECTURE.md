@@ -199,3 +199,4 @@ struct TSDFVoxel {
 └──────────────┘         └──────────────┘
 ```
 
+## Memory Management
