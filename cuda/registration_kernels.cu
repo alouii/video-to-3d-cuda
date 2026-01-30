@@ -171,3 +171,4 @@ __global__ void computeAlignmentErrorKernel(
     if (idx >= num_points) return;
     
     int corr_idx = correspondences[idx];
+    if (corr_idx < 0) {
