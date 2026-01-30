@@ -243,3 +243,4 @@ public:
     
     cudaStream_t get() const { return stream_; }
     
+    void synchronize() {
