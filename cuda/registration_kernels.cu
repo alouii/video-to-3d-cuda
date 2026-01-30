@@ -10,3 +10,4 @@ __global__ void findCorrespondencesKernel(
     const ColoredPoint* target_points,
     int* correspondences,
     float* distances,
+    int num_source,
