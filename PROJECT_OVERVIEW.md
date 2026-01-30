@@ -195,3 +195,4 @@ video-to-3d-cuda/
 ## Dependencies
 
 **Required**:
+- CUDA Toolkit 11.0+
