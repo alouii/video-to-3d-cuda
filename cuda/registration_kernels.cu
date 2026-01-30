@@ -64,3 +64,4 @@ __global__ void transformPointCloudKernel(
     out_pt.g = in_pt.g;
     out_pt.b = in_pt.b;
     
+    // Transform normal
