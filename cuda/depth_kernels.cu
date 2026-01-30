@@ -264,3 +264,4 @@ __global__ void disparityToDepthKernel(
 extern "C" {
 
 void launchCensusTransform(
+    const uint8_t* d_image,
