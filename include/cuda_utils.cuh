@@ -44,3 +44,4 @@ __device__ __forceinline__ float atomicMaxFloat(float* address, float val) {
 
 // Device function for atomic min with floats
 __device__ __forceinline__ float atomicMinFloat(float* address, float val) {
+    int* address_as_int = (int*)address;
