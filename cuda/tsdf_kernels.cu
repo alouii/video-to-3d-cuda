@@ -238,3 +238,4 @@ __global__ void raycastTSDFKernel(
     if (found_surface) {
         depth_map[pixel_idx] = surface_t;
         
+        // Compute normal by gradient (central differences)
