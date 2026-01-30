@@ -122,3 +122,4 @@ video-to-3d-cuda/
 
 ### 5. TSDF Fusion
 - [x] Volumetric integration
+- [x] Weighted averaging
