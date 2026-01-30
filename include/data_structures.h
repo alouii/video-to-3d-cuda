@@ -183,3 +183,4 @@ struct VoxelGridConfig {
           min_x(-2.5f), min_y(-2.5f), min_z(-2.5f),
           max_x(2.5f), max_y(2.5f), max_z(2.5f) {}
     
+    int total_voxels() const {
