@@ -104,3 +104,4 @@ public:
     
     void* allocate(size_t size) {
         // Find free block of suitable size
+        for (auto& block : blocks_) {
