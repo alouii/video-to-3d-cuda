@@ -240,3 +240,4 @@ __global__ void statisticalOutlierRemovalKernel(
         float diff = dist - mean_distance;
         variance += diff * diff;
     }
+    variance /= count;
