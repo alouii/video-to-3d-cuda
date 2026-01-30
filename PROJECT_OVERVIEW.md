@@ -111,3 +111,4 @@ video-to-3d-cuda/
 - [x] GPU-accelerated back-projection
 - [x] Bilateral filtering
 - [x] Normal estimation
+- [x] Statistical outlier removal
