@@ -141,3 +141,4 @@ __global__ void computeCovarianceKernel(
             
             // Compute outer product contributions
             atomicAdd(&s_cov[0], src_x * tgt_x);
+            atomicAdd(&s_cov[1], src_x * tgt_y);
