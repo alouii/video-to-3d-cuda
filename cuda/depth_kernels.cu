@@ -89,3 +89,4 @@ __global__ void censusTransformKernel(
     uint32_t* census,
     int width,
     int height,
+    int window_size
