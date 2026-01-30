@@ -91,3 +91,4 @@ private:
     std::vector<Block> blocks_;
     size_t total_allocated_;
     
+public:
