@@ -140,3 +140,4 @@ void VideoCapture::captureThread() {
             std::cout << "End of video or capture error." << std::endl;
             stop_requested_ = true;
             buffer_cv_.notify_all();
+            break;
