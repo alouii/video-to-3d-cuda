@@ -98,3 +98,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.intrinsics.cy = std::stof(argv[++i]);
             }
         }
+    }
