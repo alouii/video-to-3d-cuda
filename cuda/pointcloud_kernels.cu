@@ -272,3 +272,4 @@ __global__ void voxelDownsampleKernel(
     
     const ColoredPoint& point = input_points[idx];
     
+    // Compute voxel indices
