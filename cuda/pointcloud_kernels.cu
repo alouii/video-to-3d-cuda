@@ -222,3 +222,4 @@ __global__ void statisticalOutlierRemovalKernel(
     if (count == 0) {
         valid_mask[idx] = 0;
         return;
+    }
