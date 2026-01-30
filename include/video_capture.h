@@ -45,3 +45,4 @@ public:
     int getTotalFrames() const;
     
     // Buffer management
+    void setBufferSize(size_t size);
