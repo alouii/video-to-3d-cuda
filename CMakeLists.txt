@@ -45,3 +45,4 @@ endif()
 set(CUDA_SOURCES
     cuda/depth_kernels.cu
     cuda/pointcloud_kernels.cu
+    cuda/registration_kernels.cu
