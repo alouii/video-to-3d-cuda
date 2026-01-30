@@ -185,3 +185,4 @@ __global__ void computeNormalsKernel(
     points[idx].nx = nx;
     points[idx].ny = ny;
     points[idx].nz = nz;
+}
