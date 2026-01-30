@@ -69,3 +69,4 @@ __global__ void bilateralFilterDepthKernel(
     float sigma_space,
     float sigma_range
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
