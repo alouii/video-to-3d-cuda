@@ -232,3 +232,4 @@ private:
 public:
     CudaStream() {
         CUDA_CHECK(cudaStreamCreate(&stream_));
+    }
