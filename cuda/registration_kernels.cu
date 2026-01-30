@@ -159,3 +159,4 @@ __global__ void computeCovarianceKernel(
     }
 }
 
+// Compute alignment error
