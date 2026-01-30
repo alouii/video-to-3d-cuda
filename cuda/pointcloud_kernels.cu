@@ -306,3 +306,4 @@ __global__ void voxelDownsampleKernel(
 }
 
 // C++ interface functions
+extern "C" {
