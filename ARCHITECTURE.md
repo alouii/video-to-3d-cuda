@@ -264,3 +264,4 @@ GPU Memory Layout:
 
 **System Bottlenecks**:
 - PCIe bandwidth (solution: minimize transfers)
+- CPU-GPU synchronization (solution: async streams)
