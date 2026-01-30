@@ -37,3 +37,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.video_source = argv[++i];
                 config.use_camera = false;
             }
+        }
