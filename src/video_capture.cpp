@@ -112,3 +112,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
         return false;
     }
     
+    frame = frame_buffer_.front();
