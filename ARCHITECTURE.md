@@ -314,3 +314,4 @@ Future versions will support:
 - 4-core CPU
 - 8GB RAM
 
+**Recommended** (60 FPS @ 1080p):
