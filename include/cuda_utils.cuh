@@ -20,3 +20,4 @@
 
 // CUDA kernel error checking
 #define CUDA_CHECK_LAST_ERROR() \
+    do { \
