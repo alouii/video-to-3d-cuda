@@ -43,3 +43,4 @@ __global__ void findCorrespondencesKernel(
 
 // Transform point cloud with pose
 __global__ void transformPointCloudKernel(
+    const ColoredPoint* input_points,
