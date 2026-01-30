@@ -88,3 +88,4 @@ __global__ void censusTransformKernel(
     const uint8_t* image,
     uint32_t* census,
     int width,
+    int height,
