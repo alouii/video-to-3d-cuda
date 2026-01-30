@@ -322,3 +322,4 @@ void launchDisparityToDepth(
     const float* d_disparity_map,
     float* d_depth_map,
     int width,
+    int height,
