@@ -233,3 +233,4 @@ GPU Memory Layout:
 ### CUDA Kernel Optimization Techniques
 
 1. **Occupancy Optimization**
+   - 256-512 threads per block
