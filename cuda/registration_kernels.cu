@@ -207,3 +207,4 @@ __global__ void computePointToPlaneKernel(
     const ColoredPoint* target_points,
     const int* correspondences,
     float* residuals,
+    float* jacobian,  // 6 x num_points (6 DOF per point)
