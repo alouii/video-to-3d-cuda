@@ -290,3 +290,4 @@ void launchIntegrateTSDF(
     float max_weight,
     int width,
     int height,
+    cudaStream_t stream
