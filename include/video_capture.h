@@ -21,3 +21,4 @@ struct VideoFrame {
 };
 
 class VideoCapture {
+public:
