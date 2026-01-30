@@ -65,3 +65,4 @@ set(CPP_SOURCES
     src/mesh_generator.cpp
 )
 
+# Create library
