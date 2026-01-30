@@ -33,3 +33,4 @@ public:
     void close();
     
     // Check if opened
+    bool isOpened() const;
