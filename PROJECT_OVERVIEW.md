@@ -243,3 +243,4 @@ video-to-3d-cuda/
 ```bash
 cd build
 ctest --output-on-failure
+```
