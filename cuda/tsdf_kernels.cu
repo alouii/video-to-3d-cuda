@@ -53,3 +53,4 @@ __global__ void integrateTSDFKernel(
     float measured_depth = depth_map[pixel_idx];
     
     // Check valid depth
+    if (measured_depth <= 0.0f || isnan(measured_depth) || isinf(measured_depth)) return;
