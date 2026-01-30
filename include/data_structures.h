@@ -92,3 +92,4 @@ struct ColoredPoint {
           nx(0), ny(0), nz(0), confidence(1.0f) {}
 };
 
+// Depth frame with RGB and pose
