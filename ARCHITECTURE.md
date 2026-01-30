@@ -180,3 +180,4 @@ struct TSDFVoxel {
              ┌──────────────┐
              │ Registration │
              │     (ICP)    │
+             │   (CUDA)     │
