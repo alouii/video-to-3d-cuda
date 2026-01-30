@@ -96,3 +96,4 @@ public:
     
     ~CudaMemoryPool() {
         for (auto& block : blocks_) {
+            if (block.ptr) {
