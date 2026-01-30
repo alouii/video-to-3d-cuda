@@ -318,3 +318,4 @@ void launchComputeCentroid(
 }
 
 void launchComputeCovariance(
+    const ColoredPoint* d_source_points,
