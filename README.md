@@ -237,3 +237,4 @@ pipeline.exportMesh("mesh.obj");
 ```python
 import video3d
 
+pipeline = video3d.Pipeline()
