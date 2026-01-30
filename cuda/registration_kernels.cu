@@ -22,3 +22,4 @@ __global__ void findCorrespondencesKernel(
     float min_dist = max_distance;
     int best_match = -1;
     
+    // Brute force nearest neighbor (in practice use KD-tree)
