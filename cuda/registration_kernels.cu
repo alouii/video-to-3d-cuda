@@ -370,3 +370,4 @@ void launchRejectOutliers(
         d_distances, d_correspondences, num_points, max_distance
     );
     
+    CUDA_CHECK_LAST_ERROR();
