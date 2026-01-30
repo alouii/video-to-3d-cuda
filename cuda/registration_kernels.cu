@@ -290,3 +290,4 @@ void launchTransformPointCloud(
     int num_points,
     const Pose& pose,
     cudaStream_t stream
+) {
