@@ -123,3 +123,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
 void VideoCapture::captureThread() {
     while (!stop_requested_) {
         // Check if buffer is full
+        {
