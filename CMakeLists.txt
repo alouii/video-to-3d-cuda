@@ -31,3 +31,4 @@ find_package(VTK QUIET)
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/include
+    ${CUDA_INCLUDE_DIRS}
