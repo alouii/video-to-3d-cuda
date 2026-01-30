@@ -37,3 +37,4 @@ video-to-3d-cuda/
 │   ├── video_capture.cpp         # Multi-threaded capture
 │   ├── depth_estimator.cpp       # Depth estimation
 │   ├── point_cloud_generator.cpp # Point cloud generation
+│   ├── registration.cpp          # Registration (stub)
