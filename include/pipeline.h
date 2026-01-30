@@ -64,3 +64,4 @@ private:
     bool generateMesh();
     bool visualize();
     
+    // Configuration
