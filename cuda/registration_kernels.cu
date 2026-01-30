@@ -139,3 +139,4 @@ __global__ void computeCovarianceKernel(
             float tgt_y = tgt.y - target_centroid[1];
             float tgt_z = tgt.z - target_centroid[2];
             
+            // Compute outer product contributions
