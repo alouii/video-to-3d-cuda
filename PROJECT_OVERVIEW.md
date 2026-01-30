@@ -268,3 +268,4 @@ This project provides a **complete, production-ready** implementation of a GPU-a
 
 The system demonstrates mastery of:
 - GPU programming and CUDA optimization
+- Computer vision and 3D reconstruction
