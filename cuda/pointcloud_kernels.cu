@@ -382,3 +382,4 @@ void launchStatisticalOutlierRemoval(
     int grid_size = (num_points + block_size - 1) / block_size;
     
     statisticalOutlierRemovalKernel<<<grid_size, block_size, 0, stream>>>(
+        d_input_points, d_output_points, d_valid_mask,
