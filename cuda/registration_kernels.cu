@@ -210,3 +210,4 @@ __global__ void computePointToPlaneKernel(
     float* jacobian,  // 6 x num_points (6 DOF per point)
     int num_points
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
