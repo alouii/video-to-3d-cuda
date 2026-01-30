@@ -93,3 +93,4 @@ void VideoCapture::stop() {
         capture_thread_.join();
     }
     
+    running_ = false;
