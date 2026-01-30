@@ -132,3 +132,4 @@ __global__ void computeCovarianceKernel(
             
             // Centered points
             float src_x = src.x - source_centroid[0];
+            float src_y = src.y - source_centroid[1];
