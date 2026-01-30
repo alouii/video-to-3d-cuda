@@ -15,3 +15,4 @@ __global__ void classifyVoxelsKernel(
     int* voxel_vertices,
     const VoxelGridConfig config,
     float iso_value
+) {
