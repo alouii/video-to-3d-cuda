@@ -53,3 +53,4 @@ sudo apt install libomp-dev
 
 ### Optional
 ```bash
+# PCL for advanced visualization
