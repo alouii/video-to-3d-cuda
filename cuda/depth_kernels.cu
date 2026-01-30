@@ -179,3 +179,4 @@ __global__ void medianFilterKernel(
             int idx = (y + dy) * width + (x + dx);
             float val = input_disparity[idx];
             if (val > 0.0f) {
+                values[count++] = val;
