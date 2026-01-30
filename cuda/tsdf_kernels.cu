@@ -209,3 +209,4 @@ __global__ void raycastTSDFKernel(
             t += step_size;
             continue;
         }
+        
