@@ -297,3 +297,4 @@ Future versions will support:
 - Registration algorithm plugins
 - Export format plugins
 - Visualization backends
+
