@@ -18,3 +18,4 @@ __global__ void classifyVoxelsKernel(
 ) {
     int vx = blockIdx.x * blockDim.x + threadIdx.x;
     int vy = blockIdx.y * blockDim.y + threadIdx.y;
+    int vz = blockIdx.z * blockDim.z + threadIdx.z;
