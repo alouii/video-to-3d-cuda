@@ -201,3 +201,4 @@ __global__ void rejectOutliersKernel(
     }
 }
 
+// Point-to-plane ICP: compute point-to-plane distances
