@@ -265,3 +265,4 @@ extern "C" {
 
 void launchCensusTransform(
     const uint8_t* d_image,
+    uint32_t* d_census,
