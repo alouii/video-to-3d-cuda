@@ -226,3 +226,4 @@ __global__ void statisticalOutlierRemovalKernel(
     
     float mean_distance = sum_distances / count;
     
+    // Compute variance (simplified, in practice do two-pass)
