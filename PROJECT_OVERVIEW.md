@@ -58,3 +58,4 @@ video-to-3d-cuda/
 │   └── benchmark.cpp             # Performance benchmarks
 │
 ├── scripts/                      # Build and utility scripts
+│   └── build.sh                  # Build automation script
