@@ -15,3 +15,4 @@ namespace v3d {
 struct VideoFrame {
     cv::Mat rgb_image;
     double timestamp;
+    int frame_index;
