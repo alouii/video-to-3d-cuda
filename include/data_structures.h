@@ -101,3 +101,4 @@ struct DepthFrame {
     double timestamp;
     bool on_device;
     
+    DepthFrame() : depth_map(nullptr), rgb_image(nullptr), 
