@@ -210,3 +210,4 @@ __global__ void raycastTSDFKernel(
             continue;
         }
         
+        // Get TSDF value
