@@ -74,3 +74,4 @@ private:
     int current_frame_index_;
 };
 
+} // namespace v3d
