@@ -8,3 +8,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - **CUDA Acceleration**: Optimized CUDA kernels for all compute-intensive operations
 - **Multiple Depth Estimation Methods**:
   - Stereo matching (Semi-Global Matching)
+  - Monocular depth estimation (integration ready for MiDaS/DPT)
