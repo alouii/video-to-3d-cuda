@@ -172,3 +172,4 @@ video-to-3d-cuda/
    - Parallel prefix sums
    - Occupancy tuning (256-512 threads/block)
    - Kernel fusion where applicable
+
