@@ -57,3 +57,4 @@ __global__ void integrateTSDFKernel(
     
     // Compute SDF value
     float sdf = measured_depth - cam_z;
+    
