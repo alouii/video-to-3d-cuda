@@ -296,3 +296,4 @@ Future versions will support:
 - Depth estimation plugins
 - Registration algorithm plugins
 - Export format plugins
+- Visualization backends
