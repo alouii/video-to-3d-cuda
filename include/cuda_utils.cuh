@@ -229,3 +229,4 @@ class CudaStream {
 private:
     cudaStream_t stream_;
     
+public:
