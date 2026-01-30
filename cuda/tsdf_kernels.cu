@@ -292,3 +292,4 @@ void launchIntegrateTSDF(
     int height,
     cudaStream_t stream
 ) {
+    dim3 block(8, 8, 8);
