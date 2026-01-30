@@ -366,3 +366,4 @@ void launchComputeNormals(
         d_depth_map, d_points, intrinsics, width, height
     );
     
+    CUDA_CHECK_LAST_ERROR();
