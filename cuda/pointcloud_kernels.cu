@@ -276,3 +276,4 @@ __global__ void voxelDownsampleKernel(
     int vx = static_cast<int>((point.x - min_x) / voxel_size);
     int vy = static_cast<int>((point.y - min_y) / voxel_size);
     int vz = static_cast<int>((point.z - min_z) / voxel_size);
+    
