@@ -173,3 +173,4 @@ video-to-3d-cuda/
    - Occupancy tuning (256-512 threads/block)
    - Kernel fusion where applicable
 
+3. **Execution Optimization**
