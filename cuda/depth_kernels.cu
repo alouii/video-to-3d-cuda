@@ -99,3 +99,4 @@ __global__ void censusTransformKernel(
         return;
     }
     
+    int center_idx = y * width + x;
