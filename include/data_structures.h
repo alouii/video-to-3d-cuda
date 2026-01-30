@@ -140,3 +140,4 @@ struct PointCloud {
 struct Triangle {
     uint32_t v0, v1, v2;  // Vertex indices
 };
+
