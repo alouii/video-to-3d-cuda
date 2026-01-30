@@ -44,3 +44,4 @@ public:
     // Export results
     bool exportPointCloud(const std::string& filename) const;
     bool exportMesh(const std::string& filename) const;
+    
