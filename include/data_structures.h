@@ -253,3 +253,4 @@ struct PerformanceStats {
     double visualization_time;
     double total_frame_time;
     
+    int frames_processed;
