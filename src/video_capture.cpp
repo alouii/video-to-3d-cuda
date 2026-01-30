@@ -135,3 +135,4 @@ void VideoCapture::captureThread() {
         }
         
         // Capture frame
+        cv::Mat frame;
