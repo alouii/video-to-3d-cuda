@@ -119,3 +119,4 @@ struct PointCloud {
     
     void clear() {
         points.clear();
+        has_normals = false;
