@@ -85,3 +85,4 @@ struct ColoredPoint {
     float confidence;    // Measurement confidence
     
     ColoredPoint() : x(0), y(0), z(0), r(0), g(0), b(0), 
+                     nx(0), ny(0), nz(0), confidence(1.0f) {}
