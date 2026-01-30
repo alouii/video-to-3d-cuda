@@ -123,3 +123,4 @@ public:
         for (auto& block : blocks_) {
             if (block.ptr == ptr) {
                 block.in_use = false;
+                return;
