@@ -135,3 +135,4 @@ __global__ void computeNormalsKernel(
     
     // Get neighboring depths
     float depth_right = depth_map[y * width + (x + 1)];
+    float depth_down = depth_map[(y + 1) * width + x];
