@@ -21,3 +21,4 @@ void printUsage(const char* program_name) {
               << "  --fy <value>               Focal length Y (default: 525.0)\n"
               << "  --cx <value>               Principal point X (default: 319.5)\n"
               << "  --cy <value>               Principal point Y (default: 239.5)\n"
+              << "  --help                     Display this help message\n"
