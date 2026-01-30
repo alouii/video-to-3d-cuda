@@ -28,3 +28,4 @@ public:
     // Process video
     void processVideo();
     
+    // Process single frame
