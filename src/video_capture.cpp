@@ -168,3 +168,4 @@ int VideoCapture::getWidth() const {
 int VideoCapture::getHeight() const {
     return height_;
 }
+
