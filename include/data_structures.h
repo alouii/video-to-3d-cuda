@@ -26,3 +26,4 @@ struct CameraIntrinsics {
         y = (v - cy) * depth / fy;
     }
     
+    // Project 3D point to pixel
