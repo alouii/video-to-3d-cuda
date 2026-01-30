@@ -39,3 +39,4 @@ __global__ void integrateTSDFKernel(
     float cam_z = pose.rotation[2] * px + pose.rotation[5] * py + pose.rotation[8] * pz;
     
     // Check if behind camera
+    if (cam_z <= 0.0f) return;
