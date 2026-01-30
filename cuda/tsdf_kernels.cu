@@ -337,3 +337,4 @@ void launchRaycastTSDF(
     uint8_t* d_normal_map,
     const CameraIntrinsics& intrinsics,
     const Pose& pose,
+    const VoxelGridConfig& config,
