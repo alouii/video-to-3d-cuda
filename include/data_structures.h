@@ -99,3 +99,4 @@ struct DepthFrame {
     int width, height;
     Pose camera_pose;
     double timestamp;
+    bool on_device;
