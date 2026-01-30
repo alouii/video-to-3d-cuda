@@ -150,3 +150,4 @@ __global__ void extractSurfacePointsKernel(
     pt.confidence = voxel.weight / 10.0f;  // Normalize weight
 }
 
+// Ray casting for surface extraction
