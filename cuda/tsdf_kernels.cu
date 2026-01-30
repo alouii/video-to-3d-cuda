@@ -114,3 +114,4 @@ __global__ void extractSurfacePointsKernel(
     // Check neighbors for zero crossing
     bool has_zero_crossing = false;
     
+    int neighbors[6] = {
