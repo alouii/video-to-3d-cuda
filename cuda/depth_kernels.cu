@@ -327,3 +327,4 @@ void launchDisparityToDepth(
     float focal_length,
     cudaStream_t stream
 ) {
+    dim3 block(16, 16);
