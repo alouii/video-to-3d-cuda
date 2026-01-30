@@ -111,3 +111,4 @@ __global__ void computeCovarianceKernel(
     const float* source_centroid,
     const float* target_centroid,
     float* covariance,  // 3x3 matrix (9 elements)
+    int num_points
