@@ -335,3 +335,4 @@ If you use this project in your research, please cite:
 ## Acknowledgments
 
 - **TSDF Fusion**: Inspired by KinectFusion
+- **ICP**: Based on libpointmatcher
