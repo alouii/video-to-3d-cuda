@@ -279,3 +279,4 @@ struct PerformanceStats {
         std::cout << "Point Cloud Gen: " << pointcloud_generation_time << " ms" << std::endl;
         std::cout << "Registration: " << registration_time << " ms" << std::endl;
         std::cout << "TSDF Fusion: " << fusion_time << " ms" << std::endl;
+        std::cout << "Visualization: " << visualization_time << " ms" << std::endl;
