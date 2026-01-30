@@ -368,3 +368,4 @@ void launchRejectOutliers(
     
     rejectOutliersKernel<<<grid_size, block_size, 0, stream>>>(
         d_distances, d_correspondences, num_points, max_distance
+    );
