@@ -103,3 +103,4 @@ __global__ void censusTransformKernel(
     uint8_t center_val = image[center_idx];
     
     uint32_t census_val = 0;
+    int bit = 0;
