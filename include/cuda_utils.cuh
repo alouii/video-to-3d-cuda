@@ -131,3 +131,4 @@ public:
     size_t total_allocated() const { return total_allocated_; }
 };
 
+// Pinned memory allocator for fast CPU-GPU transfers
