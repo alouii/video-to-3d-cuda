@@ -327,3 +327,4 @@ Future versions will support:
 ## Future Improvements
 
 1. **Multi-GPU Support**: Distribute TSDF across GPUs
+2. **Neural Radiance Fields**: NeRF integration
