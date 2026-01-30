@@ -242,3 +242,4 @@ __global__ void statisticalOutlierRemovalKernel(
     }
     variance /= count;
     
+    float std_dev = sqrtf(variance);
