@@ -204,3 +204,4 @@ __global__ void rejectOutliersKernel(
 // Point-to-plane ICP: compute point-to-plane distances
 __global__ void computePointToPlaneKernel(
     const ColoredPoint* source_points,
+    const ColoredPoint* target_points,
