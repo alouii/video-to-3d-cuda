@@ -159,3 +159,4 @@ __global__ void generateMeshKernel(
         triangles[(base_vertex + i) / 3].v2 = base_vertex + i + 2;
     }
 }
+
