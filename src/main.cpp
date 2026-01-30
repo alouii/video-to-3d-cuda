@@ -50,3 +50,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.save_point_cloud = true;
             }
         }
+        else if (arg == "--mesh") {
