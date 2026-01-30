@@ -168,3 +168,4 @@ __global__ void computeNormalsKernel(
     
     // Normalize
     float length = sqrtf(nx * nx + ny * ny + nz * nz);
+    if (length > 0.0f) {
