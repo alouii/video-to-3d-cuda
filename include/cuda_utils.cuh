@@ -116,3 +116,4 @@ public:
         CUDA_CHECK(cudaMalloc(&ptr, size));
         blocks_.push_back({ptr, size, true});
         total_allocated_ += size;
+        return ptr;
