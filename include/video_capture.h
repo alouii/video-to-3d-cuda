@@ -30,3 +30,4 @@ public:
     bool open(int camera_id);
     
     // Close video source
+    void close();
