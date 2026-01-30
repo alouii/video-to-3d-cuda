@@ -329,3 +329,4 @@ void launchDepthToPointCloud(
         intrinsics, pose, min_depth, max_depth, width, height
     );
     
+    CUDA_CHECK_LAST_ERROR();
