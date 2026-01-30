@@ -135,3 +135,4 @@ struct PointCloud {
         points.emplace_back(x, y, z, r, g, b);
     }
 };
+
