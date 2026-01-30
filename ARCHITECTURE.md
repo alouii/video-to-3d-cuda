@@ -310,3 +310,4 @@ Future versions will support:
 ### System Requirements Tiers
 
 **Minimum** (30 FPS @ 640x480):
+- GTX 1660 Ti (6GB)
