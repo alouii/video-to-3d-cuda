@@ -24,3 +24,4 @@ void printUsage(const char* program_name) {
               << "  --help                     Display this help message\n"
               << std::endl;
 }
+
