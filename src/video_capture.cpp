@@ -41,3 +41,4 @@ bool VideoCapture::open(int camera_id) {
         std::cerr << "Error: Could not open camera " << camera_id << std::endl;
         return false;
     }
+    
