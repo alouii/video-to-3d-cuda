@@ -186,3 +186,4 @@ __global__ void medianFilterKernel(
     
     if (count == 0) {
         output_disparity[center_idx] = 0.0f;
+        return;
