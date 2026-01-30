@@ -223,3 +223,4 @@ __global__ void raycastTSDFKernel(
         if (prev_tsdf > 0 && voxel.tsdf <= 0) {
             // Found surface
             surface_t = t - step_size * (voxel.tsdf / (prev_tsdf - voxel.tsdf));
+            found_surface = true;
