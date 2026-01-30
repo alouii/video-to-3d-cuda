@@ -313,3 +313,4 @@ void launchDepthToPointCloud(
     const uint8_t* d_rgb_image,
     ColoredPoint* d_points,
     int* d_valid_count,
+    const CameraIntrinsics& intrinsics,
