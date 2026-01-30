@@ -356,3 +356,4 @@ void launchComputeNormals(
     ColoredPoint* d_points,
     const CameraIntrinsics& intrinsics,
     int width,
+    int height,
