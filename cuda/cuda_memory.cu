@@ -14,3 +14,4 @@ void* cudaAllocateFromPool(size_t size) {
 
 void cudaDeallocateToPool(void* ptr) {
     cuda_utils::g_memory_pool.deallocate(ptr);
+}
