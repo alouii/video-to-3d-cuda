@@ -212,3 +212,4 @@ __global__ void lrConsistencyCheckKernel(
     int height,
     float threshold
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
