@@ -45,3 +45,4 @@ __global__ void findCorrespondencesKernel(
 __global__ void transformPointCloudKernel(
     const ColoredPoint* input_points,
     ColoredPoint* output_points,
+    int num_points,
