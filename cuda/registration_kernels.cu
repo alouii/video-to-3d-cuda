@@ -34,3 +34,4 @@ __global__ void findCorrespondencesKernel(
         if (dist < min_dist) {
             min_dist = dist;
             best_match = i;
+        }
