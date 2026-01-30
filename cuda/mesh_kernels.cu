@@ -11,3 +11,4 @@ __constant__ int d_triTable[256][16];
 // Classify voxel for marching cubes
 __global__ void classifyVoxelsKernel(
     const TSDFVoxel* voxel_grid,
+    int* voxel_types,
