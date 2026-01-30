@@ -87,3 +87,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `transformPointCloudKernel`: Apply rigid transformation
 
 ### 5. TSDF Fusion (`tsdf_fusion.h/cpp`)
+
