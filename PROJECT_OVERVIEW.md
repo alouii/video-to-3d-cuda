@@ -131,3 +131,4 @@ video-to-3d-cuda/
 - [x] Voxel classification
 - [x] Triangle generation
 - [x] Vertex interpolation
+
