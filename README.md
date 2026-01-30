@@ -11,3 +11,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
   - Monocular depth estimation (integration ready for MiDaS/DPT)
 - **Advanced Reconstruction**:
   - TSDF volumetric fusion
+  - ICP registration
