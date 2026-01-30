@@ -73,3 +73,4 @@ video-to-3d-cuda/
 
 ## File Count Summary
 
+- **Total Files**: 35+
