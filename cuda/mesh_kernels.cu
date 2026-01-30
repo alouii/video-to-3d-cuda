@@ -189,3 +189,4 @@ void launchGenerateMesh(
     const TSDFVoxel* d_voxel_grid,
     const int* d_voxel_types,
     const int* d_voxel_offsets,
+    ColoredPoint* d_vertices,
