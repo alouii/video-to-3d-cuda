@@ -126,3 +126,4 @@ struct PointCloud {
     size_t size() const {
         return points.size();
     }
+    
