@@ -211,3 +211,4 @@ All compute-intensive operations are GPU-accelerated:
 #include "pipeline.h"
 
 // Create configuration
+v3d::PipelineConfig config;
