@@ -200,3 +200,4 @@ __global__ void statisticalOutlierRemovalKernel(
     if (idx >= num_points) return;
     
     const ColoredPoint& point = input_points[idx];
+    
