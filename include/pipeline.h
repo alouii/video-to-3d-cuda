@@ -22,3 +22,4 @@ public:
     explicit VideoTo3DPipeline(const PipelineConfig& config);
     ~VideoTo3DPipeline();
     
+    // Initialize pipeline
