@@ -150,3 +150,4 @@ void VideoCapture::captureThread() {
         video_frame.frame_index = current_frame_index_++;
         
         // Add to buffer
+        {
