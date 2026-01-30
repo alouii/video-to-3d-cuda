@@ -173,3 +173,4 @@ __global__ void raycastTSDFKernel(
     float ray_dir_z = 1.0f;
     
     // Normalize ray direction
+    float ray_length = sqrtf(ray_dir_x * ray_dir_x + ray_dir_y * ray_dir_y + ray_dir_z * ray_dir_z);
