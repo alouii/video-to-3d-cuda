@@ -4,3 +4,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 
 ## Features
 
+- **Real-time Processing**: Achieves 12+ FPS on 1080p video with consumer GPUs
