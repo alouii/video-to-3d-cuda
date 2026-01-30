@@ -70,3 +70,4 @@ __global__ void integrateTSDFKernel(
     // Running average
     float old_weight = voxel.weight;
     float new_weight = fminf(old_weight + 1.0f, max_weight);
+    
