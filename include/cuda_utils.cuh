@@ -219,3 +219,4 @@ public:
         CUDA_CHECK(cudaMemset(data_, 0, size_ * sizeof(T)));
     }
     
+    T* data() { return data_; }
