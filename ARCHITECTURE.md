@@ -61,3 +61,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `computeNormalsKernel`: Surface normal calculation
 - `statisticalOutlierRemovalKernel`: Outlier filtering
 - `voxelDownsampleKernel`: Voxel grid downsampling
+
