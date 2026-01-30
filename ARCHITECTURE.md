@@ -228,3 +228,4 @@ GPU Memory Layout:
 3. **Pinned Memory**: Fast host-device transfers
 4. **Stream-based Async**: Overlap computation and transfers
 
+## Performance Optimization
