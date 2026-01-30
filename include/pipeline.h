@@ -94,3 +94,4 @@ private:
     // Performance tracking
     PerformanceStats stats_;
     
+    // CUDA streams for async processing
