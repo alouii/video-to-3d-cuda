@@ -120,3 +120,4 @@ struct PointCloud {
     void clear() {
         points.clear();
         has_normals = false;
+        has_colors = false;
