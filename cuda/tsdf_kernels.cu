@@ -97,3 +97,4 @@ __global__ void extractSurfacePointsKernel(
     int* point_count,
     const VoxelGridConfig config,
     float weight_threshold
+) {
