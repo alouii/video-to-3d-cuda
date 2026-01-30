@@ -195,3 +195,4 @@ struct VoxelGridConfig {
         return (vx >= 0 && vx < grid_dim_x &&
                 vy >= 0 && vy < grid_dim_y &&
                 vz >= 0 && vz < grid_dim_z);
+    }
