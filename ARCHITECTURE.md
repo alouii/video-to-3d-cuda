@@ -221,3 +221,4 @@ GPU Memory Layout:
     └── Triangles
 ```
 
+### Memory Optimization Strategies
