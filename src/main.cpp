@@ -146,3 +146,4 @@ int main(int argc, char** argv) {
         return 1;
     }
     
+    auto end_time = std::chrono::high_resolution_clock::now();
