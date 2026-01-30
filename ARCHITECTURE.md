@@ -317,3 +317,4 @@ Future versions will support:
 **Recommended** (60 FPS @ 1080p):
 - RTX 3060 (12GB)
 - 6-core CPU
+- 16GB RAM
