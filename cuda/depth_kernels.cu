@@ -151,3 +151,4 @@ __global__ void computeMatchingCostKernel(
         cost_volume[cost_idx] = static_cast<float>(hamming);
     }
 }
+
