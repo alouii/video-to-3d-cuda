@@ -115,3 +115,4 @@ __global__ void computeCovarianceKernel(
 ) {
     extern __shared__ float s_cov[];
     
+    int tid = threadIdx.x;
