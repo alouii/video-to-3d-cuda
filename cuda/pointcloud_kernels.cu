@@ -244,3 +244,4 @@ __global__ void statisticalOutlierRemovalKernel(
     
     float std_dev = sqrtf(variance);
     float threshold = mean_distance + std_multiplier * std_dev;
+    
