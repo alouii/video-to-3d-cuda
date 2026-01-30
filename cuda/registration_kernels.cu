@@ -23,3 +23,4 @@ __global__ void findCorrespondencesKernel(
     int best_match = -1;
     
     // Brute force nearest neighbor (in practice use KD-tree)
+    for (int i = 0; i < num_target; i++) {
