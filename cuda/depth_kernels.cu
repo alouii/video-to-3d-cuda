@@ -325,3 +325,4 @@ void launchDisparityToDepth(
     int height,
     float baseline,
     float focal_length,
+    cudaStream_t stream
