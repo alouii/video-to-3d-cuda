@@ -66,3 +66,4 @@ __global__ void bilateralFilterDepthKernel(
     float* output_depth,
     int width,
     int height,
+    float sigma_space,
