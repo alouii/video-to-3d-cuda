@@ -75,3 +75,4 @@ __global__ void integrateTSDFKernel(
     voxel.weight = new_weight;
     
     // Update color
+    if (old_weight == 0.0f) {
