@@ -210,3 +210,4 @@ GPU Memory Layout:
 │   └── Depth Map (1920x1080)
 ├── Point Cloud Buffer (200 MB)
 │   └── Colored Points with Normals
+├── TSDF Volume (500 MB)
