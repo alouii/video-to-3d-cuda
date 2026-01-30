@@ -9,3 +9,4 @@
 
 // CUDA error checking macro
 #define CUDA_CHECK(call) \
+    do { \
