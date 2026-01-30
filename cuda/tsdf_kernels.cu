@@ -304,3 +304,4 @@ void launchIntegrateTSDF(
         intrinsics, pose, config,
         truncation_distance, max_weight,
         width, height
+    );
