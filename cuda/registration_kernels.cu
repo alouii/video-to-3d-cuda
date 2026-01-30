@@ -306,3 +306,4 @@ void launchComputeCentroid(
     float* d_centroid,
     int num_points,
     cudaStream_t stream
+) {
