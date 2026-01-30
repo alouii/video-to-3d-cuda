@@ -65,3 +65,4 @@ video-to-3d-cuda/
 │   └── EXAMPLES.md               # Usage examples
 │
 ├── models/                       # Pre-trained models (placeholder)
+│   └── depth_model.onnx          # Depth estimation model
