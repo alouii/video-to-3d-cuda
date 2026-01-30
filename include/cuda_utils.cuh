@@ -261,3 +261,4 @@ inline dim3 getOptimalGridSize(int width, int height, dim3 block) {
 inline void printDeviceInfo() {
     int device;
     CUDA_CHECK(cudaGetDevice(&device));
+    
