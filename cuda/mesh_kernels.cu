@@ -134,3 +134,4 @@ __global__ void generateMeshKernel(
         // Add vertices
         vertices[base_vertex + i].x = edge_verts[edge0].x;
         vertices[base_vertex + i].y = edge_verts[edge0].y;
+        vertices[base_vertex + i].z = edge_verts[edge0].z;
