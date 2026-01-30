@@ -65,3 +65,4 @@ __global__ void selectDisparityKernel(
             best_d = d;
         }
     }
+    
