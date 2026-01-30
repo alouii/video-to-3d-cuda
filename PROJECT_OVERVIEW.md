@@ -95,3 +95,4 @@ video-to-3d-cuda/
 ## Key Features Implemented
 
 ### 1. Video Processing
+- [x] Multi-threaded video capture
