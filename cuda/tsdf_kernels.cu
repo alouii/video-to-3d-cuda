@@ -293,3 +293,4 @@ void launchIntegrateTSDF(
     cudaStream_t stream
 ) {
     dim3 block(8, 8, 8);
+    dim3 grid(
