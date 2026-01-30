@@ -125,3 +125,4 @@ __global__ void generateMeshKernel(
     
     // Generate triangles
     int base_vertex = voxel_offsets[voxel_idx];
+    
