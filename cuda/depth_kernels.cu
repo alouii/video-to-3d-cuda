@@ -270,3 +270,4 @@ void launchCensusTransform(
     int height,
     int window_size,
     cudaStream_t stream
+) {
