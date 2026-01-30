@@ -21,3 +21,4 @@ __global__ void findCorrespondencesKernel(
     
     float min_dist = max_distance;
     int best_match = -1;
+    
