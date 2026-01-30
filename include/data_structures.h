@@ -163,3 +163,4 @@ struct Mesh {
 // TSDF voxel
 struct TSDFVoxel {
     float tsdf;        // Truncated signed distance
+    float weight;      // Integration weight
