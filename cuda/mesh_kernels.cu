@@ -191,3 +191,4 @@ void launchGenerateMesh(
     const int* d_voxel_offsets,
     ColoredPoint* d_vertices,
     Triangle* d_triangles,
+    const VoxelGridConfig& config,
