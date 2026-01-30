@@ -49,3 +49,4 @@ __global__ void integrateTSDFKernel(
     if (u < 0 || u >= width || v < 0 || v >= height) return;
     
     // Get depth measurement
+    int pixel_idx = v * width + u;
