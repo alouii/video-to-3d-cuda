@@ -78,3 +78,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.skip_frames = std::stoi(argv[++i]);
             }
         }
+        else if (arg == "--fx") {
