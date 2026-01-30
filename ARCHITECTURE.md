@@ -37,3 +37,4 @@ Capture Thread → Frame Buffer → Processing Thread
   - TensorRT inference for MiDaS/DPT models
   - Real-time monocular depth prediction
 
+**CUDA Kernels** (`depth_kernels.cu`):
