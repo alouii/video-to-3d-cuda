@@ -9,3 +9,4 @@ The Video to 3D Point Cloud Reconstruction system is designed as a modular, GPU-
 ### 1. Video Capture (`video_capture.h/cpp`)
 
 **Responsibility**: Multi-threaded frame acquisition
+
