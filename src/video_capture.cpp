@@ -65,3 +65,4 @@ void VideoCapture::close() {
         capture_.release();
     }
 }
+
