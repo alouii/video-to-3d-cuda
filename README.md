@@ -281,3 +281,4 @@ public:
 ### Multi-GPU Processing
 
 ```cpp
+config.num_streams = 4;  // Use 4 CUDA streams
