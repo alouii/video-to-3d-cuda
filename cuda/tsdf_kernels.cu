@@ -204,3 +204,4 @@ __global__ void raycastTSDFKernel(
         float pos_z = ray_origin_z + world_ray_z * t;
         
         // Convert to voxel indices
+        int vx, vy, vz;
