@@ -78,3 +78,4 @@ void VideoCapture::start() {
     stop_requested_ = false;
     running_ = true;
     
+    capture_thread_ = std::thread(&VideoCapture::captureThread, this);
