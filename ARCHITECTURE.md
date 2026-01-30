@@ -80,3 +80,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - Parallel covariance matrix computation
 - Warp-level reductions for centroid calculation
 
+**CUDA Kernels** (`registration_kernels.cu`):
