@@ -92,3 +92,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Data Structure**: Truncated Signed Distance Function (TSDF)
 
+**Voxel Grid**:
