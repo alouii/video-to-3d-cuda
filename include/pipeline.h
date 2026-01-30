@@ -41,3 +41,4 @@ public:
     PointCloud getPointCloud() const;
     Mesh getMesh() const;
     
+    // Export results
