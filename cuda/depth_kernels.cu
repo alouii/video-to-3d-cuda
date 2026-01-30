@@ -317,3 +317,4 @@ void launchSelectDisparity(
     
     CUDA_CHECK_LAST_ERROR();
 }
+
