@@ -38,3 +38,4 @@ models/
 # Temporary files
 *.log
 *.tmp
+temp/
