@@ -311,3 +311,4 @@ Future versions will support:
 
 **Minimum** (30 FPS @ 640x480):
 - GTX 1660 Ti (6GB)
+- 4-core CPU
