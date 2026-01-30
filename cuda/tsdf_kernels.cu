@@ -41,3 +41,4 @@ __global__ void integrateTSDFKernel(
     // Check if behind camera
     if (cam_z <= 0.0f) return;
     
+    // Project to image plane
