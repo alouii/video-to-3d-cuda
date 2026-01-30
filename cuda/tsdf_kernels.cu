@@ -179,3 +179,4 @@ __global__ void raycastTSDFKernel(
     ray_dir_z /= ray_length;
     
     // Transform ray to world space
+    float world_ray_x = pose.rotation[0] * ray_dir_x + pose.rotation[1] * ray_dir_y + pose.rotation[2] * ray_dir_z;
