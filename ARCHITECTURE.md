@@ -305,3 +305,4 @@ Future versions will support:
 3. **Performance Tests**: Benchmark CUDA kernels
 4. **Regression Tests**: Ensure output quality
 
+## Deployment
