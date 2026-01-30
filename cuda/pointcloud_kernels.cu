@@ -24,3 +24,4 @@ __global__ void depthToPointCloudKernel(
     
     int idx = y * width + x;
     float depth = depth_map[idx];
+    
