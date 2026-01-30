@@ -62,3 +62,4 @@ __device__ __forceinline__ float warpReduceSum(float val) {
     return val;
 }
 
+// Block-level reduction sum
