@@ -219,3 +219,4 @@ __global__ void raycastTSDFKernel(
             continue;
         }
         
+        // Check for zero crossing
