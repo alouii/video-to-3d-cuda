@@ -7,3 +7,4 @@ using namespace v3d;
 // Kernel to convert depth map to point cloud
 __global__ void depthToPointCloudKernel(
     const float* depth_map,
+    const uint8_t* rgb_image,
