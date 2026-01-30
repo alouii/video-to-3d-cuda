@@ -38,3 +38,4 @@ public:
     bool reconstructionReady() const;
     
     // Get results
+    PointCloud getPointCloud() const;
