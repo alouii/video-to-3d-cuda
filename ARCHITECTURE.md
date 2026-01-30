@@ -318,3 +318,4 @@ Future versions will support:
 - RTX 3060 (12GB)
 - 6-core CPU
 - 16GB RAM
+
