@@ -324,3 +324,4 @@ void launchDisparityToDepth(
     int width,
     int height,
     float baseline,
+    float focal_length,
