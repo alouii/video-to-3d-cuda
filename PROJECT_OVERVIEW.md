@@ -175,3 +175,4 @@ video-to-3d-cuda/
 
 3. **Execution Optimization**
    - Multiple CUDA streams
+   - Async memory transfers
