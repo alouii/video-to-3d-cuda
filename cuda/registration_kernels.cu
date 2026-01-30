@@ -122,3 +122,4 @@ __global__ void computeCovarianceKernel(
     for (int i = tid; i < 9; i += blockDim.x) {
         s_cov[i] = 0.0f;
     }
+    __syncthreads();
