@@ -138,3 +138,4 @@ __global__ void extractSurfacePointsKernel(
     // Extract point at zero crossing (linear interpolation)
     float world_x, world_y, world_z;
     config.voxelToWorld(vx, vy, vz, world_x, world_y, world_z);
+    
