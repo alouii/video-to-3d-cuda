@@ -76,3 +76,4 @@ __global__ void integrateTSDFKernel(
     
     // Update color
     if (old_weight == 0.0f) {
+        int rgb_idx = pixel_idx * 3;
