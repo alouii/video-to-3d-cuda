@@ -28,3 +28,4 @@ __global__ void sgmCostAggregationKernel(
             min_prev = fminf(min_prev, aggregated_cost[prev_idx + pd]);
         }
         
+        float prev_same = aggregated_cost[prev_idx + d];
