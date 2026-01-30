@@ -67,3 +67,4 @@ void VideoCapture::close() {
 }
 
 bool VideoCapture::isOpened() const {
+    return capture_.isOpened();
