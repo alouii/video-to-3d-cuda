@@ -197,3 +197,4 @@ __global__ void raycastTSDFKernel(
     bool found_surface = false;
     float surface_t = 0.0f;
     
+    while (t < t_max) {
