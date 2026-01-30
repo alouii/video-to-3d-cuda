@@ -22,3 +22,4 @@ void printUsage(const char* program_name) {
               << "  --cx <value>               Principal point X (default: 319.5)\n"
               << "  --cy <value>               Principal point Y (default: 239.5)\n"
               << "  --help                     Display this help message\n"
+              << std::endl;
