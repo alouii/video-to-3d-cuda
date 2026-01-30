@@ -172,3 +172,4 @@ __global__ void computeAlignmentErrorKernel(
     
     int corr_idx = correspondences[idx];
     if (corr_idx < 0) {
+        errors[idx] = 0.0f;
