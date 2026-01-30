@@ -73,3 +73,4 @@ private:
     std::unique_ptr<PointCloudGenerator> pointcloud_generator_;
     std::unique_ptr<Registration> registration_;
     std::unique_ptr<TSDFFusion> tsdf_fusion_;
+    std::unique_ptr<MeshGenerator> mesh_generator_;
