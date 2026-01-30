@@ -409,3 +409,4 @@ void launchVoxelDownsample(
     voxelDownsampleKernel<<<grid_size, block_size, 0, stream>>>(
         d_input_points, d_output_points, d_voxel_counts,
         num_points, voxel_size, min_x, min_y, min_z,
+        grid_dim_x, grid_dim_y, grid_dim_z
