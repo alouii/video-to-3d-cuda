@@ -28,3 +28,4 @@ echo "Executable: ./video_to_3d"
 if [ "$1" == "test" ]; then
     echo "Running tests..."
     ctest --output-on-failure
+fi
