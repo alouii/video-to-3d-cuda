@@ -313,3 +313,4 @@ Future versions will support:
 - GTX 1660 Ti (6GB)
 - 4-core CPU
 - 8GB RAM
+
