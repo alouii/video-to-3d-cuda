@@ -250,3 +250,4 @@ __global__ void statisticalOutlierRemovalKernel(
     
     if (valid_mask[idx]) {
         output_points[idx] = point;
+    }
