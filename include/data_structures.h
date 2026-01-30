@@ -281,3 +281,4 @@ struct PerformanceStats {
         std::cout << "TSDF Fusion: " << fusion_time << " ms" << std::endl;
         std::cout << "Visualization: " << visualization_time << " ms" << std::endl;
         std::cout << "Total Per Frame: " << total_frame_time << " ms" << std::endl;
+        std::cout << "=============================" << std::endl;
