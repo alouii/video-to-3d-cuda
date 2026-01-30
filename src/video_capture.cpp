@@ -173,3 +173,4 @@ double VideoCapture::getFPS() const {
     return fps_;
 }
 
+int VideoCapture::getTotalFrames() const {
