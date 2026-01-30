@@ -114,3 +114,4 @@ __global__ void computeCovarianceKernel(
     int num_points
 ) {
     extern __shared__ float s_cov[];
+    
