@@ -84,3 +84,4 @@ class CudaMemoryPool {
 private:
     struct Block {
         void* ptr;
+        size_t size;
