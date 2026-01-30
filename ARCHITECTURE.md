@@ -88,3 +88,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 ### 5. TSDF Fusion (`tsdf_fusion.h/cpp`)
 
+**Responsibility**: Volumetric integration of multiple depth maps
