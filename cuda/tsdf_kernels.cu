@@ -88,3 +88,4 @@ __global__ void integrateTSDFKernel(
         voxel.g = static_cast<uint8_t>((voxel.g * old_weight + rgb_image[rgb_idx + 1]) * inv_new_weight);
         voxel.b = static_cast<uint8_t>((voxel.b * old_weight + rgb_image[rgb_idx + 2]) * inv_new_weight);
     }
+}
