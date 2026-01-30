@@ -36,3 +36,4 @@ __global__ void depthToPointCloudKernel(
     float cam_z = depth;
     
     // Transform to world space
+    float world_x = pose.rotation[0] * cam_x + pose.rotation[1] * cam_y + pose.rotation[2] * cam_z + pose.translation[0];
