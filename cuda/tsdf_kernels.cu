@@ -24,3 +24,4 @@ __global__ void integrateTSDFKernel(
     if (vx >= config.grid_dim_x || vy >= config.grid_dim_y || vz >= config.grid_dim_z) return;
     
     // Compute world position of voxel center
+    float world_x = config.min_x + (vx + 0.5f) * config.voxel_size;
