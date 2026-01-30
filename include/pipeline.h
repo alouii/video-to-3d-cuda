@@ -50,3 +50,4 @@ public:
     void printStatistics() const;
     
     // Control
+    void pause();
