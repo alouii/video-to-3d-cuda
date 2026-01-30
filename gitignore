@@ -24,3 +24,4 @@ Makefile
 # Compiled binaries
 *.exe
 *.out
+point_cloud_pipeline
