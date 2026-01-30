@@ -225,3 +225,4 @@ GPU Memory Layout:
 
 1. **RAII Wrappers**: Automatic cleanup via `DeviceBuffer<T>`
 2. **Memory Pool**: Reduce allocation overhead
+3. **Pinned Memory**: Fast host-device transfers
