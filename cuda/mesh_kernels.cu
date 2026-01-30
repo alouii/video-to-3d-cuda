@@ -132,3 +132,4 @@ __global__ void generateMeshKernel(
         int edge2 = d_triTable[cube_index][i + 2];
         
         // Add vertices
+        vertices[base_vertex + i].x = edge_verts[edge0].x;
