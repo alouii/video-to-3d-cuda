@@ -159,3 +159,4 @@ __global__ void medianFilterKernel(
     int width,
     int height,
     int kernel_size
+) {
