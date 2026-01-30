@@ -103,3 +103,4 @@ struct TSDFVoxel {
 
 **Integration Process**:
 1. For each voxel in grid:
+   - Project to camera frame
