@@ -113,3 +113,4 @@ public:
         
         // Allocate new block
         void* ptr;
+        CUDA_CHECK(cudaMalloc(&ptr, size));
