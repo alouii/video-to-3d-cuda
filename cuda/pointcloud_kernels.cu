@@ -56,3 +56,4 @@ __global__ void depthToPointCloudKernel(
     pt.z = world_z;
     pt.r = r;
     pt.g = g;
+    pt.b = b;
