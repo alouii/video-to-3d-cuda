@@ -12,3 +12,4 @@ A production-ready, GPU-accelerated system for converting video streams into den
 - ✅ Comprehensive documentation
 - ✅ Production-quality code
 
+## Project Structure
