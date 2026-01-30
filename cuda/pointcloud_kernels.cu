@@ -299,3 +299,4 @@ __global__ void voxelDownsampleKernel(
         avg_point.z = (avg_point.z * count + point.z) * inv_count;
         
         // Average colors (approximate)
+        avg_point.r = static_cast<uint8_t>((avg_point.r * count + point.r) * inv_count);
