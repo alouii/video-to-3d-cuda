@@ -35,3 +35,4 @@ public:
     // Check if opened
     bool isOpened() const;
     
+    // Get next frame (blocks if queue is empty)
