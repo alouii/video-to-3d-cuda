@@ -225,3 +225,4 @@ public:
 };
 
 // Stream wrapper for async operations
+class CudaStream {
