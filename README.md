@@ -177,3 +177,4 @@ All compute-intensive operations are GPU-accelerated:
 ### Memory Management
 
 - **Device Buffers**: RAII wrappers prevent memory leaks
+- **Memory Pool**: Efficient allocation/deallocation
