@@ -29,3 +29,4 @@ __global__ void integrateTSDFKernel(
     float world_z = config.min_z + (vz + 0.5f) * config.voxel_size;
     
     // Transform to camera space (inverse pose)
+    // R^T * (p - t)
