@@ -227,3 +227,4 @@ __global__ void lrConsistencyCheckKernel(
     }
     
     int right_idx = y * width + x_right;
+    float d_right = right_disparity[right_idx];
