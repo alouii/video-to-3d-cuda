@@ -101,3 +101,4 @@ __global__ void censusTransformKernel(
     
     int center_idx = y * width + x;
     uint8_t center_val = image[center_idx];
+    
