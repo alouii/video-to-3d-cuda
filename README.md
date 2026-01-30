@@ -293,3 +293,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 **Out of Memory**
 - Reduce voxel grid size
 - Process fewer frames
+- Use smaller resolution
