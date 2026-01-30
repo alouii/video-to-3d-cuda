@@ -124,3 +124,4 @@ int main(int argc, char** argv) {
     // Print CUDA device info
     cuda_utils::printDeviceInfo();
     
+    // Create and initialize pipeline
