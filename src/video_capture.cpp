@@ -190,3 +190,4 @@ size_t VideoCapture::getCurrentBufferCount() const {
     return frame_buffer_.size();
 }
 
+} // namespace v3d
