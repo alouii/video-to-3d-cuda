@@ -82,3 +82,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
             if (i + 1 < argc) {
                 config.intrinsics.fx = std::stof(argv[++i]);
             }
+        }
