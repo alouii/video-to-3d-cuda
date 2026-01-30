@@ -310,3 +310,4 @@ void launchIntegrateTSDF(
 }
 
 void launchExtractSurfacePoints(
+    const TSDFVoxel* d_voxel_grid,
