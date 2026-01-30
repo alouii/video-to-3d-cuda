@@ -333,3 +333,4 @@ void launchComputeCovariance(
     computeCovarianceKernel<<<grid_size, block_size, 9 * sizeof(float), stream>>>(
         d_source_points, d_target_points, d_correspondences,
         d_source_centroid, d_target_centroid, d_covariance, num_points
+    );
