@@ -52,3 +52,4 @@ video-to-3d-cuda/
 │   └── filtering_kernels.cu      # Additional filters
 │
 ├── tests/                        # Test suite
+│   ├── CMakeLists.txt            # Test build config
