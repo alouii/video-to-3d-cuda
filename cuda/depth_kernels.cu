@@ -176,3 +176,4 @@ __global__ void medianFilterKernel(
     
     for (int dy = -kernel_size; dy <= kernel_size; dy++) {
         for (int dx = -kernel_size; dx <= kernel_size; dx++) {
+            int idx = (y + dy) * width + (x + dx);
