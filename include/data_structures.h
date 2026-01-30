@@ -245,3 +245,4 @@ struct PipelineConfig {
 
 // Statistics for performance monitoring
 struct PerformanceStats {
+    double frame_capture_time;
