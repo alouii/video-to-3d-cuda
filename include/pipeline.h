@@ -46,3 +46,4 @@ public:
     bool exportMesh(const std::string& filename) const;
     
     // Statistics
+    PerformanceStats getStatistics() const;
