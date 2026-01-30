@@ -27,3 +27,4 @@ __global__ void sgmCostAggregationKernel(
         for (int pd = 0; pd < max_disparity; pd++) {
             min_prev = fminf(min_prev, aggregated_cost[prev_idx + pd]);
         }
+        
