@@ -71,3 +71,4 @@ bool VideoCapture::isOpened() const {
 }
 
 void VideoCapture::start() {
+    if (running_) {
