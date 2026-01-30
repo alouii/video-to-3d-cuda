@@ -102,3 +102,4 @@ __global__ void extractSurfacePointsKernel(
     int vy = blockIdx.y * blockDim.y + threadIdx.y;
     int vz = blockIdx.z * blockDim.z + threadIdx.z;
     
+    if (vx >= config.grid_dim_x - 1 || vy >= config.grid_dim_y - 1 || vz >= config.grid_dim_z - 1) return;
