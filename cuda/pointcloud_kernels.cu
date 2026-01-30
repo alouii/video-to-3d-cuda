@@ -390,3 +390,4 @@ void launchStatisticalOutlierRemoval(
 }
 
 void launchVoxelDownsample(
+    const ColoredPoint* d_input_points,
