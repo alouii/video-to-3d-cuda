@@ -229,3 +229,4 @@ struct PipelineConfig {
     int max_frames;
     int skip_frames;
     int num_streams;
+    
