@@ -268,3 +268,4 @@ void launchFindCorrespondences(
     const ColoredPoint* d_target_points,
     int* d_correspondences,
     float* d_distances,
+    int num_source,
