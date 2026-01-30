@@ -95,3 +95,4 @@ __global__ void generateMeshKernel(
         colors[i] = make_uint3(corner_voxel.r, corner_voxel.g, corner_voxel.b);
     }
     
+    // Interpolate edge vertices
