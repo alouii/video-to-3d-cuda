@@ -78,3 +78,4 @@ private:
     
     // Current frame data
     VideoFrame current_frame_;
+    DepthFrame current_depth_frame_;
