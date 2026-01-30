@@ -163,3 +163,4 @@ int main(int argc, char** argv) {
         
         std::cout << "\nExporting point cloud to " << output_file << "..." << std::endl;
         if (pipeline.exportPointCloud(output_file)) {
+            std::cout << "Point cloud exported successfully." << std::endl;
