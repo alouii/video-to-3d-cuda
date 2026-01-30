@@ -229,3 +229,4 @@ __global__ void statisticalOutlierRemovalKernel(
     // Compute variance (simplified, in practice do two-pass)
     float variance = 0.0f;
     for (int i = max(0, idx - k_neighbors); i < min(num_points, idx + k_neighbors); i++) {
+        if (i == idx) continue;
