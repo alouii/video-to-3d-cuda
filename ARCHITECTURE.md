@@ -30,3 +30,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Implementations**:
 - **StereoDepthEstimator**: GPU-accelerated stereo matching
   - Census transform for robust matching
+  - Semi-Global Matching (SGM) cost aggregation
