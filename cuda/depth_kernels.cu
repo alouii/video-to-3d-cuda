@@ -79,3 +79,4 @@ __global__ void selectDisparityKernel(
             disparity += offset;
         }
     }
+    
