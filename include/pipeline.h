@@ -30,3 +30,4 @@ public:
     
     // Process single frame
     bool processNextFrame();
+    
