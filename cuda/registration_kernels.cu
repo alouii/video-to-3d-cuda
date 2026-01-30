@@ -124,3 +124,4 @@ __global__ void computeCovarianceKernel(
     }
     __syncthreads();
     
+    if (idx < num_points) {
