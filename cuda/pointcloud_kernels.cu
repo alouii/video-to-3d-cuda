@@ -241,3 +241,4 @@ __global__ void statisticalOutlierRemovalKernel(
         variance += diff * diff;
     }
     variance /= count;
+    
