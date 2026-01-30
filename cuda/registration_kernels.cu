@@ -367,3 +367,4 @@ void launchRejectOutliers(
     int grid_size = (num_points + block_size - 1) / block_size;
     
     rejectOutliersKernel<<<grid_size, block_size, 0, stream>>>(
+        d_distances, d_correspondences, num_points, max_distance
