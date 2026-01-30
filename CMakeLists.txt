@@ -91,3 +91,4 @@ if(PCL_FOUND)
     target_link_libraries(video_to_3d ${PCL_LIBRARIES})
 endif()
 
+# Tests
