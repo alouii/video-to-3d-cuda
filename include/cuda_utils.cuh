@@ -168,3 +168,4 @@ public:
     }
     
     ~DeviceBuffer() {
+        if (data_) {
