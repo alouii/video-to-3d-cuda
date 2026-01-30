@@ -309,3 +309,4 @@ __global__ void voxelDownsampleKernel(
 extern "C" {
 
 void launchDepthToPointCloud(
+    const float* d_depth_map,
