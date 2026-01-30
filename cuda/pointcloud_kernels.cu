@@ -290,3 +290,4 @@ __global__ void voxelDownsampleKernel(
         // First point in this voxel, store it
         output_points[voxel_idx] = point;
     } else {
+        // Average with existing points
