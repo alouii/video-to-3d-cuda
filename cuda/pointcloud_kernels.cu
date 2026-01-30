@@ -32,3 +32,4 @@ __global__ void depthToPointCloudKernel(
     
     // Back-project to camera space
     float cam_x = (x - intrinsics.cx) * depth / intrinsics.fx;
+    float cam_y = (y - intrinsics.cy) * depth / intrinsics.fy;
