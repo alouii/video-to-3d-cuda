@@ -106,3 +106,4 @@ struct TSDFVoxel {
    - Project to camera frame
    - Look up depth measurement
    - Compute signed distance
+   - Update TSDF with weighted average
