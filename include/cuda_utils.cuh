@@ -202,3 +202,4 @@ public:
             if (size_ > 0) {
                 CUDA_CHECK(cudaMalloc(&data_, size_ * sizeof(T)));
             } else {
+                data_ = nullptr;
