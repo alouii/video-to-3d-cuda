@@ -108,3 +108,4 @@ __global__ void generateMeshKernel(
                 v0 = i - 8;
                 v1 = v0 + 4;
             }
+            
