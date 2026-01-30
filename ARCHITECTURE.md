@@ -254,3 +254,4 @@ GPU Memory Layout:
 
 ### Bottleneck Analysis
 
+**CPU Bottlenecks**:
