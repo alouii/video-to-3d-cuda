@@ -244,3 +244,4 @@ __global__ void raycastTSDFKernel(
         float pos_z = ray_origin_z + world_ray_z * surface_t;
         
         // Sample TSDF gradient (simplified)
+        int vx, vy, vz;
