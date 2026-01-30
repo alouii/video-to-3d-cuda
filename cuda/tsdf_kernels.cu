@@ -191,3 +191,4 @@ __global__ void raycastTSDFKernel(
     // March along ray
     float t = 0.1f;  // Start distance
     float t_max = 10.0f;  // Max distance
+    float step_size = config.voxel_size * 0.5f;
