@@ -304,3 +304,4 @@ void launchSelectDisparity(
     const float* d_aggregated_cost,
     float* d_disparity_map,
     int width,
+    int height,
