@@ -271,3 +271,4 @@ struct PerformanceStats {
     }
     
     void print() const {
+        std::cout << "\n=== Performance Statistics ===" << std::endl;
