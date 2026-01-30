@@ -31,3 +31,4 @@ unit_tests
 # Data files
 *.bin
 *.pcd
+*.ply
