@@ -258,3 +258,4 @@ __global__ void reduceErrorsKernel(
     if (tid == 0) {
         atomicAdd(total_error, error);
     }
+}
