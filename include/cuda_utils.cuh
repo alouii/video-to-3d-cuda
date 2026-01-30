@@ -138,3 +138,4 @@ public:
     using value_type = T;
     
     PinnedMemoryAllocator() = default;
+    
