@@ -179,3 +179,4 @@ void launchClassifyVoxels(
     );
     
     classifyVoxelsKernel<<<grid, block, 0, stream>>>(
+        d_voxel_grid, d_voxel_types, d_voxel_vertices, config, iso_value
