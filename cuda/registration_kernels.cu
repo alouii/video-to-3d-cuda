@@ -192,3 +192,4 @@ __global__ void rejectOutliersKernel(
     int* correspondences,
     int num_points,
     float max_distance
+) {
