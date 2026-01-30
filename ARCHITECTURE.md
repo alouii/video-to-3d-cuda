@@ -183,3 +183,4 @@ struct TSDFVoxel {
              │   (CUDA)     │
              └──────┬───────┘
                     │
+                    v
