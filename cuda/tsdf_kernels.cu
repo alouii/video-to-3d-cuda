@@ -198,3 +198,4 @@ __global__ void raycastTSDFKernel(
     float surface_t = 0.0f;
     
     while (t < t_max) {
+        // Current position along ray
