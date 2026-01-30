@@ -248,3 +248,4 @@ ctest --output-on-failure
 ## Documentation
 
 - `README.md`: User guide and quick start
+- `docs/ARCHITECTURE.md`: System design and internals
