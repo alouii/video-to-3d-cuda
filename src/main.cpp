@@ -73,3 +73,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.max_frames = std::stoi(argv[++i]);
             }
         }
+        else if (arg == "--skip-frames") {
