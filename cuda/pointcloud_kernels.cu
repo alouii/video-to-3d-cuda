@@ -119,3 +119,4 @@ __global__ void bilateralFilterDepthKernel(
 __global__ void computeNormalsKernel(
     const float* depth_map,
     ColoredPoint* points,
+    const CameraIntrinsics intrinsics,
