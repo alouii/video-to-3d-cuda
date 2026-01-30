@@ -335,3 +335,4 @@ void launchComputeCovariance(
         d_source_centroid, d_target_centroid, d_covariance, num_points
     );
     
+    CUDA_CHECK_LAST_ERROR();
