@@ -178,3 +178,4 @@ struct VoxelGridConfig {
     float max_x, max_y, max_z;
     
     VoxelGridConfig() 
+        : voxel_size(0.01f), truncation_distance(0.05f),
