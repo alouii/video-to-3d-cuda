@@ -242,3 +242,4 @@ __global__ void raycastTSDFKernel(
         float pos_x = ray_origin_x + world_ray_x * surface_t;
         float pos_y = ray_origin_y + world_ray_y * surface_t;
         float pos_z = ray_origin_z + world_ray_z * surface_t;
+        
