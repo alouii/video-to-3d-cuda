@@ -26,3 +26,4 @@ __global__ void depthToPointCloudKernel(
     float depth = depth_map[idx];
     
     // Filter invalid depths
+    if (depth < min_depth || depth > max_depth || isnan(depth) || isinf(depth)) {
