@@ -99,3 +99,4 @@ struct TSDFVoxel {
     float weight;      // Integration confidence
     uint8_t r, g, b;   // Color
 }
+```
