@@ -149,3 +149,4 @@ struct Mesh {
     
     Mesh() : has_normals(false), has_colors(false) {}
     
+    void clear() {
