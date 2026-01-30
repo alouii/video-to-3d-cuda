@@ -43,3 +43,4 @@ video-to-3d-cuda/
 │   └── visualizer.cpp            # Visualization (stub)
 │
 ├── cuda/                         # CUDA kernel implementations
+│   ├── cuda_memory.cu            # Memory pool
