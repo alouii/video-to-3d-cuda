@@ -97,3 +97,4 @@ __global__ void generateMeshKernel(
     
     // Interpolate edge vertices
     float3 edge_verts[12];
+    uint3 edge_colors[12];
