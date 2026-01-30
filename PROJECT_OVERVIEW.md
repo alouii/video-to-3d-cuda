@@ -21,3 +21,4 @@ video-to-3d-cuda/
 │
 ├── include/                       # Public headers
 │   ├── cuda_utils.cuh            # CUDA utilities and memory management
+│   ├── data_structures.h         # Core data structures
