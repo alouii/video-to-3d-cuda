@@ -234,3 +234,4 @@ video-to-3d-cuda/
 
 4. **Integrations**
    - ROS2 nodes
+   - Python bindings
