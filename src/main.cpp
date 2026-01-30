@@ -13,3 +13,4 @@ void printUsage(const char* program_name) {
               << "  -o, --output <file>        Output point cloud file (PLY format)\n"
               << "  --mesh <file>              Output mesh file (OBJ format)\n"
               << "  --visualize                Enable real-time visualization\n"
+              << "  --no-fusion                Disable TSDF fusion\n"
