@@ -118,3 +118,4 @@ __global__ void computeCovarianceKernel(
     int tid = threadIdx.x;
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     
+    // Initialize shared memory
