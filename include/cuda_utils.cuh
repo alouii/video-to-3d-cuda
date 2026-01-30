@@ -249,3 +249,4 @@ public:
 };
 
 // Get optimal block and grid sizes
+inline dim3 getOptimalBlockSize(int width, int height) {
