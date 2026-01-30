@@ -43,3 +43,4 @@ struct Pose {
         // Identity
         rotation[0] = 1; rotation[1] = 0; rotation[2] = 0;
         rotation[3] = 0; rotation[4] = 1; rotation[5] = 0;
+        rotation[6] = 0; rotation[7] = 0; rotation[8] = 1;
