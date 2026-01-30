@@ -224,3 +224,4 @@ pipeline.initialize();
 pipeline.processVideo();
 
 // Get results
+auto point_cloud = pipeline.getPointCloud();
