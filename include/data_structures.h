@@ -168,3 +168,4 @@ struct TSDFVoxel {
     
     TSDFVoxel() : tsdf(1.0f), weight(0.0f), r(0), g(0), b(0) {}
 };
+
