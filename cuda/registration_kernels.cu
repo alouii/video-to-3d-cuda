@@ -39,3 +39,4 @@ __global__ void findCorrespondencesKernel(
     
     correspondences[idx] = best_match;
     distances[idx] = min_dist;
+}
