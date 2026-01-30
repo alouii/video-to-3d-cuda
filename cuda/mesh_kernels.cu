@@ -206,3 +206,4 @@ void launchGenerateMesh(
         d_voxel_grid, d_voxel_types, d_voxel_offsets, d_vertices, d_triangles, config, iso_value
     );
     
+    CUDA_CHECK_LAST_ERROR();
