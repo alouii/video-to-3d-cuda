@@ -266,3 +266,4 @@ Integrate your own depth estimation model:
 ```cpp
 class CustomDepthEstimator : public v3d::DepthEstimator {
 public:
+    bool initialize(const CameraIntrinsics& intrinsics) override {
