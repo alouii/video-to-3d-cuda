@@ -25,3 +25,4 @@ Makefile
 *.exe
 *.out
 point_cloud_pipeline
+benchmark
