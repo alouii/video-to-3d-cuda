@@ -187,3 +187,4 @@ __global__ void computeAlignmentErrorKernel(
 }
 
 // Reject outlier correspondences based on distance
+__global__ void rejectOutliersKernel(
