@@ -286,3 +286,4 @@ void launchComputeMatchingCost(
     const uint32_t* d_right_census,
     float* d_cost_volume,
     int width,
+    int height,
