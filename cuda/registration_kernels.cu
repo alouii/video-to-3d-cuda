@@ -153,3 +153,4 @@ __global__ void computeCovarianceKernel(
     }
     __syncthreads();
     
+    // Write to global memory
