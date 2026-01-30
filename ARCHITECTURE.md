@@ -52,3 +52,4 @@ Capture Thread → Frame Buffer → Processing Thread
 1. Back-projection using camera intrinsics
 2. Bilateral filtering for noise reduction
 3. Normal estimation via surface gradients
+4. Statistical outlier removal
