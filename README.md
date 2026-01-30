@@ -201,3 +201,4 @@ All compute-intensive operations are GPU-accelerated:
 2. **Skip Frames**: Process every 2nd or 3rd frame
 3. **Lower Resolution**: Resize input to 640x480
 4. **Disable Visualization**: Save 16ms per frame
+5. **Multi-GPU**: Distribute TSDF volumes across GPUs
