@@ -60,3 +60,4 @@ video-to-3d-cuda/
 ├── scripts/                      # Build and utility scripts
 │   └── build.sh                  # Build automation script
 │
+├── docs/                         # Documentation
