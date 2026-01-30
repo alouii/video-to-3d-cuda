@@ -49,3 +49,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.output_dir = argv[++i];
                 config.save_point_cloud = true;
             }
+        }
