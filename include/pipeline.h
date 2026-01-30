@@ -56,3 +56,4 @@ public:
     
 private:
     // Pipeline stages
+    bool captureFrame();
