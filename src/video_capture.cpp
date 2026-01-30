@@ -70,3 +70,4 @@ bool VideoCapture::isOpened() const {
     return capture_.isOpened();
 }
 
+void VideoCapture::start() {
