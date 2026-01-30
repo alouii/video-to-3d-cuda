@@ -247,3 +247,4 @@ __global__ void raycastTSDFKernel(
         int vx, vy, vz;
         if (config.worldToVoxel(pos_x, pos_y, pos_z, vx, vy, vz)) {
             // Gradient approximation
+            float nx = 0.0f, ny = 0.0f, nz = 1.0f;
