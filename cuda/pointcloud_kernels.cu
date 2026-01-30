@@ -180,3 +180,4 @@ __global__ void computeNormalsKernel(
         ny = -ny;
         nz = -nz;
     }
+    
