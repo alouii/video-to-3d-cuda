@@ -270,3 +270,4 @@ inline void printDeviceInfo() {
     std::cout << "Compute Capability: " << prop.major << "." << prop.minor << std::endl;
     std::cout << "Total Global Memory: " << prop.totalGlobalMem / (1024*1024) << " MB" << std::endl;
     std::cout << "Shared Memory Per Block: " << prop.sharedMemPerBlock / 1024 << " KB" << std::endl;
+    std::cout << "Max Threads Per Block: " << prop.maxThreadsPerBlock << std::endl;
