@@ -144,3 +144,4 @@ struct TSDFVoxel {
 
 ```
 ┌─────────────┐
+│   Video     │
