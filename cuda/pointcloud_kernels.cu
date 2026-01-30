@@ -336,3 +336,4 @@ void launchBilateralFilterDepth(
     const float* d_input_depth,
     float* d_output_depth,
     int width,
+    int height,
