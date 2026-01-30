@@ -46,3 +46,4 @@ __global__ void transformPointCloudKernel(
     const ColoredPoint* input_points,
     ColoredPoint* output_points,
     int num_points,
+    const Pose pose
