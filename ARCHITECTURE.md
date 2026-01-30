@@ -242,3 +242,4 @@ GPU Memory Layout:
    - Shared memory for neighborhood operations
    - Texture memory for interpolation
 
+3. **Warp-Level Primitives**
