@@ -86,3 +86,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `computeCovarianceKernel`: Cross-covariance matrix
 - `transformPointCloudKernel`: Apply rigid transformation
 
+### 5. TSDF Fusion (`tsdf_fusion.h/cpp`)
