@@ -83,3 +83,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
 class CudaMemoryPool {
 private:
     struct Block {
+        void* ptr;
