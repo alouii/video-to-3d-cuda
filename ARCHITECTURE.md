@@ -97,3 +97,4 @@ Capture Thread → Frame Buffer → Processing Thread
 struct TSDFVoxel {
     float tsdf;        // Distance to surface
     float weight;      // Integration confidence
+    uint8_t r, g, b;   // Color
