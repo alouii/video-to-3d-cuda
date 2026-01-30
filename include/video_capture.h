@@ -68,3 +68,4 @@ private:
     std::atomic<bool> running_;
     std::atomic<bool> stop_requested_;
     
+    int width_, height_;
