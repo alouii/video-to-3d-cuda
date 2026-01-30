@@ -141,3 +141,4 @@ video-to-3d-cuda/
 - [x] Occupancy optimization
 
 ### 8. Infrastructure
+- [x] CMake build system
