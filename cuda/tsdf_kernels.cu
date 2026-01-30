@@ -52,3 +52,4 @@ __global__ void integrateTSDFKernel(
     int pixel_idx = v * width + u;
     float measured_depth = depth_map[pixel_idx];
     
+    // Check valid depth
