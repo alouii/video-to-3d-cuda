@@ -192,3 +192,4 @@ public:
     }
     
     // Delete copy
+    DeviceBuffer(const DeviceBuffer&) = delete;
