@@ -137,3 +137,4 @@ struct PointCloud {
 };
 
 // Triangle mesh
+struct Triangle {
