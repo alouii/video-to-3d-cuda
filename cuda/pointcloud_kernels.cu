@@ -17,3 +17,4 @@ __global__ void depthToPointCloudKernel(
     int width,
     int height
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
