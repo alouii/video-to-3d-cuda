@@ -46,3 +46,4 @@ struct Pose {
         rotation[6] = 0; rotation[7] = 0; rotation[8] = 1;
         translation[0] = 0; translation[1] = 0; translation[2] = 0;
     }
+    
