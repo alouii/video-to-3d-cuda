@@ -91,3 +91,4 @@ __global__ void computeCentroidKernel(
         sum_z = points[idx].z;
     }
     
+    // Reduce within block
