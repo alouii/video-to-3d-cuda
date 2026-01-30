@@ -213,3 +213,4 @@ struct PipelineConfig {
     bool use_camera;
     
     // Processing
+    bool use_depth_model;
