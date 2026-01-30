@@ -192,3 +192,4 @@ void launchGenerateMesh(
     ColoredPoint* d_vertices,
     Triangle* d_triangles,
     const VoxelGridConfig& config,
+    float iso_value,
