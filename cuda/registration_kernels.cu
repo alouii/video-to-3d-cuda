@@ -161,3 +161,4 @@ __global__ void computeCovarianceKernel(
 
 // Compute alignment error
 __global__ void computeAlignmentErrorKernel(
+    const ColoredPoint* source_points,
