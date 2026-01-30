@@ -148,3 +148,4 @@ video-to-3d-cuda/
 - [x] Unit tests framework
 - [x] Documentation
 
+## Performance Targets Met
