@@ -68,3 +68,4 @@ __global__ void bilateralFilterDepthKernel(
     int height,
     float sigma_space,
     float sigma_range
+) {
