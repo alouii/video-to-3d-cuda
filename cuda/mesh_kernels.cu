@@ -71,3 +71,4 @@ __global__ void generateMeshKernel(
     if (vx >= config.grid_dim_x - 1 || vy >= config.grid_dim_y - 1 || vz >= config.grid_dim_z - 1) return;
     
     int voxel_idx = vx + vy * config.grid_dim_x + vz * config.grid_dim_x * config.grid_dim_y;
+    int cube_index = voxel_types[voxel_idx];
