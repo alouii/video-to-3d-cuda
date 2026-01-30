@@ -131,3 +131,4 @@ __global__ void computeNormalsKernel(
     int idx = y * width + x;
     float depth_center = depth_map[idx];
     
+    if (depth_center <= 0.0f || isnan(depth_center)) return;
