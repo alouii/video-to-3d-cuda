@@ -280,3 +280,4 @@ __global__ void raycastTSDFKernel(
 extern "C" {
 
 void launchIntegrateTSDF(
+    TSDFVoxel* d_voxel_grid,
