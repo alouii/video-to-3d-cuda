@@ -30,3 +30,4 @@ __global__ void depthToPointCloudKernel(
         return;
     }
     
+    // Back-project to camera space
