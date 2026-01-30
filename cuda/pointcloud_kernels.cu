@@ -137,3 +137,4 @@ __global__ void computeNormalsKernel(
     float depth_right = depth_map[y * width + (x + 1)];
     float depth_down = depth_map[(y + 1) * width + x];
     
+    if (depth_right <= 0.0f || depth_down <= 0.0f) return;
