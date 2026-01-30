@@ -182,3 +182,4 @@ void VideoCapture::setBufferSize(size_t size) {
 }
 
 size_t VideoCapture::getBufferSize() const {
+    return max_buffer_size_;
