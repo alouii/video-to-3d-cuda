@@ -319,3 +319,4 @@ Future versions will support:
 - 6-core CPU
 - 16GB RAM
 
+**High-End** (60 FPS @ 1080p + Mesh):
