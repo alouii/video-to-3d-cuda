@@ -205,3 +205,4 @@ public:
                 data_ = nullptr;
             }
         }
+    }
