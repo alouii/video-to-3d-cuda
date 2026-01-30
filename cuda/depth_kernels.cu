@@ -241,3 +241,4 @@ __global__ void disparityToDepthKernel(
     const float* disparity_map,
     float* depth_map,
     int width,
+    int height,
