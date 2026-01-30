@@ -170,3 +170,4 @@ void launchClassifyVoxels(
     const VoxelGridConfig& config,
     float iso_value,
     cudaStream_t stream
+) {
