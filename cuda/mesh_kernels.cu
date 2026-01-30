@@ -58,3 +58,4 @@ __global__ void classifyVoxelsKernel(
 __global__ void generateMeshKernel(
     const TSDFVoxel* voxel_grid,
     const int* voxel_types,
+    const int* voxel_offsets,
