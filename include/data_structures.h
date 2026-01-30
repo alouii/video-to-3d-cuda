@@ -113,3 +113,4 @@ struct DepthFrame {
 struct PointCloud {
     std::vector<ColoredPoint> points;
     bool has_normals;
+    bool has_colors;
