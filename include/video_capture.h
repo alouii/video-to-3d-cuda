@@ -39,3 +39,4 @@ public:
     bool getFrame(VideoFrame& frame);
     
     // Get video properties
+    int getWidth() const;
