@@ -83,3 +83,4 @@ __global__ void integrateTSDFKernel(
     } else {
         // Weighted average
         int rgb_idx = pixel_idx * 3;
+        float inv_new_weight = 1.0f / new_weight;
