@@ -139,3 +139,4 @@ __global__ void extractSurfacePointsKernel(
     float world_x, world_y, world_z;
     config.voxelToWorld(vx, vy, vz, world_x, world_y, world_z);
     
+    int idx = atomicAdd(point_count, 1);
