@@ -115,3 +115,4 @@ struct TSDFVoxel {
 
 ### 6. Mesh Generation (`mesh_generator.h/cpp`)
 
+**Responsibility**: Extract triangulated mesh from TSDF
