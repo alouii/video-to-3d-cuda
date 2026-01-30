@@ -352,3 +352,4 @@ void launchBilateralFilterDepth(
 }
 
 void launchComputeNormals(
+    const float* d_depth_map,
