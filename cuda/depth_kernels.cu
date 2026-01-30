@@ -271,3 +271,4 @@ void launchCensusTransform(
     int window_size,
     cudaStream_t stream
 ) {
+    dim3 block(16, 16);
