@@ -33,3 +33,4 @@ bool VideoCapture::open(const std::string& source) {
     std::cout << "Opened video: " << width_ << "x" << height_ 
               << " @ " << fps_ << " FPS, " << total_frames_ << " frames" << std::endl;
     
+    return true;
