@@ -13,3 +13,4 @@ __global__ void integrateTSDFKernel(
     const Pose pose,
     const VoxelGridConfig config,
     float truncation_distance,
+    float max_weight,
