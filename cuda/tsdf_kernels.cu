@@ -108,3 +108,4 @@ __global__ void extractSurfacePointsKernel(
     const TSDFVoxel& voxel = voxel_grid[voxel_idx];
     
     // Check if this voxel contains a zero crossing
+    if (voxel.weight < weight_threshold) return;
