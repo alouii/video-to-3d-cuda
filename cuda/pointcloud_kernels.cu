@@ -142,3 +142,4 @@ __global__ void computeNormalsKernel(
     // Compute 3D positions
     float cx = (x - intrinsics.cx) * depth_center / intrinsics.fx;
     float cy = (y - intrinsics.cy) * depth_center / intrinsics.fy;
+    float cz = depth_center;
