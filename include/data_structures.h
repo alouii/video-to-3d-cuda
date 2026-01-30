@@ -131,3 +131,4 @@ struct PointCloud {
         points.reserve(n);
     }
     
+    void add_point(float x, float y, float z, uint8_t r = 0, uint8_t g = 0, uint8_t b = 0) {
