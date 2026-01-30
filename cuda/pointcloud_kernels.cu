@@ -184,3 +184,4 @@ __global__ void computeNormalsKernel(
     // Store in point cloud
     points[idx].nx = nx;
     points[idx].ny = ny;
+    points[idx].nz = nz;
