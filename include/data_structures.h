@@ -250,3 +250,4 @@ struct PerformanceStats {
     double pointcloud_generation_time;
     double registration_time;
     double fusion_time;
+    double visualization_time;
