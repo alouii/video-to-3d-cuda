@@ -197,3 +197,4 @@ __global__ void medianFilterKernel(
                 values[j] = values[j + 1];
                 values[j + 1] = temp;
             }
+        }
