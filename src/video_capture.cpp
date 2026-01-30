@@ -15,3 +15,4 @@ VideoCapture::VideoCapture()
 {
 }
 
+VideoCapture::~VideoCapture() {
