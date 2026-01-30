@@ -243,3 +243,4 @@ GPU Memory Layout:
    - Texture memory for interpolation
 
 3. **Warp-Level Primitives**
+   - `__shfl_down_sync()` for reductions
