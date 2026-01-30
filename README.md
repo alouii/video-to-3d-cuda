@@ -261,3 +261,4 @@ point_cloud.save("output.ply")
 
 ### Custom Depth Models
 
+Integrate your own depth estimation model:
