@@ -114,3 +114,4 @@ video-to-3d-cuda/
 - [x] Statistical outlier removal
 - [x] Voxel downsampling
 
+### 4. Registration
