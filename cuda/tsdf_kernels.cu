@@ -32,3 +32,4 @@ __global__ void integrateTSDFKernel(
     // R^T * (p - t)
     float px = world_x - pose.translation[0];
     float py = world_y - pose.translation[1];
+    float pz = world_z - pose.translation[2];
