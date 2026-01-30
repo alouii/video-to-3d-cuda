@@ -223,3 +223,4 @@ pipeline.initialize();
 // Process video
 pipeline.processVideo();
 
+// Get results
