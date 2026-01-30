@@ -209,3 +209,4 @@ void launchGenerateMesh(
     CUDA_CHECK_LAST_ERROR();
 }
 
+} // extern "C"
