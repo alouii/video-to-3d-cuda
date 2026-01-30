@@ -67,3 +67,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
             if (i + 1 < argc) {
                 config.voxel_config.voxel_size = std::stof(argv[++i]);
             }
+        }
