@@ -66,3 +66,4 @@ sudo apt install libvtk7-dev
 # Clone repository
 git clone https://github.com/alouii/video-to-3d-cuda.git
 cd video-to-3d-cuda
+
