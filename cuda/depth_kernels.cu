@@ -254,3 +254,4 @@ __global__ void disparityToDepthKernel(
     float disparity = disparity_map[idx];
     
     if (disparity > 0.0f) {
+        depth_map[idx] = (baseline * focal_length) / disparity;
