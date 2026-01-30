@@ -138,3 +138,4 @@ Then use the calibrated parameters:
 │   Video     │───>│    Depth     │───>│  Point Cloud   │
 │   Capture   │    │  Estimation  │    │   Generation   │
 └─────────────┘    └──────────────┘    └────────────────┘
+                                              │
