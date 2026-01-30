@@ -58,3 +58,4 @@ private:
     // Pipeline stages
     bool captureFrame();
     bool estimateDepth();
+    bool generatePointCloud();
