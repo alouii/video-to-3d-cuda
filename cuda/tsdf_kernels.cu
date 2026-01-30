@@ -11,3 +11,4 @@ __global__ void integrateTSDFKernel(
     const uint8_t* rgb_image,
     const CameraIntrinsics intrinsics,
     const Pose pose,
+    const VoxelGridConfig config,
