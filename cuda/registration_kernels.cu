@@ -254,3 +254,4 @@ __global__ void reduceErrorsKernel(
     float error = (idx < num_points) ? errors[idx] : 0.0f;
     
     error = cuda_utils::blockReduceSum(error);
+    
