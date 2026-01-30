@@ -227,3 +227,4 @@ public:
 // Stream wrapper for async operations
 class CudaStream {
 private:
+    cudaStream_t stream_;
