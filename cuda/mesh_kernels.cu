@@ -52,3 +52,4 @@ __global__ void classifyVoxelsKernel(
     }
     
     voxel_vertices[voxel_idx] = num_vertices;
+}
