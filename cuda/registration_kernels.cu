@@ -26,3 +26,4 @@ __global__ void findCorrespondencesKernel(
     for (int i = 0; i < num_target; i++) {
         const ColoredPoint& tgt = target_points[i];
         
+        float dx = src.x - tgt.x;
