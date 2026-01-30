@@ -128,3 +128,4 @@ int main(int argc, char** argv) {
     std::cout << "\nInitializing pipeline..." << std::endl;
     v3d::VideoTo3DPipeline pipeline(config);
     
+    if (!pipeline.initialize()) {
