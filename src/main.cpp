@@ -6,3 +6,4 @@
 #include <chrono>
 
 void printUsage(const char* program_name) {
+    std::cout << "Usage: " << program_name << " [options]\n"
