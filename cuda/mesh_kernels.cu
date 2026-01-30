@@ -154,3 +154,4 @@ __global__ void generateMeshKernel(
         vertices[base_vertex + i + 2].b = edge_colors[edge2].z;
         
         // Add triangle
+        triangles[(base_vertex + i) / 3].v0 = base_vertex + i;
