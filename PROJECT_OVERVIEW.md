@@ -16,3 +16,4 @@ A production-ready, GPU-accelerated system for converting video streams into den
 
 ```
 video-to-3d-cuda/
+├── CMakeLists.txt                 # Main build configuration
