@@ -32,3 +32,4 @@ video-to-3d-cuda/
 │   └── visualizer.h              # 3D visualization
 │
 ├── src/                          # Implementation files
+│   ├── main.cpp                  # Command-line interface
