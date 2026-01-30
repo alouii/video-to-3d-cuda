@@ -188,3 +188,4 @@ size_t VideoCapture::getBufferSize() const {
 size_t VideoCapture::getCurrentBufferCount() const {
     std::lock_guard<std::mutex> lock(buffer_mutex_);
     return frame_buffer_.size();
+}
