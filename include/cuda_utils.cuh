@@ -274,3 +274,4 @@ inline void printDeviceInfo() {
     std::cout << "Multiprocessors: " << prop.multiProcessorCount << std::endl;
     std::cout << "Warp Size: " << prop.warpSize << std::endl;
     std::cout << "=======================" << std::endl;
+}
