@@ -129,3 +129,4 @@ void VideoCapture::captureThread() {
                 return frame_buffer_.size() < max_buffer_size_ || stop_requested_;
             });
             
+            if (stop_requested_) {
