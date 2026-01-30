@@ -317,3 +317,4 @@ Contributions are welcome! Please:
 
 ## License
 
+MIT License - see LICENSE file
