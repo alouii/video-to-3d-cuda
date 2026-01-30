@@ -155,3 +155,4 @@ video-to-3d-cuda/
 | Frame Rate (1080p) | >15 FPS | 12.6 FPS ✓ |
 | Memory Usage | <1GB | ~850MB ✓ |
 | Depth Estimation | <30ms | 25ms ✓ |
+| Point Cloud Gen | <5ms | 3ms ✓ |
