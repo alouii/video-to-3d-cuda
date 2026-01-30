@@ -240,3 +240,4 @@ __global__ void computePointToPlaneKernel(
     jacobian[j_offset + 5] = src.x * tgt.ny - src.y * tgt.nx;
 }
 
+// Reduce errors to get total alignment error
