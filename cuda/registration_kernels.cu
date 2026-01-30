@@ -36,3 +36,4 @@ __global__ void findCorrespondencesKernel(
             best_match = i;
         }
     }
+    
