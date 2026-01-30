@@ -241,3 +241,4 @@ struct PipelineConfig {
           enable_fusion(true), enable_mesh(false), enable_visualization(true),
           max_frames(-1), skip_frames(0), num_streams(4),
           output_dir("output"), save_point_cloud(true), save_mesh(false) {}
+};
