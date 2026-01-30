@@ -79,3 +79,4 @@ __global__ void generateMeshKernel(
     float corners[8];
     float3 positions[8];
     uint3 colors[8];
+    
