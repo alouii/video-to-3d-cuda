@@ -54,3 +54,4 @@ public:
     void resume();
     void stop();
     
+private:
