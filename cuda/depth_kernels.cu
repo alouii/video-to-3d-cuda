@@ -157,3 +157,4 @@ __global__ void medianFilterKernel(
     const float* input_disparity,
     float* output_disparity,
     int width,
+    int height,
