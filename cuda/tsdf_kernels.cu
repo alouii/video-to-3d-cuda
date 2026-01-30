@@ -317,3 +317,4 @@ void launchExtractSurfacePoints(
     float weight_threshold,
     cudaStream_t stream
 ) {
+    dim3 block(8, 8, 8);
