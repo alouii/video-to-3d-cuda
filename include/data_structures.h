@@ -61,3 +61,4 @@ struct Pose {
     }
     
     void setFromEigen(const Eigen::Matrix3f& R, const Eigen::Vector3f& t) {
+        for (int i = 0; i < 3; ++i)
