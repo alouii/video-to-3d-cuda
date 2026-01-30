@@ -42,3 +42,4 @@ public:
     int getWidth() const;
     int getHeight() const;
     double getFPS() const;
+    int getTotalFrames() const;
