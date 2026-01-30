@@ -139,3 +139,4 @@ public:
     
     PinnedMemoryAllocator() = default;
     
+    template<typename U>
