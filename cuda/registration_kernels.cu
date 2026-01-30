@@ -80,3 +80,4 @@ __global__ void computeCentroidKernel(
 ) {
     extern __shared__ float s_sum[];
     
+    int tid = threadIdx.x;
