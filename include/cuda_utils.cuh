@@ -78,3 +78,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
     
     return val;
 }
+
