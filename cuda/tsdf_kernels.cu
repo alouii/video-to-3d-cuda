@@ -352,3 +352,4 @@ void launchRaycastTSDF(
         truncation_distance, width, height
     );
     
+    CUDA_CHECK_LAST_ERROR();
