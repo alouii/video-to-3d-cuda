@@ -328,3 +328,4 @@ Future versions will support:
 
 1. **Multi-GPU Support**: Distribute TSDF across GPUs
 2. **Neural Radiance Fields**: NeRF integration
+3. **Semantic Segmentation**: Object-aware reconstruction
