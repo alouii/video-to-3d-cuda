@@ -148,3 +148,4 @@ struct TSDFVoxel {
 │   Input     │
 └──────┬──────┘
        │
+       v
