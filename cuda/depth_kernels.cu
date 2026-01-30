@@ -290,3 +290,4 @@ void launchComputeMatchingCost(
     int max_disparity,
     cudaStream_t stream
 ) {
+    dim3 block(16, 16);
