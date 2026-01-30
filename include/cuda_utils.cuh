@@ -267,3 +267,4 @@ inline void printDeviceInfo() {
     
     std::cout << "=== CUDA Device Info ===" << std::endl;
     std::cout << "Device: " << prop.name << std::endl;
+    std::cout << "Compute Capability: " << prop.major << "." << prop.minor << std::endl;
