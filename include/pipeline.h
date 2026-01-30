@@ -37,3 +37,4 @@ public:
     // Check if reconstruction is ready
     bool reconstructionReady() const;
     
+    // Get results
