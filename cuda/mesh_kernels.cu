@@ -43,3 +43,4 @@ __global__ void classifyVoxelsKernel(
     
     voxel_types[voxel_idx] = cube_index;
     
+    // Count number of vertices this voxel will generate
