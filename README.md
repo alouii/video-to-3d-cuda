@@ -104,3 +104,4 @@ sudo make install
 --mesh <file>              Output mesh file (OBJ)
 --visualize                Enable real-time visualization
 --no-fusion                Disable TSDF fusion
+--voxel-size <size>        Voxel size in meters (default: 0.01)
