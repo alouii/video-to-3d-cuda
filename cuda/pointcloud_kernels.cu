@@ -134,3 +134,4 @@ __global__ void computeNormalsKernel(
     if (depth_center <= 0.0f || isnan(depth_center)) return;
     
     // Get neighboring depths
+    float depth_right = depth_map[y * width + (x + 1)];
