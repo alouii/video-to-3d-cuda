@@ -305,3 +305,4 @@ void launchIntegrateTSDF(
         truncation_distance, max_weight,
         width, height
     );
+    
