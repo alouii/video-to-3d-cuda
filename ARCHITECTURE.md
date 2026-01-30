@@ -123,3 +123,4 @@ struct TSDFVoxel {
 1. Classify voxels (inside/outside surface)
 2. Identify zero-crossing edges
 3. Generate vertices via interpolation
+4. Triangulate based on lookup table
