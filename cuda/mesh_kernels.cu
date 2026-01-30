@@ -17,3 +17,4 @@ __global__ void classifyVoxelsKernel(
     float iso_value
 ) {
     int vx = blockIdx.x * blockDim.x + threadIdx.x;
+    int vy = blockIdx.y * blockDim.y + threadIdx.y;
