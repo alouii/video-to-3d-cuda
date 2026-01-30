@@ -217,3 +217,4 @@ __global__ void raycastTSDFKernel(
         if (voxel.weight < 1.0f) {
             t += step_size;
             continue;
+        }
