@@ -68,3 +68,4 @@ video-to-3d-cuda/
 │   └── depth_model.onnx          # Depth estimation model
 │
 └── data/                         # Sample data (placeholder)
+    └── sample_video.mp4          # Test video
