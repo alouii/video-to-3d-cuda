@@ -31,3 +31,4 @@ bool VideoCapture::open(const std::string& source) {
     total_frames_ = static_cast<int>(capture_.get(cv::CAP_PROP_FRAME_COUNT));
     
     std::cout << "Opened video: " << width_ << "x" << height_ 
+              << " @ " << fps_ << " FPS, " << total_frames_ << " frames" << std::endl;
