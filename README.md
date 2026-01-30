@@ -210,3 +210,4 @@ All compute-intensive operations are GPU-accelerated:
 ```cpp
 #include "pipeline.h"
 
+// Create configuration
