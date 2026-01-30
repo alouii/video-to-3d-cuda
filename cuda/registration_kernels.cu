@@ -190,3 +190,4 @@ __global__ void computeAlignmentErrorKernel(
 __global__ void rejectOutliersKernel(
     const float* distances,
     int* correspondences,
+    int num_points,
