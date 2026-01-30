@@ -146,3 +146,4 @@ __global__ void generateMeshKernel(
         vertices[base_vertex + i + 1].g = edge_colors[edge1].y;
         vertices[base_vertex + i + 1].b = edge_colors[edge1].z;
         
+        vertices[base_vertex + i + 2].x = edge_verts[edge2].x;
