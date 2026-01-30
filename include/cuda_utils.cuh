@@ -230,3 +230,4 @@ private:
     cudaStream_t stream_;
     
 public:
+    CudaStream() {
