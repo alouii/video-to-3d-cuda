@@ -75,3 +75,4 @@ struct Pose {
         out_y = rotation[3] * x + rotation[4] * y + rotation[5] * z + translation[1];
         out_z = rotation[6] * x + rotation[7] * y + rotation[8] * z + translation[2];
     }
+};
