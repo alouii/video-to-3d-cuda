@@ -129,3 +129,4 @@ struct TSDFVoxel {
 **CUDA Kernels** (`mesh_kernels.cu`):
 - `classifyVoxelsKernel`: Voxel classification
 - `generateMeshKernel`: Triangle generation
+
