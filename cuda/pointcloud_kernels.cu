@@ -367,3 +367,4 @@ void launchComputeNormals(
     );
     
     CUDA_CHECK_LAST_ERROR();
+}
