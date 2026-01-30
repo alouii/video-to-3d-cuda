@@ -83,3 +83,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **CUDA Kernels** (`registration_kernels.cu`):
 - `findCorrespondencesKernel`: Brute-force NN search
 - `computeCentroidKernel`: Parallel mean calculation
+- `computeCovarianceKernel`: Cross-covariance matrix
