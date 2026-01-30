@@ -219,3 +219,4 @@ struct PipelineConfig {
     bool enable_mesh;
     bool enable_visualization;
     
+    // Camera parameters
