@@ -164,3 +164,4 @@ __global__ void raycastTSDFKernel(
 ) {
     int u = blockIdx.x * blockDim.x + threadIdx.x;
     int v = blockIdx.y * blockDim.y + threadIdx.y;
+    
