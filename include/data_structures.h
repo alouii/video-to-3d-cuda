@@ -223,3 +223,4 @@ struct PipelineConfig {
     CameraIntrinsics intrinsics;
     
     // TSDF parameters
+    VoxelGridConfig voxel_config;
