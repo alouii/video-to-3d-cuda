@@ -314,3 +314,4 @@ void launchComputeCentroid(
         d_points, d_centroid, num_points
     );
     
+    CUDA_CHECK_LAST_ERROR();
