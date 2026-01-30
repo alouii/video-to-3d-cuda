@@ -342,3 +342,4 @@ If you use this project in your research, please cite:
 
 1. Newcombe et al. "KinectFusion: Real-time dense surface mapping and tracking" (2011)
 2. Hirschmuller, H. "Stereo Processing by Semiglobal Matching" (2008)
+3. Besl & McKay. "A Method for Registration of 3-D Shapes" (1992)
