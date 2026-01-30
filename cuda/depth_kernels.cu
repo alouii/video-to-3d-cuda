@@ -15,3 +15,4 @@ __global__ void sgmCostAggregationKernel(
     int y = blockIdx.y;
     int d = threadIdx.z + blockIdx.z * blockDim.z;
     
+    if (x >= width || d >= max_disparity) return;
