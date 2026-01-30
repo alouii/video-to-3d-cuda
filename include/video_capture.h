@@ -76,3 +76,4 @@ private:
 
 } // namespace v3d
 
+#endif // VIDEO_CAPTURE_H
