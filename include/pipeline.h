@@ -86,3 +86,4 @@ private:
     Mesh final_mesh_;
     
     // State
+    bool initialized_;
