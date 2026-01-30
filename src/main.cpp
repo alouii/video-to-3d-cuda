@@ -56,3 +56,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.save_mesh = true;
                 config.enable_mesh = true;
             }
+        }
