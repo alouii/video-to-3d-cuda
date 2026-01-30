@@ -40,3 +40,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         }
         else if (arg == "-c" || arg == "--camera") {
             if (i + 1 < argc) {
+                config.camera_id = std::stoi(argv[++i]);
