@@ -23,3 +23,4 @@ struct CameraIntrinsics {
     inline void backproject(int u, int v, float depth, float& x, float& y, float& z) const {
         z = depth;
         x = (u - cx) * depth / fx;
+        y = (v - cy) * depth / fy;
