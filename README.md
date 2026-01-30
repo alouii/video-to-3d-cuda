@@ -352,3 +352,4 @@ If you use this project in your research, please cite:
 ---
 
 **Status**: Production Ready ✅  
+**Version**: 1.0.0  
