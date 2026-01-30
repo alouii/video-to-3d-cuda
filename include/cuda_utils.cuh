@@ -167,3 +167,4 @@ public:
         CUDA_CHECK(cudaMalloc(&data_, size_ * sizeof(T)));
     }
     
+    ~DeviceBuffer() {
