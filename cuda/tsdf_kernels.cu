@@ -26,3 +26,4 @@ __global__ void integrateTSDFKernel(
     // Compute world position of voxel center
     float world_x = config.min_x + (vx + 0.5f) * config.voxel_size;
     float world_y = config.min_y + (vy + 0.5f) * config.voxel_size;
+    float world_z = config.min_z + (vz + 0.5f) * config.voxel_size;
