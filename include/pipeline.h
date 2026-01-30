@@ -12,3 +12,4 @@ namespace v3d {
 // Forward declarations
 class DepthEstimator;
 class PointCloudGenerator;
+class Registration;
