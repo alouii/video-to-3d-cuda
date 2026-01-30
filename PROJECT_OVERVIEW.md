@@ -124,3 +124,4 @@ video-to-3d-cuda/
 - [x] Volumetric integration
 - [x] Weighted averaging
 - [x] Surface extraction
+- [x] Ray casting
