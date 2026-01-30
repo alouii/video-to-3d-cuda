@@ -217,3 +217,4 @@ GPU Memory Layout:
 │   ├── Cost volume
 │   └── Correspondence arrays
 └── Mesh Data (150 MB)
+    ├── Vertices
