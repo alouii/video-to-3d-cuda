@@ -251,3 +251,4 @@ __global__ void reduceErrorsKernel(
     int tid = threadIdx.x;
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     
+    float error = (idx < num_points) ? errors[idx] : 0.0f;
