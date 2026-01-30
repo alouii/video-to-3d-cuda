@@ -91,3 +91,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Responsibility**: Volumetric integration of multiple depth maps
 
 **Data Structure**: Truncated Signed Distance Function (TSDF)
+
