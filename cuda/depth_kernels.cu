@@ -77,3 +77,4 @@ __global__ void selectDisparityKernel(
         if (fabsf(denom) > 1e-6f) {
             float offset = (c_prev - c_next) / denom;
             disparity += offset;
+        }
