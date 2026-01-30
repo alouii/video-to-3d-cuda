@@ -244,3 +244,4 @@ __global__ void computePointToPlaneKernel(
 __global__ void reduceErrorsKernel(
     const float* errors,
     float* total_error,
+    int num_points
