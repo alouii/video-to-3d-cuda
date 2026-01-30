@@ -181,3 +181,4 @@ __global__ void computeNormalsKernel(
         nz = -nz;
     }
     
+    // Store in point cloud
