@@ -20,3 +20,4 @@ struct CameraIntrinsics {
         : fx(fx_), fy(fy_), cx(cx_), cy(cy_), width(w), height(h) {}
     
     // Back-project pixel to 3D ray
+    inline void backproject(int u, int v, float depth, float& x, float& y, float& z) const {
