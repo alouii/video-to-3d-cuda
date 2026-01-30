@@ -14,3 +14,4 @@ class DepthEstimator;
 class PointCloudGenerator;
 class Registration;
 class TSDFFusion;
+class MeshGenerator;
