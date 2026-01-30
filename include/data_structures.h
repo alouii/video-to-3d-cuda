@@ -146,3 +146,4 @@ struct Mesh {
     std::vector<Triangle> triangles;
     bool has_normals;
     bool has_colors;
+    
