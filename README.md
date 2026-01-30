@@ -235,3 +235,4 @@ pipeline.exportMesh("mesh.obj");
 ### Python Bindings (TODO)
 
 ```python
+import video3d
