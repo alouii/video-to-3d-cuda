@@ -187,3 +187,4 @@ __global__ void computeNormalsKernel(
     points[idx].nz = nz;
 }
 
+// Statistical outlier removal
