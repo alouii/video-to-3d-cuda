@@ -133,3 +133,4 @@ public:
 
 // Pinned memory allocator for fast CPU-GPU transfers
 template<typename T>
+class PinnedMemoryAllocator {
