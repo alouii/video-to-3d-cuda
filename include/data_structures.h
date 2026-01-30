@@ -91,3 +91,4 @@ struct ColoredPoint {
         : x(x_), y(y_), z(z_), r(r_), g(g_), b(b_), 
           nx(0), ny(0), nz(0), confidence(1.0f) {}
 };
+
