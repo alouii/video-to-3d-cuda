@@ -248,3 +248,4 @@ public:
     }
 };
 
+// Get optimal block and grid sizes
