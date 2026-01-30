@@ -226,3 +226,4 @@ __global__ void computePointToPlaneKernel(
     float dx = src.x - tgt.x;
     float dy = src.y - tgt.y;
     float dz = src.z - tgt.z;
+    
