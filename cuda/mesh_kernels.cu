@@ -78,3 +78,4 @@ __global__ void generateMeshKernel(
     // Get corner positions and values
     float corners[8];
     float3 positions[8];
+    uint3 colors[8];
