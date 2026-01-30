@@ -217,3 +217,4 @@ __global__ void computePointToPlaneKernel(
     if (corr_idx < 0) {
         residuals[idx] = 0.0f;
         return;
+    }
