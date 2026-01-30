@@ -157,3 +157,4 @@ __global__ void raycastTSDFKernel(
     uint8_t* normal_map,
     const CameraIntrinsics intrinsics,
     const Pose pose,
+    const VoxelGridConfig config,
