@@ -359,3 +359,4 @@ void launchComputeNormals(
     int height,
     cudaStream_t stream
 ) {
+    dim3 block(16, 16);
