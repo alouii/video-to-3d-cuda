@@ -65,3 +65,4 @@ __global__ void generateMeshKernel(
     float iso_value
 ) {
     int vx = blockIdx.x * blockDim.x + threadIdx.x;
+    int vy = blockIdx.y * blockDim.y + threadIdx.y;
