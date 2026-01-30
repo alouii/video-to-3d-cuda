@@ -7,3 +7,4 @@
 #include <memory>
 #include <vector>
 
+namespace v3d {
