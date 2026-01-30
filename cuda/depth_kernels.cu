@@ -234,3 +234,4 @@ __global__ void lrConsistencyCheckKernel(
     } else {
         output_disparity[idx] = d_left;
     }
+}
