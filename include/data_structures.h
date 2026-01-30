@@ -110,3 +110,4 @@ struct DepthFrame {
 };
 
 // Point cloud container
+struct PointCloud {
