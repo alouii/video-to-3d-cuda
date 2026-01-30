@@ -60,3 +60,4 @@ __global__ void transformPointCloudKernel(
     out_pt.z = pose.rotation[6] * in_pt.x + pose.rotation[7] * in_pt.y + pose.rotation[8] * in_pt.z + pose.translation[2];
     
     // Copy color
+    out_pt.r = in_pt.r;
