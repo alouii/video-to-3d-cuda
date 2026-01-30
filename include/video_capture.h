@@ -61,3 +61,4 @@ private:
     
     std::queue<VideoFrame> frame_buffer_;
     size_t max_buffer_size_;
+    
