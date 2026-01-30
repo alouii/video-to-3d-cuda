@@ -158,3 +158,4 @@ __global__ void raycastTSDFKernel(
     const CameraIntrinsics intrinsics,
     const Pose pose,
     const VoxelGridConfig config,
+    float truncation_distance,
