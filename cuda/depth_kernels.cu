@@ -82,3 +82,4 @@ __global__ void selectDisparityKernel(
     
     disparity_map[y * width + x] = disparity;
 }
+
