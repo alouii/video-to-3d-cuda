@@ -62,3 +62,4 @@ __global__ void selectDisparityKernel(
         float cost = aggregated_cost[base_idx + d];
         if (cost < min_cost) {
             min_cost = cost;
+            best_d = d;
