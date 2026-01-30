@@ -270,3 +270,4 @@ __global__ void voxelDownsampleKernel(
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= num_points) return;
     
+    const ColoredPoint& point = input_points[idx];
