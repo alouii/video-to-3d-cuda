@@ -143,3 +143,4 @@ __global__ void computeMatchingCostKernel(
         int right_idx = y * width + (x - d);
         uint32_t right_val = right_census[right_idx];
         
+        // Hamming distance
