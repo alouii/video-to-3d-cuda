@@ -29,3 +29,4 @@ benchmark
 unit_tests
 
 # Data files
+*.bin
