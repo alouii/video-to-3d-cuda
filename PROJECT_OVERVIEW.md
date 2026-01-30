@@ -168,3 +168,4 @@ video-to-3d-cuda/
    - Pinned memory for transfers
 
 2. **Computation Optimization**
+   - Warp-level reductions
