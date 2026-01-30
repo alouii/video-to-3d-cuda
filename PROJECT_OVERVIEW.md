@@ -110,3 +110,4 @@ video-to-3d-cuda/
 ### 3. Point Cloud Generation
 - [x] GPU-accelerated back-projection
 - [x] Bilateral filtering
+- [x] Normal estimation
