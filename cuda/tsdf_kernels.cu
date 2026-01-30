@@ -236,3 +236,4 @@ __global__ void raycastTSDFKernel(
     int pixel_idx = v * width + u;
     
     if (found_surface) {
+        depth_map[pixel_idx] = surface_t;
