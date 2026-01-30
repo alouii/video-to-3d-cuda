@@ -49,3 +49,4 @@ struct Pose {
     
     // Convert to Eigen types
     Eigen::Matrix3f getRotationMatrix() const {
+        Eigen::Matrix3f R;
