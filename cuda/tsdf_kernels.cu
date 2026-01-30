@@ -162,3 +162,4 @@ __global__ void raycastTSDFKernel(
     int width,
     int height
 ) {
+    int u = blockIdx.x * blockDim.x + threadIdx.x;
