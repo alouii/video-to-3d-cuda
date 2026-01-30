@@ -313,3 +313,4 @@ void launchSelectDisparity(
     
     selectDisparityKernel<<<grid, block, 0, stream>>>(
         d_aggregated_cost, d_disparity_map, width, height, max_disparity
+    );
