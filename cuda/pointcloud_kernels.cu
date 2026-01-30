@@ -204,3 +204,4 @@ __global__ void statisticalOutlierRemovalKernel(
     // Compute mean distance to k nearest neighbors (simplified)
     float sum_distances = 0.0f;
     int count = 0;
+    
