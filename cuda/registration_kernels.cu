@@ -8,3 +8,4 @@ using namespace v3d;
 __global__ void findCorrespondencesKernel(
     const ColoredPoint* source_points,
     const ColoredPoint* target_points,
+    int* correspondences,
