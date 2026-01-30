@@ -21,3 +21,4 @@ The Video to 3D Point Cloud Reconstruction system is designed as a modular, GPU-
 Capture Thread → Frame Buffer → Processing Thread
      ↓
  cv::VideoCapture
+```
