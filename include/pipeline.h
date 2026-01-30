@@ -67,3 +67,4 @@ private:
     // Configuration
     PipelineConfig config_;
     
+    // Components
