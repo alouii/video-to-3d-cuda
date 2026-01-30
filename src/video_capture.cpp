@@ -177,3 +177,4 @@ int VideoCapture::getTotalFrames() const {
     return total_frames_;
 }
 
+void VideoCapture::setBufferSize(size_t size) {
