@@ -160,3 +160,4 @@ __global__ void medianFilterKernel(
     int height,
     int kernel_size
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
