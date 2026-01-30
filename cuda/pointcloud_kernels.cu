@@ -403,3 +403,4 @@ void launchVoxelDownsample(
     int grid_dim_z,
     cudaStream_t stream
 ) {
+    int block_size = 256;
