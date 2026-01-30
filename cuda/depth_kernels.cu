@@ -240,3 +240,4 @@ __global__ void lrConsistencyCheckKernel(
 __global__ void disparityToDepthKernel(
     const float* disparity_map,
     float* depth_map,
+    int width,
