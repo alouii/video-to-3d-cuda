@@ -101,3 +101,4 @@ sudo make install
 -i, --input <file>         Input video file
 -c, --camera <id>          Camera device ID (default: 0)
 -o, --output <file>        Output point cloud file (PLY)
+--mesh <file>              Output mesh file (OBJ)
