@@ -17,3 +17,4 @@ class TSDFFusion;
 class MeshGenerator;
 class Visualizer;
 
+class VideoTo3DPipeline {
