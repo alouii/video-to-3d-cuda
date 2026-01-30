@@ -259,3 +259,4 @@ __global__ void disparityToDepthKernel(
         depth_map[idx] = 0.0f;
     }
 }
+
