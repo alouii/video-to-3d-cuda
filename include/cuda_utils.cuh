@@ -238,3 +238,4 @@ public:
         cudaStreamDestroy(stream_);
     }
     
+    CudaStream(const CudaStream&) = delete;
