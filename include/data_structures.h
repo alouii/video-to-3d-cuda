@@ -217,3 +217,4 @@ struct PipelineConfig {
     std::string depth_model_path;
     bool enable_fusion;
     bool enable_mesh;
+    bool enable_visualization;
