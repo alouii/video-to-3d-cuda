@@ -27,3 +27,4 @@ bool VideoCapture::open(const std::string& source) {
     
     width_ = static_cast<int>(capture_.get(cv::CAP_PROP_FRAME_WIDTH));
     height_ = static_cast<int>(capture_.get(cv::CAP_PROP_FRAME_HEIGHT));
+    fps_ = capture_.get(cv::CAP_PROP_FPS);
