@@ -45,3 +45,4 @@ temp/
 Thumbs.db
 
 # Python
+__pycache__/
