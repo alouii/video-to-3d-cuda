@@ -249,3 +249,4 @@ __global__ void disparityToDepthKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x >= width || y >= height) return;
+    
