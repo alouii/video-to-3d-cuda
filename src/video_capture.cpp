@@ -46,3 +46,4 @@ bool VideoCapture::open(int camera_id) {
     capture_.set(cv::CAP_PROP_FRAME_WIDTH, 640);
     capture_.set(cv::CAP_PROP_FRAME_HEIGHT, 480);
     capture_.set(cv::CAP_PROP_FPS, 30);
+    
