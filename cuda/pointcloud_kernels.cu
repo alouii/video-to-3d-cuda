@@ -156,3 +156,4 @@ __global__ void computeNormalsKernel(
     float tx = rx - cx;
     float ty = ry - cy;
     float tz = rz - cz;
+    
