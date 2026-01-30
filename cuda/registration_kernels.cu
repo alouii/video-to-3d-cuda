@@ -284,3 +284,4 @@ void launchFindCorrespondences(
     CUDA_CHECK_LAST_ERROR();
 }
 
+void launchTransformPointCloud(
