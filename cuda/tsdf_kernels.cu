@@ -127,3 +127,4 @@ __global__ void extractSurfacePointsKernel(
         const TSDFVoxel& neighbor = voxel_grid[neighbors[i]];
         if (neighbor.weight >= weight_threshold) {
             if ((voxel.tsdf > 0 && neighbor.tsdf < 0) || (voxel.tsdf < 0 && neighbor.tsdf > 0)) {
+                has_zero_crossing = true;
