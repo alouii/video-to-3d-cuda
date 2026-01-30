@@ -316,3 +316,4 @@ void launchDepthToPointCloud(
     const CameraIntrinsics& intrinsics,
     const Pose& pose,
     float min_depth,
+    float max_depth,
