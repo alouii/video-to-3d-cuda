@@ -33,3 +33,4 @@ video-to-3d-cuda/
 │
 ├── src/                          # Implementation files
 │   ├── main.cpp                  # Command-line interface
+│   ├── pipeline.cpp              # Pipeline implementation
