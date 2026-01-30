@@ -42,3 +42,4 @@ bool VideoCapture::open(int camera_id) {
         return false;
     }
     
+    // Set camera properties
