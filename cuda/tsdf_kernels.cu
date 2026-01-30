@@ -220,3 +220,4 @@ __global__ void raycastTSDFKernel(
         }
         
         // Check for zero crossing
+        if (prev_tsdf > 0 && voxel.tsdf <= 0) {
