@@ -59,3 +59,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         }
         else if (arg == "--visualize") {
             config.enable_visualization = true;
+        }
