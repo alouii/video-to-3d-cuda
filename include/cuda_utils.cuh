@@ -119,3 +119,4 @@ public:
         return ptr;
     }
     
+    void deallocate(void* ptr) {
