@@ -11,3 +11,4 @@ add_executable(benchmark benchmark.cpp)
 target_link_libraries(benchmark video3d_cuda ${OpenCV_LIBS} ${CUDA_LIBRARIES} Eigen3::Eigen)
 
 # Add tests
+add_test(NAME DepthEstimation COMMAND test_depth)
