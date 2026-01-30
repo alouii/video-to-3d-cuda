@@ -101,3 +101,4 @@ __global__ void computeCentroidKernel(
         atomicAdd(&centroid[1], sum_y);
         atomicAdd(&centroid[2], sum_z);
     }
+}
