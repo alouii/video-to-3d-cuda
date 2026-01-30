@@ -85,3 +85,4 @@ sudo make install
 ### Basic Usage
 
 ```bash
+# Process video file
