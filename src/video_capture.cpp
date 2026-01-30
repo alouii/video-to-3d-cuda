@@ -16,3 +16,4 @@ VideoCapture::VideoCapture()
 }
 
 VideoCapture::~VideoCapture() {
+    close();
