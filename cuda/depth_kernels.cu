@@ -37,3 +37,4 @@ __global__ void sgmCostAggregationKernel(
         aggregated_cost[idx] = cost_volume[idx] + path_cost - min_prev;
     } else {
         aggregated_cost[idx] = cost_volume[idx];
+    }
