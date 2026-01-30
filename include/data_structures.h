@@ -198,3 +198,4 @@ struct VoxelGridConfig {
     }
     
     // Convert voxel indices to world coordinates (center of voxel)
+    inline void voxelToWorld(int vx, int vy, int vz, float& x, float& y, float& z) const {
