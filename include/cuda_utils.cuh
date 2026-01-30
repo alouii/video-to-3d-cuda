@@ -224,3 +224,4 @@ public:
     size_t size() const { return size_; }
 };
 
+// Stream wrapper for async operations
