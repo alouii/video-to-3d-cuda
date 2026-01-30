@@ -50,3 +50,4 @@ __pycache__/
 *.egg-info/
 venv/
 
+# Documentation builds
