@@ -128,3 +128,4 @@ video-to-3d-cuda/
 
 ### 6. Mesh Generation
 - [x] Marching Cubes algorithm
+- [x] Voxel classification
