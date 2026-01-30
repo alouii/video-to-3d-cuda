@@ -257,3 +257,4 @@ struct PerformanceStats {
     double fps;
     
     PerformanceStats() { reset(); }
+    
