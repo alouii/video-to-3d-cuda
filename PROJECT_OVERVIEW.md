@@ -113,3 +113,4 @@ video-to-3d-cuda/
 - [x] Normal estimation
 - [x] Statistical outlier removal
 - [x] Voxel downsampling
+
