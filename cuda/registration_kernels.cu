@@ -53,3 +53,4 @@ __global__ void transformPointCloudKernel(
     
     const ColoredPoint& in_pt = input_points[idx];
     ColoredPoint& out_pt = output_points[idx];
+    
