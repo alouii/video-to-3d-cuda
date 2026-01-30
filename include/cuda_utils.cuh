@@ -244,3 +244,4 @@ public:
     cudaStream_t get() const { return stream_; }
     
     void synchronize() {
+        CUDA_CHECK(cudaStreamSynchronize(stream_));
