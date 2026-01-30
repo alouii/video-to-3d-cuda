@@ -34,3 +34,4 @@ struct CameraIntrinsics {
 };
 
 // 6-DOF camera pose (rotation + translation)
+struct Pose {
