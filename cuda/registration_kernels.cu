@@ -228,3 +228,4 @@ __global__ void computePointToPlaneKernel(
     float dz = src.z - tgt.z;
     
     residuals[idx] = dx * tgt.nx + dy * tgt.ny + dz * tgt.nz;
+    
