@@ -22,3 +22,4 @@ __global__ void depthToPointCloudKernel(
     
     if (x >= width || y >= height) return;
     
+    int idx = y * width + x;
