@@ -16,3 +16,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - **Filtering & Enhancement**:
   - Bilateral depth filtering
   - Statistical outlier removal
+  - Voxel downsampling
