@@ -333,3 +333,4 @@ void launchDepthToPointCloud(
 }
 
 void launchBilateralFilterDepth(
+    const float* d_input_depth,
