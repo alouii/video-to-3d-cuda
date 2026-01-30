@@ -19,3 +19,4 @@ class Visualizer;
 
 class VideoTo3DPipeline {
 public:
+    explicit VideoTo3DPipeline(const PipelineConfig& config);
