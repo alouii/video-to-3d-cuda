@@ -331,3 +331,4 @@ void launchComputeCovariance(
     int grid_size = (num_points + block_size - 1) / block_size;
     
     computeCovarianceKernel<<<grid_size, block_size, 9 * sizeof(float), stream>>>(
+        d_source_points, d_target_points, d_correspondences,
