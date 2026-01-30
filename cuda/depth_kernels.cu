@@ -108,3 +108,4 @@ __global__ void censusTransformKernel(
     for (int dy = -window_size; dy <= window_size; dy++) {
         for (int dx = -window_size; dx <= window_size; dx++) {
             if (dx == 0 && dy == 0) continue;
+            
