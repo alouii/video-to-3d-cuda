@@ -277,3 +277,4 @@ inline void printDeviceInfo() {
 }
 
 } // namespace cuda_utils
+
