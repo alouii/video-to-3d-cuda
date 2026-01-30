@@ -16,3 +16,4 @@ __global__ void depthToPointCloudKernel(
     float max_depth,
     int width,
     int height
+) {
