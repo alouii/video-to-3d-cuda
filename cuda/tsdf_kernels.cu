@@ -207,3 +207,4 @@ __global__ void raycastTSDFKernel(
         int vx, vy, vz;
         if (!config.worldToVoxel(pos_x, pos_y, pos_z, vx, vy, vz)) {
             t += step_size;
+            continue;
