@@ -294,3 +294,4 @@ void launchComputeMatchingCost(
     dim3 grid((width + block.x - 1) / block.x, (height + block.y - 1) / block.y);
     
     computeMatchingCostKernel<<<grid, block, 0, stream>>>(
+        d_left_census, d_right_census, d_cost_volume, width, height, max_disparity
