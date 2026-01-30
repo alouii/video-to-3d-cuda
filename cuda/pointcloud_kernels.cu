@@ -192,3 +192,4 @@ __global__ void statisticalOutlierRemovalKernel(
     const ColoredPoint* input_points,
     ColoredPoint* output_points,
     int* valid_mask,
+    int num_points,
