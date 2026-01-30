@@ -251,3 +251,4 @@ struct PerformanceStats {
     double registration_time;
     double fusion_time;
     double visualization_time;
+    double total_frame_time;
