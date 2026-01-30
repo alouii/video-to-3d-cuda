@@ -125,3 +125,4 @@ int main(int argc, char** argv) {
     cuda_utils::printDeviceInfo();
     
     // Create and initialize pipeline
+    std::cout << "\nInitializing pipeline..." << std::endl;
