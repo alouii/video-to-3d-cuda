@@ -152,3 +152,4 @@ int main(int argc, char** argv) {
     std::cout << "\nProcessing completed in " << duration.count() / 1000.0 << " seconds." << std::endl;
     
     // Print statistics
+    pipeline.printStatistics();
