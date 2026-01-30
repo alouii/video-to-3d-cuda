@@ -53,3 +53,4 @@ __global__ void selectDisparityKernel(
     
     if (x >= width || y >= height) return;
     
+    int base_idx = y * width * max_disparity + x * max_disparity;
