@@ -140,3 +140,4 @@ __global__ void computeCovarianceKernel(
             float tgt_z = tgt.z - target_centroid[2];
             
             // Compute outer product contributions
+            atomicAdd(&s_cov[0], src_x * tgt_x);
