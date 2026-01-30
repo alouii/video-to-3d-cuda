@@ -240,3 +240,4 @@ video-to-3d-cuda/
 
 ## Testing
 
+```bash
