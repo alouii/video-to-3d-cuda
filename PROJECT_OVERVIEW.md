@@ -121,3 +121,4 @@ video-to-3d-cuda/
 - [x] Outlier rejection
 
 ### 5. TSDF Fusion
+- [x] Volumetric integration
