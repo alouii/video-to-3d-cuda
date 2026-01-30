@@ -126,3 +126,4 @@ video-to-3d-cuda/
 - [x] Surface extraction
 - [x] Ray casting
 
+### 6. Mesh Generation
