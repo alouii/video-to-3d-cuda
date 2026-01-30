@@ -247,3 +247,4 @@ GPU Memory Layout:
    - `__popc()` for Hamming distance
    - `__ballot_sync()` for vote operations
 
+4. **Async Execution**
