@@ -174,3 +174,4 @@ video-to-3d-cuda/
    - Kernel fusion where applicable
 
 3. **Execution Optimization**
+   - Multiple CUDA streams
