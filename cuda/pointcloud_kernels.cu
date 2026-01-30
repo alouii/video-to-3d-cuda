@@ -8,3 +8,4 @@ using namespace v3d;
 __global__ void depthToPointCloudKernel(
     const float* depth_map,
     const uint8_t* rgb_image,
+    ColoredPoint* points,
