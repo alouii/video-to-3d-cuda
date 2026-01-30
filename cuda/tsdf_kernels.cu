@@ -149,3 +149,4 @@ __global__ void extractSurfacePointsKernel(
     pt.b = voxel.b;
     pt.confidence = voxel.weight / 10.0f;  // Normalize weight
 }
+
