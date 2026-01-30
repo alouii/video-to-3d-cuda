@@ -10,3 +10,4 @@
 namespace v3d {
 
 // Forward declarations
+class DepthEstimator;
