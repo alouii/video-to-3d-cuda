@@ -4,3 +4,4 @@
 
 using namespace v3d;
 
+// Marching cubes edge table and triangle table (abbreviated for space)
