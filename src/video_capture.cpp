@@ -74,3 +74,4 @@ void VideoCapture::start() {
     if (running_) {
         return;
     }
+    
