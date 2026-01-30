@@ -127,3 +127,4 @@ struct PointCloud {
         return points.size();
     }
     
+    void reserve(size_t n) {
