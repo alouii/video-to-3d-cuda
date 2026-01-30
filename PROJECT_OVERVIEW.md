@@ -228,3 +228,4 @@ video-to-3d-cuda/
    - Semantic segmentation
 
 3. **Performance**
+   - Multi-GPU support
