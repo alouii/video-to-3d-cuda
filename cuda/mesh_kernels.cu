@@ -56,3 +56,4 @@ __global__ void classifyVoxelsKernel(
 
 // Generate mesh vertices and triangles
 __global__ void generateMeshKernel(
+    const TSDFVoxel* voxel_grid,
