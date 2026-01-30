@@ -271,3 +271,4 @@ GPU Memory Layout:
 ### Adding Custom Depth Models
 
 ```cpp
+class MyDepthEstimator : public DepthEstimator {
