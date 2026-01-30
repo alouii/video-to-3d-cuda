@@ -315,3 +315,4 @@ void launchSelectDisparity(
         d_aggregated_cost, d_disparity_map, width, height, max_disparity
     );
     
+    CUDA_CHECK_LAST_ERROR();
