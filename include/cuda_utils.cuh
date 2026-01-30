@@ -69,3 +69,4 @@ __device__ __forceinline__ float blockReduceSum(float val) {
     int wid = threadIdx.x / 32;
     
     val = warpReduceSum(val);
+    
