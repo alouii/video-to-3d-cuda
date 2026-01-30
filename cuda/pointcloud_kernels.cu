@@ -337,3 +337,4 @@ void launchBilateralFilterDepth(
     float* d_output_depth,
     int width,
     int height,
+    float sigma_space,
