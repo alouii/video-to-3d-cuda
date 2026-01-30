@@ -45,3 +45,4 @@ __global__ void integrateTSDFKernel(
     int u = static_cast<int>(intrinsics.fx * cam_x / cam_z + intrinsics.cx);
     int v = static_cast<int>(intrinsics.fy * cam_y / cam_z + intrinsics.cy);
     
+    // Check if inside image
