@@ -27,3 +27,4 @@ struct CameraIntrinsics {
     }
     
     // Project 3D point to pixel
+    inline void project(float x, float y, float z, int& u, int& v) const {
