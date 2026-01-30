@@ -288,3 +288,4 @@ void launchTransformPointCloud(
     const ColoredPoint* d_input_points,
     ColoredPoint* d_output_points,
     int num_points,
+    const Pose& pose,
