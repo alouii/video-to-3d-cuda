@@ -87,3 +87,4 @@ __global__ void bilateralFilterDepthKernel(
     float sum_values = 0.0f;
     
     for (int dy = -kernel_radius; dy <= kernel_radius; dy++) {
+        for (int dx = -kernel_radius; dx <= kernel_radius; dx++) {
