@@ -246,3 +246,4 @@ public:
     void synchronize() {
         CUDA_CHECK(cudaStreamSynchronize(stream_));
     }
+};
