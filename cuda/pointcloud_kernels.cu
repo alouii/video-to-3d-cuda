@@ -278,3 +278,4 @@ __global__ void voxelDownsampleKernel(
     int vz = static_cast<int>((point.z - min_z) / voxel_size);
     
     if (vx < 0 || vx >= grid_dim_x || vy < 0 || vy >= grid_dim_y || vz < 0 || vz >= grid_dim_z) {
+        return;
