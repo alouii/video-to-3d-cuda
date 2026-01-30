@@ -269,3 +269,4 @@ public:
     bool initialize(const CameraIntrinsics& intrinsics) override {
         // Load your model (TensorRT, ONNX, etc.)
         return true;
+    }
