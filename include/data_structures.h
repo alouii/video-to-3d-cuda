@@ -15,3 +15,4 @@ struct CameraIntrinsics {
     
     CameraIntrinsics() : fx(525.0f), fy(525.0f), cx(319.5f), cy(239.5f), 
                          width(640), height(480) {}
+    
