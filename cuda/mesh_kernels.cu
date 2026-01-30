@@ -36,3 +36,4 @@ __global__ void classifyVoxelsKernel(
         int corner_idx = (vx + dx) + (vy + dy) * config.grid_dim_x + (vz + dz) * config.grid_dim_x * config.grid_dim_y;
         corners[i] = voxel_grid[corner_idx].tsdf;
         
+        if (corners[i] < iso_value) {
