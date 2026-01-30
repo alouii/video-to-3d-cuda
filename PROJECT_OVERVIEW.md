@@ -63,3 +63,4 @@ video-to-3d-cuda/
 ├── docs/                         # Documentation
 │   ├── ARCHITECTURE.md           # System architecture
 │   └── EXAMPLES.md               # Usage examples
+│
