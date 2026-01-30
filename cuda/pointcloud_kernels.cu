@@ -218,3 +218,4 @@ __global__ void statisticalOutlierRemovalKernel(
         sum_distances += dist;
         count++;
     }
+    
