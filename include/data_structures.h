@@ -176,3 +176,4 @@ struct VoxelGridConfig {
     int grid_dim_x, grid_dim_y, grid_dim_z;
     float min_x, min_y, min_z;  // Volume bounds
     float max_x, max_y, max_z;
+    
