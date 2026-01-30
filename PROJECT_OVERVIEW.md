@@ -26,3 +26,4 @@ video-to-3d-cuda/
 │   ├── mesh_generator.h          # Mesh generation interface
 │   ├── pipeline.h                # Main pipeline orchestrator
 │   ├── point_cloud_generator.h   # Point cloud generation
+│   ├── registration.h            # ICP registration
