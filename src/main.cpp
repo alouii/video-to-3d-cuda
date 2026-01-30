@@ -15,3 +15,4 @@ void printUsage(const char* program_name) {
               << "  --visualize                Enable real-time visualization\n"
               << "  --no-fusion                Disable TSDF fusion\n"
               << "  --voxel-size <size>        Voxel size in meters (default: 0.01)\n"
+              << "  --max-frames <n>           Maximum frames to process (default: all)\n"
