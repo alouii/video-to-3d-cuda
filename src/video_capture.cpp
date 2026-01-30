@@ -61,3 +61,4 @@ bool VideoCapture::open(int camera_id) {
 void VideoCapture::close() {
     stop();
     
+    if (capture_.isOpened()) {
