@@ -60,3 +60,4 @@ __global__ void selectDisparityKernel(
     
     for (int d = 0; d < max_disparity; d++) {
         float cost = aggregated_cost[base_idx + d];
+        if (cost < min_cost) {
