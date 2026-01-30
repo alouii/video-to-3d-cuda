@@ -98,3 +98,4 @@ private:
     std::vector<cuda_utils::CudaStream> cuda_streams_;
 };
 
+} // namespace v3d
