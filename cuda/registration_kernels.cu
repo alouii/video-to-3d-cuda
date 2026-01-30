@@ -315,3 +315,4 @@ void launchComputeCentroid(
     );
     
     CUDA_CHECK_LAST_ERROR();
+}
