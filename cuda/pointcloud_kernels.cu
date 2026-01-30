@@ -206,3 +206,4 @@ __global__ void statisticalOutlierRemovalKernel(
     int count = 0;
     
     // Sample neighbors (in practice, use KD-tree)
+    for (int i = max(0, idx - k_neighbors); i < min(num_points, idx + k_neighbors); i++) {
