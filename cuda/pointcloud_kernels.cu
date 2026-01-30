@@ -103,3 +103,4 @@ __global__ void bilateralFilterDepthKernel(
             float spatial_weight = expf(-(spatial_dist * spatial_dist) / (2.0f * sigma_space * sigma_space));
             
             // Range weight
+            float range_dist = fabsf(neighbor_depth - center_depth);
