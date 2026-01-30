@@ -207,3 +207,4 @@ struct TSDFVoxel {
 GPU Memory Layout:
 ├── Frame Buffers (50 MB)
 │   ├── RGB Image (1920x1080x3)
+│   └── Depth Map (1920x1080)
