@@ -136,3 +136,4 @@ video-to-3d-cuda/
 - [x] CUDA memory pool
 - [x] Pinned memory allocators
 - [x] Multi-stream async processing
+- [x] Warp-level primitives
