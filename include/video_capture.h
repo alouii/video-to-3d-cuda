@@ -1,0 +1,1 @@
+#ifndef VIDEO_CAPTURE_H
