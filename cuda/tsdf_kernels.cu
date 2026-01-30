@@ -189,3 +189,4 @@ __global__ void raycastTSDFKernel(
     float ray_origin_z = pose.translation[2];
     
     // March along ray
+    float t = 0.1f;  // Start distance
