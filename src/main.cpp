@@ -119,3 +119,4 @@ int main(int argc, char** argv) {
         std::cerr << "Error: No input source specified. Use -i or -c option." << std::endl;
         printUsage(argv[0]);
         return 1;
+    }
