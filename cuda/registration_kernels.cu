@@ -374,3 +374,4 @@ void launchRejectOutliers(
 }
 
 void launchReduceErrors(
+    const float* d_errors,
