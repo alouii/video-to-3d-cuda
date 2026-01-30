@@ -41,3 +41,4 @@ __global__ void sgmCostAggregationKernel(
 }
 
 // Winner-takes-all disparity selection
+__global__ void selectDisparityKernel(
