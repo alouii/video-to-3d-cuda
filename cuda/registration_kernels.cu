@@ -77,3 +77,4 @@ __global__ void computeCentroidKernel(
     const ColoredPoint* points,
     float* centroid,
     int num_points
+) {
