@@ -71,3 +71,4 @@ __global__ void transformPointCloudKernel(
     
     out_pt.confidence = in_pt.confidence;
 }
+
