@@ -48,3 +48,4 @@ __global__ void selectDisparityKernel(
     int height,
     int max_disparity
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
