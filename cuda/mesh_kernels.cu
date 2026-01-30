@@ -193,3 +193,4 @@ void launchGenerateMesh(
     Triangle* d_triangles,
     const VoxelGridConfig& config,
     float iso_value,
+    cudaStream_t stream
