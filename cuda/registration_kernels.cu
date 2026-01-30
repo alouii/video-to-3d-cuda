@@ -219,3 +219,4 @@ __global__ void computePointToPlaneKernel(
         return;
     }
     
+    const ColoredPoint& src = source_points[idx];
