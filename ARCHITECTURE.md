@@ -167,3 +167,4 @@ struct TSDFVoxel {
 │  Estimation  │                    │    Frame     │
 │   (CUDA)     │                    │    Data      │
 └──────┬───────┘                    └──────┬───────┘
+       │                                    │
