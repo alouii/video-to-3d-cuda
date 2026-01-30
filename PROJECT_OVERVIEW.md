@@ -40,3 +40,4 @@ video-to-3d-cuda/
 │   ├── registration.cpp          # Registration (stub)
 │   ├── tsdf_fusion.cpp           # TSDF fusion (stub)
 │   ├── mesh_generator.cpp        # Mesh generation (stub)
+│   └── visualizer.cpp            # Visualization (stub)
