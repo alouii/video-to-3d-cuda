@@ -246,3 +246,4 @@ __global__ void raycastTSDFKernel(
         // Sample TSDF gradient (simplified)
         int vx, vy, vz;
         if (config.worldToVoxel(pos_x, pos_y, pos_z, vx, vy, vz)) {
+            // Gradient approximation
