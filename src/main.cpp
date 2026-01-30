@@ -64,3 +64,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
             config.enable_fusion = false;
         }
         else if (arg == "--voxel-size") {
+            if (i + 1 < argc) {
