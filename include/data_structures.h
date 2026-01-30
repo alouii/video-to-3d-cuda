@@ -123,3 +123,4 @@ struct PointCloud {
         has_colors = false;
     }
     
+    size_t size() const {
