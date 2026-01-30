@@ -112,3 +112,4 @@ struct TSDFVoxel {
 - `integrateTSDFKernel`: Volumetric fusion
 - `extractSurfacePointsKernel`: Zero-crossing detection
 - `raycastTSDFKernel`: Surface rendering
+
