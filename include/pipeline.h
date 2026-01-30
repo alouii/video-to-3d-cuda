@@ -57,3 +57,4 @@ public:
 private:
     // Pipeline stages
     bool captureFrame();
+    bool estimateDepth();
