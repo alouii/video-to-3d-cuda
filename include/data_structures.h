@@ -267,3 +267,4 @@ struct PerformanceStats {
         visualization_time = 0.0;
         total_frame_time = 0.0;
         frames_processed = 0;
+        fps = 0.0;
