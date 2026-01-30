@@ -204,3 +204,4 @@ struct VoxelGridConfig {
         z = min_z + (vz + 0.5f) * voxel_size;
     }
 };
+
