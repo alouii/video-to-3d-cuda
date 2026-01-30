@@ -257,3 +257,4 @@ point_cloud.save("output.ply")
 - **Mesh**: OBJ, STL, PLY (with faces)
 - **Depth Maps**: PNG (16-bit), EXR
 
+## Advanced Features
