@@ -132,3 +132,4 @@ video-to-3d-cuda/
 - [x] Triangle generation
 - [x] Vertex interpolation
 
+### 7. Optimization
