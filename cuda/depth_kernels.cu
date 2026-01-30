@@ -213,3 +213,4 @@ __global__ void lrConsistencyCheckKernel(
     float threshold
 ) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
+    int y = blockIdx.y * blockDim.y + threadIdx.y;
