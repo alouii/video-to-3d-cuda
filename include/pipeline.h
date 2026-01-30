@@ -49,3 +49,4 @@ public:
     PerformanceStats getStatistics() const;
     void printStatistics() const;
     
+    // Control
