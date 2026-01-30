@@ -342,3 +342,4 @@ void launchRaycastTSDF(
     int width,
     int height,
     cudaStream_t stream
+) {
