@@ -47,3 +47,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
         else if (arg == "-o" || arg == "--output") {
             if (i + 1 < argc) {
                 config.output_dir = argv[++i];
+                config.save_point_cloud = true;
