@@ -273,3 +273,4 @@ __global__ void voxelDownsampleKernel(
     const ColoredPoint& point = input_points[idx];
     
     // Compute voxel indices
+    int vx = static_cast<int>((point.x - min_x) / voxel_size);
