@@ -192,3 +192,4 @@ All compute-intensive operations are GPU-accelerated:
 | Point Cloud Gen     | 3         | 333 FPS    |
 | Registration (ICP)  | 12        | 83 FPS     |
 | TSDF Fusion         | 15        | 67 FPS     |
+| Visualization       | 16        | 62 FPS     |
