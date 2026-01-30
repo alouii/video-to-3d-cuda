@@ -47,3 +47,4 @@ __global__ void integrateTSDFKernel(
     
     // Check if inside image
     if (u < 0 || u >= width || v < 0 || v >= height) return;
+    
