@@ -124,3 +124,4 @@ __global__ void censusTransformKernel(
 }
 
 __global__ void computeMatchingCostKernel(
+    const uint32_t* left_census,
