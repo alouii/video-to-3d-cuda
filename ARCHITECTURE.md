@@ -138,3 +138,4 @@ struct TSDFVoxel {
 - Point cloud display (OpenGL)
 - Depth map overlay
 - Camera trajectory
+- Mesh rendering
