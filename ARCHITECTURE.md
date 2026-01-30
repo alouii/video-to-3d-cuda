@@ -331,3 +331,4 @@ Future versions will support:
 3. **Semantic Segmentation**: Object-aware reconstruction
 4. **Loop Closure**: Global consistency
 5. **Dynamic Objects**: Separate static/dynamic reconstruction
+
