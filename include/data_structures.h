@@ -41,3 +41,4 @@ struct Pose {
     
     Pose() : timestamp(0.0) {
         // Identity
+        rotation[0] = 1; rotation[1] = 0; rotation[2] = 0;
