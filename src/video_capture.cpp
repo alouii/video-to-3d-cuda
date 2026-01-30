@@ -130,3 +130,4 @@ void VideoCapture::captureThread() {
             });
             
             if (stop_requested_) {
+                break;
