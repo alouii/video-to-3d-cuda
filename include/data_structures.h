@@ -69,3 +69,4 @@ struct Pose {
         translation[2] = t(2);
     }
     
+    // Transform point
