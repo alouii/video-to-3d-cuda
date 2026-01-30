@@ -95,3 +95,4 @@ public:
     CudaMemoryPool() : total_allocated_(0) {}
     
     ~CudaMemoryPool() {
+        for (auto& block : blocks_) {
