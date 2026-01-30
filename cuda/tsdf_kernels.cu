@@ -132,3 +132,4 @@ __global__ void extractSurfacePointsKernel(
             }
         }
     }
+    
