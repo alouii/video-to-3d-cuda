@@ -89,3 +89,4 @@ private:
     bool initialized_;
     bool paused_;
     bool stopped_;
+    int frames_processed_;
