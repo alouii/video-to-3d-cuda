@@ -50,3 +50,4 @@ __global__ void transformPointCloudKernel(
 ) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= num_points) return;
+    
