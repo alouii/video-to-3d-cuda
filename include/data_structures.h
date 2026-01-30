@@ -269,3 +269,4 @@ struct PerformanceStats {
         frames_processed = 0;
         fps = 0.0;
     }
+    
