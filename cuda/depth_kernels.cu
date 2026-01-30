@@ -91,3 +91,4 @@ __global__ void censusTransformKernel(
     int height,
     int window_size
 ) {
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
