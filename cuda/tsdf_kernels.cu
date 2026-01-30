@@ -263,3 +263,4 @@ __global__ void raycastTSDFKernel(
                 ny /= length;
                 nz /= length;
             }
+            
