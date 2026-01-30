@@ -186,3 +186,4 @@ All compute-intensive operations are GPU-accelerated:
 ### Benchmarks (RTX 3080, 1080p video)
 
 | Stage                | Time (ms) | Throughput |
+|---------------------|-----------|------------|
