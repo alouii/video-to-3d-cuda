@@ -201,3 +201,4 @@ struct VoxelGridConfig {
     inline void voxelToWorld(int vx, int vy, int vz, float& x, float& y, float& z) const {
         x = min_x + (vx + 0.5f) * voxel_size;
         y = min_y + (vy + 0.5f) * voxel_size;
+        z = min_z + (vz + 0.5f) * voxel_size;
