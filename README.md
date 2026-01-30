@@ -238,3 +238,4 @@ pipeline.exportMesh("mesh.obj");
 import video3d
 
 pipeline = video3d.Pipeline()
+pipeline.load_video("input.mp4")
