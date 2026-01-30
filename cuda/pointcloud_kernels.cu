@@ -261,3 +261,4 @@ __global__ void voxelDownsampleKernel(
     int num_points,
     float voxel_size,
     float min_x,
+    float min_y,
