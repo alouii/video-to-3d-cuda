@@ -338,3 +338,4 @@ If you use this project in your research, please cite:
 - **ICP**: Based on libpointmatcher
 - **Stereo Matching**: SGM implementation references
 
+## References
