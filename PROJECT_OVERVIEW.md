@@ -253,3 +253,4 @@ ctest --output-on-failure
 
 ## License
 
+MIT License - See LICENSE file
