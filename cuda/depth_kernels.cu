@@ -36,3 +36,4 @@ __global__ void sgmCostAggregationKernel(
         float path_cost = fminf(prev_same, fminf(prev_adj, min_prev + p2));
         aggregated_cost[idx] = cost_volume[idx] + path_cost - min_prev;
     } else {
+        aggregated_cost[idx] = cost_volume[idx];
