@@ -211,3 +211,4 @@ struct PipelineConfig {
     std::string video_source;
     int camera_id;
     bool use_camera;
+    
