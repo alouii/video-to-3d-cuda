@@ -64,3 +64,4 @@ __global__ void generateMeshKernel(
     const VoxelGridConfig config,
     float iso_value
 ) {
+    int vx = blockIdx.x * blockDim.x + threadIdx.x;
