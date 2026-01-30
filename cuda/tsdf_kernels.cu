@@ -261,3 +261,4 @@ __global__ void raycastTSDFKernel(
             if (length > 0.0f) {
                 nx /= length;
                 ny /= length;
+                nz /= length;
