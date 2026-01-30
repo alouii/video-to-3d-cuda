@@ -65,3 +65,4 @@ struct Pose {
             for (int j = 0; j < 3; ++j)
                 rotation[i * 3 + j] = R(i, j);
         translation[0] = t(0);
+        translation[1] = t(1);
