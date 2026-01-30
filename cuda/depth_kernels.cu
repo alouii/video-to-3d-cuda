@@ -198,3 +198,4 @@ __global__ void medianFilterKernel(
                 values[j + 1] = temp;
             }
         }
+    }
