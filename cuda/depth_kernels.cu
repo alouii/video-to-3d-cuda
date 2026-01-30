@@ -6,3 +6,4 @@ __global__ void sgmCostAggregationKernel(
     const float* cost_volume,
     float* aggregated_cost,
     int width,
+    int height,
