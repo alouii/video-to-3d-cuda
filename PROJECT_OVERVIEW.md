@@ -36,3 +36,4 @@ video-to-3d-cuda/
 │   ├── pipeline.cpp              # Pipeline implementation
 │   ├── video_capture.cpp         # Multi-threaded capture
 │   ├── depth_estimator.cpp       # Depth estimation
+│   ├── point_cloud_generator.cpp # Point cloud generation
