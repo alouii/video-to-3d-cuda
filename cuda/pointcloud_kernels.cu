@@ -289,3 +289,4 @@ __global__ void voxelDownsampleKernel(
     if (count == 0) {
         // First point in this voxel, store it
         output_points[voxel_idx] = point;
+    } else {
