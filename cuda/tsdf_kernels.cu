@@ -84,3 +84,4 @@ __global__ void integrateTSDFKernel(
         // Weighted average
         int rgb_idx = pixel_idx * 3;
         float inv_new_weight = 1.0f / new_weight;
+        voxel.r = static_cast<uint8_t>((voxel.r * old_weight + rgb_image[rgb_idx]) * inv_new_weight);
