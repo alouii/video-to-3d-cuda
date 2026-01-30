@@ -170,3 +170,4 @@ video-to-3d-cuda/
 2. **Computation Optimization**
    - Warp-level reductions
    - Parallel prefix sums
+   - Occupancy tuning (256-512 threads/block)
