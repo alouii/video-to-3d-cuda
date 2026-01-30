@@ -115,3 +115,4 @@ video-to-3d-cuda/
 - [x] Voxel downsampling
 
 ### 4. Registration
+- [x] ICP algorithm
