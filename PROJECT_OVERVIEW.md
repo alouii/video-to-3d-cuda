@@ -251,3 +251,4 @@ ctest --output-on-failure
 - `docs/ARCHITECTURE.md`: System design and internals
 - `docs/EXAMPLES.md`: Usage examples and patterns
 
+## License
