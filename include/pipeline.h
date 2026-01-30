@@ -31,3 +31,4 @@ public:
     // Process single frame
     bool processNextFrame();
     
+    // Check if more frames available
