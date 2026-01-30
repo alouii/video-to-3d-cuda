@@ -65,3 +65,4 @@ private:
     bool visualize();
     
     // Configuration
+    PipelineConfig config_;
