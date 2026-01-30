@@ -12,3 +12,4 @@
 
 namespace v3d {
 
+struct VideoFrame {
