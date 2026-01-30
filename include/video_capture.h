@@ -25,3 +25,4 @@ public:
     VideoCapture();
     ~VideoCapture();
     
+    // Open video source
