@@ -54,3 +54,4 @@ video-to-3d-cuda/
 ├── tests/                        # Test suite
 │   ├── CMakeLists.txt            # Test build config
 │   ├── test_depth.cpp            # Depth estimation tests
+│   ├── test_registration.cpp     # Registration tests
