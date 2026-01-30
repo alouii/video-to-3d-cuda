@@ -188,3 +188,4 @@ __global__ void raycastTSDFKernel(
     float ray_origin_y = pose.translation[1];
     float ray_origin_z = pose.translation[2];
     
+    // March along ray
