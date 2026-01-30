@@ -131,3 +131,4 @@ int main(int argc, char** argv) {
     if (!pipeline.initialize()) {
         std::cerr << "Error: Failed to initialize pipeline." << std::endl;
         return 1;
+    }
