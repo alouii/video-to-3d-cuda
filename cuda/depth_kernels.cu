@@ -45,3 +45,4 @@ __global__ void selectDisparityKernel(
     const float* aggregated_cost,
     float* disparity_map,
     int width,
+    int height,
