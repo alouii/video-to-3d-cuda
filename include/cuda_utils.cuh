@@ -278,3 +278,4 @@ inline void printDeviceInfo() {
 
 } // namespace cuda_utils
 
+#endif // CUDA_UTILS_CUH
