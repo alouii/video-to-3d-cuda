@@ -294,3 +294,4 @@ void launchIntegrateTSDF(
 ) {
     dim3 block(8, 8, 8);
     dim3 grid(
+        (config.grid_dim_x + block.x - 1) / block.x,
