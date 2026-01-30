@@ -253,3 +253,4 @@ inline dim3 getOptimalBlockSize(int width, int height) {
     return dim3(16, 16);
 }
 
+inline dim3 getOptimalGridSize(int width, int height, dim3 block) {
