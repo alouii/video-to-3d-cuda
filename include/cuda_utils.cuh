@@ -204,3 +204,4 @@ public:
             } else {
                 data_ = nullptr;
             }
+        }
