@@ -92,3 +92,4 @@ private:
     size_t total_allocated_;
     
 public:
+    CudaMemoryPool() : total_allocated_(0) {}
