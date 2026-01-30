@@ -359,3 +359,4 @@ void launchComputeAlignmentError(
 void launchRejectOutliers(
     const float* d_distances,
     int* d_correspondences,
+    int num_points,
