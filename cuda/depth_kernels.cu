@@ -307,3 +307,4 @@ void launchSelectDisparity(
     int height,
     int max_disparity,
     cudaStream_t stream
+) {
