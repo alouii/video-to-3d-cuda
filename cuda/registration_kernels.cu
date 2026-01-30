@@ -281,3 +281,4 @@ void launchFindCorrespondences(
         num_source, num_target, max_distance
     );
     
+    CUDA_CHECK_LAST_ERROR();
