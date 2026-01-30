@@ -72,3 +72,4 @@ private:
     std::unique_ptr<DepthEstimator> depth_estimator_;
     std::unique_ptr<PointCloudGenerator> pointcloud_generator_;
     std::unique_ptr<Registration> registration_;
+    std::unique_ptr<TSDFFusion> tsdf_fusion_;
