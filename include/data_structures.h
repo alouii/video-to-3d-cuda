@@ -13,3 +13,4 @@ struct CameraIntrinsics {
     float cx, cy;  // Principal point
     int width, height;
     
+    CameraIntrinsics() : fx(525.0f), fy(525.0f), cx(319.5f), cy(239.5f), 
