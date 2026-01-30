@@ -148,3 +148,4 @@ __global__ void computeNormalsKernel(
     float ry = (y - intrinsics.cy) * depth_right / intrinsics.fy;
     float rz = depth_right;
     
+    float dx = (x - intrinsics.cx) * depth_down / intrinsics.fx;
