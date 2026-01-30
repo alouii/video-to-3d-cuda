@@ -265,3 +265,4 @@ extern "C" {
 
 void launchFindCorrespondences(
     const ColoredPoint* d_source_points,
+    const ColoredPoint* d_target_points,
