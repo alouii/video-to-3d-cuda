@@ -59,3 +59,4 @@ private:
     
     cv::VideoCapture capture_;
     
+    std::queue<VideoFrame> frame_buffer_;
