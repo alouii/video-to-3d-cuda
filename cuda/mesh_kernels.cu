@@ -202,3 +202,4 @@ void launchGenerateMesh(
         (config.grid_dim_z + block.z - 1) / block.z
     );
     
+    generateMeshKernel<<<grid, block, 0, stream>>>(
