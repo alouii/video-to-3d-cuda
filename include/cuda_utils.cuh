@@ -31,3 +31,4 @@
 namespace cuda_utils {
 
 // Device function for atomic max with floats
+__device__ __forceinline__ float atomicMaxFloat(float* address, float val) {
