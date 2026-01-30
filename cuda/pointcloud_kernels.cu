@@ -91,3 +91,4 @@ __global__ void bilateralFilterDepthKernel(
             int nx = x + dx;
             int ny = y + dy;
             
+            if (nx < 0 || nx >= width || ny < 0 || ny >= height) continue;
