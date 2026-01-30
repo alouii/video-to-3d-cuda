@@ -129,3 +129,4 @@ struct PointCloud {
     
     void reserve(size_t n) {
         points.reserve(n);
+    }
