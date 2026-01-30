@@ -357,3 +357,4 @@ void launchComputeNormals(
     const CameraIntrinsics& intrinsics,
     int width,
     int height,
+    cudaStream_t stream
