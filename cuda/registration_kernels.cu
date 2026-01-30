@@ -386,3 +386,4 @@ void launchReduceErrors(
         d_errors, d_total_error, num_points
     );
     
+    CUDA_CHECK_LAST_ERROR();
