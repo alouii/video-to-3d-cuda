@@ -99,3 +99,4 @@ sudo make install
 
 ```
 -i, --input <file>         Input video file
+-c, --camera <id>          Camera device ID (default: 0)
