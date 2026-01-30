@@ -17,3 +17,4 @@ __global__ void integrateTSDFKernel(
     int width,
     int height
 ) {
+    int vx = blockIdx.x * blockDim.x + threadIdx.x;
