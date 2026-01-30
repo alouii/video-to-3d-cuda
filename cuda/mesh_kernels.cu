@@ -126,3 +126,4 @@ __global__ void generateMeshKernel(
     // Generate triangles
     int base_vertex = voxel_offsets[voxel_idx];
     
+    for (int i = 0; d_triTable[cube_index][i] != -1; i += 3) {
