@@ -270,3 +270,4 @@ struct PerformanceStats {
         fps = 0.0;
     }
     
+    void print() const {
