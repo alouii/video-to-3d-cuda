@@ -18,3 +18,4 @@ __global__ void sgmCostAggregationKernel(
     if (x >= width || d >= max_disparity) return;
     
     int idx = y * width * max_disparity + x * max_disparity + d;
+    
