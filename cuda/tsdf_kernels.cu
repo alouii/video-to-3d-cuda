@@ -112,3 +112,4 @@ __global__ void extractSurfacePointsKernel(
     if (fabsf(voxel.tsdf) > 0.5f) return;
     
     // Check neighbors for zero crossing
+    bool has_zero_crossing = false;
