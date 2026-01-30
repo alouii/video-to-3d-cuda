@@ -258,3 +258,4 @@ struct PerformanceStats {
     
     PerformanceStats() { reset(); }
     
+    void reset() {
