@@ -161,3 +161,4 @@ void VideoCapture::captureThread() {
     running_ = false;
 }
 
+int VideoCapture::getWidth() const {
