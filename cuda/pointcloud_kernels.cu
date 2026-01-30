@@ -196,3 +196,4 @@ __global__ void statisticalOutlierRemovalKernel(
     int k_neighbors,
     float std_multiplier
 ) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
