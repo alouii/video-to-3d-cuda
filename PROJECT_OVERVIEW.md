@@ -133,3 +133,4 @@ video-to-3d-cuda/
 - [x] Vertex interpolation
 
 ### 7. Optimization
+- [x] CUDA memory pool
