@@ -385,3 +385,4 @@ void launchReduceErrors(
     reduceErrorsKernel<<<grid_size, block_size, block_size * sizeof(float), stream>>>(
         d_errors, d_total_error, num_points
     );
+    
