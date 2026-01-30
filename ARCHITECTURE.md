@@ -309,3 +309,4 @@ Future versions will support:
 
 ### System Requirements Tiers
 
+**Minimum** (30 FPS @ 640x480):
