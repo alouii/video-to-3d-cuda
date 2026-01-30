@@ -218,3 +218,4 @@ struct PipelineConfig {
     bool enable_fusion;
     bool enable_mesh;
     bool enable_visualization;
+    
