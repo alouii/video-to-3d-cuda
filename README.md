@@ -249,3 +249,4 @@ point_cloud.save("output.ply")
 
 ### Input
 - **Video**: MP4, AVI, MKV, MOV, WebM
+- **Images**: PNG, JPEG, BMP
