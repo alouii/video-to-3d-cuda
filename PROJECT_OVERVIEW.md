@@ -145,3 +145,4 @@ video-to-3d-cuda/
 - [x] Comprehensive error handling
 - [x] RAII memory management
 - [x] Performance statistics
+- [x] Unit tests framework
