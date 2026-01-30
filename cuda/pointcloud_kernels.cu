@@ -281,3 +281,4 @@ __global__ void voxelDownsampleKernel(
         return;
     }
     
+    int voxel_idx = vx + vy * grid_dim_x + vz * grid_dim_x * grid_dim_y;
