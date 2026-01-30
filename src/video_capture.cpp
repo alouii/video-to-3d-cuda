@@ -153,3 +153,4 @@ void VideoCapture::captureThread() {
         {
             std::lock_guard<std::mutex> lock(buffer_mutex_);
             frame_buffer_.push(video_frame);
+        }
