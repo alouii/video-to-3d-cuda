@@ -95,3 +95,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Voxel Grid**:
 ```cpp
 struct TSDFVoxel {
+    float tsdf;        // Distance to surface
