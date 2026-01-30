@@ -415,3 +415,4 @@ void launchVoxelDownsample(
     CUDA_CHECK_LAST_ERROR();
 }
 
+} // extern "C"
