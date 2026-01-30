@@ -63,3 +63,4 @@ private:
     bool fuseTSDF();
     bool generateMesh();
     bool visualize();
+    
