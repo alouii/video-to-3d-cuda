@@ -23,3 +23,4 @@ Capture Thread → Frame Buffer → Processing Thread
  cv::VideoCapture
 ```
 
+### 2. Depth Estimation (`depth_estimator.h/cpp`)
