@@ -121,3 +121,4 @@ __global__ void computeNormalsKernel(
     ColoredPoint* points,
     const CameraIntrinsics intrinsics,
     int width,
+    int height
