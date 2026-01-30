@@ -27,3 +27,4 @@ video-to-3d-cuda/
 │   ├── pipeline.h                # Main pipeline orchestrator
 │   ├── point_cloud_generator.h   # Point cloud generation
 │   ├── registration.h            # ICP registration
+│   ├── tsdf_fusion.h             # TSDF volumetric fusion
