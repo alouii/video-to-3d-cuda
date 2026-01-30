@@ -166,3 +166,4 @@ __global__ void computeAlignmentErrorKernel(
     const int* correspondences,
     float* errors,
     int num_points
+) {
