@@ -135,3 +135,4 @@ struct TSDFVoxel {
 **Responsibility**: Real-time display of results
 
 **Rendering Options**:
+- Point cloud display (OpenGL)
