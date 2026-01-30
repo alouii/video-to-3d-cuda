@@ -65,3 +65,4 @@ private:
     std::thread capture_thread_;
     std::mutex buffer_mutex_;
     std::condition_variable buffer_cv_;
+    std::atomic<bool> running_;
