@@ -18,3 +18,4 @@
         } \
     } while(0)
 
+// CUDA kernel error checking
