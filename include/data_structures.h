@@ -11,3 +11,4 @@ namespace v3d {
 struct CameraIntrinsics {
     float fx, fy;  // Focal lengths
     float cx, cy;  // Principal point
+    int width, height;
