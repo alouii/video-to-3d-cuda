@@ -121,3 +121,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
 }
 
 void VideoCapture::captureThread() {
+    while (!stop_requested_) {
