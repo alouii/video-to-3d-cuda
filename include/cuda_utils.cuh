@@ -34,3 +34,4 @@ namespace cuda_utils {
 __device__ __forceinline__ float atomicMaxFloat(float* address, float val) {
     int* address_as_int = (int*)address;
     int old = *address_as_int, assumed;
+    do {
