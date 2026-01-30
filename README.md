@@ -108,3 +108,4 @@ sudo make install
 --max-frames <n>           Maximum frames to process
 --skip-frames <n>          Skip n frames between processing
 --fx, --fy                 Camera focal lengths
+--cx, --cy                 Camera principal point
