@@ -39,3 +39,4 @@ video-to-3d-cuda/
 │   ├── point_cloud_generator.cpp # Point cloud generation
 │   ├── registration.cpp          # Registration (stub)
 │   ├── tsdf_fusion.cpp           # TSDF fusion (stub)
+│   ├── mesh_generator.cpp        # Mesh generation (stub)
