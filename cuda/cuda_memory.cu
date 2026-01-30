@@ -16,3 +16,4 @@ void cudaDeallocateToPool(void* ptr) {
     cuda_utils::g_memory_pool.deallocate(ptr);
 }
 
+size_t cudaGetPoolMemoryUsage() {
