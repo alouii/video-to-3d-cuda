@@ -268,3 +268,4 @@ void launchCensusTransform(
     uint32_t* d_census,
     int width,
     int height,
+    int window_size,
