@@ -109,3 +109,4 @@ struct DepthFrame {
     }
 };
 
+// Point cloud container
