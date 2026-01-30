@@ -210,3 +210,4 @@ video-to-3d-cuda/
 - **Modern C++17**: Smart pointers, RAII, move semantics
 - **Error Handling**: Comprehensive CUDA error checking
 - **Documentation**: Inline comments, API docs
+- **Testing**: Unit tests, benchmarks
