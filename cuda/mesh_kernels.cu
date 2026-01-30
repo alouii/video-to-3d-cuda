@@ -48,3 +48,4 @@ __global__ void classifyVoxelsKernel(
     if (cube_index != 0 && cube_index != 255) {
         for (int i = 0; d_triTable[cube_index][i] != -1; i += 3) {
             num_vertices += 3;
+        }
