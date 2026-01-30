@@ -6,3 +6,4 @@ A production-ready, GPU-accelerated system for converting video streams into den
 
 **Key Achievements**:
 - ✅ Real-time processing (12+ FPS on 1080p)
+- ✅ Complete CUDA-accelerated pipeline
