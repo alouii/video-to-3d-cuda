@@ -62,3 +62,4 @@ void VideoCapture::close() {
     stop();
     
     if (capture_.isOpened()) {
+        capture_.release();
