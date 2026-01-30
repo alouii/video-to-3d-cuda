@@ -205,3 +205,4 @@ __global__ void rejectOutliersKernel(
 __global__ void computePointToPlaneKernel(
     const ColoredPoint* source_points,
     const ColoredPoint* target_points,
+    const int* correspondences,
