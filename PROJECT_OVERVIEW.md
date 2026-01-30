@@ -49,3 +49,4 @@ video-to-3d-cuda/
 │   ├── registration_kernels.cu   # ICP, correspondence finding
 │   ├── tsdf_kernels.cu           # Volumetric fusion
 │   ├── mesh_kernels.cu           # Marching Cubes
+│   └── filtering_kernels.cu      # Additional filters
