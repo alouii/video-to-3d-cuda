@@ -346,3 +346,4 @@ void launchBilateralFilterDepth(
     
     bilateralFilterDepthKernel<<<grid, block, 0, stream>>>(
         d_input_depth, d_output_depth, width, height, sigma_space, sigma_range
+    );
