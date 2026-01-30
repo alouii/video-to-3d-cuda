@@ -154,3 +154,4 @@ __global__ void extractSurfacePointsKernel(
 __global__ void raycastTSDFKernel(
     const TSDFVoxel* voxel_grid,
     float* depth_map,
+    uint8_t* normal_map,
