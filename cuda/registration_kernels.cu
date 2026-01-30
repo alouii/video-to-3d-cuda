@@ -209,3 +209,4 @@ __global__ void computePointToPlaneKernel(
     float* residuals,
     float* jacobian,  // 6 x num_points (6 DOF per point)
     int num_points
+) {
