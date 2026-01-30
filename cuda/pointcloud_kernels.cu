@@ -407,3 +407,4 @@ void launchVoxelDownsample(
     int grid_size = (num_points + block_size - 1) / block_size;
     
     voxelDownsampleKernel<<<grid_size, block_size, 0, stream>>>(
+        d_input_points, d_output_points, d_voxel_counts,
