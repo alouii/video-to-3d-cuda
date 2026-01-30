@@ -102,3 +102,4 @@ __global__ void generateMeshKernel(
     for (int i = 0; i < 12; i++) {
         if (d_edgeTable[cube_index] & (1 << i)) {
             // Edge endpoints
+            int v0 = i & 7;
