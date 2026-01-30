@@ -193,3 +193,4 @@ __global__ void statisticalOutlierRemovalKernel(
     ColoredPoint* output_points,
     int* valid_mask,
     int num_points,
+    int k_neighbors,
