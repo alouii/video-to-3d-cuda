@@ -37,3 +37,4 @@ public:
     
     // Get next frame (blocks if queue is empty)
     bool getFrame(VideoFrame& frame);
+    
