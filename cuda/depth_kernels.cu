@@ -189,3 +189,4 @@ __global__ void medianFilterKernel(
         return;
     }
     
+    // Bubble sort (small arrays)
