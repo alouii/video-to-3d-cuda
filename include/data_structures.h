@@ -231,3 +231,4 @@ struct PipelineConfig {
     int num_streams;
     
     // Output
+    std::string output_dir;
