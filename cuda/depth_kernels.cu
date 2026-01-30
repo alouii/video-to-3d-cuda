@@ -171,3 +171,4 @@ __global__ void medianFilterKernel(
     int center_idx = y * width + x;
     
     // Collect values in window
+    float values[25];  // Max 5x5 window
