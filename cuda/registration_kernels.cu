@@ -12,3 +12,4 @@ __global__ void findCorrespondencesKernel(
     float* distances,
     int num_source,
     int num_target,
+    float max_distance
