@@ -90,3 +90,4 @@ __global__ void censusTransformKernel(
     int width,
     int height,
     int window_size
+) {
