@@ -29,3 +29,4 @@ public:
     void processVideo();
     
     // Process single frame
+    bool processNextFrame();
