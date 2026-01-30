@@ -344,3 +344,4 @@ void launchComputeAlignmentError(
     const int* d_correspondences,
     float* d_errors,
     int num_points,
+    cudaStream_t stream
