@@ -271,3 +271,4 @@ The system demonstrates mastery of:
 - Computer vision and 3D reconstruction
 - Real-time systems design
 - Modern C++ and software architecture
+- Production-quality engineering practices
