@@ -213,3 +213,4 @@ GPU Memory Layout:
 ├── TSDF Volume (500 MB)
 │   └── 512³ voxel grid
 ├── Intermediate Buffers (100 MB)
+│   ├── Census transform
