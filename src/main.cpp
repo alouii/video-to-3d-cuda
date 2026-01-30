@@ -133,3 +133,4 @@ int main(int argc, char** argv) {
         return 1;
     }
     
+    std::cout << "Pipeline initialized successfully." << std::endl;
