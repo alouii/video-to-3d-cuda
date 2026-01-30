@@ -231,3 +231,4 @@ __global__ void statisticalOutlierRemovalKernel(
     for (int i = max(0, idx - k_neighbors); i < min(num_points, idx + k_neighbors); i++) {
         if (i == idx) continue;
         
+        const ColoredPoint& neighbor = input_points[i];
