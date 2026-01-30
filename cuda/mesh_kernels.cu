@@ -62,3 +62,4 @@ __global__ void generateMeshKernel(
     ColoredPoint* vertices,
     Triangle* triangles,
     const VoxelGridConfig config,
+    float iso_value
