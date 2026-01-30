@@ -96,3 +96,4 @@ __global__ void computeCentroidKernel(
     sum_y = cuda_utils::blockReduceSum(sum_y);
     sum_z = cuda_utils::blockReduceSum(sum_z);
     
+    if (tid == 0) {
