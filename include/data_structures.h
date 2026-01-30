@@ -184,3 +184,4 @@ struct VoxelGridConfig {
           max_x(2.5f), max_y(2.5f), max_z(2.5f) {}
     
     int total_voxels() const {
+        return grid_dim_x * grid_dim_y * grid_dim_z;
