@@ -4,3 +4,4 @@
 #include "data_structures.h"
 #include "video_capture.h"
 #include "cuda_utils.cuh"
+#include <memory>
