@@ -266,3 +266,4 @@ struct PerformanceStats {
         fusion_time = 0.0;
         visualization_time = 0.0;
         total_frame_time = 0.0;
+        frames_processed = 0;
