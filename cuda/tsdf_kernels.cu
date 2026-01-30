@@ -129,3 +129,4 @@ __global__ void extractSurfacePointsKernel(
             if ((voxel.tsdf > 0 && neighbor.tsdf < 0) || (voxel.tsdf < 0 && neighbor.tsdf > 0)) {
                 has_zero_crossing = true;
                 break;
+            }
