@@ -200,3 +200,4 @@ public:
             if (data_) cudaFree(data_);
             size_ = new_size;
             if (size_ > 0) {
+                CUDA_CHECK(cudaMalloc(&data_, size_ * sizeof(T)));
