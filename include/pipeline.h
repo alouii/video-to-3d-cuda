@@ -82,3 +82,4 @@ private:
     PointCloud current_pointcloud_;
     
     // Accumulated data
+    PointCloud accumulated_pointcloud_;
