@@ -121,3 +121,4 @@ __global__ void censusTransformKernel(
     }
     
     census[center_idx] = census_val;
+}
