@@ -44,3 +44,4 @@ bool parseArguments(int argc, char** argv, v3d::PipelineConfig& config) {
                 config.use_camera = true;
             }
         }
+        else if (arg == "-o" || arg == "--output") {
