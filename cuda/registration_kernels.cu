@@ -158,3 +158,4 @@ __global__ void computeCovarianceKernel(
         atomicAdd(&covariance[tid], s_cov[tid]);
     }
 }
+
