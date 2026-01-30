@@ -243,3 +243,4 @@ struct PipelineConfig {
           output_dir("output"), save_point_cloud(true), save_mesh(false) {}
 };
 
+// Statistics for performance monitoring
