@@ -84,3 +84,4 @@ __global__ void generateMeshKernel(
         int dx = (i & 1);
         int dy = (i & 2) >> 1;
         int dz = (i & 4) >> 2;
+        
