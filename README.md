@@ -295,3 +295,4 @@ config.gpu_ids = {0, 1}; // Use GPU 0 and 1
 - Process fewer frames
 - Use smaller resolution
 
+**Low FPS**
