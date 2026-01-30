@@ -52,3 +52,4 @@ venv/
 
 # Documentation builds
 docs/_build/
+*.pdf
