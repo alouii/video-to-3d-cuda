@@ -93,3 +93,4 @@ __global__ void generateMeshKernel(
         config.voxelToWorld(vx + dx, vy + dy, vz + dz, positions[i].x, positions[i].y, positions[i].z);
         
         colors[i] = make_uint3(corner_voxel.r, corner_voxel.g, corner_voxel.b);
+    }
