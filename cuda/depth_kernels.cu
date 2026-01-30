@@ -239,3 +239,4 @@ __global__ void lrConsistencyCheckKernel(
 // Convert disparity to depth
 __global__ void disparityToDepthKernel(
     const float* disparity_map,
+    float* depth_map,
