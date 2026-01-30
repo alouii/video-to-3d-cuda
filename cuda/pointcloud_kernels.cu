@@ -258,3 +258,4 @@ __global__ void voxelDownsampleKernel(
     const ColoredPoint* input_points,
     ColoredPoint* output_points,
     int* voxel_counts,
+    int num_points,
