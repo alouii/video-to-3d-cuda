@@ -122,3 +122,4 @@ __global__ void computeNormalsKernel(
     const CameraIntrinsics intrinsics,
     int width,
     int height
+) {
