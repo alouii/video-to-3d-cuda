@@ -259,3 +259,4 @@ inline dim3 getOptimalGridSize(int width, int height, dim3 block) {
 
 // Device info utilities
 inline void printDeviceInfo() {
+    int device;
