@@ -219,3 +219,4 @@ __global__ void statisticalOutlierRemovalKernel(
         count++;
     }
     
+    if (count == 0) {
