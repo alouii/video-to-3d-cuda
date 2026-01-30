@@ -149,3 +149,4 @@ void VideoCapture::captureThread() {
         video_frame.timestamp = capture_.get(cv::CAP_PROP_POS_MSEC) / 1000.0;
         video_frame.frame_index = current_frame_index_++;
         
+        // Add to buffer
