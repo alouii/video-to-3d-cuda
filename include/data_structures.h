@@ -147,3 +147,4 @@ struct Mesh {
     bool has_normals;
     bool has_colors;
     
+    Mesh() : has_normals(false), has_colors(false) {}
