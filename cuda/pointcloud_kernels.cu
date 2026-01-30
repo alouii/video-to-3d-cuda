@@ -73,3 +73,4 @@ __global__ void bilateralFilterDepthKernel(
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x >= width || y >= height) return;
+    
