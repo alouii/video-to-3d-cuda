@@ -32,3 +32,4 @@ public:
     bool processNextFrame();
     
     // Check if more frames available
+    bool hasFrames() const;
