@@ -314,3 +314,4 @@ void launchDepthToPointCloud(
     ColoredPoint* d_points,
     int* d_valid_count,
     const CameraIntrinsics& intrinsics,
+    const Pose& pose,
