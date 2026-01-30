@@ -114,3 +114,4 @@ __global__ void generateMeshKernel(
             t = fmaxf(0.0f, fminf(1.0f, t));
             
             edge_verts[i].x = positions[v0].x + t * (positions[v1].x - positions[v0].x);
+            edge_verts[i].y = positions[v0].y + t * (positions[v1].y - positions[v0].y);
