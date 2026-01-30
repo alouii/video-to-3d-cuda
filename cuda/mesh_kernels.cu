@@ -33,3 +33,4 @@ __global__ void classifyVoxelsKernel(
         int dy = (i & 2) >> 1;
         int dz = (i & 4) >> 2;
         
+        int corner_idx = (vx + dx) + (vy + dy) * config.grid_dim_x + (vz + dz) * config.grid_dim_x * config.grid_dim_y;
