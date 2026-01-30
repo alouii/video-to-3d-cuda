@@ -260,3 +260,4 @@ struct PerformanceStats {
     
     void reset() {
         frame_capture_time = 0.0;
+        depth_estimation_time = 0.0;
