@@ -125,3 +125,4 @@ __global__ void extractSurfacePointsKernel(
     
     for (int i = 0; i < 6; i++) {
         const TSDFVoxel& neighbor = voxel_grid[neighbors[i]];
+        if (neighbor.weight >= weight_threshold) {
