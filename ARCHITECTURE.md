@@ -323,3 +323,4 @@ Future versions will support:
 - RTX 3080 (10GB)
 - 8-core CPU
 - 32GB RAM
+
