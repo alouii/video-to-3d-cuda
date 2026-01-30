@@ -325,3 +325,4 @@ void launchDepthToPointCloud(
     dim3 grid((width + block.x - 1) / block.x, (height + block.y - 1) / block.y);
     
     depthToPointCloudKernel<<<grid, block, 0, stream>>>(
+        d_depth_map, d_rgb_image, d_points, d_valid_count,
