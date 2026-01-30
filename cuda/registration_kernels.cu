@@ -74,3 +74,4 @@ __global__ void transformPointCloudKernel(
 
 // Compute centroids for point clouds
 __global__ void computeCentroidKernel(
+    const ColoredPoint* points,
