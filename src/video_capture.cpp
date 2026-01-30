@@ -20,3 +20,4 @@ VideoCapture::~VideoCapture() {
 }
 
 bool VideoCapture::open(const std::string& source) {
+    if (!capture_.open(source)) {
