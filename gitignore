@@ -21,3 +21,4 @@ Makefile
 *.swo
 *~
 
+# Compiled binaries
