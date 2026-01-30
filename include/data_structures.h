@@ -98,3 +98,4 @@ struct DepthFrame {
     uint8_t* rgb_image;    // Device pointer to H x W x 3 color
     int width, height;
     Pose camera_pose;
+    double timestamp;
