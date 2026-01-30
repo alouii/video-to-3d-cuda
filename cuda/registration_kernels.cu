@@ -323,3 +323,4 @@ void launchComputeCovariance(
     const int* d_correspondences,
     const float* d_source_centroid,
     const float* d_target_centroid,
+    float* d_covariance,
