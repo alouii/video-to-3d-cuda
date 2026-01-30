@@ -383,3 +383,4 @@ void launchStatisticalOutlierRemoval(
     
     statisticalOutlierRemovalKernel<<<grid_size, block_size, 0, stream>>>(
         d_input_points, d_output_points, d_valid_mask,
+        num_points, k_neighbors, std_multiplier
