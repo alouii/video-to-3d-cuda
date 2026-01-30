@@ -218,3 +218,4 @@ config.enable_visualization = true;
 
 // Initialize pipeline
 v3d::VideoTo3DPipeline pipeline(config);
+pipeline.initialize();
