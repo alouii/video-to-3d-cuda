@@ -85,3 +85,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `computeCentroidKernel`: Parallel mean calculation
 - `computeCovarianceKernel`: Cross-covariance matrix
 - `transformPointCloudKernel`: Apply rigid transformation
+
