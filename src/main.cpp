@@ -14,3 +14,4 @@ void printUsage(const char* program_name) {
               << "  --mesh <file>              Output mesh file (OBJ format)\n"
               << "  --visualize                Enable real-time visualization\n"
               << "  --no-fusion                Disable TSDF fusion\n"
+              << "  --voxel-size <size>        Voxel size in meters (default: 0.01)\n"
