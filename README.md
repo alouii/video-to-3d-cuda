@@ -143,3 +143,4 @@ Then use the calibrated parameters:
 ┌─────────────┐    ┌──────────────┐    ┌────────────────┐
 │     Mesh    │<───│     TSDF     │<───│  Registration  │
 │  Generation │    │    Fusion    │    │      (ICP)     │
+└─────────────┘    └──────────────┘    └────────────────┘
