@@ -208,3 +208,4 @@ public:
     }
     
     void upload(const T* host_data, size_t count) {
+        CUDA_CHECK(cudaMemcpy(data_, host_data, count * sizeof(T), cudaMemcpyHostToDevice));
