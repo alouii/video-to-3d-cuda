@@ -155,3 +155,4 @@ int main(int argc, char** argv) {
     pipeline.printStatistics();
     
     // Export results
+    if (config.save_point_cloud) {
