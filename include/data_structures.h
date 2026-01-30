@@ -179,3 +179,4 @@ struct VoxelGridConfig {
     
     VoxelGridConfig() 
         : voxel_size(0.01f), truncation_distance(0.05f),
+          grid_dim_x(512), grid_dim_y(512), grid_dim_z(512),
