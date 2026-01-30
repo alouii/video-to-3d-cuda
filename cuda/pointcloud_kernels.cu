@@ -234,3 +234,4 @@ __global__ void statisticalOutlierRemovalKernel(
         const ColoredPoint& neighbor = input_points[i];
         float dx = point.x - neighbor.x;
         float dy = point.y - neighbor.y;
+        float dz = point.z - neighbor.z;
