@@ -210,3 +210,4 @@ __global__ void lrConsistencyCheckKernel(
     float* output_disparity,
     int width,
     int height,
+    float threshold
