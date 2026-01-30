@@ -230,3 +230,4 @@ video-to-3d-cuda/
 3. **Performance**
    - Multi-GPU support
    - Further kernel optimization
+   - Batch processing mode
