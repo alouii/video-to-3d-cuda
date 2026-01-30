@@ -273,3 +273,4 @@ struct PerformanceStats {
     void print() const {
         std::cout << "\n=== Performance Statistics ===" << std::endl;
         std::cout << "Frames Processed: " << frames_processed << std::endl;
+        std::cout << "Average FPS: " << fps << std::endl;
