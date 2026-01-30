@@ -163,3 +163,4 @@ __global__ void generateMeshKernel(
 // C++ interface
 extern "C" {
 
+void launchClassifyVoxels(
