@@ -14,3 +14,4 @@ VideoCapture::VideoCapture()
     , current_frame_index_(0)
 {
 }
+
