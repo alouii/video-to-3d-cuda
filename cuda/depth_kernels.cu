@@ -47,3 +47,4 @@ __global__ void selectDisparityKernel(
     int width,
     int height,
     int max_disparity
+) {
