@@ -106,3 +106,4 @@ bool VideoCapture::getFrame(VideoFrame& frame) {
     // Wait for frame to be available
     buffer_cv_.wait(lock, [this] {
         return !frame_buffer_.empty() || stop_requested_;
+    });
