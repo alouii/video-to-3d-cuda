@@ -172,3 +172,4 @@ struct TSDFVoxel {
 // Voxel grid configuration
 struct VoxelGridConfig {
     float voxel_size;           // Voxel size in meters
+    float truncation_distance;  // TSDF truncation distance
