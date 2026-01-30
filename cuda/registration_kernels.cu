@@ -312,3 +312,4 @@ void launchComputeCentroid(
     
     computeCentroidKernel<<<grid_size, block_size, block_size * sizeof(float), stream>>>(
         d_points, d_centroid, num_points
+    );
