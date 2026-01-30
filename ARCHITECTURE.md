@@ -332,3 +332,4 @@ Future versions will support:
 4. **Loop Closure**: Global consistency
 5. **Dynamic Objects**: Separate static/dynamic reconstruction
 
+## References
