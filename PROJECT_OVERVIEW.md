@@ -34,3 +34,4 @@ video-to-3d-cuda/
 ├── src/                          # Implementation files
 │   ├── main.cpp                  # Command-line interface
 │   ├── pipeline.cpp              # Pipeline implementation
+│   ├── video_capture.cpp         # Multi-threaded capture
