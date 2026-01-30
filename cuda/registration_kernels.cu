@@ -353,3 +353,4 @@ void launchComputeAlignmentError(
         d_source_points, d_target_points, d_correspondences, d_errors, num_points
     );
     
+    CUDA_CHECK_LAST_ERROR();
