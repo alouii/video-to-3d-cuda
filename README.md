@@ -256,3 +256,4 @@ point_cloud.save("output.ply")
 - **Point Cloud**: PLY (ASCII/Binary), PCD
 - **Mesh**: OBJ, STL, PLY (with faces)
 - **Depth Maps**: PNG (16-bit), EXR
+
