@@ -64,7 +64,7 @@ sudo apt install libvtk7-dev
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/video-to-3d-cuda.git
+git clone https://github.com/alouii/video-to-3d-cuda.git
 cd video-to-3d-cuda
 
 # Create build directory
@@ -326,9 +326,9 @@ If you use this project in your research, please cite:
 ```bibtex
 @software{video3dcuda2024,
   title={Video to 3D Point Cloud Reconstruction with CUDA},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/video-to-3d-cuda}
+  author={Lassaad Aloui},
+  year={2026},
+  url={https://github.com/alouii/video-to-3d-cuda}
 }
 ```
 
@@ -347,11 +347,10 @@ If you use this project in your research, please cite:
 ## Contact
 
 - Issues: [GitHub Issues](https://github.com/yourusername/video-to-3d-cuda/issues)
-- Email: your.email@example.com
-- Website: https://yourwebsite.com
+- Email: aloui.lassaad@gmail.com
 
 ---
 
 **Status**: Production Ready ✅  
 **Version**: 1.0.0  
-**Last Updated**: January 2024
+**Last Updated**: January 2026
