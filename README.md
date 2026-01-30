@@ -252,3 +252,4 @@ point_cloud.save("output.ply")
 - **Images**: PNG, JPEG, BMP
 - **Streams**: RTSP, HTTP, camera devices
 
+### Output
