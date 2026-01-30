@@ -39,3 +39,4 @@ __global__ void classifyVoxelsKernel(
         if (corners[i] < iso_value) {
             cube_index |= (1 << i);
         }
+    }
