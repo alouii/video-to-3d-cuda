@@ -156,3 +156,4 @@ public:
 // RAII wrapper for CUDA device memory
 template<typename T>
 class DeviceBuffer {
+private:
