@@ -206,3 +206,4 @@ struct VoxelGridConfig {
 };
 
 // Pipeline configuration
+struct PipelineConfig {
