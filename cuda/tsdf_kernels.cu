@@ -140,3 +140,4 @@ __global__ void extractSurfacePointsKernel(
     config.voxelToWorld(vx, vy, vz, world_x, world_y, world_z);
     
     int idx = atomicAdd(point_count, 1);
+    ColoredPoint& pt = points[idx];
