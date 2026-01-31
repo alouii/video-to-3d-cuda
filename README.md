@@ -20,3 +20,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - **Multi-threaded Architecture**: Separate threads for capture, processing, and visualization
 - **Flexible Input**: Supports video files, webcam, and RTSP streams
 
+## System Requirements
