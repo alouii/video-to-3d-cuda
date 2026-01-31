@@ -187,3 +187,4 @@ All compute-intensive operations are GPU-accelerated:
 
 | Stage                | Time (ms) | Throughput |
 |---------------------|-----------|------------|
+| Frame Capture       | 8         | 125 FPS    |
