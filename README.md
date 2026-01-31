@@ -195,3 +195,4 @@ All compute-intensive operations are GPU-accelerated:
 | Visualization       | 16        | 62 FPS     |
 | **Total Pipeline**  | **79**    | **12.6 FPS** |
 
+### Optimization Tips
