@@ -50,3 +50,4 @@ sudo apt install libeigen3-dev
 # OpenMP
 sudo apt install libomp-dev
 ```
+
