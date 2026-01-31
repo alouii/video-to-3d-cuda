@@ -116,3 +116,4 @@ sudo make install
 For accurate results, calibrate your camera:
 
 ```bash
+# Using OpenCV calibration tool
