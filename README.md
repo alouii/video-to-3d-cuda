@@ -159,3 +159,4 @@ All compute-intensive operations are GPU-accelerated:
    - Depth-to-3D back-projection
    - Normal estimation via cross products
    - Bilateral filtering
+   
