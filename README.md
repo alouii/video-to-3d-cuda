@@ -14,3 +14,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
   - ICP registration
   - Marching Cubes mesh generation
 - **Filtering & Enhancement**:
+  - Bilateral depth filtering
