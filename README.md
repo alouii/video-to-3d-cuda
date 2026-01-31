@@ -174,3 +174,4 @@ All compute-intensive operations are GPU-accelerated:
    - Marching Cubes
    - Triangle generation
 
+### Memory Management
