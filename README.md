@@ -90,3 +90,4 @@ sudo make install
 
 # Live webcam reconstruction
 ./video_to_3d --camera 0 --visualize
+
