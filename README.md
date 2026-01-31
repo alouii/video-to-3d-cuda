@@ -103,3 +103,4 @@ sudo make install
 -o, --output <file>        Output point cloud file (PLY)
 --mesh <file>              Output mesh file (OBJ)
 --visualize                Enable real-time visualization
+--no-fusion                Disable TSDF fusion
