@@ -98,3 +98,4 @@ sudo make install
 ### Command Line Options
 
 ```
+-i, --input <file>         Input video file
