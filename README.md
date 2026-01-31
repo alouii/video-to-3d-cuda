@@ -163,3 +163,4 @@ All compute-intensive operations are GPU-accelerated:
 3. **Registration** (`registration_kernels.cu`)
    - Correspondence finding
    - ICP transformation estimation
+   - Point cloud transformation
