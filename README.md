@@ -57,3 +57,4 @@ sudo apt install libomp-dev
 sudo apt install libpcl-dev
 
 # VTK for rendering
+sudo apt install libvtk7-dev
