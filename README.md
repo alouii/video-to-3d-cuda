@@ -173,3 +173,4 @@ All compute-intensive operations are GPU-accelerated:
 5. **Mesh Generation** (`mesh_kernels.cu`)
    - Marching Cubes
    - Triangle generation
+
