@@ -161,3 +161,4 @@ All compute-intensive operations are GPU-accelerated:
    - Bilateral filtering
    
 3. **Registration** (`registration_kernels.cu`)
+   - Correspondence finding
