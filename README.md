@@ -9,3 +9,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - **Multiple Depth Estimation Methods**:
   - Stereo matching (Semi-Global Matching)
   - Monocular depth estimation (integration ready for MiDaS/DPT)
+- **Advanced Reconstruction**:
