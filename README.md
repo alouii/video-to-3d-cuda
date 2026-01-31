@@ -34,3 +34,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - GCC 9+ or Clang 10+
 - CMake 3.18+
 
+## Dependencies
