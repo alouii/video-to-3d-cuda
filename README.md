@@ -169,3 +169,4 @@ All compute-intensive operations are GPU-accelerated:
    - Volumetric integration
    - Ray casting
    - Surface extraction
+   
