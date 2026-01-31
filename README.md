@@ -164,3 +164,4 @@ All compute-intensive operations are GPU-accelerated:
    - Correspondence finding
    - ICP transformation estimation
    - Point cloud transformation
+   
