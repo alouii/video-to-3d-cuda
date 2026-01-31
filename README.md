@@ -106,3 +106,4 @@ sudo make install
 --no-fusion                Disable TSDF fusion
 --voxel-size <size>        Voxel size in meters (default: 0.01)
 --max-frames <n>           Maximum frames to process
+--skip-frames <n>          Skip n frames between processing
