@@ -60,3 +60,4 @@ sudo apt install libpcl-dev
 sudo apt install libvtk7-dev
 ```
 
+## Building
