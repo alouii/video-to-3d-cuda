@@ -12,3 +12,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - **Advanced Reconstruction**:
   - TSDF volumetric fusion
   - ICP registration
+  - Marching Cubes mesh generation
