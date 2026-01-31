@@ -181,3 +181,4 @@ All compute-intensive operations are GPU-accelerated:
 - **Pinned Memory**: Fast CPU-GPU transfers
 - **Async Streams**: Overlapped computation and transfers
 
+## Performance
