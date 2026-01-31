@@ -25,3 +25,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 ### Hardware
 - NVIDIA GPU with Compute Capability 7.5+ (Turing, Ampere, or newer)
 - 4GB+ GPU memory (8GB+ recommended for large reconstructions)
+- 8GB+ system RAM
