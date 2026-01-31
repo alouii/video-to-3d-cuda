@@ -71,3 +71,4 @@ cd video-to-3d-cuda
 mkdir build && cd build
 
 # Configure
+cmake .. -DCMAKE_BUILD_TYPE=Release
