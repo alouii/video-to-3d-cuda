@@ -157,3 +157,4 @@ All compute-intensive operations are GPU-accelerated:
    
 2. **Point Cloud Generation** (`pointcloud_kernels.cu`)
    - Depth-to-3D back-projection
+   - Normal estimation via cross products
