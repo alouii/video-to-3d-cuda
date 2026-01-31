@@ -190,3 +190,4 @@ All compute-intensive operations are GPU-accelerated:
 | Frame Capture       | 8         | 125 FPS    |
 | Depth Estimation    | 25        | 40 FPS     |
 | Point Cloud Gen     | 3         | 333 FPS    |
+| Registration (ICP)  | 12        | 83 FPS     |
