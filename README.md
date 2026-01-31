@@ -102,3 +102,4 @@ sudo make install
 -c, --camera <id>          Camera device ID (default: 0)
 -o, --output <file>        Output point cloud file (PLY)
 --mesh <file>              Output mesh file (OBJ)
+--visualize                Enable real-time visualization
