@@ -123,3 +123,4 @@ opencv_calibration -w 9 -h 6 -s 0.025 -o camera_params.yml
 python scripts/calibrate_camera.py --camera 0
 ```
 
+Then use the calibrated parameters:
