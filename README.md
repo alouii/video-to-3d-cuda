@@ -134,3 +134,4 @@ Then use the calibrated parameters:
 ### Pipeline Overview
 
 ```
+┌─────────────┐    ┌──────────────┐    ┌────────────────┐
