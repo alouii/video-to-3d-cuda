@@ -150,3 +150,4 @@ Then use the calibrated parameters:
 
 All compute-intensive operations are GPU-accelerated:
 
+1. **Depth Estimation** (`depth_kernels.cu`)
