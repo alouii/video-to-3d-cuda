@@ -29,3 +29,4 @@ find_package(PCL QUIET)
 find_package(VTK QUIET)
 
 # Include directories
+include_directories(
