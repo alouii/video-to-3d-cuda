@@ -175,3 +175,4 @@ All compute-intensive operations are GPU-accelerated:
    - Triangle generation
 
 ### Memory Management
+
