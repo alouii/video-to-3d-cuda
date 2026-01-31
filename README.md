@@ -160,3 +160,4 @@ All compute-intensive operations are GPU-accelerated:
    - Normal estimation via cross products
    - Bilateral filtering
    
+3. **Registration** (`registration_kernels.cu`)
