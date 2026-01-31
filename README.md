@@ -45,3 +45,4 @@ sudo apt install nvidia-cuda-toolkit
 sudo apt install libopencv-dev
 
 # Eigen3
+sudo apt install libeigen3-dev
