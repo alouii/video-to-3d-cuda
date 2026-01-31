@@ -105,3 +105,4 @@ sudo make install
 --visualize                Enable real-time visualization
 --no-fusion                Disable TSDF fusion
 --voxel-size <size>        Voxel size in meters (default: 0.01)
+--max-frames <n>           Maximum frames to process
