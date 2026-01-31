@@ -43,3 +43,4 @@ sudo apt install nvidia-cuda-toolkit
 
 # OpenCV with CUDA support
 sudo apt install libopencv-dev
+
