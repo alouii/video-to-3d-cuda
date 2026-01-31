@@ -84,3 +84,4 @@ sudo make install
 
 ### Basic Usage
 
+```bash
