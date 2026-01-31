@@ -107,3 +107,4 @@ sudo make install
 --voxel-size <size>        Voxel size in meters (default: 0.01)
 --max-frames <n>           Maximum frames to process
 --skip-frames <n>          Skip n frames between processing
+--fx, --fy                 Camera focal lengths
