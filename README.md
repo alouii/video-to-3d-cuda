@@ -92,3 +92,4 @@ sudo make install
 ./video_to_3d --camera 0 --visualize
 
 # Stereo reconstruction
+./video_to_3d --left left.mp4 --right right.mp4 -o stereo_output.ply
