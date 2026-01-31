@@ -56,3 +56,4 @@ sudo apt install libomp-dev
 # PCL for advanced visualization
 sudo apt install libpcl-dev
 
+# VTK for rendering
