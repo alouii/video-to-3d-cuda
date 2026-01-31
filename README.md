@@ -15,3 +15,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
   - Marching Cubes mesh generation
 - **Filtering & Enhancement**:
   - Bilateral depth filtering
+  - Statistical outlier removal
