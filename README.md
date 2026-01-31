@@ -29,3 +29,4 @@ A high-performance, real-time 3D reconstruction system that converts video strea
 - Multi-core CPU (4+ cores recommended)
 
 ### Software
+- Ubuntu 20.04+ or Windows 10+ with WSL2
