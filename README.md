@@ -149,3 +149,4 @@ Then use the calibrated parameters:
 ### CUDA Kernel Optimization
 
 All compute-intensive operations are GPU-accelerated:
+
