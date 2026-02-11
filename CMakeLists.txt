@@ -61,3 +61,4 @@ set(CPP_SOURCES
     src/pipeline.cpp
     src/point_cloud_generator.cpp
     src/registration.cpp
+    src/tsdf_fusion.cpp
