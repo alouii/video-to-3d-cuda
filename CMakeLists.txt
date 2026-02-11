@@ -76,3 +76,4 @@ target_compile_options(video3d_cuda PRIVATE
 )
 
 # Main executable
+add_executable(video_to_3d ${CPP_SOURCES})
