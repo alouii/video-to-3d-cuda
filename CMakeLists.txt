@@ -75,3 +75,4 @@ target_compile_options(video3d_cuda PRIVATE
     $<$<COMPILE_LANGUAGE:CUDA>:--expt-relaxed-constexpr>
 )
 
+# Main executable
