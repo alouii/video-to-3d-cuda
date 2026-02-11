@@ -85,3 +85,4 @@ target_link_libraries(video_to_3d
     Eigen3::Eigen
     OpenMP::OpenMP_CXX
     pthread
+)
