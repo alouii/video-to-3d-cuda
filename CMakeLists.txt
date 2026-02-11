@@ -84,3 +84,4 @@ target_link_libraries(video_to_3d
     ${CUDA_CUBLAS_LIBRARIES}
     Eigen3::Eigen
     OpenMP::OpenMP_CXX
+    pthread
