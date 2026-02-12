@@ -82,3 +82,4 @@ target_link_libraries(video_to_3d
     ${OpenCV_LIBS}
     ${CUDA_LIBRARIES}
     ${CUDA_CUBLAS_LIBRARIES}
+    Eigen3::Eigen
