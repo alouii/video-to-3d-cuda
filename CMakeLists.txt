@@ -79,3 +79,4 @@ target_compile_options(video3d_cuda PRIVATE
 add_executable(video_to_3d ${CPP_SOURCES})
 target_link_libraries(video_to_3d
     video3d_cuda
+    ${OpenCV_LIBS}
