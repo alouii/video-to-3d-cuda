@@ -11,3 +11,4 @@ mkdir -p build
 cd build
 
 # Configure with CMake
+echo "Configuring..."
