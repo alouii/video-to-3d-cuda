@@ -53,3 +53,4 @@ set(CUDA_SOURCES
 )
 
 # C++ sources
+set(CPP_SOURCES
