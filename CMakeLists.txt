@@ -63,3 +63,4 @@ set(CPP_SOURCES
     src/registration.cpp
     src/tsdf_fusion.cpp
     src/mesh_generator.cpp
+)
