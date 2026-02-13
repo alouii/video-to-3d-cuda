@@ -18,3 +18,4 @@ cmake .. \
     -DBUILD_TESTS=ON
 
 # Build
+echo "Building..."
