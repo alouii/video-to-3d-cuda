@@ -50,3 +50,4 @@ set(CUDA_SOURCES
     cuda/filtering_kernels.cu
     cuda/mesh_kernels.cu
     cuda/cuda_memory.cu
+)
