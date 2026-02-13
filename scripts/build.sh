@@ -26,3 +26,4 @@ echo "Executable: ./video_to_3d"
 
 # Run tests if requested
 if [ "$1" == "test" ]; then
+    echo "Running tests..."
