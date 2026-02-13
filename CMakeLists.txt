@@ -100,3 +100,4 @@ endif()
 
 # Installation
 install(TARGETS video_to_3d DESTINATION bin)
+install(DIRECTORY include/ DESTINATION include/video_to_3d)
