@@ -33,3 +33,4 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/include
     ${CUDA_INCLUDE_DIRS}
     ${OpenCV_INCLUDE_DIRS}
+    ${EIGEN3_INCLUDE_DIRS}
