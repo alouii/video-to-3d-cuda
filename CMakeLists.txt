@@ -32,3 +32,4 @@ find_package(VTK QUIET)
 include_directories(
     ${CMAKE_SOURCE_DIR}/include
     ${CUDA_INCLUDE_DIRS}
+    ${OpenCV_INCLUDE_DIRS}
