@@ -47,3 +47,4 @@ set(CUDA_SOURCES
     cuda/pointcloud_kernels.cu
     cuda/registration_kernels.cu
     cuda/tsdf_kernels.cu
+    cuda/filtering_kernels.cu
