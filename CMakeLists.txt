@@ -42,3 +42,4 @@ if(PCL_FOUND)
 endif()
 
 # CUDA kernels
+set(CUDA_SOURCES
