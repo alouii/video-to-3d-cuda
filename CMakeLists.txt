@@ -60,3 +60,4 @@ set(CPP_SOURCES
     src/visualizer.cpp
     src/pipeline.cpp
     src/point_cloud_generator.cpp
+    src/registration.cpp
