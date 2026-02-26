@@ -67,3 +67,4 @@ set(CPP_SOURCES
 
 # Create library
 add_library(video3d_cuda STATIC ${CUDA_SOURCES})
+set_target_properties(video3d_cuda PROPERTIES
