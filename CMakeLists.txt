@@ -52,3 +52,4 @@ set(CUDA_SOURCES
     cuda/cuda_memory.cu
 )
 
+# C++ sources
