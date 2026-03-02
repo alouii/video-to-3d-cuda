@@ -36,3 +36,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - **MonocularDepthEstimator** (Integration Point):
   - TensorRT inference for MiDaS/DPT models
   - Real-time monocular depth prediction
+
