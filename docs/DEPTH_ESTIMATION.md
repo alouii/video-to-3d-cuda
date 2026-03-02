@@ -231,3 +231,4 @@ For accurate depth estimation, calibrate your stereo camera:
 
 ```bash
 # Using OpenCV calibration
+opencv_interactive-calibration \
