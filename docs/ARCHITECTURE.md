@@ -120,3 +120,4 @@ struct TSDFVoxel {
 **Algorithm**: Marching Cubes
 
 **Steps**:
+1. Classify voxels (inside/outside surface)
