@@ -108,3 +108,4 @@ struct TSDFVoxel {
    - Compute signed distance
    - Update TSDF with weighted average
 
+**CUDA Kernels** (`tsdf_kernels.cu`):
