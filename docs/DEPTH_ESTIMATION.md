@@ -181,3 +181,4 @@ int main() {
     
     v3d::StereoDepthEstimator estimator;
     estimator.setBaseline(0.12f);
+    estimator.setMaxDisparity(128);
