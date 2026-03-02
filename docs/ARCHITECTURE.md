@@ -202,3 +202,4 @@ struct TSDFVoxel {
 ## Memory Management
 
 ### Device Memory Organization
+
