@@ -27,3 +27,4 @@ intrinsics.height = 480;
 v3d::StereoDepthEstimator estimator;
 estimator.setBaseline(0.12f);  // 12cm baseline
 estimator.setMaxDisparity(128);
+estimator.initialize(intrinsics);
