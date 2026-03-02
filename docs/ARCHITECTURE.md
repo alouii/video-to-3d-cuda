@@ -69,3 +69,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Algorithm**: Iterative Closest Point (ICP)
 
 **Steps**:
+1. Find correspondences (nearest neighbors)
