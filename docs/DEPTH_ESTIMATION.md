@@ -306,3 +306,4 @@ On RTX 3080 with 640x480 images:
 
 ### MonocularDepthEstimator Methods
 
+- `bool initialize(const CameraIntrinsics&)`: Initialize estimator
