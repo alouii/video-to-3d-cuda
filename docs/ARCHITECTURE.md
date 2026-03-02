@@ -218,3 +218,4 @@ GPU Memory Layout:
 │   └── Correspondence arrays
 └── Mesh Data (150 MB)
     ├── Vertices
+    └── Triangles
