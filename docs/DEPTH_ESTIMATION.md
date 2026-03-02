@@ -247,3 +247,4 @@ float fx, fy, cx, cy, baseline;
 fs["fx"] >> fx;
 fs["fy"] >> fy;
 fs["cx"] >> cx;
+fs["cy"] >> cy;
