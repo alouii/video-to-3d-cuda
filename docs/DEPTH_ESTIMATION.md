@@ -52,3 +52,4 @@ estimator.setMaxDisparity(256);         // Search up to 256 pixels
 
 // Enable/disable features
 estimator.enableBilateralFiltering(true);  // Smooth depth
+estimator.enableLeftRightCheck(true);      // Consistency check
