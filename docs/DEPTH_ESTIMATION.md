@@ -149,3 +149,4 @@ After depth estimation, you get a `DepthFrame` structure:
 v3d::DepthFrame depth_frame;
 estimator.estimateDepth(image, depth_frame);
 
+// Access depth data (on GPU)
