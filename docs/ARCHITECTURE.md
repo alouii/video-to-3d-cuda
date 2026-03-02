@@ -237,3 +237,4 @@ GPU Memory Layout:
    - Maximize warp occupancy
    - Balance registers and shared memory
 
+2. **Memory Access Patterns**
