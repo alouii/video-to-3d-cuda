@@ -196,3 +196,4 @@ int main() {
         config.video_source = "temp_video.mp4";
         config.enable_visualization = false;
         
+        v3d::VideoTo3DPipeline pipeline(config);
