@@ -243,3 +243,4 @@ Then load the parameters:
 ```cpp
 cv::FileStorage fs("stereo_params.yml", cv::FileStorage::READ);
 
+float fx, fy, cx, cy, baseline;
