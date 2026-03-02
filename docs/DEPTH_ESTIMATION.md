@@ -161,3 +161,4 @@ cudaMemcpy(depth_cpu.data(), d_depth,
            width * height * sizeof(float), 
            cudaMemcpyDeviceToHost);
 
+// Visualize depth
