@@ -107,3 +107,4 @@ The MonocularDepthEstimator is designed to integrate with models like MiDaS or D
 
 ```cpp
 class TensorRTDepthEstimator : public v3d::MonocularDepthEstimator {
+private:
