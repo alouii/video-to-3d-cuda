@@ -258,3 +258,4 @@ intrinsics.cy = cy;
 estimator.setBaseline(baseline);
 ```
 
+## Troubleshooting
