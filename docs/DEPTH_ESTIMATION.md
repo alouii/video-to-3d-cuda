@@ -193,3 +193,4 @@ int main() {
     v3d::DepthFrame depth_frame;
     
     while (true) {
+        // Capture frames
