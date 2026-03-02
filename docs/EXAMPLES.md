@@ -223,3 +223,4 @@ config.num_streams = 4;  // More async streams
 ### Example 2: Maximize Quality
 
 ```cpp
+v3d::PipelineConfig config;
