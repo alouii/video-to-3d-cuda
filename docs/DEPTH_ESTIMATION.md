@@ -35,3 +35,4 @@ cv::Mat right = cv::imread("right.png");
 
 // Estimate depth
 v3d::DepthFrame depth_frame;
+estimator.estimateDepthStereo(left, right, depth_frame);
