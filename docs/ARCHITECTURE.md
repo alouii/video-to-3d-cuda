@@ -136,3 +136,4 @@ struct TSDFVoxel {
 
 **Rendering Options**:
 - Point cloud display (OpenGL)
+- Depth map overlay
