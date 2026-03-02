@@ -266,3 +266,4 @@ estimator.setBaseline(baseline);
 2. **Adjust max_disparity**: Try different values (64, 128, 256)
 3. **Enable filtering**: Use bilateral filtering for noisy depth
 4. **Check lighting**: Stereo matching needs good texture
+
