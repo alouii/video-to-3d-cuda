@@ -172,3 +172,4 @@ cv::imshow("Depth", depth_8u);
 ## Complete Example: Stereo Video Processing
 
 ```cpp
+#include "depth_estimator.h"
