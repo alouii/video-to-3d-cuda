@@ -234,3 +234,4 @@ config.enable_mesh = true;  // Generate mesh
 
 ```cpp
 v3d::PipelineConfig config;
+config.skip_frames = 0;
