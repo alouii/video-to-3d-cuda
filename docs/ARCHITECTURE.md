@@ -38,3 +38,4 @@ Capture Thread → Frame Buffer → Processing Thread
   - Real-time monocular depth prediction
 
 **CUDA Kernels** (`depth_kernels.cu`):
+- `censusTransformKernel`: Compute census transform
