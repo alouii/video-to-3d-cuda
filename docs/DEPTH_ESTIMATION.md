@@ -262,3 +262,4 @@ estimator.setBaseline(baseline);
 
 ### Poor Depth Quality
 
+1. **Check calibration**: Ensure camera parameters are correct
