@@ -72,3 +72,4 @@ Capture Thread → Frame Buffer → Processing Thread
 1. Find correspondences (nearest neighbors)
 2. Reject outliers based on distance threshold
 3. Compute transformation (SVD-based)
+4. Transform source point cloud
