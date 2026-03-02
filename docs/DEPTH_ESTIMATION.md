@@ -88,3 +88,4 @@ estimator.setBilateralParams(3.0f, 0.05f); // Stronger filtering
 
 v3d::CameraIntrinsics intrinsics;
 intrinsics.width = 640;
+intrinsics.height = 480;
