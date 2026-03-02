@@ -150,3 +150,4 @@ v3d::DepthFrame depth_frame;
 estimator.estimateDepth(image, depth_frame);
 
 // Access depth data (on GPU)
+float* d_depth = depth_frame.depth_map;   // Device pointer
