@@ -215,3 +215,4 @@ GPU Memory Layout:
 ├── Intermediate Buffers (100 MB)
 │   ├── Census transform
 │   ├── Cost volume
+│   └── Correspondence arrays
