@@ -100,3 +100,4 @@ struct TSDFVoxel {
     uint8_t r, g, b;   // Color
 }
 ```
+
