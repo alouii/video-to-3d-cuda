@@ -6,3 +6,4 @@ set -e
 
 echo "=== Building Video to 3D CUDA ==="
 
+# Create build directory
