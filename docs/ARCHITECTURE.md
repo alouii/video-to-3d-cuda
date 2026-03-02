@@ -182,3 +182,4 @@ struct TSDFVoxel {
              │     (ICP)    │
              │   (CUDA)     │
              └──────┬───────┘
+                    │
