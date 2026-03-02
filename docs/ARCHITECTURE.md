@@ -204,3 +204,4 @@ struct TSDFVoxel {
 ### Device Memory Organization
 
 ```
+GPU Memory Layout:
