@@ -102,3 +102,4 @@ int main() {
 
 ### Example 3: Event-Driven Processing
 
+```cpp
