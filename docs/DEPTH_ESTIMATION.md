@@ -101,3 +101,4 @@ estimator.estimateDepth(rgb_image, depth_frame);
 
 ### Integration with Neural Networks
 
+The MonocularDepthEstimator is designed to integrate with models like MiDaS or DPT.
