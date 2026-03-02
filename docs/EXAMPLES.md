@@ -78,3 +78,4 @@ int main() {
 ```cpp
 #include "pipeline.h"
 
+int main() {
