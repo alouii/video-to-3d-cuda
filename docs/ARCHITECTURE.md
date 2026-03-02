@@ -48,3 +48,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Responsibility**: Transform depth + RGB into 3D colored points
 
+**Processing Pipeline**:
