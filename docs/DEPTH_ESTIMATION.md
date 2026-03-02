@@ -61,3 +61,4 @@ estimator.setBilateralParams(
 );
 
 // Initialize and process
+estimator.initialize(intrinsics);
