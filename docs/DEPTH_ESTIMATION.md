@@ -184,3 +184,4 @@ int main() {
     estimator.setMaxDisparity(128);
     estimator.enableBilateralFiltering(true);
     estimator.initialize(intrinsics);
+    
