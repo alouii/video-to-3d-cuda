@@ -209,3 +209,4 @@ int main() {
         std::vector<float> depth(depth_frame.width * depth_frame.height);
         cudaMemcpy(depth.data(), depth_frame.depth_map,
                    depth.size() * sizeof(float), cudaMemcpyDeviceToHost);
+        
