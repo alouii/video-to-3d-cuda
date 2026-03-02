@@ -70,3 +70,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Steps**:
 1. Find correspondences (nearest neighbors)
+2. Reject outliers based on distance threshold
