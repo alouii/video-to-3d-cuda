@@ -300,3 +300,4 @@ On RTX 3080 with 640x480 images:
 - `bool estimateDepthStereo(const Mat& left, const Mat& right, DepthFrame&)`: Compute depth
 - `void setBaseline(float)`: Set stereo baseline in meters
 - `void setMaxDisparity(int)`: Set maximum disparity search range
+- `void enableBilateralFiltering(bool)`: Enable/disable depth filtering
