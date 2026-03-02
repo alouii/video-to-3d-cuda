@@ -210,3 +210,4 @@ int main() {
         cudaMemcpy(depth.data(), depth_frame.depth_map,
                    depth.size() * sizeof(float), cudaMemcpyDeviceToHost);
         
+        cv::Mat depth_viz(depth_frame.height, depth_frame.width, CV_32F, depth.data());
