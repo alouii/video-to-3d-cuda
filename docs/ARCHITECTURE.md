@@ -50,3 +50,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Processing Pipeline**:
 1. Back-projection using camera intrinsics
+2. Bilateral filtering for noise reduction
