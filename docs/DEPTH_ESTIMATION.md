@@ -301,3 +301,4 @@ On RTX 3080 with 640x480 images:
 - `void setBaseline(float)`: Set stereo baseline in meters
 - `void setMaxDisparity(int)`: Set maximum disparity search range
 - `void enableBilateralFiltering(bool)`: Enable/disable depth filtering
+- `void enableLeftRightCheck(bool)`: Enable/disable consistency check
