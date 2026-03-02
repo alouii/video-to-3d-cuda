@@ -203,3 +203,4 @@ int main() {
         auto end = std::chrono::high_resolution_clock::now();
         
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+        std::cout << "Depth estimation: " << duration.count() << " ms" << std::endl;
