@@ -143,3 +143,4 @@ struct TSDFVoxel {
 ## Data Flow
 
 ```
+┌─────────────┐
