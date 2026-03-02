@@ -16,3 +16,4 @@ The depth estimation module provides two main implementations:
 
 // Setup camera intrinsics
 v3d::CameraIntrinsics intrinsics;
+intrinsics.fx = 525.0f;
