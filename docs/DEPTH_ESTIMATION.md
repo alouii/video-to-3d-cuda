@@ -185,3 +185,4 @@ int main() {
     estimator.enableBilateralFiltering(true);
     estimator.initialize(intrinsics);
     
+    // Open stereo videos
