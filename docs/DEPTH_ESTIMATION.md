@@ -190,3 +190,4 @@ int main() {
     cv::VideoCapture right_video("right.mp4");
     
     cv::Mat left_frame, right_frame;
+    v3d::DepthFrame depth_frame;
