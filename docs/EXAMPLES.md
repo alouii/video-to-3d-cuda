@@ -90,3 +90,4 @@ int main() {
         pipeline.processNextFrame();
         
         // Get intermediate results
+        if (pipeline.reconstructionReady()) {
