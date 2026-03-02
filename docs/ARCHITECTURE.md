@@ -68,3 +68,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Algorithm**: Iterative Closest Point (ICP)
 
+**Steps**:
