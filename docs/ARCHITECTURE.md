@@ -16,3 +16,4 @@ The Video to 3D Point Cloud Reconstruction system is designed as a modular, GPU-
 - Configurable buffer size for smooth processing
 - Hardware-accelerated decoding (NVDEC when available)
 
+**Threading Model**:
