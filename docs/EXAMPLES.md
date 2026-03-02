@@ -59,3 +59,4 @@
 ```cpp
 #include "pipeline.h"
 
+int main() {
