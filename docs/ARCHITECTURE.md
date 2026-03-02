@@ -130,3 +130,4 @@ struct TSDFVoxel {
 - `classifyVoxelsKernel`: Voxel classification
 - `generateMeshKernel`: Triangle generation
 
+### 7. Visualization (`visualizer.h/cpp`)
