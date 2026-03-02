@@ -216,3 +216,4 @@ GPU Memory Layout:
 │   ├── Census transform
 │   ├── Cost volume
 │   └── Correspondence arrays
+└── Mesh Data (150 MB)
