@@ -105,3 +105,4 @@ struct TSDFVoxel {
 1. For each voxel in grid:
    - Project to camera frame
    - Look up depth measurement
+   - Compute signed distance
