@@ -124,3 +124,4 @@ public:
         return context_ != nullptr;
     }
     
+    bool estimateDepth(const cv::Mat& rgb, v3d::DepthFrame& depth) override {
