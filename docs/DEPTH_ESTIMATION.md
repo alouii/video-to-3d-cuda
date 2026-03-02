@@ -20,3 +20,4 @@ intrinsics.fx = 525.0f;
 intrinsics.fy = 525.0f;
 intrinsics.cx = 319.5f;
 intrinsics.cy = 239.5f;
+intrinsics.width = 640;
