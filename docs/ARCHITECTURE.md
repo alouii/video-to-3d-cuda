@@ -13,3 +13,4 @@ The Video to 3D Point Cloud Reconstruction system is designed as a modular, GPU-
 **Key Features**:
 - Producer-consumer pattern with thread-safe queue
 - Supports multiple input sources (files, cameras, streams)
+- Configurable buffer size for smooth processing
