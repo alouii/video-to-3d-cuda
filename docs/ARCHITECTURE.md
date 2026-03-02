@@ -32,3 +32,4 @@ Capture Thread → Frame Buffer → Processing Thread
   - Census transform for robust matching
   - Semi-Global Matching (SGM) cost aggregation
   - Subpixel refinement for accuracy
+  
