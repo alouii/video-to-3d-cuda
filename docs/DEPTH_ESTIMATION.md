@@ -154,3 +154,4 @@ float* d_depth = depth_frame.depth_map;   // Device pointer
 uint8_t* d_rgb = depth_frame.rgb_image;   // Device pointer
 int width = depth_frame.width;
 int height = depth_frame.height;
+
