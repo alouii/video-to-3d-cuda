@@ -265,3 +265,4 @@ ncu --set full ./video_to_3d -i input.mp4
 v3d::PipelineConfig config;
 config.enable_visualization = true;
 config.max_frames = 10;  // Process only 10 frames
+config.output_dir = "debug_output";
