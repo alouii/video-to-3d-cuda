@@ -117,3 +117,4 @@ public:
         std::ifstream file(model_path, std::ios::binary);
         if (!file.good()) return false;
         
+        // Deserialize engine
