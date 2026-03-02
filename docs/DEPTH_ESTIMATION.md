@@ -241,3 +241,4 @@ opencv_interactive-calibration \
 Then load the parameters:
 
 ```cpp
+cv::FileStorage fs("stereo_params.yml", cv::FileStorage::READ);
