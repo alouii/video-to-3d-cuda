@@ -224,3 +224,4 @@ GPU Memory Layout:
 ### Memory Optimization Strategies
 
 1. **RAII Wrappers**: Automatic cleanup via `DeviceBuffer<T>`
+2. **Memory Pool**: Reduce allocation overhead
