@@ -239,3 +239,4 @@ GPU Memory Layout:
 
 2. **Memory Access Patterns**
    - Coalesced global memory access
+   - Shared memory for neighborhood operations
