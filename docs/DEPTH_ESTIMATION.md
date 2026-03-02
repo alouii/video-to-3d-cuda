@@ -121,3 +121,4 @@ public:
         // ... TensorRT loading code ...
         
         context_ = engine_->createExecutionContext();
+        return context_ != nullptr;
