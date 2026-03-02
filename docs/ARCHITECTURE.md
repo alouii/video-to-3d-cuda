@@ -197,3 +197,4 @@ struct TSDFVoxel {
 │  Generation  │         │   (OpenGL)   │
 │   (CUDA)     │         │              │
 └──────────────┘         └──────────────┘
+```
