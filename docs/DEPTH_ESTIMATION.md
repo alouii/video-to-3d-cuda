@@ -303,3 +303,4 @@ On RTX 3080 with 640x480 images:
 - `void enableBilateralFiltering(bool)`: Enable/disable depth filtering
 - `void enableLeftRightCheck(bool)`: Enable/disable consistency check
 - `void setBilateralParams(float, float)`: Configure bilateral filter
+
