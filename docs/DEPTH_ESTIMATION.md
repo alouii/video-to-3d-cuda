@@ -211,3 +211,4 @@ int main() {
                    depth.size() * sizeof(float), cudaMemcpyDeviceToHost);
         
         cv::Mat depth_viz(depth_frame.height, depth_frame.width, CV_32F, depth.data());
+        cv::Mat depth_color;
