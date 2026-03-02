@@ -118,3 +118,4 @@ struct TSDFVoxel {
 **Responsibility**: Extract triangulated mesh from TSDF
 
 **Algorithm**: Marching Cubes
+
