@@ -64,3 +64,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 ### 4. Registration (`registration.h/cpp`)
 
+**Responsibility**: Align point clouds from different frames
