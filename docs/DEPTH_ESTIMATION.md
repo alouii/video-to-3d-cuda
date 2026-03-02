@@ -238,3 +238,4 @@ opencv_interactive-calibration \
     -co stereo_params.yml
 ```
 
+Then load the parameters:
