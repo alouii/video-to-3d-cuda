@@ -53,3 +53,4 @@ Capture Thread → Frame Buffer → Processing Thread
 2. Bilateral filtering for noise reduction
 3. Normal estimation via surface gradients
 4. Statistical outlier removal
+5. Voxel downsampling for efficiency
