@@ -169,3 +169,4 @@ cv::applyColorMap(depth_8u, depth_8u, cv::COLORMAP_JET);
 cv::imshow("Depth", depth_8u);
 ```
 
+## Complete Example: Stereo Video Processing
