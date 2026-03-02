@@ -179,3 +179,4 @@ private:
 #include "pipeline.h"
 
 int main() {
+    crow::SimpleApp app;
