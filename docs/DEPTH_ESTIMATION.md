@@ -64,3 +64,4 @@ estimator.setBilateralParams(
 estimator.initialize(intrinsics);
 estimator.estimateDepthStereo(left, right, depth_frame);
 ```
+
