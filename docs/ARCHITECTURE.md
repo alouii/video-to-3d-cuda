@@ -227,3 +227,4 @@ GPU Memory Layout:
 2. **Memory Pool**: Reduce allocation overhead
 3. **Pinned Memory**: Fast host-device transfers
 4. **Stream-based Async**: Overlap computation and transfers
+
