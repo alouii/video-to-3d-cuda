@@ -189,3 +189,4 @@ int main() {
     cv::VideoCapture left_video("left.mp4");
     cv::VideoCapture right_video("right.mp4");
     
+    cv::Mat left_frame, right_frame;
