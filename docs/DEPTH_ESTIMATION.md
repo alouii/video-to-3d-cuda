@@ -295,3 +295,4 @@ On RTX 3080 with 640x480 images:
 ## API Reference
 
 ### StereoDepthEstimator Methods
+
