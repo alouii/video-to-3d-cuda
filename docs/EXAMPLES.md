@@ -233,3 +233,4 @@ config.enable_mesh = true;  // Generate mesh
 ### Example 3: Balance Quality/Speed
 
 ```cpp
+v3d::PipelineConfig config;
