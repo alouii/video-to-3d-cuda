@@ -171,3 +171,4 @@ struct TSDFVoxel {
        v                                    │
 ┌──────────────┐                            │
 │ Point Cloud  │                            │
+│  Generation  │                            │
