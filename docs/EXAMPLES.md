@@ -270,3 +270,4 @@ config.output_dir = "debug_output";
 v3d::VideoTo3DPipeline pipeline(config);
 pipeline.initialize();
 
+// Process with detailed logging
