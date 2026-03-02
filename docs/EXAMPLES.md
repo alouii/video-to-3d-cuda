@@ -169,3 +169,4 @@ private:
     ros::Publisher pub_;
     v3d::PipelineConfig config_;
     std::unique_ptr<v3d::VideoTo3DPipeline> pipeline_;
+};
