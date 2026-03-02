@@ -153,3 +153,4 @@ struct TSDFVoxel {
 │   Capture   │────>│  RGB Frame   │
 │   Thread    │     │   (CPU)      │
 └─────────────┘     └──────┬───────┘
+                           │
