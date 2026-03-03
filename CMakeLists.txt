@@ -55,3 +55,4 @@ set(CUDA_SOURCES
 # C++ sources
 set(CPP_SOURCES
     src/main.cpp
+    src/video_capture.cpp
