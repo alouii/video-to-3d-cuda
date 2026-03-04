@@ -25,3 +25,4 @@ find_package(Eigen3 REQUIRED)
 find_package(OpenMP REQUIRED)
 
 # Optional packages
+find_package(PCL QUIET)
