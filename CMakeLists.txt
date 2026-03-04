@@ -92,3 +92,4 @@ if(PCL_FOUND)
 endif()
 
 # Tests
+option(BUILD_TESTS "Build tests" ON)
