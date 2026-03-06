@@ -87,3 +87,4 @@ target_link_libraries(video_to_3d
     pthread
 )
 
+if(PCL_FOUND)
