@@ -52,3 +52,4 @@
     -o lightweight_output.ply
 ```
 
+## API Examples
