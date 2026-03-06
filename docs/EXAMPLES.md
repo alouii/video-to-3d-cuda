@@ -39,3 +39,4 @@
 ```bash
 ./video_to_3d -i long_video.mp4 \
     --skip-frames 2 \
+    --max-frames 300 \
