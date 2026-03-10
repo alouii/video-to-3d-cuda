@@ -234,3 +234,4 @@ GPU Memory Layout:
 
 1. **Occupancy Optimization**
    - 256-512 threads per block
+   - Maximize warp occupancy
