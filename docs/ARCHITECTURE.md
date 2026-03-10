@@ -62,3 +62,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `statisticalOutlierRemovalKernel`: Outlier filtering
 - `voxelDownsampleKernel`: Voxel grid downsampling
 
+### 4. Registration (`registration.h/cpp`)
