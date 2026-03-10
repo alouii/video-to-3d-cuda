@@ -59,3 +59,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `depthToPointCloudKernel`: Parallel back-projection
 - `bilateralFilterDepthKernel`: Edge-preserving smoothing
 - `computeNormalsKernel`: Surface normal calculation
+- `statisticalOutlierRemovalKernel`: Outlier filtering
