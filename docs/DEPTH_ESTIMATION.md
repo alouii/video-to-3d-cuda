@@ -120,3 +120,4 @@ public:
         // Deserialize engine
         // ... TensorRT loading code ...
         
+        context_ = engine_->createExecutionContext();
