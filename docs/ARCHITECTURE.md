@@ -256,3 +256,4 @@ GPU Memory Layout:
 
 **CPU Bottlenecks**:
 - Video decoding (solution: NVDEC)
+- File I/O (solution: double buffering)
