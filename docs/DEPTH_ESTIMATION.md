@@ -145,3 +145,4 @@ public:
 
 After depth estimation, you get a `DepthFrame` structure:
 
+```cpp
