@@ -48,3 +48,4 @@
 ```bash
 ./video_to_3d -i input.mp4 \
     --voxel-size 0.02 \
+    --no-fusion \
