@@ -150,3 +150,4 @@ public:
     }
     
     void spin() {
+        ros::Rate rate(30);
