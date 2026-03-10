@@ -213,3 +213,4 @@ int main() {
         cv::Mat depth_viz(depth_frame.height, depth_frame.width, CV_32F, depth.data());
         cv::Mat depth_color;
         cv::normalize(depth_viz, depth_color, 0, 255, cv::NORM_MINMAX, CV_8U);
+        cv::applyColorMap(depth_color, depth_color, cv::COLORMAP_JET);
