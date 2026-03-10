@@ -273,3 +273,4 @@ GPU Memory Layout:
 ```cpp
 class MyDepthEstimator : public DepthEstimator {
 public:
+    bool initialize(const CameraIntrinsics& intrinsics) override {
