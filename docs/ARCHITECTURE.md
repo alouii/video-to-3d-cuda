@@ -268,3 +268,4 @@ GPU Memory Layout:
 
 ## Extensibility
 
+### Adding Custom Depth Models
