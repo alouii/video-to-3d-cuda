@@ -144,3 +144,4 @@ public:
     Video3DROS(ros::NodeHandle& nh) {
         pub_ = nh.advertise<sensor_msgs::PointCloud2>("pointcloud", 1);
         
+        config_.video_source = "/dev/video0";
