@@ -255,3 +255,4 @@ watch -n 0.5 nvidia-smi
 # Using NVIDIA Nsight Systems
 nsys profile ./video_to_3d -i input.mp4 -o output.ply
 
+# Using NVIDIA Nsight Compute
