@@ -105,3 +105,4 @@ int main() {
 ```cpp
 class MyPipeline {
 public:
+    void run() {
