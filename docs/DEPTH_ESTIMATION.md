@@ -159,3 +159,4 @@ int height = depth_frame.height;
 std::vector<float> depth_cpu(width * height);
 cudaMemcpy(depth_cpu.data(), d_depth, 
            width * height * sizeof(float), 
+           cudaMemcpyDeviceToHost);
