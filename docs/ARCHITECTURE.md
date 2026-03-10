@@ -47,3 +47,4 @@ Capture Thread → Frame Buffer → Processing Thread
 ### 3. Point Cloud Generation (`point_cloud_generator.h/cpp`)
 
 **Responsibility**: Transform depth + RGB into 3D colored points
+
