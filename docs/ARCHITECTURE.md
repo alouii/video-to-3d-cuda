@@ -42,3 +42,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `computeMatchingCostKernel`: Calculate matching costs
 - `sgmCostAggregationKernel`: SGM path aggregation
 - `selectDisparityKernel`: Winner-takes-all with subpixel
+- `disparityToDepthKernel`: Convert disparity to metric depth
