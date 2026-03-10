@@ -109,3 +109,4 @@ public:
         v3d::VideoTo3DPipeline pipeline(config_);
         pipeline.initialize();
         
+        while (!should_stop_) {
