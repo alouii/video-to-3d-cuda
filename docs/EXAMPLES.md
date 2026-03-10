@@ -154,3 +154,4 @@ public:
         while (ros::ok()) {
             pipeline_->processNextFrame();
             publishPointCloud();
+            rate.sleep();
