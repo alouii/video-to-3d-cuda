@@ -236,3 +236,4 @@ config.enable_mesh = true;  // Generate mesh
 v3d::PipelineConfig config;
 config.skip_frames = 0;
 config.voxel_config.voxel_size = 0.01f;
+config.intrinsics.width = 640;  // Lower resolution
