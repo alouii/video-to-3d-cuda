@@ -44,3 +44,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `selectDisparityKernel`: Winner-takes-all with subpixel
 - `disparityToDepthKernel`: Convert disparity to metric depth
 
+### 3. Point Cloud Generation (`point_cloud_generator.h/cpp`)
