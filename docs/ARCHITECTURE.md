@@ -66,3 +66,4 @@ Capture Thread → Frame Buffer → Processing Thread
 
 **Responsibility**: Align point clouds from different frames
 
+**Algorithm**: Iterative Closest Point (ICP)
