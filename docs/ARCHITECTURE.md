@@ -246,3 +246,4 @@ GPU Memory Layout:
    - `__shfl_down_sync()` for reductions
    - `__popc()` for Hamming distance
    - `__ballot_sync()` for vote operations
+
