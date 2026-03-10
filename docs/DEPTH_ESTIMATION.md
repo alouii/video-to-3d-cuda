@@ -216,3 +216,4 @@ int main() {
         cv::applyColorMap(depth_color, depth_color, cv::COLORMAP_JET);
         
         cv::imshow("Left", left_frame);
+        cv::imshow("Depth", depth_color);
