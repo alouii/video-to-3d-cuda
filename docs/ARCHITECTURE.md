@@ -76,3 +76,4 @@ Capture Thread → Frame Buffer → Processing Thread
 5. Repeat until convergence
 
 **Optimizations**:
+- GPU-accelerated correspondence finding
