@@ -271,3 +271,4 @@ estimator.setBaseline(baseline);
 
 1. **Reduce max_disparity**: Lower values = faster processing
 2. **Disable filtering**: Skip bilateral filter for speed
+3. **Lower resolution**: Resize inputs before processing
