@@ -63,3 +63,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `voxelDownsampleKernel`: Voxel grid downsampling
 
 ### 4. Registration (`registration.h/cpp`)
+
