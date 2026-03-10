@@ -167,3 +167,4 @@ private:
     }
     
     ros::Publisher pub_;
+    v3d::PipelineConfig config_;
