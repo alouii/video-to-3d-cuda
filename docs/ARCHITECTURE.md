@@ -154,3 +154,4 @@ struct TSDFVoxel {
 │   Thread    │     │   (CPU)      │
 └─────────────┘     └──────┬───────┘
                            │
+                           v
