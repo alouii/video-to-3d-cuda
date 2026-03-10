@@ -179,3 +179,4 @@ struct TSDFVoxel {
                     v
              ┌──────────────┐
              │ Registration │
+             │     (ICP)    │
