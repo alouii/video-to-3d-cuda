@@ -152,3 +152,4 @@ public:
     void spin() {
         ros::Rate rate(30);
         while (ros::ok()) {
+            pipeline_->processNextFrame();
