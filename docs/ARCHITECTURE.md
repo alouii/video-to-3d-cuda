@@ -74,3 +74,4 @@ Capture Thread → Frame Buffer → Processing Thread
 3. Compute transformation (SVD-based)
 4. Transform source point cloud
 5. Repeat until convergence
+
