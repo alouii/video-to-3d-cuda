@@ -83,3 +83,4 @@ int main() {
     config.use_camera = true;
     config.camera_id = 0;
     
+    v3d::VideoTo3DPipeline pipeline(config);
