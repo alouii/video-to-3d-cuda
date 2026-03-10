@@ -219,3 +219,4 @@ int main() {
         cv::imshow("Depth", depth_color);
         
         if (cv::waitKey(1) == 27) break;  // ESC to exit
+    }
