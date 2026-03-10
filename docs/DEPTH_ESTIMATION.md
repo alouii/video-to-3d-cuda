@@ -42,3 +42,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 ```
 
 ### Advanced Configuration
+
