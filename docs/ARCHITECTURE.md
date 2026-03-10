@@ -255,3 +255,4 @@ GPU Memory Layout:
 ### Bottleneck Analysis
 
 **CPU Bottlenecks**:
+- Video decoding (solution: NVDEC)
