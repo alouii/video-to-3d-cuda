@@ -304,3 +304,4 @@ On RTX 3080 with 640x480 images:
 - `void enableLeftRightCheck(bool)`: Enable/disable consistency check
 - `void setBilateralParams(float, float)`: Configure bilateral filter
 
+### MonocularDepthEstimator Methods
