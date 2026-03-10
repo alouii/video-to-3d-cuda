@@ -78,3 +78,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Optimizations**:
 - GPU-accelerated correspondence finding
 - Parallel covariance matrix computation
+- Warp-level reductions for centroid calculation
