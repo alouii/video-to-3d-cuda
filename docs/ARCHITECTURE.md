@@ -81,3 +81,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - Warp-level reductions for centroid calculation
 
 **CUDA Kernels** (`registration_kernels.cu`):
+- `findCorrespondencesKernel`: Brute-force NN search
