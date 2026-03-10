@@ -126,3 +126,4 @@ public:
     
     bool estimateDepth(const cv::Mat& rgb, v3d::DepthFrame& depth) override {
         // Preprocess
+        cv::Mat resized;
