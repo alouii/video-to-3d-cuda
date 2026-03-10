@@ -128,3 +128,4 @@ public:
         // Preprocess
         cv::Mat resized;
         cv::resize(rgb, resized, cv::Size(384, 384));
+        
