@@ -55,3 +55,4 @@ estimator.enableBilateralFiltering(true);  // Smooth depth
 estimator.enableLeftRightCheck(true);      // Consistency check
 
 // Fine-tune bilateral filter
+estimator.setBilateralParams(
