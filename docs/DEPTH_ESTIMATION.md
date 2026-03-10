@@ -186,3 +186,4 @@ int main() {
     estimator.initialize(intrinsics);
     
     // Open stereo videos
+    cv::VideoCapture left_video("left.mp4");
