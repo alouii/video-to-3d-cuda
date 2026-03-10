@@ -91,3 +91,4 @@ int main() {
         
         // Get intermediate results
         if (pipeline.reconstructionReady()) {
+            auto pc = pipeline.getPointCloud();
