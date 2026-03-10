@@ -171,3 +171,4 @@ cv::imshow("Depth", depth_8u);
 
 ## Complete Example: Stereo Video Processing
 
+```cpp
