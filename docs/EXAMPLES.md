@@ -227,3 +227,4 @@ v3d::PipelineConfig config;
 config.skip_frames = 0;  // Process all frames
 config.voxel_config.voxel_size = 0.005f;  // Smaller voxels
 config.voxel_config.truncation_distance = 0.02f;  // Tighter TSDF
+config.enable_mesh = true;  // Generate mesh
