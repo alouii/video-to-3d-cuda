@@ -192,3 +192,4 @@ int main() {
     cv::Mat left_frame, right_frame;
     v3d::DepthFrame depth_frame;
     
+    while (true) {
