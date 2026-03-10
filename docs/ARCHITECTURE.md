@@ -260,3 +260,4 @@ GPU Memory Layout:
 
 **GPU Bottlenecks**:
 - Memory bandwidth (solution: reduce transfers)
+- Kernel launch overhead (solution: kernel fusion)
