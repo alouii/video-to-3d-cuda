@@ -276,3 +276,4 @@ public:
     bool initialize(const CameraIntrinsics& intrinsics) override {
         // Load your model
         engine_ = loadTensorRTEngine("model.trt");
+        return engine_ != nullptr;
