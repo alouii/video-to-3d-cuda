@@ -96,3 +96,4 @@ Capture Thread → Frame Buffer → Processing Thread
 ```cpp
 struct TSDFVoxel {
     float tsdf;        // Distance to surface
+    float weight;      // Integration confidence
