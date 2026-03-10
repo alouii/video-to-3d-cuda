@@ -89,3 +89,4 @@ int main() {
     while (pipeline.hasFrames()) {
         pipeline.processNextFrame();
         
+        // Get intermediate results
