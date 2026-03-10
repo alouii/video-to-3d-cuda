@@ -133,3 +133,4 @@ struct TSDFVoxel {
 ### 7. Visualization (`visualizer.h/cpp`)
 
 **Responsibility**: Real-time display of results
+
