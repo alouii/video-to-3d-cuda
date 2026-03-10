@@ -8,3 +8,4 @@
 ./video_to_3d -i sample_video.mp4 -o output.ply --visualize
 ```
 
+### 2. Webcam Live Reconstruction
