@@ -194,3 +194,4 @@ int main() {
     
     while (true) {
         // Capture frames
+        if (!left_video.read(left_frame) || !right_video.read(right_frame))
