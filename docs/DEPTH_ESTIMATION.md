@@ -58,3 +58,4 @@ estimator.enableLeftRightCheck(true);      // Consistency check
 estimator.setBilateralParams(
     2.0f,   // sigma_space (spatial smoothing)
     0.1f    // sigma_range (edge preservation)
+);
