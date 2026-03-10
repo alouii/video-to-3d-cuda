@@ -34,3 +34,4 @@ Capture Thread → Frame Buffer → Processing Thread
   - Subpixel refinement for accuracy
   
 - **MonocularDepthEstimator** (Integration Point):
+  - TensorRT inference for MiDaS/DPT models
