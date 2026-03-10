@@ -245,3 +245,4 @@ GPU Memory Layout:
 3. **Warp-Level Primitives**
    - `__shfl_down_sync()` for reductions
    - `__popc()` for Hamming distance
+   - `__ballot_sync()` for vote operations
