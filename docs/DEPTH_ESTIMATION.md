@@ -168,3 +168,4 @@ cv::normalize(depth_viz, depth_8u, 0, 255, cv::NORM_MINMAX, CV_8U);
 cv::applyColorMap(depth_8u, depth_8u, cv::COLORMAP_JET);
 cv::imshow("Depth", depth_8u);
 ```
+
