@@ -309,3 +309,4 @@ On RTX 3080 with 640x480 images:
 - `bool initialize(const CameraIntrinsics&)`: Initialize estimator
 - `bool estimateDepth(const Mat&, DepthFrame&)`: Compute depth from single image
 - `bool loadModel(const string&)`: Load neural network model
+- `void setModelPath(const string&)`: Set model file path
