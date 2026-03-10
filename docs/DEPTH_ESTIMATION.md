@@ -94,3 +94,4 @@ v3d::MonocularDepthEstimator estimator;
 estimator.setModelPath("models/midas_v21.onnx");
 estimator.initialize(intrinsics);
 
+cv::Mat rgb_image = cv::imread("image.png");
