@@ -176,3 +176,4 @@ cv::imshow("Depth", depth_8u);
 #include <opencv2/opencv.hpp>
 
 int main() {
+    // Setup
