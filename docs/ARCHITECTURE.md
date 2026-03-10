@@ -236,3 +236,4 @@ GPU Memory Layout:
    - 256-512 threads per block
    - Maximize warp occupancy
    - Balance registers and shared memory
+
