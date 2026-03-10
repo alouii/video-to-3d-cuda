@@ -276,3 +276,4 @@ estimator.setBaseline(baseline);
 
 ### Memory Issues
 
+1. **Reduce max_disparity**: This reduces cost volume size
