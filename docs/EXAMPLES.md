@@ -280,3 +280,4 @@ while (pipeline.hasFrames()) {
     std::cout << "Frame time: " << duration.count() << " ms" << std::endl;
     
     pipeline.printStatistics();
+}
