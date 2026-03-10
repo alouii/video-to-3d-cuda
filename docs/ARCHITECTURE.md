@@ -205,3 +205,4 @@ struct TSDFVoxel {
 
 ```
 GPU Memory Layout:
+├── Frame Buffers (50 MB)
