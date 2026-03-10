@@ -49,3 +49,4 @@ Capture Thread → Frame Buffer → Processing Thread
 **Responsibility**: Transform depth + RGB into 3D colored points
 
 **Processing Pipeline**:
+1. Back-projection using camera intrinsics
