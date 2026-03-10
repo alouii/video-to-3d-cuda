@@ -259,3 +259,4 @@ GPU Memory Layout:
 - File I/O (solution: double buffering)
 
 **GPU Bottlenecks**:
+- Memory bandwidth (solution: reduce transfers)
