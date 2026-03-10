@@ -305,3 +305,4 @@ On RTX 3080 with 640x480 images:
 - `void setBilateralParams(float, float)`: Configure bilateral filter
 
 ### MonocularDepthEstimator Methods
+
