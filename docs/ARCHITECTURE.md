@@ -150,3 +150,4 @@ struct TSDFVoxel {
        │
        v
 ┌─────────────┐     ┌──────────────┐
+│   Capture   │────>│  RGB Frame   │
