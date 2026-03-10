@@ -290,3 +290,4 @@ On RTX 3080 with 640x480 images:
 | Standard (max_disp=128) | 25 | 40 |
 | High Quality (max_disp=256) | 45 | 22 |
 | + Bilateral Filter | +5 | -5 |
+| + LR Check | +8 | -7 |
