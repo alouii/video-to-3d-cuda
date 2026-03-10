@@ -155,3 +155,4 @@ uint8_t* d_rgb = depth_frame.rgb_image;   // Device pointer
 int width = depth_frame.width;
 int height = depth_frame.height;
 
+// Download to CPU if needed
