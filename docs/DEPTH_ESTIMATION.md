@@ -33,3 +33,4 @@ estimator.initialize(intrinsics);
 cv::Mat left = cv::imread("left.png");
 cv::Mat right = cv::imread("right.png");
 
+// Estimate depth
