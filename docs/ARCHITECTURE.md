@@ -230,3 +230,4 @@ GPU Memory Layout:
 
 ## Performance Optimization
 
+### CUDA Kernel Optimization Techniques
