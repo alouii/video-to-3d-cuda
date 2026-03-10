@@ -277,3 +277,4 @@ public:
         // Load your model
         engine_ = loadTensorRTEngine("model.trt");
         return engine_ != nullptr;
+    }
