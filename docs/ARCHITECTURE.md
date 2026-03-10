@@ -109,3 +109,4 @@ struct TSDFVoxel {
    - Update TSDF with weighted average
 
 **CUDA Kernels** (`tsdf_kernels.cu`):
+- `integrateTSDFKernel`: Volumetric fusion
