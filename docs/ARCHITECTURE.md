@@ -41,3 +41,4 @@ Capture Thread → Frame Buffer → Processing Thread
 - `censusTransformKernel`: Compute census transform
 - `computeMatchingCostKernel`: Calculate matching costs
 - `sgmCostAggregationKernel`: SGM path aggregation
+- `selectDisparityKernel`: Winner-takes-all with subpixel
