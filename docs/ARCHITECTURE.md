@@ -287,3 +287,4 @@ public:
     
 private:
     std::unique_ptr<TensorRTEngine> engine_;
+};
