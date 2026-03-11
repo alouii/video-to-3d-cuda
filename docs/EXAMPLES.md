@@ -31,3 +31,4 @@
 ./video_to_3d -i video.mp4 \
     --fx 535.4 --fy 539.2 \
     --cx 320.1 --cy 247.6 \
+    -o calibrated_output.ply
