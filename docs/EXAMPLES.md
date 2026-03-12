@@ -62,3 +62,4 @@
 int main() {
     v3d::PipelineConfig config;
     config.video_source = "input.mp4";
+    config.enable_visualization = true;
