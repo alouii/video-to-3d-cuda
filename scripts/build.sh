@@ -12,3 +12,4 @@ cd build
 
 # Configure with CMake
 echo "Configuring..."
+cmake .. \
