@@ -273,3 +273,4 @@ estimator.setBaseline(baseline);
 2. **Disable filtering**: Skip bilateral filter for speed
 3. **Lower resolution**: Resize inputs before processing
 4. **Check GPU utilization**: Use `nvidia-smi` to monitor
+
