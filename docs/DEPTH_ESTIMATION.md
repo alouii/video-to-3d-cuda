@@ -179,3 +179,4 @@ int main() {
     // Setup
     v3d::CameraIntrinsics intrinsics(525.0f, 525.0f, 319.5f, 239.5f, 640, 480);
     
+    v3d::StereoDepthEstimator estimator;
