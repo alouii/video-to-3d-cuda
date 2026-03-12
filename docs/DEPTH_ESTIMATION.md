@@ -197,3 +197,4 @@ int main() {
         if (!left_video.read(left_frame) || !right_video.read(right_frame))
             break;
         
+        // Estimate depth
