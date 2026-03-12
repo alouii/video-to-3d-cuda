@@ -73,3 +73,4 @@ estimator.setMaxDisparity(64);             // Smaller search range
 estimator.enableBilateralFiltering(false); // Skip filtering
 estimator.enableLeftRightCheck(false);     // Skip consistency
 
+// For quality (slower)
