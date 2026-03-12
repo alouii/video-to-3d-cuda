@@ -112,3 +112,4 @@ private:
     std::unique_ptr<nvinfer1::IExecutionContext> context_;
     
 public:
+    bool loadModel(const std::string& model_path) override {
