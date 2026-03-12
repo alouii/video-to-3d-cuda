@@ -14,3 +14,4 @@ The depth estimation module provides two main implementations:
 ```cpp
 #include "depth_estimator.h"
 
+// Setup camera intrinsics
