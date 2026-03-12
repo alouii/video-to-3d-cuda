@@ -234,3 +234,4 @@ For accurate depth estimation, calibrate your stereo camera:
 opencv_interactive-calibration \
     -w 9 -h 6 -sz 0.025 \
     -d 0.12 \
+    -ci left_camera.yml \
