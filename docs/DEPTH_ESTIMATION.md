@@ -188,3 +188,4 @@ int main() {
     // Open stereo videos
     cv::VideoCapture left_video("left.mp4");
     cv::VideoCapture right_video("right.mp4");
+    
