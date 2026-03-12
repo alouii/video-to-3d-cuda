@@ -240,3 +240,4 @@ config.intrinsics.width = 640;  // Lower resolution
 config.intrinsics.height = 480;
 ```
 
+## Troubleshooting Examples
