@@ -51,3 +51,4 @@
     --no-fusion \
     -o lightweight_output.ply
 ```
+
