@@ -264,3 +264,4 @@ estimator.setBaseline(baseline);
 
 1. **Check calibration**: Ensure camera parameters are correct
 2. **Adjust max_disparity**: Try different values (64, 128, 256)
+3. **Enable filtering**: Use bilateral filtering for noisy depth
