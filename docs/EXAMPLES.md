@@ -126,3 +126,4 @@ public:
 private:
     v3d::PipelineConfig config_;
     bool paused_ = false;
+    bool should_stop_ = false;
