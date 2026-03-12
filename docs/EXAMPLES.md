@@ -125,3 +125,4 @@ public:
     
 private:
     v3d::PipelineConfig config_;
+    bool paused_ = false;
