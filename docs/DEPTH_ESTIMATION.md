@@ -60,3 +60,4 @@ estimator.setBilateralParams(
     0.1f    // sigma_range (edge preservation)
 );
 
+// Initialize and process
