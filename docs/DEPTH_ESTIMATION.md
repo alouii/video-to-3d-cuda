@@ -288,3 +288,4 @@ On RTX 3080 with 640x480 images:
 |--------------|-----------|-----|
 | Basic (max_disp=64) | 15 | 66 |
 | Standard (max_disp=128) | 25 | 40 |
+| High Quality (max_disp=256) | 45 | 22 |
