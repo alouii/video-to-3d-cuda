@@ -137,3 +137,4 @@ public:
         // ... copy output to depth_frame ...
         
         return true;
+    }
