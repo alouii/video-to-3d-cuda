@@ -286,3 +286,4 @@ On RTX 3080 with 640x480 images:
 
 | Configuration | Time (ms) | FPS |
 |--------------|-----------|-----|
+| Basic (max_disp=64) | 15 | 66 |
