@@ -214,3 +214,4 @@ int main() {
 
 ```cpp
 v3d::PipelineConfig config;
+config.skip_frames = 1;  // Process every other frame
