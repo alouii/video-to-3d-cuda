@@ -20,3 +20,4 @@
 ./video_to_3d -i input.mp4 \
     --voxel-size 0.005 \
     --mesh output_mesh.obj \
+    --visualize
