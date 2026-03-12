@@ -57,3 +57,4 @@
 ### Example 1: Basic Pipeline
 
 ```cpp
+#include "pipeline.h"
