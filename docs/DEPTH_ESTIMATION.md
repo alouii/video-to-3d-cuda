@@ -31,3 +31,4 @@ estimator.initialize(intrinsics);
 
 // Load stereo images
 cv::Mat left = cv::imread("left.png");
+cv::Mat right = cv::imread("right.png");
