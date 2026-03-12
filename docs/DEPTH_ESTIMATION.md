@@ -267,3 +267,4 @@ estimator.setBaseline(baseline);
 3. **Enable filtering**: Use bilateral filtering for noisy depth
 4. **Check lighting**: Stereo matching needs good texture
 
+### Slow Performance
