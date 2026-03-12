@@ -123,3 +123,4 @@ public:
     void resume() { paused_ = false; }
     void stop() { should_stop_ = true; }
     
+private:
