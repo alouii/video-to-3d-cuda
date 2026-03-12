@@ -71,3 +71,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 // For speed (lower quality)
 estimator.setMaxDisparity(64);             // Smaller search range
 estimator.enableBilateralFiltering(false); // Skip filtering
+estimator.enableLeftRightCheck(false);     // Skip consistency
