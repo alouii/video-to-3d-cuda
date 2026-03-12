@@ -8,3 +8,4 @@ The depth estimation module provides two main implementations:
 2. **MonocularDepthEstimator**: Neural network-based depth from single images
 
 ## StereoDepthEstimator
+
