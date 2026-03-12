@@ -200,3 +200,4 @@ int main() {
         pipeline.initialize();
         pipeline.processVideo();
         pipeline.exportPointCloud("output.ply");
+        
