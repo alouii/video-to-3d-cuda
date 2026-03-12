@@ -163,3 +163,4 @@ cudaMemcpy(depth_cpu.data(), d_depth,
 
 // Visualize depth
 cv::Mat depth_viz(height, width, CV_32F, depth_cpu.data());
+cv::Mat depth_8u;
