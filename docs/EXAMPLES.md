@@ -94,3 +94,4 @@ int main() {
             auto pc = pipeline.getPointCloud();
             // Process point cloud...
         }
+    }
