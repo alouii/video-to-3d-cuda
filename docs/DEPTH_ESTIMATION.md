@@ -297,3 +297,4 @@ On RTX 3080 with 640x480 images:
 ### StereoDepthEstimator Methods
 
 - `bool initialize(const CameraIntrinsics&)`: Initialize estimator
+- `bool estimateDepthStereo(const Mat& left, const Mat& right, DepthFrame&)`: Compute depth
