@@ -130,3 +130,4 @@ public:
         cv::resize(rgb, resized, cv::Size(384, 384));
         
         // Run inference
+        void* bindings[] = {input_buffer_, output_buffer_};
