@@ -299,3 +299,4 @@ On RTX 3080 with 640x480 images:
 - `bool initialize(const CameraIntrinsics&)`: Initialize estimator
 - `bool estimateDepthStereo(const Mat& left, const Mat& right, DepthFrame&)`: Compute depth
 - `void setBaseline(float)`: Set stereo baseline in meters
+- `void setMaxDisparity(int)`: Set maximum disparity search range
