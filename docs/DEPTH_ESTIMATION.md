@@ -280,3 +280,4 @@ estimator.setBaseline(baseline);
 2. **Process at lower resolution**: Resize inputs
 3. **Free unused buffers**: Don't keep multiple estimators in memory
 
+## Performance Benchmarks
