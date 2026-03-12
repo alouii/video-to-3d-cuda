@@ -149,3 +149,4 @@ public:
         pipeline_->initialize();
     }
     
+    void spin() {
