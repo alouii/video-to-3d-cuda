@@ -136,3 +136,4 @@ public:
         // Postprocess
         // ... copy output to depth_frame ...
         
+        return true;
