@@ -166,3 +166,4 @@ private:
         pub_.publish(msg);
     }
     
+    ros::Publisher pub_;
