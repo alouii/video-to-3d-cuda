@@ -106,3 +106,4 @@ int main() {
 class MyPipeline {
 public:
     void run() {
+        v3d::VideoTo3DPipeline pipeline(config_);
