@@ -173,3 +173,4 @@ cv::imshow("Depth", depth_8u);
 
 ```cpp
 #include "depth_estimator.h"
+#include <opencv2/opencv.hpp>
