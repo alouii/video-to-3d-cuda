@@ -79,3 +79,4 @@ int main() {
 #include "pipeline.h"
 
 int main() {
+    v3d::PipelineConfig config;
