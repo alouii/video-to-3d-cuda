@@ -147,3 +147,4 @@ After depth estimation, you get a `DepthFrame` structure:
 
 ```cpp
 v3d::DepthFrame depth_frame;
+estimator.estimateDepth(image, depth_frame);
