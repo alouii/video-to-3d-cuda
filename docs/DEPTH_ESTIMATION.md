@@ -250,3 +250,4 @@ fs["cx"] >> cx;
 fs["cy"] >> cy;
 fs["baseline"] >> baseline;
 
+intrinsics.fx = fx;
