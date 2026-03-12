@@ -156,3 +156,4 @@ int width = depth_frame.width;
 int height = depth_frame.height;
 
 // Download to CPU if needed
+std::vector<float> depth_cpu(width * height);
