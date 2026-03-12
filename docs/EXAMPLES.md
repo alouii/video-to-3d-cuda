@@ -194,3 +194,4 @@ int main() {
         // Process
         v3d::PipelineConfig config;
         config.video_source = "temp_video.mp4";
+        config.enable_visualization = false;
