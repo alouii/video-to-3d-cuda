@@ -292,3 +292,4 @@ On RTX 3080 with 640x480 images:
 | + Bilateral Filter | +5 | -5 |
 | + LR Check | +8 | -7 |
 
+## API Reference
