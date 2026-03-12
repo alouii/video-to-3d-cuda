@@ -279,3 +279,4 @@ estimator.setBaseline(baseline);
 1. **Reduce max_disparity**: This reduces cost volume size
 2. **Process at lower resolution**: Resize inputs
 3. **Free unused buffers**: Don't keep multiple estimators in memory
+
