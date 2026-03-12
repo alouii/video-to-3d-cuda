@@ -249,3 +249,4 @@ config.intrinsics.height = 480;
 watch -n 0.5 nvidia-smi
 ```
 
+### Profile Performance
