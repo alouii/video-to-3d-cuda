@@ -69,3 +69,4 @@ int main() {
     pipeline.processVideo();
     pipeline.exportPointCloud("output.ply");
     
+    return 0;
