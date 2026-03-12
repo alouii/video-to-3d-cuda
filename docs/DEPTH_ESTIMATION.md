@@ -95,3 +95,4 @@ estimator.setModelPath("models/midas_v21.onnx");
 estimator.initialize(intrinsics);
 
 cv::Mat rgb_image = cv::imread("image.png");
+v3d::DepthFrame depth_frame;
