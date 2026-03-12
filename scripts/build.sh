@@ -17,3 +17,4 @@ cmake .. \
     -DCMAKE_CUDA_ARCHITECTURES="75;80;86;89" \
     -DBUILD_TESTS=ON
 
+# Build
