@@ -164,3 +164,4 @@ private:
         sensor_msgs::PointCloud2 msg;
         // Convert and publish...
         pub_.publish(msg);
+    }
