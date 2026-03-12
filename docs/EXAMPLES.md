@@ -153,3 +153,4 @@ public:
         ros::Rate rate(30);
         while (ros::ok()) {
             pipeline_->processNextFrame();
+            publishPointCloud();
