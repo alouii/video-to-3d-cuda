@@ -279,3 +279,4 @@ while (pipeline.hasFrames()) {
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
     std::cout << "Frame time: " << duration.count() << " ms" << std::endl;
     
+    pipeline.printStatistics();
