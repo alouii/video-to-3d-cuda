@@ -70,3 +70,4 @@ add_library(video3d_cuda STATIC ${CUDA_SOURCES})
 set_target_properties(video3d_cuda PROPERTIES
     CUDA_SEPARABLE_COMPILATION ON
     CUDA_RESOLVE_DEVICE_SYMBOLS ON
+)
