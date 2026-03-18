@@ -41,3 +41,4 @@ if(PCL_FOUND)
     add_definitions(-DUSE_PCL)
 endif()
 
+# CUDA kernels
