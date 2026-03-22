@@ -62,3 +62,4 @@ set(CPP_SOURCES
     src/point_cloud_generator.cpp
     src/registration.cpp
     src/tsdf_fusion.cpp
+    src/mesh_generator.cpp
