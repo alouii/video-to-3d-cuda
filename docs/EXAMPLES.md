@@ -145,3 +145,4 @@ public:
         pub_ = nh.advertise<sensor_msgs::PointCloud2>("pointcloud", 1);
         
         config_.video_source = "/dev/video0";
+        pipeline_ = std::make_unique<v3d::VideoTo3DPipeline>(config_);
