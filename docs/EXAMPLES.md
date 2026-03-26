@@ -178,3 +178,4 @@ private:
 #include <crow.h>
 #include "pipeline.h"
 
+int main() {
