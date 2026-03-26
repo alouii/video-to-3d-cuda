@@ -85,3 +85,4 @@ int main() {
     
     v3d::VideoTo3DPipeline pipeline(config);
     pipeline.initialize();
+    
