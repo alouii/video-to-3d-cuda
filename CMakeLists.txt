@@ -57,3 +57,4 @@ set(CPP_SOURCES
     src/main.cpp
     src/video_capture.cpp
     src/depth_estimator.cpp
+    src/visualizer.cpp
