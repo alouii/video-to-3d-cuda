@@ -135,3 +135,4 @@ private:
 ### ROS Integration
 
 ```cpp
+#include <ros/ros.h>
