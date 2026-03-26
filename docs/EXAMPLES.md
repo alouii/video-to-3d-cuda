@@ -139,3 +139,4 @@ private:
 #include <sensor_msgs/PointCloud2.h>
 #include "pipeline.h"
 
+class Video3DROS {
