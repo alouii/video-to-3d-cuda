@@ -99,3 +99,4 @@ if(BUILD_TESTS)
 endif()
 
 # Installation
+install(TARGETS video_to_3d DESTINATION bin)
