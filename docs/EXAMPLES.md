@@ -274,3 +274,4 @@ pipeline.initialize();
 while (pipeline.hasFrames()) {
     auto start = std::chrono::high_resolution_clock::now();
     pipeline.processNextFrame();
+    auto end = std::chrono::high_resolution_clock::now();
