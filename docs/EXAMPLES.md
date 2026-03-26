@@ -219,3 +219,4 @@ config.voxel_config.voxel_size = 0.02f;  // Larger voxels
 config.enable_visualization = false;  // Disable viz
 config.num_streams = 4;  // More async streams
 ```
+
