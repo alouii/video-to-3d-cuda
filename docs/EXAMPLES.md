@@ -220,3 +220,4 @@ config.enable_visualization = false;  // Disable viz
 config.num_streams = 4;  // More async streams
 ```
 
+### Example 2: Maximize Quality
