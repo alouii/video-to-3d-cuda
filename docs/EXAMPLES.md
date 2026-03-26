@@ -124,3 +124,4 @@ public:
     void stop() { should_stop_ = true; }
     
 private:
+    v3d::PipelineConfig config_;
