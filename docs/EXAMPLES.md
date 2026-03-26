@@ -210,3 +210,4 @@ int main() {
 
 ## Performance Tuning Examples
 
+### Example 1: Maximize Throughput
