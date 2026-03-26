@@ -110,3 +110,4 @@ public:
         pipeline.initialize();
         
         while (!should_stop_) {
+            if (paused_) {
