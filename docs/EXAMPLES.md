@@ -247,3 +247,4 @@ config.intrinsics.height = 480;
 ```bash
 # Monitor during processing
 watch -n 0.5 nvidia-smi
+```
