@@ -160,3 +160,4 @@ public:
     
 private:
     void publishPointCloud() {
+        auto pc = pipeline_->getPointCloud();
