@@ -43,3 +43,4 @@
     -o fast_output.ply
 ```
 
+### 6. Memory-Constrained System
