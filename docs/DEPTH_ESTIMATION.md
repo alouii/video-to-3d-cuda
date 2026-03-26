@@ -41,3 +41,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 // RGB is at depth_frame.rgb_image
 ```
 
+### Advanced Configuration
