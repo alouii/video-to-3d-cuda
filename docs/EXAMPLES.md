@@ -272,3 +272,4 @@ pipeline.initialize();
 
 // Process with detailed logging
 while (pipeline.hasFrames()) {
+    auto start = std::chrono::high_resolution_clock::now();
