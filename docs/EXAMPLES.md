@@ -34,3 +34,4 @@
     -o calibrated_output.ply
 ```
 
+### 5. Fast Processing (Skip Frames)
