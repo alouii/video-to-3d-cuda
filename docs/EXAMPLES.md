@@ -159,3 +159,4 @@ public:
     }
     
 private:
+    void publishPointCloud() {
