@@ -120,3 +120,4 @@ public:
     }
     
     void pause() { paused_ = true; }
+    void resume() { paused_ = false; }
