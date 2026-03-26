@@ -87,3 +87,4 @@ int main() {
     pipeline.initialize();
     
     while (pipeline.hasFrames()) {
+        pipeline.processNextFrame();
