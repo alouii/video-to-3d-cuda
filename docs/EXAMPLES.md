@@ -50,3 +50,4 @@
     --voxel-size 0.02 \
     --no-fusion \
     -o lightweight_output.ply
+```
