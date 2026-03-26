@@ -202,3 +202,4 @@ int main() {
         pipeline.exportPointCloud("output.ply");
         
         return crow::response(200, "Reconstruction complete");
+    });
