@@ -50,3 +50,4 @@ v3d::StereoDepthEstimator estimator;
 estimator.setBaseline(0.15f);           // 15cm baseline
 estimator.setMaxDisparity(256);         // Search up to 256 pixels
 
+// Enable/disable features
