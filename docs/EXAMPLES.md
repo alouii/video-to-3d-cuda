@@ -70,3 +70,4 @@ int main() {
     pipeline.exportPointCloud("output.ply");
     
     return 0;
+}
