@@ -192,3 +192,4 @@ int main() {
         file.close();
         
         // Process
+        v3d::PipelineConfig config;
