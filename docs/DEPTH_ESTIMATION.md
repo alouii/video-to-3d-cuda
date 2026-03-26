@@ -30,3 +30,4 @@ estimator.setMaxDisparity(128);
 estimator.initialize(intrinsics);
 
 // Load stereo images
+cv::Mat left = cv::imread("left.png");
