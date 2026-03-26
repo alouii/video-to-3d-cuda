@@ -259,3 +259,4 @@ nsys profile ./video_to_3d -i input.mp4 -o output.ply
 ncu --set full ./video_to_3d -i input.mp4
 ```
 
+### Debug Mode
