@@ -204,3 +204,4 @@ int main() {
         return crow::response(200, "Reconstruction complete");
     });
     
+    app.port(8080).multithreaded().run();
