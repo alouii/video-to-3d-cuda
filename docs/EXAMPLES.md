@@ -252,3 +252,4 @@ watch -n 0.5 nvidia-smi
 ### Profile Performance
 
 ```bash
+# Using NVIDIA Nsight Systems
