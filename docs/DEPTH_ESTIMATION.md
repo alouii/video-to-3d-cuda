@@ -86,3 +86,4 @@ estimator.setBilateralParams(3.0f, 0.05f); // Stronger filtering
 ```cpp
 #include "depth_estimator.h"
 
+v3d::CameraIntrinsics intrinsics;
