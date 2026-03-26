@@ -90,3 +90,4 @@ v3d::CameraIntrinsics intrinsics;
 intrinsics.width = 640;
 intrinsics.height = 480;
 
+v3d::MonocularDepthEstimator estimator;
