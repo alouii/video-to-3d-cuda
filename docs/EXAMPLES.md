@@ -28,3 +28,4 @@
 ### 4. Custom Camera Parameters
 
 ```bash
+./video_to_3d -i video.mp4 \
