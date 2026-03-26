@@ -58,3 +58,4 @@ set(CPP_SOURCES
     src/video_capture.cpp
     src/depth_estimator.cpp
     src/visualizer.cpp
+    src/pipeline.cpp
