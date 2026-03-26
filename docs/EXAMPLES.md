@@ -268,3 +268,4 @@ config.max_frames = 10;  // Process only 10 frames
 config.output_dir = "debug_output";
 
 v3d::VideoTo3DPipeline pipeline(config);
+pipeline.initialize();
