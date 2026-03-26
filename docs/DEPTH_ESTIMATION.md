@@ -91,3 +91,4 @@ intrinsics.width = 640;
 intrinsics.height = 480;
 
 v3d::MonocularDepthEstimator estimator;
+estimator.setModelPath("models/midas_v21.onnx");
