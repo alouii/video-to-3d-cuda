@@ -21,3 +21,4 @@
     --voxel-size 0.005 \
     --mesh output_mesh.obj \
     --visualize
+```
