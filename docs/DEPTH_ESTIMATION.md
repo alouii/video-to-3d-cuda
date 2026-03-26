@@ -115,3 +115,4 @@ public:
     bool loadModel(const std::string& model_path) override {
         // Load TensorRT engine
         std::ifstream file(model_path, std::ios::binary);
+        if (!file.good()) return false;
