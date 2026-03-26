@@ -104,3 +104,4 @@ estimator.estimateDepth(rgb_image, depth_frame);
 The MonocularDepthEstimator is designed to integrate with models like MiDaS or DPT.
 
 #### TensorRT Integration (Example)
+
