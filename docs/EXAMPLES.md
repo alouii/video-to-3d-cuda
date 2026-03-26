@@ -156,3 +156,4 @@ public:
             publishPointCloud();
             rate.sleep();
         }
+    }
