@@ -39,3 +39,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 
 // Depth is now on GPU at depth_frame.depth_map
 // RGB is at depth_frame.rgb_image
+```
