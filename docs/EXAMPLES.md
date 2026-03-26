@@ -6,3 +6,4 @@
 
 ```bash
 ./video_to_3d -i sample_video.mp4 -o output.ply --visualize
+```
