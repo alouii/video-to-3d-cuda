@@ -199,3 +199,4 @@ int main() {
         v3d::VideoTo3DPipeline pipeline(config);
         pipeline.initialize();
         pipeline.processVideo();
+        pipeline.exportPointCloud("output.ply");
