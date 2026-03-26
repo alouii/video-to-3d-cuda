@@ -253,3 +253,4 @@ watch -n 0.5 nvidia-smi
 
 ```bash
 # Using NVIDIA Nsight Systems
+nsys profile ./video_to_3d -i input.mp4 -o output.ply
