@@ -22,3 +22,4 @@
     --mesh output_mesh.obj \
     --visualize
 ```
+
