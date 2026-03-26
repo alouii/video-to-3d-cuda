@@ -230,3 +230,4 @@ config.voxel_config.truncation_distance = 0.02f;  // Tighter TSDF
 config.enable_mesh = true;  // Generate mesh
 ```
 
+### Example 3: Balance Quality/Speed
