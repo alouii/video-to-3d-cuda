@@ -197,3 +197,4 @@ int main() {
         config.enable_visualization = false;
         
         v3d::VideoTo3DPipeline pipeline(config);
+        pipeline.initialize();
