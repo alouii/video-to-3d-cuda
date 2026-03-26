@@ -17,3 +17,4 @@
 ### 3. High-Quality Reconstruction
 
 ```bash
+./video_to_3d -i input.mp4 \
