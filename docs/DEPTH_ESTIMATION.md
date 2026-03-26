@@ -15,3 +15,4 @@ The depth estimation module provides two main implementations:
 #include "depth_estimator.h"
 
 // Setup camera intrinsics
+v3d::CameraIntrinsics intrinsics;
