@@ -216,3 +216,4 @@ int main() {
 v3d::PipelineConfig config;
 config.skip_frames = 1;  // Process every other frame
 config.voxel_config.voxel_size = 0.02f;  // Larger voxels
+config.enable_visualization = false;  // Disable viz
