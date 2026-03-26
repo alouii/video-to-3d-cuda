@@ -213,3 +213,4 @@ int main() {
 ### Example 1: Maximize Throughput
 
 ```cpp
+v3d::PipelineConfig config;
