@@ -182,3 +182,4 @@ int main() {
     crow::SimpleApp app;
     
     CROW_ROUTE(app, "/reconstruct")
+    .methods("POST"_method)
