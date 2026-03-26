@@ -115,3 +115,4 @@ public:
                 continue;
             }
             
+            pipeline.processNextFrame();
