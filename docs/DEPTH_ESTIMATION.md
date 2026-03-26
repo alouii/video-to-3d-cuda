@@ -46,3 +46,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 ```cpp
 v3d::StereoDepthEstimator estimator;
 
+// Configure stereo parameters
