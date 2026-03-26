@@ -212,3 +212,4 @@ int main() {
 
 ### Example 1: Maximize Throughput
 
+```cpp
