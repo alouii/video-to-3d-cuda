@@ -155,3 +155,4 @@ public:
             pipeline_->processNextFrame();
             publishPointCloud();
             rate.sleep();
+        }
