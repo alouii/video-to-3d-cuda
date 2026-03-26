@@ -224,3 +224,4 @@ config.num_streams = 4;  // More async streams
 
 ```cpp
 v3d::PipelineConfig config;
+config.skip_frames = 0;  // Process all frames
