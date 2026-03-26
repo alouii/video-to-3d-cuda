@@ -5,3 +5,4 @@
 set -e
 
 echo "=== Building Video to 3D CUDA ==="
+
