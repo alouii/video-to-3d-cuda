@@ -201,3 +201,4 @@ int main() {
         pipeline.processVideo();
         pipeline.exportPointCloud("output.ply");
         
+        return crow::response(200, "Reconstruction complete");
