@@ -119,3 +119,4 @@ public:
         }
     }
     
+    void pause() { paused_ = true; }
