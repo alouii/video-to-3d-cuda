@@ -78,3 +78,4 @@ estimator.setMaxDisparity(256);            // Larger search range
 estimator.enableBilateralFiltering(true);  // Enable filtering
 estimator.setBilateralParams(3.0f, 0.05f); // Stronger filtering
 ```
+
