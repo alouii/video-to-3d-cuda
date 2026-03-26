@@ -80,3 +80,4 @@ int main() {
 
 int main() {
     v3d::PipelineConfig config;
+    config.use_camera = true;
