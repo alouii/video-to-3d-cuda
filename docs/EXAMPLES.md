@@ -140,3 +140,4 @@ private:
 #include "pipeline.h"
 
 class Video3DROS {
+public:
