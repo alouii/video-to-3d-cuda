@@ -271,3 +271,4 @@ v3d::VideoTo3DPipeline pipeline(config);
 pipeline.initialize();
 
 // Process with detailed logging
+while (pipeline.hasFrames()) {
