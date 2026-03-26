@@ -146,3 +146,4 @@ public:
         
         config_.video_source = "/dev/video0";
         pipeline_ = std::make_unique<v3d::VideoTo3DPipeline>(config_);
+        pipeline_->initialize();
