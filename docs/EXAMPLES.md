@@ -93,3 +93,4 @@ int main() {
         if (pipeline.reconstructionReady()) {
             auto pc = pipeline.getPointCloud();
             // Process point cloud...
+        }
