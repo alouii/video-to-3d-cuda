@@ -47,3 +47,4 @@ estimator.estimateDepthStereo(left, right, depth_frame);
 v3d::StereoDepthEstimator estimator;
 
 // Configure stereo parameters
+estimator.setBaseline(0.15f);           // 15cm baseline
