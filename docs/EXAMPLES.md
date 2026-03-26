@@ -14,3 +14,4 @@
 ./video_to_3d --camera 0 --visualize --voxel-size 0.015
 ```
 
+### 3. High-Quality Reconstruction
