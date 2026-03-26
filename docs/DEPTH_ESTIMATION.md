@@ -37,3 +37,4 @@ cv::Mat right = cv::imread("right.png");
 v3d::DepthFrame depth_frame;
 estimator.estimateDepthStereo(left, right, depth_frame);
 
+// Depth is now on GPU at depth_frame.depth_map
