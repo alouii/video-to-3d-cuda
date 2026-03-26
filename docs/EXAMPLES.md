@@ -64,3 +64,4 @@ int main() {
     config.video_source = "input.mp4";
     config.enable_visualization = true;
     
+    v3d::VideoTo3DPipeline pipeline(config);
