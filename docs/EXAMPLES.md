@@ -121,3 +121,4 @@ public:
     
     void pause() { paused_ = true; }
     void resume() { paused_ = false; }
+    void stop() { should_stop_ = true; }
