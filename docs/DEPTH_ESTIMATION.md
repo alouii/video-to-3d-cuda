@@ -34,3 +34,4 @@ cv::Mat left = cv::imread("left.png");
 cv::Mat right = cv::imread("right.png");
 
 // Estimate depth
+v3d::DepthFrame depth_frame;
