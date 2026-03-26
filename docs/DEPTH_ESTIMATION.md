@@ -56,3 +56,4 @@ estimator.enableLeftRightCheck(true);      // Consistency check
 
 // Fine-tune bilateral filter
 estimator.setBilateralParams(
+    2.0f,   // sigma_space (spatial smoothing)
