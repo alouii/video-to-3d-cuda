@@ -187,3 +187,4 @@ int main() {
         auto video_data = req.body;
         
         // Save video temporarily
+        std::ofstream file("temp_video.mp4", std::ios::binary);
