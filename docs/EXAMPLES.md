@@ -104,3 +104,4 @@ int main() {
 
 ```cpp
 class MyPipeline {
+public:
