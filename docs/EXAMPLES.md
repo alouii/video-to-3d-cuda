@@ -239,3 +239,4 @@ config.voxel_config.voxel_size = 0.01f;
 config.intrinsics.width = 640;  // Lower resolution
 config.intrinsics.height = 480;
 ```
+
