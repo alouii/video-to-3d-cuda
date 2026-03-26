@@ -48,3 +48,4 @@ set(CUDA_SOURCES
     cuda/registration_kernels.cu
     cuda/tsdf_kernels.cu
     cuda/filtering_kernels.cu
+    cuda/mesh_kernels.cu
