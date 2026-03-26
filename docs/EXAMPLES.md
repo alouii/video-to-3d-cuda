@@ -276,3 +276,4 @@ while (pipeline.hasFrames()) {
     pipeline.processNextFrame();
     auto end = std::chrono::high_resolution_clock::now();
     
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
