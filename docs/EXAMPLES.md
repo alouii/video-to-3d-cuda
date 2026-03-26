@@ -128,3 +128,4 @@ private:
     bool paused_ = false;
     bool should_stop_ = false;
 };
+```
