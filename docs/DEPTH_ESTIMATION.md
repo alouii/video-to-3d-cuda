@@ -24,3 +24,4 @@ intrinsics.width = 640;
 intrinsics.height = 480;
 
 // Create and initialize estimator
+v3d::StereoDepthEstimator estimator;
