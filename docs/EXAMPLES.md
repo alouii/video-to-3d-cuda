@@ -161,3 +161,4 @@ public:
 private:
     void publishPointCloud() {
         auto pc = pipeline_->getPointCloud();
+        sensor_msgs::PointCloud2 msg;
