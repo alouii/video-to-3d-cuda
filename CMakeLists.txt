@@ -26,3 +26,4 @@ find_package(OpenMP REQUIRED)
 
 # Optional packages
 find_package(PCL QUIET)
+find_package(VTK QUIET)
