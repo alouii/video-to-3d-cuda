@@ -10,3 +10,4 @@ echo "=== Building Video to 3D CUDA ==="
 mkdir -p build
 cd build
 
+# Configure with CMake
