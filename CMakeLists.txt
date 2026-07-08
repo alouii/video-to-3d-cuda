@@ -28,3 +28,4 @@ find_package(OpenMP REQUIRED)
 find_package(PCL QUIET)
 find_package(VTK QUIET)
 
+# Include directories
