@@ -12,3 +12,4 @@ set(CMAKE_CUDA_ARCHITECTURES 75 80 86 89)
 # Build type
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
+endif()
