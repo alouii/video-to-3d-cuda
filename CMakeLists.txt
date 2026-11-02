@@ -9,3 +9,4 @@ set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 # CUDA architecture
 set(CMAKE_CUDA_ARCHITECTURES 75 80 86 89)
 
+# Build type
